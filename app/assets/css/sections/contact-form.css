@@ -1,0 +1,137 @@
+/* contact-form.css */
+.contact-section {
+    padding: 100px 0;
+    background-color: #f8fafc;
+}
+
+.contact-container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+}
+
+.contact-desc {
+    font-size: 16px;
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f8fafc;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #e67300;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cs-image {
+    border-radius: 12px;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    background-color: #e2e8f0;
+}
+
+.cs-info {
+    background: #2563eb;
+    /* Figma blue */
+    color: #fff;
+    padding: 35px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -30px;
+    /* Overlaps picture */
+    left: -20px;
+    right: 20px;
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
+}
+
+.cs-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cs-info p {
+    color: #eff6ff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.cs-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cs-contact-list li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,247 @@
+/* hero.css */
+.hero-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.hero-section {
+    background-image: linear-gradient(to right, rgba(10, 22, 54, 0.95) 0%, rgba(10, 22, 54, 0.8) 40%, rgba(10, 22, 54, 0.2) 100%), url('/Truk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 60px;
+    /* Space for bottom bar if needed */
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-tagline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.tagline-icon {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #ffffff;
+    max-width: 850px;
+}
+
+.highlight-orange {
+    color: #f97316;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-orange::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #f97316;
+}
+
+.hero-desc {
+    font-size: 16px;
+    color: #e2e8f0;
+    line-height: 1.6;
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-demo {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    position: relative;
+    padding: 8px 24px 8px 60px;
+    overflow: hidden;
+}
+
+.btn-learn {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    position: relative;
+    padding: 8px 24px 8px 60px;
+    /* Space for absolute icon on left */
+    overflow: hidden;
+}
+
+.btn-demo:hover,
+.btn-learn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-icon,
+.btn-icon-orange {
+    position: absolute;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-icon {
+    background: transparent;
+}
+
+.btn-icon-orange {
+    background-color: #f97316;
+    color: #ffffff;
+}
+
+.btn-text {
+    display: inline-block;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-demo:hover .btn-icon,
+.btn-learn:hover .btn-icon-orange {
+    left: calc(100% - 48px);
+}
+
+.btn-demo:hover .btn-text,
+.btn-learn:hover .btn-text {
+    transform: translateX(-36px);
+}
+
+/* Bottom Bar */
+.hero-bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 10;
+}
+
+.social-icons {
+    display: flex;
+    gap: 4px;
+}
+
+.social-btn {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(148, 163, 184, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: rgba(249, 115, 22, 0.8);
+}
+
+.contact-number {
+    display: flex;
+    align-items: center;
+    background-color: #0f172a;
+    padding: 10px 30px 10px 10px;
+    border-top-left-radius: 8px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 15px;
+}
+
+.contact-icon {
+    background-color: #f97316;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-bottom-bar {
+        position: relative;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-number {
+        border-radius: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
