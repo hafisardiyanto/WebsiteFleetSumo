@@ -1,0 +1,129 @@
+/* app/assets/css/sections/solution.css */
+.solution-section {
+    background-color: #0f172a;
+    padding: 100px 0;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.solution-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.solution-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px auto;
+}
+
+.solution-tagline {
+    font-size: 14px;
+    font-weight: 800;
+    color: #f97316;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.solution-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.solution-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Pillars Grid */
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.pillar-card {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 36px 28px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+}
+
+.pillar-card:hover {
+    transform: translateY(-8px);
+    background: rgba(30, 41, 59, 0.95);
+    border-color: rgba(249, 115, 22, 0.5);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(249, 115, 22, 0.15);
+}
+
+.pillar-number {
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    font-size: 14px;
+    font-weight: 900;
+    color: rgba(249, 115, 22, 0.4);
+    letter-spacing: 1px;
+}
+
+.pillar-icon {
+    width: 54px;
+    height: 54px;
+    background: rgba(249, 115, 22, 0.12);
+    color: #f97316;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+}
+
+.pillar-card:hover .pillar-icon {
+    background: #f97316;
+    color: #ffffff;
+    transform: scale(1.08);
+}
+
+.pillar-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.pillar-card p {
+    font-size: 14px;
+    color: #94a3b8;
+    line-height: 1.65;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .pillars-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .pillars-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .solution-title {
+        font-size: 28px;
+    }
+}

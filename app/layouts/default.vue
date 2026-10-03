@@ -1,16 +1,6 @@
 <template>
   <div class="layout-wrapper">
-    <header class="global-header">
-      <div class="container">
-        <div class="logo">FleetSumo</div>
-        <nav>
-          <a href="#">Product</a>
-          <a href="#">Features</a>
-          <a href="#">Industries</a>
-          <a href="#">Request Demo</a>
-        </nav>
-      </div>
-    </header>
+  
 
     <main>
       <slot />

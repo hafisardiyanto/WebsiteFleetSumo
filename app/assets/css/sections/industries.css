@@ -1,0 +1,128 @@
+/* app/assets/css/sections/industries.css */
+.industries-section {
+    background-color: #f1f5f9;
+    padding: 100px 0;
+    position: relative;
+}
+
+.industries-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.industries-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.industries-tagline {
+    font-size: 14px;
+    font-weight: 800;
+    color: #f97316;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.industries-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.industries-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.industries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.industry-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    width: calc(33.333% - 16px);
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid transparent;
+}
+
+/* Make the last row of two cards centered and take equal widths */
+.industry-card:nth-child(4),
+.industry-card:nth-child(5) {
+    width: calc(33.333% - 16px);
+    /* Same width to keep symmetry with top row */
+}
+
+.industry-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+    border-color: rgba(249, 115, 22, 0.3);
+}
+
+.industry-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #fff7ed;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    transition: transform 0.3s ease;
+}
+
+.industry-card:hover .industry-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.industry-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.industry-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+
+    .industry-card,
+    .industry-card:nth-child(4),
+    .industry-card:nth-child(5) {
+        width: calc(50% - 12px);
+    }
+}
+
+@media (max-width: 640px) {
+
+    .industry-card,
+    .industry-card:nth-child(4),
+    .industry-card:nth-child(5) {
+        width: 100%;
+    }
+
+    .industries-title {
+        font-size: 30px;
+    }
+}

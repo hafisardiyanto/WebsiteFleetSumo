@@ -1,114 +1,104 @@
 <template>
   <section class="features-wrapper">
-    <div class="features-header">
-      <div class="tagline">SISTEM TERINTEGRASI</div>
-      <h2>Fitur Lengkap FleetSumo</h2>
-    </div>
-
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">🚛</span>
-          <h3>Fleet Management</h3>
-        </div>
-        <ul class="feature-list">
-          <li>Database spesifikasi kendaraan</li>
-          <li>Penjadwalan perpanjangan STNK/KIR</li>
-          <li>Riwayat pemakaian kendaraan</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
+    <div class="features-container">
+      <div class="features-header" data-aos="fade-up">
+        <div class="features-tagline">FITUR LENGKAP</div>
+        <h2 class="features-title">Fitur untuk Pengelolaan Armada yang Lebih Terintegrasi</h2>
+        <p class="features-subtitle">
+          Modul fungsional yang menjangkau seluruh siklus aset mulai dari operasional hingga administrasi.
+        </p>
       </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">📦</span>
-          <h3>Order Management</h3>
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="50">
+          <div class="feature-icon">🚛</div>
+          <div class="feature-content">
+            <h3>Fleet & Vehicle</h3>
+            <p>Kelola informasi kendaraan, status, dan data armada.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Pembuatan order otomatis dari klien</li>
-          <li>Penugasan ke driver/kendaraan spesifik</li>
-          <li>Tracking status jalan</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">🛠️</span>
-          <h3>Inventory & Sparepart</h3>
+        <!-- Feature 2 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon">👨‍✈️</div>
+          <div class="feature-content">
+            <h3>Driver Management</h3>
+            <p>Kelola informasi driver yang berkaitan dengan kendaraan dan aktivitas operasional.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Stok opname suku cadang</li>
-          <li>Alert minimum jumlah barang</li>
-          <li>Laporan pemakaian bulanan</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">🔘</span>
-          <h3>Tire Management</h3>
+        <!-- Feature 3 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="150">
+          <div class="feature-icon">🔧</div>
+          <div class="feature-content">
+            <h3>Maintenance</h3>
+            <p>Kelola perawatan, pekerjaan maintenance, histori, dan biaya kendaraan.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Database posisis ban setiap kendaraan</li>
-          <li>Jadwal masa pakai & servis</li>
-          <li>Rotasi ban otomatis</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">📍</span>
-          <h3>GPS & Routing</h3>
+        <!-- Feature 4 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">⛽</div>
+          <div class="feature-content">
+            <h3>Fuel</h3>
+            <p>Kelola transaksi dan penggunaan BBM kendaraan.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Live tracking map lokasi</li>
-          <li>Geo-fencing area batasan</li>
-          <li>History rute perjalanan</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">💰</span>
-          <h3>Cost Management</h3>
+        <!-- Feature 5 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="250">
+          <div class="feature-icon">⚙️</div>
+          <div class="feature-content">
+            <h3>Tyre</h3>
+            <p>Kelola pemasangan, rotasi, penggantian, dan histori ban.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Pencatatan uang masuk/keluar harian</li>
-          <li>Efisiensi pemakaian BBM</li>
-          <li>Rekap profit setiap pengiriman</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
-      
-      <!-- Tambahan 2 card agar grid simetris jika dibutuhkan di gambar aslinya ada 8 modul -->
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">📊</span>
-          <h3>Dashboard & Reporting</h3>
-        </div>
-        <ul class="feature-list">
-          <li>Visualisasi data per modul</li>
-          <li>Export laporan PDF/Excel</li>
-          <li>Akses hak pimpinan (Owner)</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-title-row">
-          <span class="feature-icon">🏢</span>
-          <h3>Vendor Management</h3>
+        <!-- Feature 6 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon">🔩</div>
+          <div class="feature-content">
+            <h3>Sparepart</h3>
+            <p>Kelola penggunaan dan kebutuhan sparepart yang berkaitan dengan operasional.</p>
+          </div>
         </div>
-        <ul class="feature-list">
-          <li>Database pihak eksternal & bengkel</li>
-          <li>Surat jalan perbaikan</li>
-          <li>Pembayaran tagihan termin vendor</li>
-        </ul>
-        <a href="#" class="feature-link">Mulai 7 Hari Trial ➔</a>
+
+        <!-- Feature 7 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="350">
+          <div class="feature-icon">🏢</div>
+          <div class="feature-content">
+            <h3>Vendor</h3>
+            <p>Kelola vendor yang terlibat dalam kebutuhan operasional armada.</p>
+          </div>
+        </div>
+
+        <!-- Feature 8 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-icon">📝</div>
+          <div class="feature-content">
+            <h3>Approval & Workflow</h3>
+            <p>Kelola proses pengajuan dan persetujuan secara terstruktur.</p>
+          </div>
+        </div>
+
+        <!-- Feature 9 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="450">
+          <div class="feature-icon">💰</div>
+          <div class="feature-content">
+            <h3>Cost Management</h3>
+            <p>Kelola dan monitor biaya yang berkaitan dengan aktivitas armada.</p>
+          </div>
+        </div>
+
+        <!-- Feature 10 -->
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="feature-icon">📊</div>
+          <div class="feature-content">
+            <h3>Dashboard & Reporting</h3>
+            <p>Monitor data armada melalui dashboard analitik dan kustomisasi laporan.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

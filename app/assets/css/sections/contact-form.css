@@ -1,137 +1,124 @@
-/* contact-form.css */
-.contact-section {
+/* app/assets/css/sections/contact-form.css */
+.cta-section {
+    background-color: #ffffff;
     padding: 100px 0;
-    background-color: #f8fafc;
 }
 
-.contact-container {
-    max-width: var(--container-width);
+.cta-container {
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    gap: 50px;
+    background-color: #f97316;
+    border-radius: 20px;
+    padding: 80px 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(249, 115, 22, 0.2);
 }
 
-.contact-left {
-    flex: 1;
+.cta-content {
+    position: relative;
+    z-index: 2;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
-.contact-title {
-    font-size: 32px;
+.cta-title {
+    font-size: 42px;
     font-weight: 800;
-    color: var(--text-dark);
-    margin-bottom: 15px;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 24px;
 }
 
-.contact-desc {
-    font-size: 16px;
-    color: var(--text-light);
+.cta-desc {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
     margin-bottom: 40px;
 }
 
-.contact-form {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+.cta-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 15px;
-    border: 1px solid #e2e8f0;
-    border-radius: 4px;
-    font-size: 15px;
-    background-color: #f8fafc;
-}
-
-.form-group textarea {
-    height: 120px;
-    resize: vertical;
-}
-
-.btn-submit {
-    background-color: var(--secondary-color);
-    color: #fff;
+.btn-primary {
+    background-color: #0f172a;
+    color: #ffffff;
     border: none;
-    padding: 15px 30px;
-    width: 100%;
-    border-radius: 4px;
-    font-weight: 700;
+    padding: 16px 36px;
+    border-radius: 8px;
     font-size: 16px;
+    font-weight: 800;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.2);
 }
 
-.btn-submit:hover {
-    background-color: #e67300;
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #0f172a;
 }
 
-.contact-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.cs-image {
-    border-radius: 12px;
-    width: 100%;
-    height: 380px;
-    object-fit: cover;
-    background-color: #e2e8f0;
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #f97316;
 }
 
-.cs-info {
-    background: #2563eb;
-    /* Figma blue */
-    color: #fff;
-    padding: 35px;
-    border-radius: 12px;
+/* Decorative Circles */
+.cta-circle-top {
     position: absolute;
-    bottom: -30px;
-    /* Overlaps picture */
-    left: -20px;
-    right: 20px;
-    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    top: -100px;
+    right: -50px;
+    z-index: 1;
 }
 
-.cs-info h4 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.cs-info p {
-    color: #eff6ff;
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.cs-contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.cs-contact-list li {
-    margin-bottom: 12px;
-    font-size: 15px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.cta-circle-bottom {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    bottom: -80px;
+    left: -50px;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
-    .contact-container {
+    .cta-container {
+        padding: 60px 20px;
+        margin: 0 20px;
+        border-radius: 16px;
+    }
+
+    .cta-title {
+        font-size: 32px;
+    }
+
+    .cta-actions {
         flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
     }
 }

@@ -2,42 +2,64 @@
   <section class="blog-wrapper">
     <div class="blog-container">
       <div class="blog-header" data-aos="fade-up">
-        <div class="blog-tagline">WAWASAN LOKAL</div>
-        <h2 class="blog-title">Tips & Informasi Industri Logistik Terbaru</h2>
+        <div class="blog-tagline">INSIGHT & ARTIKEL</div>
+        <h2 class="blog-title">Insight Seputar Fleet Management</h2>
       </div>
 
       <div class="blog-grid">
-        <!-- Post 1 -->
+        <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="blog-image">
-            <img src="/Gambar 5.jpg" alt="BBM Truk Logistik" />
-            <div class="blog-date">
-              <span class="day">10</span>
-              <span class="month">Nov</span>
-            </div>
-          </div>
           <div class="blog-content">
-            <div class="blog-meta">Oleh Tim Analis FleetSumo • STUDI KASUS</div>
-            <h3>Tips Mencegah Kebocoran Biaya BBM pada Armada Anda</h3>
-            <p>Bahan bakar menyumbang 40% dari total pengeluaran operasional perusahaan ekspedisi. Temukan cara menganalisis konsumsi BBM yang tidak wajar dan memblokir pencurian secara instan menggunakan integrasi sensor BBM FleetSumo.</p>
+            <div class="blog-meta">Panduan Dasar</div>
+            <h3>Apa Itu Fleet Management System?</h3>
+            <p>Pahami konsep dasar sistem manajemen armada dan bagaimana teknologi ini dapat mentransformasi operasional logistik perusahaan Anda secara menyeluruh.</p>
+            <a href="#" class="blog-link">Baca Selengkapnya ➔</a>
           </div>
         </article>
 
-        <!-- Post 2 -->
+        <!-- Article 2 -->
         <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="blog-image">
-            <img src="/Gambar 6.jpg" alt="Truk Ekspedisi" />
-            <div class="blog-date">
-              <span class="day">25</span>
-              <span class="month">Okt</span>
-            </div>
-          </div>
           <div class="blog-content">
-            <div class="blog-meta">Oleh Logistik Insight • TEKNOLOGI</div>
-            <h3>Optimalisasi Penjadwalan Truk Ekspedisi Berbasis AI</h3>
-            <p>Menghindari downtime bukan hanya tentang perawatan rutin. Pelajari bagaimana sistem dispatch route-planning dari FleetSumo membantu dispatcher meningkatkan profitabilitas dan ketepatan waktu pengiriman harian secara otomatis.</p>
+            <div class="blog-meta">Manajemen Biaya</div>
+            <h3>Cara Mengelola Biaya Operasional Armada</h3>
+            <p>Strategi efektif untuk melacak, mengelola, dan menekan biaya operasional kendaraan tanpa mengorbankan kualitas layanan dan produktivitas.</p>
+            <a href="#" class="blog-link">Baca Selengkapnya ➔</a>
           </div>
         </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="blog-content">
+            <div class="blog-meta">Pemeliharaan</div>
+            <h3>Pentingnya Preventive Maintenance pada Armada</h3>
+            <p>Mengapa perawatan pencegahan jauh lebih efektif daripada perbaikan reaktif? Pelajari cara meminimalisir downtime kendaraan operasional.</p>
+            <a href="#" class="blog-link">Baca Selengkapnya ➔</a>
+          </div>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="blog-content">
+            <div class="blog-meta">Efisiensi Energi</div>
+            <h3>Cara Mengontrol Penggunaan BBM Kendaraan</h3>
+            <p>Bahan bakar adalah pengeluaran terbesar dalam armada. Temukan cara memonitor rasio konsumsi BBM dan mencegah indikasi kecurangan di lapangan.</p>
+            <a href="#" class="blog-link">Baca Selengkapnya ➔</a>
+          </div>
+        </article>
+
+        <!-- Article 5 -->
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="blog-content">
+            <div class="blog-meta">Analitik Data</div>
+            <h3>Mengapa Data Armada Penting untuk Operasional?</h3>
+            <p>Bagaimana data telematika dan log aktivitas kendaraan dapat membantu manajemen mengambil keputusan bisnis yang lebih cepat dan akurat.</p>
+            <a href="#" class="blog-link">Baca Selengkapnya ➔</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="blog-footer">
+        <button class="btn-primary-outline">Lihat Semua Artikel</button>
       </div>
     </div>
   </section>

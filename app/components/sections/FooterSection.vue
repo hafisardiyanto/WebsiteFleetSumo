@@ -12,32 +12,46 @@
       </div>
 
       <div class="footer-widget">
-        <h4>Produk</h4>
+        <h4>Solusi</h4>
         <ul class="footer-links">
-          <li><a href="#">Fleet Tracker</a></li>
-          <li><a href="#">GPS Integration</a></li>
+          <li><a href="#">Fleet Management</a></li>
+          <li><a href="#">Maintenance Management</a></li>
+          <li><a href="#">Fuel Management</a></li>
+          <li><a href="#">Tyre Management</a></li>
+          <li><a href="#">Cost Management</a></li>
+          <li><a href="#">Monitoring & Reporting</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-widget">
+        <h4>Fitur</h4>
+        <ul class="footer-links">
+          <li><a href="#">Fleet & Vehicle</a></li>
+          <li><a href="#">Driver</a></li>
           <li><a href="#">Maintenance</a></li>
-          <li><a href="#">Driver Performance</a></li>
+          <li><a href="#">Fuel</a></li>
+          <li><a href="#">Tyre</a></li>
+          <li><a href="#">Sparepart</a></li>
+          <li><a href="#">Vendor</a></li>
+          <li><a href="#">Approval</a></li>
+          <li><a href="#">Cost</a></li>
+          <li><a href="#">Dashboard & Reporting</a></li>
         </ul>
       </div>
 
       <div class="footer-widget">
         <h4>Perusahaan</h4>
         <ul class="footer-links">
-          <li><a href="#">Tentang Kami</a></li>
-          <li><a href="#">Karir</a></li>
-          <li><a href="#">Studi Kasus</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#">Tentang FleetSumo</a></li>
+          <li><a href="#">Visi & Misi</a></li>
+          <li><a href="#">Hubungi Kami</a></li>
         </ul>
-      </div>
-
-      <div class="footer-widget">
-        <h4>Bantuan</h4>
+        
+        <h4 style="margin-top: 24px;">Resources</h4>
         <ul class="footer-links">
+          <li><a href="#">Artikel</a></li>
+          <li><a href="#">Case Study</a></li>
           <li><a href="#">FAQ</a></li>
-          <li><a href="#">Pusat Bantuan</a></li>
-          <li><a href="#">Status Sistem</a></li>
-          <li><a href="#">Hubungi Support</a></li>
         </ul>
       </div>
     </div>

@@ -13,13 +13,13 @@
         </div>
         
         <h1 class="hero-title">
-          Kendalikan Seluruh Siklus<br>Armada Dalam<br>
+          Kendalikan Operasional Armada<br>dalam
           <span class="highlight-orange">Satu Platform</span><br>
           Terintegrasi.
         </h1>
         
         <p class="hero-desc">
-          <b>FleetSumo</b> menyatukan data kendaraan, maintenance, ban, BBM, sparepart, pengemudi, dokumen, dan biaya dalam satu platform manajemen armada terintegrasi. Software Manajemen Armada terintegrasi secara end-to-end.
+          <b>FleetSumo</b> membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, biaya, dan aktivitas armada dalam satu sistem yang terintegrasi.
         </p>
         
         <div class="hero-actions">
@@ -30,7 +30,7 @@
                   <path d="M7 6H17V9H10V11H15V14H10V18H7V6Z" fill="#F97316"/>
                </svg>
              </div>
-             <span class="btn-text">DEMO FLEETSUMO</span>
+             <span class="btn-text">Minta Demo</span>
           </button>
           
           <button class="btn-learn">
@@ -40,7 +40,7 @@
                  <path d="M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                </svg>
              </div>
-             <span class="btn-text">PELAJARI SOLUSINYA</span>
+             <span class="btn-text">Lihat Solusi</span>
           </button>
         </div>
       </div>
