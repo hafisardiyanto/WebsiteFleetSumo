@@ -1,0 +1,116 @@
+/* app/assets/css/sections/homepage/home-product.css */
+.home-product-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.home-product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.product-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.product-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.product-subtitle {
+    font-size: 17px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.product-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Visualization holding the valid application screenshot image */
+.product-visual {
+    flex: 1.2;
+}
+
+.pv-mockup {
+    position: relative;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+}
+
+.pv-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    border: 1px solid #e2e8f0;
+}
+
+/* macOS style dots for presentation aesthetics */
+.pv-dot {
+    position: absolute;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* We don't render them over the image itself but can use them to add detail to the border padding if needed */
+
+.product-details {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pd-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.pd-icon {
+    font-size: 28px;
+    width: 54px;
+    height: 54px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid #e2e8f0;
+}
+
+.pd-text h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.pd-text p {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .product-layout {
+        flex-direction: column;
+    }
+}

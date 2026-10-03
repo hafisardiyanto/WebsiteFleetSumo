@@ -1,0 +1,71 @@
+/* app/assets/css/sections/homepage/home-problems.css */
+.home-problems-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.home-problems-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.hp-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.hp-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.hp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.hp-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.hp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    /* Soft gray shadow */
+    border-color: #cbd5e1;
+}
+
+.hp-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hp-desc {
+    font-size: 16px;
+    font-weight: 700;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .hp-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .hp-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,56 @@
+/* app/assets/css/sections/homepage/home-trust.css */
+.home-trust-wrapper {
+    background-color: #f8fafc;
+    padding: 60px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.home-trust-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.trust-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.trust-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Grayscale authentic layout mapping for PNG logos later */
+.logo-box {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    font-weight: 800;
+    color: #94a3b8;
+    font-size: 20px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    min-width: 150px;
+}
+
+.logo-box:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .trust-logos {
+        gap: 20px;
+    }
+}

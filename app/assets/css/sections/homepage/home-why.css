@@ -1,0 +1,121 @@
+/* app/assets/css/sections/homepage/home-why.css */
+.home-why-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.home-why-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.why-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.why-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.why-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+.why-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.why-row-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.why-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.why-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+    /* grey base */
+}
+
+/* Specific styling for the Center/Main boxes per diagram mock */
+.why-box.main {
+    background: #1a56db;
+    border-color: #1a56db;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+    box-shadow: 0 10px 30px rgba(26, 86, 219, 0.3);
+}
+
+.why-box.detail {
+    flex: 1;
+}
+
+.why-box.detail h4 {
+    font-size: 15px;
+    font-weight: 900;
+    color: #0f172a;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.why-box.detail p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Give the middle detail slightly dark focus */
+.why-box.focus-dark {
+    background: #0f172a;
+    border-color: #0f172a;
+}
+
+.why-box.focus-dark h4 {
+    color: #ffffff;
+}
+
+.why-box.focus-dark p {
+    color: #cbd5e1;
+}
+
+.why-box.wbs {
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .why-row-3 {
+        flex-direction: column;
+    }
+
+    .why-box.wbs {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,99 @@
+/* app/assets/css/sections/homepage/home-how.css */
+.home-how-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.home-how-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.how-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.how-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.how-flow {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.how-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px 24px;
+    flex: 1;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.how-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+}
+
+.how-num {
+    font-size: 40px;
+    font-weight: 900;
+    color: #cbd5e1;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.how-card h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.how-card p {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Highlight end status */
+.how-card.highlight {
+    background: #1a56db;
+    border-color: #1a56db;
+    transform: scale(1.02);
+}
+
+.how-card.highlight:hover {
+    box-shadow: 0 15px 30px rgba(26, 86, 219, 0.3);
+}
+
+.h-num {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.h-tit,
+.h-desc {
+    color: #ffffff !important;
+}
+
+@media (max-width: 900px) {
+    .how-flow {
+        flex-direction: column;
+    }
+
+    .how-card.highlight {
+        transform: scale(1);
+    }
+}
