@@ -26,7 +26,7 @@
 import { onMounted, onUnmounted } from 'vue'
 import Navbar from '~/components/sections/Navbar.vue'
 import FooterSection from '~/components/sections/FooterSection.vue'
-import Lenis from '@studio-freight/lenis'
+import Lenis from 'lenis'
 
 // Import New 13 Steps
 import HomeHero from '~/components/sections/homepage/HomeHero.vue'
