@@ -1,46 +1,34 @@
 <template>
-  <section class="fleet-benefits-section">
+  <section class="fleet-benefits-wrapper">
     <div class="fleet-benefits-container">
-      <div class="fleet-benefits-header" data-aos="fade-up">
-        <h2 class="fleet-benefits-title">Fleet Management yang Membantu Tim Bekerja Lebih Terarah</h2>
+      <div class="fb-header" data-aos="fade-up">
+        <h2 class="fb-title">Membantu Operasional Armada Lebih Terstruktur</h2>
       </div>
 
-      <div class="fleet-benefits-grid">
-        <!-- Benefit 1 -->
-        <div class="fleet-benefit-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="fleet-benefit-icon-wrapper">
-            <span class="fleet-benefit-icon">👁️</span>
-          </div>
-          <h3 class="fleet-benefit-title">Visibilitas Armada</h3>
-          <p class="fleet-benefit-desc">Informasi kendaraan tersedia dalam satu sistem sehingga kondisi armada lebih mudah dipantau.</p>
-        </div>
+      <div class="fb-grid">
+         <div class="fb-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="fb-icon">👁️</div>
+            <h3>Visibilitas Lebih Baik</h3>
+            <p>Informasi kendaraan dapat diakses dalam satu sistem.</p>
+         </div>
 
-        <!-- Benefit 2 -->
-        <div class="fleet-benefit-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="fleet-benefit-icon-wrapper">
-            <span class="fleet-benefit-icon">📋</span>
-          </div>
-          <h3 class="fleet-benefit-title">Data Lebih Terstruktur</h3>
-          <p class="fleet-benefit-desc">Informasi kendaraan, driver, dokumen, dan riwayat tersimpan secara terorganisir.</p>
-        </div>
+         <div class="fb-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="fb-icon">🎯</div>
+            <h3>Data Lebih Terpusat</h3>
+            <p>Informasi armada dikelola dalam struktur yang lebih terorganisir.</p>
+         </div>
 
-        <!-- Benefit 3 -->
-        <div class="fleet-benefit-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="fleet-benefit-icon-wrapper">
-            <span class="fleet-benefit-icon">📖</span>
-          </div>
-          <h3 class="fleet-benefit-title">Riwayat Mudah Ditelusuri</h3>
-          <p class="fleet-benefit-desc">Aktivitas kendaraan dapat ditinjau kembali ketika dibutuhkan.</p>
-        </div>
+         <div class="fb-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="fb-icon">🧭</div>
+            <h3>Riwayat Lebih Mudah Ditelusuri</h3>
+            <p>Informasi historis kendaraan dapat digunakan ketika dibutuhkan.</p>
+         </div>
 
-        <!-- Benefit 4 -->
-        <div class="fleet-benefit-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="fleet-benefit-icon-wrapper">
-            <span class="fleet-benefit-icon">🎯</span>
-          </div>
-          <h3 class="fleet-benefit-title">Monitoring Lebih Terpusat</h3>
-          <p class="fleet-benefit-desc">Tim dapat melihat informasi armada tanpa harus mengumpulkan data dari berbagai sumber.</p>
-        </div>
+         <div class="fb-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="fb-icon">📊</div>
+            <h3>Monitoring Lebih Terarah</h3>
+            <p>Data armada dapat digunakan untuk mendukung monitoring dan evaluasi operasional.</p>
+         </div>
       </div>
     </div>
   </section>

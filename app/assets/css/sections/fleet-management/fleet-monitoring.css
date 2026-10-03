@@ -1,185 +1,96 @@
 /* app/assets/css/sections/fleet-management/fleet-monitoring.css */
 .fleet-monitoring-wrapper {
-    background-color: #0f172a;
+    background-color: #f8fafc;
     padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
 }
 
 .fleet-monitoring-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
-.fleet-monitoring-header {
+.fmr-header {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 60px auto;
 }
 
-.fleet-monitoring-title {
-    font-size: 36px;
+.fmr-title {
+    font-size: 34px;
     font-weight: 800;
-    color: #ffffff;
-    line-height: 1.3;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
 }
 
-/* Stats Bar */
-.monitoring-stats {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 50px;
+.fmr-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
 }
 
-.stat-item {
-    flex: 1;
-    background: rgba(30, 41, 59, 0.6);
-    border: 1px solid rgba(148, 163, 184, 0.2);
-    border-radius: 12px;
-    padding: 24px;
+.fmr-layout {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    transition: transform 0.3s ease;
+    gap: 60px;
 }
 
-.stat-item:hover {
-    transform: translateY(-5px);
-    background: rgba(14, 165, 233, 0.1);
-    border-color: #0ea5e9;
-}
-
-.stat-item span {
-    font-size: 13px;
-    color: #94a3b8;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.stat-item strong {
-    font-size: 28px;
-    font-weight: 800;
-    color: #ffffff;
-}
-
-/* Split Layout */
-.monitoring-layout {
-    display: flex;
-    gap: 40px;
-    align-items: stretch;
-}
-
-.monitoring-sidebar {
-    flex: 0.35;
-    background: rgba(30, 41, 59, 0.4);
-    border: 1px solid rgba(148, 163, 184, 0.2);
-    border-radius: 16px;
-    padding: 40px 30px;
-}
-
-.monitoring-sidebar h3 {
-    font-size: 20px;
-    color: #ffffff;
-    margin-bottom: 24px;
-}
-
-.monitored-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.fmr-points {
+    flex: 4;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 30px;
 }
 
-.monitored-list li {
+.fmr-point h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a56db;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.fmr-point h4::before {
+    content: '•';
+    color: #f59e0b;
+    margin-right: 8px;
+}
+
+.fmr-point p {
     font-size: 15px;
-    color: #cbd5e1;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 17px;
 }
 
-.monitored-list li .icon {
-    background-color: rgba(14, 165, 233, 0.1);
-    color: #0ea5e9;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
+.fmr-visual {
+    flex: 6;
 }
 
-.monitoring-visual {
-    flex: 0.65;
-    background: #1e293b;
-    border-radius: 16px;
-    border: 1px solid rgba(148, 163, 184, 0.2);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+.fmr-mockup {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
 }
 
-.browser-mockup {
-    height: 40px;
-    background: rgba(15, 23, 42, 0.9);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: center;
-    padding: 0 16px;
-}
-
-.browser-dots {
-    display: flex;
-    gap: 8px;
-}
-
-.browser-dots span {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-}
-
-.browser-dots span:nth-child(1) {
-    background-color: #ef4444;
-}
-
-.browser-dots span:nth-child(2) {
-    background-color: #eab308;
-}
-
-.browser-dots span:nth-child(3) {
-    background-color: #22c55e;
-}
-
-.monitoring-img {
+.fmr-img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    border-radius: 8px;
     display: block;
 }
 
 @media (max-width: 992px) {
-    .monitoring-layout {
-        flex-direction: column;
+    .fmr-layout {
+        flex-direction: column-reverse;
     }
 
-    .monitoring-stats {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 640px) {
-    .monitoring-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .fleet-monitoring-title {
-        font-size: 28px;
+    .fmr-points {
+        width: 100%;
     }
 }

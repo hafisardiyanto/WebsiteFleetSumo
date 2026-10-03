@@ -1,0 +1,136 @@
+/* app/assets/css/sections/fuel-management/fuel-definition.css */
+.fuel-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fuel-def-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fdf-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fdf-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fdf-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.fdf-highlight {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a56db;
+    background: #e0e7ff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/* Vertical Diagram Pipeline with Branching */
+.fdf-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fdf-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.fdf-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    letter-spacing: 1px;
+}
+
+.fdf-box.core {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+}
+
+.fdf-arrow {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+/* Branching specific */
+.core-step {
+    margin-bottom: 5px;
+}
+
+.fdf-stem {
+    width: 2px;
+    height: 15px;
+    background: #94a3b8;
+}
+
+.fdf-stem.final-stem {
+    margin-top: 5px;
+    height: 15px;
+}
+
+.fdf-crossbar {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.fdf-row.branches {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    /* Wider to hold two boxes side by side gracefully */
+}
+
+.fdf-box.branch {
+    width: 130px;
+}
+
+.fdf-crossbar-bottom {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* Arrow specifics */
+.slanted-l,
+.up-l {
+    font-size: 14px;
+}
+
+.slanted-r,
+.up-r {
+    font-size: 14px;
+}

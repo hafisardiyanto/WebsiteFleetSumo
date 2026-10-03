@@ -1,0 +1,149 @@
+/* app/assets/css/sections/maintenance-management/maint-monitoring.css */
+.maint-monitoring-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.maint-monitoring-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mmr-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mmr-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mmr-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mmr-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.mmr-points {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mmr-point h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a56db;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mmr-point h4::before {
+    content: '•';
+    color: #f59e0b;
+    margin-right: 8px;
+}
+
+.mmr-point p {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 17px;
+}
+
+.mmr-visual {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mmr-dashboard-ui {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.ui-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ui-icon-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.ui-icon-box.yellow {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.ui-icon-box.green {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.ui-icon-box.blue {
+    background: #e0e7ff;
+    color: #1d4ed8;
+}
+
+.ui-text h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.ui-text span {
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 600;
+}
+
+@media (max-width: 992px) {
+    .mmr-layout {
+        flex-direction: column-reverse;
+    }
+
+    .mmr-points {
+        width: 100%;
+    }
+
+    .mmr-visual {
+        width: 100%;
+    }
+}

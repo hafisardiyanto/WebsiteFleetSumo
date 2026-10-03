@@ -1,0 +1,135 @@
+/* app/assets/css/sections/cost-management/cost-integration.css */
+.cost-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.cost-inte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.ci-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.ci-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.ci-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.ci-layout {
+    display: flex;
+    justify-content: center;
+}
+
+/* Diagram Center Full Width Config */
+.ci-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    width: 650px;
+}
+
+.ci-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ci-row.split {
+    justify-content: center;
+    gap: 0;
+}
+
+.ci-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: 0.5px;
+    text-align: center;
+    z-index: 2;
+}
+
+.ci-box.module {
+    padding: 10px 20px;
+    min-width: 150px;
+}
+
+.ci-box.core {
+    background: #1a56db;
+    color: #fff;
+    border-color: #1a56db;
+    font-size: 15px;
+    padding: 12px 25px;
+    min-width: 220px;
+}
+
+.ci-box.final {
+    background: #0f172a;
+    color: #fff;
+    border: none;
+    min-width: 260px;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+.ci-stem {
+    width: 2px;
+    height: 35px;
+    background: #94a3b8;
+}
+
+.ci-stem.line-l {
+    height: 25px;
+}
+
+.ci-con-l,
+.ci-con-r {
+    height: 2px;
+    width: 30px;
+    background: #94a3b8;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .ci-diagram {
+        width: 100%;
+    }
+
+    .ci-row.split {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    /* Mimic vertical line for mobile flow */
+    .ci-row.split .ci-box.side {
+        position: relative;
+    }
+}

@@ -1,0 +1,99 @@
+/* app/assets/css/sections/maintenance-management/maint-cta.css */
+.maint-cta-wrapper {
+    position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+    background: #0f172a;
+}
+
+.mcta-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.mcta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.8) 50%, rgba(15, 23, 42, 0.4) 100%);
+    z-index: 2;
+}
+
+.maint-cta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.mcta-content {
+    max-width: 650px;
+}
+
+.mcta-label {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #93c5fd;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.mcta-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.mcta-desc {
+    font-size: 18px;
+    color: #e2e8f0;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.mcta-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-primary {
+    background: #1a56db;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary-white {
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .mcta-actions {
+        flex-direction: column;
+    }
+}

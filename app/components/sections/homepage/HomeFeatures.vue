@@ -2,89 +2,90 @@
   <section class="home-features-wrapper">
     <div class="home-features-container">
       <div class="hf-header" data-aos="fade-up">
-        <h2 class="hf-title">Semua yang Dibutuhkan untuk Mengelola Armada</h2>
+        <h2 class="hf-title">Fitur Lengkap untuk Mendukung Operasional Armada</h2>
+        <p class="hf-subtitle">FleetSumo menyediakan berbagai fitur yang membantu perusahaan mengelola aktivitas armada secara lebih terstruktur dari satu platform.</p>
       </div>
 
-      <!-- 10 Features specific B2B logic -->
+      <!-- User-requested 10 features split into Grid layout -->
       <div class="hf-grid">
          
          <div class="hf-item" data-aos="fade-up" data-aos-delay="100">
-            <span class="hf-icon">🪪</span>
+            <span class="hf-icon">🚛</span>
             <div>
-               <h4>Manajemen Driver</h4>
-               <p>Registrasi profil dan izin khusus pengemudi.</p>
+               <h4>01 Fleet & Vehicle</h4>
+               <p>Kelola data kendaraan, status, dokumen, dan riwayat kendaraan.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="150">
-            <span class="hf-icon">🗂️</span>
+            <span class="hf-icon">🪪</span>
             <div>
-               <h4>Kontrak Sewa</h4>
-               <p>Pantau detail & expiry dokumen kontrak.</p>
+               <h4>02 Driver Management</h4>
+               <p>Kelola data pengemudi dan keterkaitannya dengan kendaraan.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="200">
-            <span class="hf-icon">📑</span>
+            <span class="hf-icon">👨‍🔧</span>
             <div>
-               <h4>Digital Checklist</h4>
-               <p>Kumpulkan inspeksi P2H dari driver harian.</p>
+               <h4>03 Maintenance</h4>
+               <p>Kelola inspeksi, maintenance, pengajuan, approval, dan riwayat perawatan.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="250">
-            <span class="hf-icon">🧰</span>
+            <span class="hf-icon">⛽</span>
             <div>
-               <h4>Work Order</h4>
-               <p>Pengajuan servis bengkel resmi terstruktur.</p>
+               <h4>04 Fuel</h4>
+               <p>Catat dan pantau transaksi, penggunaan, serta biaya BBM kendaraan.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="300">
-            <span class="hf-icon">🏪</span>
+            <span class="hf-icon">🛞</span>
             <div>
-               <h4>Vendor Database</h4>
-               <p>Menyimpan data relasi sparepart pihak ke-3.</p>
+               <h4>05 Tyre</h4>
+               <p>Kelola data, posisi, pemasangan, penggunaan, dan riwayat ban.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="350">
             <span class="hf-icon">🔩</span>
             <div>
-               <h4>Sparepart Stock</h4>
-               <p>Gudang manajemen suku cadang internal armada.</p>
+               <h4>06 Sparepart</h4>
+               <p>Kelola data dan aktivitas sparepart yang berkaitan dengan operasional armada.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="400">
-            <span class="hf-icon">⛽</span>
+            <span class="hf-icon">🏪</span>
             <div>
-               <h4>Fuel Log</h4>
-               <p>Catatan liter pengisian volume bahan bakar.</p>
+               <h4>07 Vendor</h4>
+               <p>Kelola informasi vendor dan aktivitas yang berkaitan dengan kebutuhan armada.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="450">
-            <span class="hf-icon">⚙️</span>
+            <span class="hf-icon">📋</span>
             <div>
-               <h4>Tyre Tracking</h4>
-               <p>Pencatatan penempatan & usia tread tapak ban.</p>
+               <h4>08 Approval & Workflow</h4>
+               <p>Atur proses pengajuan dan persetujuan dalam alur kerja yang terstruktur.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="500">
-            <span class="hf-icon">📋</span>
+            <span class="hf-icon">💰</span>
             <div>
-               <h4>Approval Flow</h4>
-               <p>Otorisasi bertingkat tagihan biaya servis.</p>
+               <h4>09 Cost & Financial</h4>
+               <p>Catat, kelola, dan monitor biaya yang berkaitan dengan operasional armada.</p>
             </div>
          </div>
 
          <div class="hf-item" data-aos="fade-up" data-aos-delay="550">
             <span class="hf-icon">📊</span>
             <div>
-               <h4>Executive Reports</h4>
-               <p>Visualisasi tren analitis laporan operasional.</p>
+               <h4>10 Dashboard & Reports</h4>
+               <p>Pantau informasi operasional melalui dashboard dan laporan.</p>
             </div>
          </div>
 

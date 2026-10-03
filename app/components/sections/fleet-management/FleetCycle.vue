@@ -1,70 +1,77 @@
 <template>
   <section class="fleet-cycle-wrapper">
     <div class="fleet-cycle-container">
-      <div class="fleet-cycle-header" data-aos="fade-up">
-        <h2 class="fleet-cycle-title">Mengelola Armada dari Awal hingga Riwayat Operasional</h2>
-        <p class="fleet-cycle-subtitle">
-          Setiap kendaraan melewati berbagai aktivitas selama digunakan. Fleet Management menjadi pusat data kendaraan yang terhubung dengan aktivitas maintenance, BBM, ban, sparepart, dan biaya dalam satu siklus.
-        </p>
+      <div class="fc-header" data-aos="fade-up">
+        <h2 class="fc-title">Kelola Armada dari Data hingga Riwayat Operasional</h2>
+        <p class="fc-subtitle">Setiap kendaraan memiliki siklus informasi yang terus berkembang. FleetSumo membantu menghubungkan informasi kendaraan dengan aktivitas yang terjadi selama masa operasionalnya.</p>
       </div>
 
-      <!-- HTML Interactive Timeline -->
-      <div class="cycle-timeline">
-        <!-- 01 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="100">
-          <div class="cycle-number">01</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Registrasi Kendaraan</h3>
-          </div>
-        </div>
+      <div class="fc-timeline" data-aos="fade-up" data-aos-delay="200">
+         
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>DATA KENDARAAN</h3>
+               <p>Informasi dasar dan identitas kendaraan menjadi titik awal pengelolaan armada.</p>
+            </div>
+         </div>
 
-        <!-- 02 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="200">
-          <div class="cycle-number">02</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Penugasan Driver</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>PENGEMUDI</h3>
+               <p>Hubungkan kendaraan dengan informasi pengemudi yang berkaitan.</p>
+            </div>
+         </div>
 
-        <!-- 03 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="300">
-          <div class="cycle-number">03</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Operasional</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>OPERASIONAL</h3>
+               <p>Catat dan kelola informasi yang berkaitan dengan aktivitas kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- 04 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="400">
-          <div class="cycle-number">04</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Monitoring Kondisi</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>MAINTENANCE</h3>
+               <p>Kelola aktivitas perawatan dan riwayat kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- 05 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="500">
-          <div class="cycle-number">05</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Maintenance & Pendukung</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>FUEL</h3>
+               <p>Catat dan pantau aktivitas penggunaan BBM kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- 06 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="600">
-          <div class="cycle-number">06</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Realisasi & Biaya</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>TYRE</h3>
+               <p>Kelola informasi ban yang digunakan pada kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- 07 -->
-        <div class="cycle-item" data-aos="fade-left" data-aos-delay="700">
-          <div class="cycle-number">07</div>
-          <div class="cycle-box">
-            <h3 class="cycle-name">Riwayat Kendaraan</h3>
-          </div>
-        </div>
+         <div class="fc-item">
+            <div class="fc-dot"></div>
+            <div class="fc-content">
+               <h3>COST</h3>
+               <p>Pantau biaya yang berkaitan dengan kendaraan dan aktivitasnya.</p>
+            </div>
+         </div>
+
+         <div class="fc-item final">
+            <div class="fc-dot highlight"></div>
+            <div class="fc-content">
+               <h3>RIWAYAT KENDARAAN</h3>
+               <p>Gunakan histori kendaraan untuk membantu monitoring dan evaluasi.</p>
+            </div>
+         </div>
+
       </div>
     </div>
   </section>

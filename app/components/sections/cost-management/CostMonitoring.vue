@@ -1,90 +1,43 @@
 <template>
   <section class="cost-monitoring-wrapper">
     <div class="cost-monitoring-container">
-      <div class="cost-monitoring-header" data-aos="fade-up">
-        <h2 class="cost-monitoring-title">Lihat Informasi Biaya dalam Satu Dashboard</h2>
-        <p class="cost-monitoring-subtitle">
-          Dashboard Cost Management membantu melihat informasi biaya berdasarkan kategori dalam satu antarmuka terpusat tanpa repot pindah aplikasi.
-        </p>
+      <div class="csm-header" data-aos="fade-up">
+        <span class="csm-label">MONITORING & ANALYSIS</span>
+        <h2 class="csm-title">Pantau Biaya Armada Berdasarkan Kendaraan dan Periode</h2>
+        <p class="csm-subtitle">Informasi biaya yang terstruktur membantu perusahaan melihat distribusi biaya kendaraan dan memantau perubahan biaya dari waktu ke waktu.</p>
       </div>
 
-      <div class="cost-mockup-ui" data-aos="zoom-in" data-aos-delay="100">
-        <!-- Dashboard Header -->
-        <div class="mockup-header-bar">
-          <div class="dots-win"><span></span><span></span><span></span></div>
-          <div class="header-text">FleetSumo - Central Cost Control</div>
-        </div>
+      <div class="csm-layout">
+         
+         <div class="csm-points" data-aos="fade-right" data-aos-delay="100">
+             <div class="csm-point">
+                 <h4>01 — Total Biaya</h4>
+                 <p>Lihat total biaya kendaraan yang tercatat.</p>
+             </div>
+             <div class="csm-point">
+                 <h4>02 — Biaya Bulanan</h4>
+                 <p>Pantau perubahan biaya berdasarkan periode.</p>
+             </div>
+             <div class="csm-point">
+                 <h4>03 — Biaya per Kendaraan</h4>
+                 <p>Bandingkan informasi biaya antar kendaraan.</p>
+             </div>
+             <div class="csm-point">
+                 <h4>04 — Kendaraan dengan Biaya Tertinggi</h4>
+                 <p>Identifikasi kendaraan dengan biaya terbesar berdasarkan laporan yang tersedia.</p>
+             </div>
+         </div>
 
-        <div class="mockup-main">
-          <!-- Top KPI Cards -->
-          <div class="mockup-kpi-row">
-            <div class="kpi-card">
-               <span class="kpi-label">Total Biaya Bulan Ini</span>
-               <span class="kpi-score">Rp 48.5M</span>
-            </div>
-            <div class="kpi-card highlighted">
-               <span class="kpi-label">Pengajuan Aktif</span>
-               <span class="kpi-score">14 <span>Tiket</span></span>
-            </div>
-            <div class="kpi-card">
-               <span class="kpi-label">Realisasi (Paid)</span>
-               <span class="kpi-score success">Rp 32.1M</span>
-            </div>
-          </div>
+         <!-- Visual representation using LaporanKendaraan as actual proof -->
+         <div class="csm-visual" data-aos="fade-left" data-aos-delay="200">
+             <div class="csm-mockup">
+                 <img src="/LaporanKendaraan.png" alt="FleetSumo Biaya Analytics" class="csm-img" />
+             </div>
+         </div>
 
-          <!-- Mid Section -->
-          <div class="mockup-mid-row">
-            <!-- Simulated Chart Block -->
-            <div class="mockup-chart-block">
-               <h4 class="m-block-title">Distribusi Biaya Berdasarkan Kategori</h4>
-               <div class="chart-bars">
-                 <div class="bar-col">
-                    <div class="bar-fill fuel" style="height: 80%"></div>
-                    <span>Fuel</span>
-                 </div>
-                 <div class="bar-col">
-                    <div class="bar-fill maint" style="height: 65%"></div>
-                    <span>Maintenance</span>
-                 </div>
-                 <div class="bar-col">
-                    <div class="bar-fill tyre" style="height: 40%"></div>
-                    <span>Tyre</span>
-                 </div>
-                 <div class="bar-col">
-                    <div class="bar-fill vendor" style="height: 25%"></div>
-                    <span>Vendor</span>
-                 </div>
-               </div>
-            </div>
-
-            <!-- List table -->
-            <div class="mockup-list-block">
-               <h4 class="m-block-title">Daftar Pengajuan Terakhir</h4>
-               <div class="m-list-item">
-                  <div class="m-list-info">
-                     <strong>BBM Truk B-193-XX</strong>
-                     <span>12 Okt 2026 - Ops Tambang</span>
-                  </div>
-                  <div class="m-list-status">
-                     <span class="badge warn">Pending</span>
-                  </div>
-               </div>
-               <div class="m-list-item">
-                  <div class="m-list-info">
-                     <strong>Ganti 4 Ban R.Muka</strong>
-                     <span>10 Okt 2026 - Vendor Hino</span>
-                  </div>
-                  <div class="m-list-status">
-                     <span class="badge done">Terealisasi</span>
-                  </div>
-               </div>
-            </div>
-          </div>
-          
-        </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/cost/cost-monitoring.css" scoped></style>
+<style src="~/assets/css/sections/cost-management/cost-monitoring.css" scoped></style>

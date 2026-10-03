@@ -1,63 +1,77 @@
-<template>
-  <div class="monitoring-reporting-page">
-    <Navbar />
-    
-    <main>
-      <MonHero />
-      <MonProblems />
-      <MonWhatIs />
-      <MonArchitecture />
-      <MonDashboard />
-      <MonReportVehicle />
-      <MonTrends />
-      <MonVehicle />
-      <MonReporting />
-      <MonFilters />
-      <MonInformation />
-      <MonFeatures />
-      <MonBenefits />
-      <MonHub />
-      <MonIndustries />
-      <MonCTA />
-    </main>
-    
-    <FooterSection />
-  </div>
-</template>
-
 <script setup>
-// Shared
-import Navbar from '~/components/sections/Navbar.vue'
-import FooterSection from '~/components/sections/FooterSection.vue'
+import { onMounted } from 'vue';
+import NavbarSection from '~/components/sections/Navbar.vue';
 
-// Local Sections
-import MonHero from '~/components/sections/monitoring-management/MonHero.vue'
-import MonProblems from '~/components/sections/monitoring-management/MonProblems.vue'
-import MonWhatIs from '~/components/sections/monitoring-management/MonWhatIs.vue'
-import MonArchitecture from '~/components/sections/monitoring-management/MonArchitecture.vue'
-import MonDashboard from '~/components/sections/monitoring-management/MonDashboard.vue'
-import MonReportVehicle from '~/components/sections/monitoring-management/MonReportVehicle.vue'
-import MonTrends from '~/components/sections/monitoring-management/MonTrends.vue'
-import MonVehicle from '~/components/sections/monitoring-management/MonVehicle.vue'
-import MonReporting from '~/components/sections/monitoring-management/MonReporting.vue'
-import MonFilters from '~/components/sections/monitoring-management/MonFilters.vue'
-import MonInformation from '~/components/sections/monitoring-management/MonInformation.vue'
-import MonFeatures from '~/components/sections/monitoring-management/MonFeatures.vue'
-import MonBenefits from '~/components/sections/monitoring-management/MonBenefits.vue'
-import MonHub from '~/components/sections/monitoring-management/MonHub.vue'
-import MonIndustries from '~/components/sections/monitoring-management/MonIndustries.vue'
-import MonCTA from '~/components/sections/monitoring-management/MonCTA.vue'
+// Import all Monitoring Components
+import ReportHero from '~/components/sections/monitoring-reporting/ReportHero.vue';
+import ReportProblems from '~/components/sections/monitoring-reporting/ReportProblems.vue';
+import ReportDefinition from '~/components/sections/monitoring-reporting/ReportDefinition.vue';
+import ReportManagedItems from '~/components/sections/monitoring-reporting/ReportManagedItems.vue';
+import ReportLifecycle from '~/components/sections/monitoring-reporting/ReportLifecycle.vue';
+import ReportDashboard from '~/components/sections/monitoring-reporting/ReportDashboard.vue';
+import ReportFeatures from '~/components/sections/monitoring-reporting/ReportFeatures.vue';
+import ReportVehicle from '~/components/sections/monitoring-reporting/ReportVehicle.vue';
+import ReportActivities from '~/components/sections/monitoring-reporting/ReportActivities.vue';
+import ReportBenefits from '~/components/sections/monitoring-reporting/ReportBenefits.vue';
+import ReportIntegration from '~/components/sections/monitoring-reporting/ReportIntegration.vue';
+import ReportIndustries from '~/components/sections/monitoring-reporting/ReportIndustries.vue';
+import ReportCTA from '~/components/sections/monitoring-reporting/ReportCTA.vue';
 
-useHead({
-  title: 'Monitoring & Reporting | Pantau Operasional Armada - FleetSumo',
-  meta: [
-    { name: 'description', content: 'Ubah seluruh data operasional armada menjadi informasi dan laporan yang lebih bermakna untuk dievaluasi dalam satu layar dashboard sentral FleetSumo.' }
-  ]
-})
+import FooterSection from '~/components/sections/FooterSection.vue';
+import smoothscroll from 'lenis';
+
+onMounted(() => {
+  const lenis = new smoothscroll({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    smooth: true,
+    mouseMultiplier: 1,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+});
 </script>
 
+<template>
+  <main class="page-wrapper">
+    <NavbarSection />
+    
+    <div class="content-wrapper">
+      <ReportHero />
+      <ReportProblems />
+      <ReportDefinition />
+      <ReportManagedItems />
+      <ReportLifecycle />
+      <ReportDashboard />
+      <ReportFeatures />
+      <ReportVehicle />
+      <ReportActivities />
+      <ReportBenefits />
+      <ReportIntegration />
+      <ReportIndustries />
+      <ReportCTA />
+    </div>
+
+    <FooterSection />
+  </main>
+</template>
+
 <style scoped>
-.monitoring-reporting-page {
-  overflow-x: hidden; 
+.page-wrapper {
+  overflow: hidden;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 </style>

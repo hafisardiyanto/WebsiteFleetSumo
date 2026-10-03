@@ -1,22 +1,21 @@
 <template>
-  <section class="cost-cta-section">
-    <!-- GambarCTA2.jpg acts as the background for this Cost CTA -->
-    <div class="cost-cta-bg-image" style="background-image: url('/GambarCTA2.jpg');"></div>
-    <div class="cost-cta-overlay"></div>
+  <section class="cost-cta-wrapper">
+    <img src="/CTACostManagement.jpg" class="ccta-bg-img" alt="Cost Activity Action CTA" />
+    <div class="ccta-overlay"></div>
 
-    <div class="cost-cta-container" data-aos="zoom-in">
-      <div class="cost-cta-content">
-        <h2 class="cost-cta-title">Kelola Biaya Armada dengan Lebih Terukur</h2>
-        <p class="cost-cta-desc">
-          Satukan informasi biaya dan aktivitas operasional armada dalam satu sistem untuk membantu perusahaan melakukan monitoring dan evaluasi dengan lebih terstruktur.
-        </p>
-        <div class="cost-cta-actions">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Pelajari FleetSumo</button>
+    <div class="cost-cta-container">
+      <div class="ccta-content" data-aos="zoom-in">
+        <span class="ccta-label">SIAP MENGENDALIKAN BIAYA ARMADA?</span>
+        <h2 class="ccta-title">Kelola Biaya Operasional Armada dalam Satu Platform</h2>
+        <p class="ccta-desc">Diskusikan kebutuhan pengelolaan biaya armada perusahaan Anda bersama tim FleetSumo dan lihat bagaimana data biaya dapat dikelola secara lebih terstruktur.</p>
+        
+        <div class="ccta-actions">
+           <button class="btn-primary">Minta Demo</button>
+           <button class="btn-secondary-white">Hubungi Kami</button>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/cost/cost-cta.css" scoped></style>
+<style src="~/assets/css/sections/cost-management/cost-cta.css" scoped></style>

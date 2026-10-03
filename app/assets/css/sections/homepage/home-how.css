@@ -21,6 +21,13 @@
     font-weight: 800;
     color: #0f172a;
     line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.how-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
 }
 
 .how-flow {

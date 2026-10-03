@@ -1,0 +1,113 @@
+/* app/assets/css/sections/cost-management/cost-monitoring.css */
+.cost-monitoring-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.cost-monitoring-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.csm-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.csm-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.csm-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.csm-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.csm-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.csm-points {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.csm-point h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.csm-point p {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 0;
+}
+
+.csm-visual {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csm-mockup {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+    width: 100%;
+    /* We add an overflow hidden and object-position to simulate crop if needed, but given the user's prompt, LaporanKendaraan as a whole or scaled serves best */
+    overflow: hidden;
+}
+
+.csm-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+}
+
+@media (max-width: 992px) {
+    .csm-layout {
+        flex-direction: column-reverse;
+    }
+
+    .csm-points {
+        width: 100%;
+    }
+
+    .csm-visual {
+        width: 100%;
+    }
+}

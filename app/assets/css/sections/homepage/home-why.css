@@ -5,117 +5,96 @@
 }
 
 .home-why-container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
-}
-
-.why-header {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.why-title {
-    font-size: 34px;
-    font-weight: 800;
-    color: #0f172a;
-    line-height: 1.35;
-}
-
-.why-diagram {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 30px;
-    position: relative;
+    gap: 60px;
 }
 
-.why-item {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.why-row-3 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-}
-
-.why-box {
-    background: #f8fafc;
-    border: 1px solid #cbd5e1;
-    border-radius: 12px;
-    padding: 24px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-
-.why-box:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
-    /* grey base */
-}
-
-/* Specific styling for the Center/Main boxes per diagram mock */
-.why-box.main {
-    background: #1a56db;
-    border-color: #1a56db;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    padding: 20px 60px;
-    box-shadow: 0 10px 30px rgba(26, 86, 219, 0.3);
-}
-
-.why-box.detail {
+.why-text-area {
     flex: 1;
 }
 
-.why-box.detail h4 {
-    font-size: 15px;
-    font-weight: 900;
+.why-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.why-title {
+    font-size: 36px;
+    font-weight: 800;
     color: #0f172a;
-    letter-spacing: 1px;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.why-desc {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.why-bullets {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.wb-item h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
     margin-bottom: 8px;
 }
 
-.why-box.detail p {
-    font-size: 14px;
+.wb-item p {
+    font-size: 14.5px;
     color: #475569;
     line-height: 1.5;
     margin: 0;
 }
 
-/* Give the middle detail slightly dark focus */
-.why-box.focus-dark {
-    background: #0f172a;
-    border-color: #0f172a;
+/* Image Visual logic side right */
+.why-visual-area {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.why-box.focus-dark h4 {
-    color: #ffffff;
+.why-img-box {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
 }
 
-.why-box.focus-dark p {
-    color: #cbd5e1;
+.why-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 14px;
+    transform: scale(1.02);
 }
 
-.why-box.wbs {
-    max-width: 400px;
-}
-
-@media (max-width: 768px) {
-    .why-row-3 {
+@media (max-width: 992px) {
+    .home-why-container {
         flex-direction: column;
     }
 
-    .why-box.wbs {
-        max-width: 100%;
+    .why-visual-area {
+        margin-top: 20px;
+        width: 100%;
     }
 }

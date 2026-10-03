@@ -1,0 +1,84 @@
+/* app/assets/css/sections/fleet-management/fleet-manage.css */
+.fleet-manage-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.fleet-manage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fm-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fm-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fm-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fm-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.fm-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+.fm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    /* slight blue */
+    border-color: #1a56db;
+}
+
+.fm-icon {
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.fm-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.fm-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .fm-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .fm-grid {
+        grid-template-columns: 1fr;
+    }
+}

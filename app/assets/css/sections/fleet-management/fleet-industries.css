@@ -1,100 +1,101 @@
 /* app/assets/css/sections/fleet-management/fleet-industries.css */
-.fleet-industries-section {
-    background-color: #f1f5f9;
+.fleet-industries-wrapper {
+    background-color: #ffffff;
     padding: 100px 0;
 }
 
 .fleet-industries-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
-.fleet-industries-header {
+.find-header {
     text-align: center;
     max-width: 800px;
     margin: 0 auto 50px auto;
 }
 
-.fleet-industries-title {
-    font-size: 36px;
+.find-title {
+    font-size: 34px;
     font-weight: 800;
     color: #0f172a;
-    line-height: 1.3;
+    line-height: 1.35;
     margin-bottom: 20px;
 }
 
-.fleet-industries-subtitle {
+.find-subtitle {
     font-size: 16px;
-    color: #64748b;
+    color: #475569;
     line-height: 1.6;
 }
 
-.fleet-industries-grid {
+.find-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-bottom: 40px;
 }
 
-.fleet-industry-card {
-    background-color: #ffffff;
+.find-card {
+    background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    padding: 24px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.fleet-industry-card:hover {
-    transform: translateX(5px);
-    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
-    border-color: #0ea5e9;
-}
-
-.fleet-industry-content {
+    padding: 20px;
     display: flex;
     align-items: center;
     gap: 16px;
+    transition: all 0.3s ease;
 }
 
-.fleet-industry-icon {
-    font-size: 28px;
-    width: 50px;
-    height: 50px;
-    background-color: #f8fafc;
-    border-radius: 12px;
+.find-card:hover {
+    border-color: #1a56db;
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.05);
+}
+
+.find-icon {
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.fleet-industry-name {
-    font-size: 18px;
-    font-weight: 700;
+.find-card h4 {
+    font-size: 15px;
+    font-weight: 800;
     color: #0f172a;
+    margin: 0;
+}
+
+.find-cta {
+    text-align: center;
+}
+
+.find-link {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a56db;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.fleet-industry-card:hover .fleet-industry-name {
-    color: #0ea5e9;
-}
-
-.fleet-industry-arrow {
-    color: #94a3b8;
-    font-size: 20px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.fleet-industry-card:hover .fleet-industry-arrow {
-    color: #0ea5e9;
-    transform: translateX(4px);
+.find-link:hover {
+    color: #0f172a;
 }
 
 @media (max-width: 768px) {
-    .fleet-industries-grid {
+    .find-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .find-grid {
         grid-template-columns: 1fr;
     }
 }

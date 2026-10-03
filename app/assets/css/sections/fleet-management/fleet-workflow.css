@@ -1,0 +1,111 @@
+/* app/assets/css/sections/fleet-management/fleet-workflow.css */
+.fleet-workflow-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.fleet-workflow-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fw-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fw-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fw-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fw-path {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Connecting Line */
+.fw-path::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    right: 40px;
+    height: 2px;
+    background: #e2e8f0;
+    z-index: 1;
+}
+
+.fw-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 0 10px;
+}
+
+.fw-num {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border: 3px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #64748b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.fw-num.focus {
+    border-color: #1a56db;
+    color: #1a56db;
+    background: #f0fdf4;
+    /* slight green/blue tint optional */
+}
+
+.fw-step h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.fw-step p {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .fw-path {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .fw-path::before {
+        width: 2px;
+        height: 100%;
+        left: 50%;
+        top: 25px;
+        bottom: 25px;
+        transform: translateX(-50%);
+        right: auto;
+    }
+}

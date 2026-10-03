@@ -1,0 +1,158 @@
+/* app/assets/css/sections/monitoring-reporting/report-integration.css */
+.report-inte-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.report-inte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rin-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.rin-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.rin-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.rin-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.rin-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    width: 100%;
+    max-width: 900px;
+}
+
+.rin-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rin-row.top-nodes {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.rin-row.bottom-nodes {
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.rin-box {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 2;
+}
+
+.rin-box.side {
+    padding: 10px 15px;
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #475569;
+    flex: 1;
+    min-width: 80px;
+}
+
+.rin-box.core {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 18px 40px;
+    letter-spacing: 1px;
+}
+
+.rin-box.footer {
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a56db;
+    background: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.rin-connectors-mid {
+    position: relative;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.rin-line-h {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.rin-stem-down {
+    width: 2px;
+    height: 35px;
+    background: #94a3b8;
+}
+
+.rin-connectors-mid .rin-stem-down {
+    position: absolute;
+    top: 50%;
+    height: 50%;
+}
+
+.rin-arrow {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .rin-diagram {
+        padding: 30px 15px;
+    }
+
+    .rin-box.side {
+        padding: 8px 10px;
+        font-size: 11px;
+        min-width: 60px;
+    }
+
+    .rin-connectors-mid {
+        display: none;
+    }
+
+    .rin-stem-down {
+        height: 20px;
+    }
+}

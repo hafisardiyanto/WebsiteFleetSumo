@@ -21,6 +21,13 @@
     font-weight: 800;
     color: #0f172a;
     line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.hp-desc-header {
+    font-size: 17px;
+    color: #475569;
+    line-height: 1.6;
 }
 
 .hp-grid {
@@ -46,15 +53,25 @@
 }
 
 .hp-icon {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
+    display: inline-block;
+    padding: 16px;
+    background: #f1f5f9;
+    border-radius: 12px;
+}
+
+.hp-name {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
 }
 
 .hp-desc {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14.5px;
     color: #475569;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 0;
 }
 

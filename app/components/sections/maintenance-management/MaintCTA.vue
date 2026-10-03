@@ -1,21 +1,21 @@
 <template>
-  <section class="maint-cta-section">
-    <div class="maint-cta-container" data-aos="zoom-in">
-      <div class="maint-cta-content">
-        <h2 class="maint-cta-title">Bangun Proses Maintenance yang Lebih Terstruktur</h2>
-        <p class="maint-cta-desc">
-          Lihat bagaimana FleetSumo dapat membantu perusahaan mengelola inspeksi, maintenance, riwayat kendaraan, dan biaya dalam satu sistem.
-        </p>
-        <div class="maint-cta-actions">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Hubungi Kami</button>
+  <section class="maint-cta-wrapper">
+    <img src="/CTAMaintenance.jpg" class="mcta-bg-img" alt="Maintenance Operations Action CTA" />
+    <div class="mcta-overlay"></div>
+
+    <div class="maint-cta-container">
+      <div class="mcta-content" data-aos="zoom-in">
+        <span class="mcta-label">MAINTENANCE MANAGEMENT</span>
+        <h2 class="mcta-title">Kelola Maintenance Armada dengan Lebih Terstruktur</h2>
+        <p class="mcta-desc">Mulai kelola proses maintenance kendaraan dari pemeriksaan, pengajuan, approval, pelaksanaan, hingga riwayat dalam satu platform FleetSumo.</p>
+        
+        <div class="mcta-actions">
+           <button class="btn-primary">Minta Demo</button>
+           <button class="btn-secondary-white">Hubungi Kami</button>
         </div>
       </div>
-      
-      <!-- Maintenance-toned abstract Background Overlay (CSS) -->
-      <div class="maint-cta-bg-overlay"></div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/maintenance/maint-cta.css" scoped></style>
+<style src="~/assets/css/sections/maintenance-management/maint-cta.css" scoped></style>

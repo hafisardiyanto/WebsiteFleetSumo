@@ -1,0 +1,127 @@
+/* app/assets/css/sections/monitoring-reporting/report-cycle.css */
+.report-cycle-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.report-cycle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rcc-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.rcc-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.rcc-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.rcc-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.rcc-timeline {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rcc-item {
+    width: 250px;
+    text-align: center;
+}
+
+.rcc-num {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #64748b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.rcc-num.active {
+    border-color: #1a56db;
+    color: #1a56db;
+    background: #e0e7ff;
+}
+
+.rcc-item h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.rcc-item p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.rcc-arrow {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 24px;
+    color: #94a3b8;
+    padding: 0 10px;
+}
+
+@media (max-width: 992px) {
+    .rcc-timeline {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .rcc-timeline {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rcc-item {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .rcc-arrow {
+        transform: rotate(90deg);
+        height: auto;
+        margin: 10px 0;
+    }
+}

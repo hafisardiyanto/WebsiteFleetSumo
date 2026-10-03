@@ -1,54 +1,74 @@
-<template>
-  <div class="fleet-management-page">
-    <Navbar />
-    
-    <main>
-      <FleetHero />
-      <FleetProblems />
-      <FleetWhatIsManaged />
-      <FleetCycle />
-      <FleetIntegratedSystem />
-      <FleetFeatures />
-      <FleetMonitoring />
-      <FleetBenefits />
-      <FleetOtherSolutions />
-      <FleetIndustries />
-      <FleetCTA />
-    </main>
-    
-    <FooterSection />
-  </div>
-</template>
-
 <script setup>
-// Shared global components
-import Navbar from '~/components/sections/Navbar.vue'
-import FooterSection from '~/components/sections/FooterSection.vue'
+import { onMounted } from 'vue';
+import NavbarSection from '~/components/sections/Navbar.vue';
+import FleetHero from '~/components/sections/fleet-management/FleetHero.vue';
+import FleetProblems from '~/components/sections/fleet-management/FleetProblems.vue';
+import FleetDefinition from '~/components/sections/fleet-management/FleetDefinition.vue';
+import FleetManagedItems from '~/components/sections/fleet-management/FleetManagedItems.vue';
+import FleetCycle from '~/components/sections/fleet-management/FleetCycle.vue';
+import FleetWorkflow from '~/components/sections/fleet-management/FleetWorkflow.vue';
+import FleetFeatures from '~/components/sections/fleet-management/FleetFeatures.vue';
+import FleetPreview from '~/components/sections/fleet-management/FleetPreview.vue';
+import FleetMonitoring from '~/components/sections/fleet-management/FleetMonitoring.vue';
+import FleetBenefits from '~/components/sections/fleet-management/FleetBenefits.vue';
+import FleetIntegration from '~/components/sections/fleet-management/FleetIntegration.vue';
+import FleetIndustries from '~/components/sections/fleet-management/FleetIndustries.vue';
+import FleetCTA from '~/components/sections/fleet-management/FleetCTA.vue';
+import FooterSection from '~/components/sections/FooterSection.vue';
+import smoothscroll from 'lenis';
 
-// Localized Page Components
-import FleetHero from '~/components/sections/fleet-management/FleetHero.vue'
-import FleetProblems from '~/components/sections/fleet-management/FleetProblems.vue'
-import FleetWhatIsManaged from '~/components/sections/fleet-management/FleetWhatIsManaged.vue'
-import FleetCycle from '~/components/sections/fleet-management/FleetCycle.vue'
-import FleetIntegratedSystem from '~/components/sections/fleet-management/FleetIntegratedSystem.vue'
-import FleetFeatures from '~/components/sections/fleet-management/FleetFeatures.vue'
-import FleetMonitoring from '~/components/sections/fleet-management/FleetMonitoring.vue'
-import FleetBenefits from '~/components/sections/fleet-management/FleetBenefits.vue'
-import FleetOtherSolutions from '~/components/sections/fleet-management/FleetOtherSolutions.vue'
-import FleetIndustries from '~/components/sections/fleet-management/FleetIndustries.vue'
-import FleetCTA from '~/components/sections/fleet-management/FleetCTA.vue'
+onMounted(() => {
+  const lenis = new smoothscroll({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    smooth: true,
+    mouseMultiplier: 1,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false,
+  });
 
-useHead({
-  title: 'Fleet Management | Sistem Pengelolaan Kendaraan - FleetSumo',
-  meta: [
-    { name: 'description', content: 'Kelola armada lebih terstruktur dengan FleetSumo. Jadikan Fleet Management sebagai pusat integrasi data kendaraan dengan operasional Anda.' }
-  ]
-})
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+});
 </script>
 
+<template>
+  <main class="page-wrapper">
+    <NavbarSection />
+    
+    <div class="content-wrapper">
+      <FleetHero />
+      <FleetProblems />
+      <FleetDefinition />
+      <FleetManagedItems />
+      <FleetCycle />
+      <FleetWorkflow />
+      <FleetFeatures />
+      <FleetPreview />
+      <FleetMonitoring />
+      <FleetBenefits />
+      <FleetIntegration />
+      <FleetIndustries />
+      <FleetCTA />
+    </div>
+
+    <FooterSection />
+  </main>
+</template>
+
 <style scoped>
-.fleet-management-page {
-  /* Prevent any global scrolling issues specifically per Nuxt 3 layout structure */
-  overflow-x: hidden; 
+.page-wrapper {
+  overflow: hidden;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 </style>

@@ -1,0 +1,122 @@
+/* app/assets/css/sections/maintenance-management/maint-cycle.css */
+.maint-cycle-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.maint-cycle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mc-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mc-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mc-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mc-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mc-item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mc-num {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #64748b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.mc-num.active {
+    border-color: #1a56db;
+    color: #1a56db;
+    background: #e0e7ff;
+}
+
+.mc-item h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.mc-item p {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.mc-arrow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    /* Align with number circle */
+    font-size: 20px;
+    color: #94a3b8;
+    padding: 0 5px;
+}
+
+.line-break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 992px) {
+    .mc-timeline {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mc-item {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .mc-arrow {
+        transform: rotate(90deg);
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .line-break {
+        display: none;
+    }
+}

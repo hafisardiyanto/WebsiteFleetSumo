@@ -1,19 +1,19 @@
 <template>
-  <section class="fleet-cta-section">
-    <div class="fleet-cta-container" data-aos="zoom-in">
-      <div class="fleet-cta-content">
-        <h2 class="fleet-cta-title">Kenali Fleet Management FleetSumo Lebih Dekat</h2>
-        <p class="fleet-cta-desc">
-          Lihat bagaimana FleetSumo membantu perusahaan mengelola kendaraan dan aktivitas armada dalam satu platform.
-        </p>
-        <div class="fleet-cta-actions">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Hubungi Kami</button>
+  <section class="fleet-cta-wrapper">
+    <img src="/CTA.jpg" class="fcta-bg-img" alt="Fleet Operations Action CTA" />
+    <div class="fcta-overlay"></div>
+
+    <div class="fleet-cta-container">
+      <div class="fcta-content" data-aos="zoom-in">
+        <span class="fcta-label">FLEET MANAGEMENT PLATFORM</span>
+        <h2 class="fcta-title">Mulai Kelola Armada dengan Lebih Terstruktur</h2>
+        <p class="fcta-desc">Diskusikan kebutuhan pengelolaan armada perusahaan Anda bersama tim FleetSumo dan lihat bagaimana platform FleetSumo dapat mendukung operasional kendaraan Anda.</p>
+        
+        <div class="fcta-actions">
+           <button class="btn-primary">Minta Demo</button>
+           <button class="btn-secondary-white">Hubungi Kami</button>
         </div>
       </div>
-      
-      <!-- Blue-toned abstract Background Overlay (CSS) -->
-      <div class="fleet-cta-bg-overlay"></div>
     </div>
   </section>
 </template>

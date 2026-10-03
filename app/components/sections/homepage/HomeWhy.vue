@@ -1,42 +1,37 @@
 <template>
   <section class="home-why-wrapper">
     <div class="home-why-container">
-      <div class="why-header" data-aos="fade-up">
-        <h2 class="why-title">Mengapa FleetSumo?</h2>
+      
+      <!-- Content Left (Text mapping as specified) -->
+      <div class="why-text-area" data-aos="fade-right">
+         <span class="why-label">MENGAPA FLEETSUMO</span>
+         <h2 class="why-title">Dibangun untuk Membantu Perusahaan Mengelola Armada Secara Terstruktur</h2>
+         <p class="why-desc">FleetSumo dirancang untuk menyatukan berbagai aktivitas operasional armada dalam satu platform, sehingga perusahaan dapat mengelola data, proses, dan informasi armada dengan lebih terintegrasi.</p>
+
+         <div class="why-bullets">
+            <div class="wb-item">
+               <h4>01 — Terintegrasi</h4>
+               <p>Berbagai aktivitas armada dapat dikelola dalam satu platform tanpa harus berpindah-pindah sistem.</p>
+            </div>
+            <div class="wb-item">
+               <h4>02 — Terstruktur</h4>
+               <p>Data dan proses operasional dikelola melalui alur yang lebih jelas dan terdokumentasi.</p>
+            </div>
+            <div class="wb-item">
+               <h4>03 — Fleksibel</h4>
+               <p>Sistem dapat menyesuaikan kebutuhan operasional dan struktur perusahaan.</p>
+            </div>
+            <div class="wb-item">
+               <h4>04 — Berbasis Data</h4>
+               <p>Dashboard dan laporan membantu menyediakan informasi yang dapat digunakan untuk monitoring dan evaluasi.</p>
+            </div>
+         </div>
       </div>
 
-      <div class="why-diagram" data-aos="fade-up" data-aos-delay="100">
-         
-         <div class="why-item">
-            <div class="why-box main">
-               <span>FLEETSUMO</span>
-            </div>
-         </div>
-
-         <div class="why-row-3">
-             
-             <div class="why-box detail">
-                 <h4>TERINTEGRASI</h4>
-                 <p>Seluruh fitur menyambung dalam satu arsitektur logistik tunggal.</p>
-             </div>
-             
-             <div class="why-box detail focus-dark">
-                 <h4>TERSTRUKTUR</h4>
-                 <p>Manajemen operasional wajib tunduk pada hirarki pengajuan.</p>
-             </div>
-             
-             <div class="why-box detail">
-                 <h4>TERUKUR</h4>
-                 <p>Tingkat kebocoran biaya dieliminasi dengan validitas *record* audit.</p>
-             </div>
-
-         </div>
-
-         <div class="why-item bottom">
-            <div class="why-box detail wbs">
-                 <h4>FLEKSIBEL</h4>
-                 <p>Mendukung konfigurasi parameter khusus untuk beragam industri khusus armada.</p>
-            </div>
+      <!-- Content Right Visual (/11.jpg mapped here) -->
+      <div class="why-visual-area" data-aos="fade-left" data-aos-delay="200">
+         <div class="why-img-box">
+             <img src="/11.jpg" alt="Fleet Manager Operations View" class="why-img" />
          </div>
       </div>
 

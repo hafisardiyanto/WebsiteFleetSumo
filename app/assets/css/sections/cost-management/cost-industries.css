@@ -1,0 +1,124 @@
+/* app/assets/css/sections/cost-management/cost-industries.css */
+.cost-industries-wrapper {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.cost-industries-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.csind-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.csind-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.9);
+    /* Dark overlay */
+}
+
+.relative-content {
+    position: relative;
+    z-index: 2;
+}
+
+.cost-industries-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.csind-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.csind-label {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #93c5fd;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.csind-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.csind-subtitle {
+    font-size: 16px;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.csind-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.csind-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.csind-card:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.csind-card h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+}
+
+.csind-card p {
+    font-size: 14.5px;
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .csind-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .csind-grid {
+        grid-template-columns: 1fr;
+    }
+}

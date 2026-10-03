@@ -1,0 +1,84 @@
+/* app/assets/css/sections/cost-management/cost-definition.css */
+.cost-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.cost-def-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.csf-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.csf-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.csf-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.csf-highlight {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1a56db;
+    background: #e0e7ff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/* Vertical Diagram Pipeline */
+.csf-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.csf-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.csf-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    letter-spacing: 1px;
+}
+
+.csf-box.core {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+}
+
+.csf-arrow {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 8px 0;
+}

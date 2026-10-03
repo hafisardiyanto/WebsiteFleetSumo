@@ -1,70 +1,45 @@
 <template>
-  <section class="fuel-industries-section">
+  <section class="fuel-industries-wrapper">
     <div class="fuel-industries-container">
-      <div class="fuel-industries-header" data-aos="fade-up">
-        <h2 class="fuel-industries-title">Fuel Management untuk Berbagai Jenis Armada</h2>
-        <p class="fuel-industries-subtitle">
-          FleetSumo dapat membantu perusahaan pelahap jarak jauh yang sangat mempedulikan biaya logistik transportasi setiap bulannya.
-        </p>
+      <div class="find-header" data-aos="fade-up">
+        <h2 class="find-title">Fuel Management untuk Berbagai Operasional Armada</h2>
+        <p class="find-subtitle">FleetSumo dapat membantu perusahaan mengelola aktivitas BBM pada berbagai jenis armada dan kebutuhan operasional.</p>
       </div>
 
-      <div class="fuel-industries-grid">
-        <!-- Industry 1 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">🚚</span>
-            <span class="fuel-industry-name">Logistik & Transportasi</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
-
-        <!-- Industry 2 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">⛏️</span>
-            <span class="fuel-industry-name">Pertambangan</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
-
-        <!-- Industry 3 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">🌱</span>
-            <span class="fuel-industry-name">Perkebunan</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
-
-        <!-- Industry 4 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">🏗️</span>
-            <span class="fuel-industry-name">Konstruksi</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
-
-        <!-- Industry 5 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">🏭</span>
-            <span class="fuel-industry-name">Manufaktur</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
-
-        <!-- Industry 6 -->
-        <a href="#" class="fuel-industry-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="fuel-industry-content">
-            <span class="fuel-industry-icon">🚐</span>
-            <span class="fuel-industry-name">Usaha Armada Lainnya</span>
-          </div>
-          <span class="fuel-industry-arrow">&rarr;</span>
-        </a>
+      <div class="find-grid" data-aos="fade-up" data-aos-delay="100">
+         <div class="find-card">
+            <span class="find-icon">📦</span>
+            <h4>Logistik & Transportasi</h4>
+            <p>Pantau penggunaan BBM kendaraan yang digunakan dalam aktivitas distribusi dan transportasi.</p>
+         </div>
+         <div class="find-card">
+            <span class="find-icon">⛏️</span>
+            <h4>Pertambangan</h4>
+            <p>Kelola aktivitas BBM kendaraan operasional di area pertambangan.</p>
+         </div>
+         <div class="find-card">
+            <span class="find-icon">🌴</span>
+            <h4>Perkebunan</h4>
+            <p>Catat dan pantau penggunaan BBM kendaraan yang mendukung operasional perkebunan.</p>
+         </div>
+         <div class="find-card">
+            <span class="find-icon">🏗️</span>
+            <h4>Konstruksi</h4>
+            <p>Kelola aktivitas BBM kendaraan yang digunakan pada berbagai proyek.</p>
+         </div>
+         <div class="find-card">
+            <span class="find-icon">🏭</span>
+            <h4>Manufaktur</h4>
+            <p>Pantau penggunaan BBM kendaraan operasional perusahaan.</p>
+         </div>
+         <div class="find-card">
+            <span class="find-icon">🚛</span>
+            <h4>Usaha Armada Lainnya</h4>
+            <p>Sesuaikan pengelolaan BBM dengan kebutuhan operasional bisnis.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/fuel/fuel-industries.css" scoped></style>
+<style src="~/assets/css/sections/fuel-management/fuel-industries.css" scoped></style>

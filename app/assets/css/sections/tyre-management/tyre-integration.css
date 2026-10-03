@@ -1,0 +1,167 @@
+/* app/assets/css/sections/tyre-management/tyre-integration.css */
+.tyre-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.tyre-inte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.ti-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.ti-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.ti-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.ti-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.ti-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.td-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.td-row.center {
+    margin-bottom: 0px;
+}
+
+.td-row.branches {
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.td-box {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 2;
+}
+
+.td-box.main {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 14px 40px;
+    letter-spacing: 1px;
+}
+
+.td-box.br {
+    flex: 1;
+    padding: 20px 15px;
+    background: #f8fafc;
+    border-color: #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.td-box.br h5 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a56db;
+    margin-bottom: 8px;
+}
+
+.td-box.br p {
+    font-size: 12.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.td-stem-main {
+    width: 2px;
+    height: 30px;
+    background: #94a3b8;
+}
+
+.td-crossbar {
+    width: 82%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.td-stems-bottom {
+    width: 82%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.td-stem {
+    width: 2px;
+    height: 100%;
+    background: #94a3b8;
+}
+
+.td-arrows-row {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.td-arrow {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 14px;
+    transform: translateX(-40%);
+}
+
+@media (max-width: 900px) {
+    .ti-diagram {
+        padding: 30px 15px;
+    }
+
+    .td-row.branches {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .td-box.br {
+        width: 100%;
+    }
+
+    .td-stem-main,
+    .td-crossbar,
+    .td-stems-bottom,
+    .td-arrows-row {
+        display: none;
+    }
+}

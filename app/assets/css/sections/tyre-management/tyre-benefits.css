@@ -1,0 +1,88 @@
+/* app/assets/css/sections/tyre-management/tyre-benefits.css */
+.tyre-benefits-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.tyre-benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.tyb-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.tyb-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.tyb-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.tyb-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.tyb-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.tyb-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    border-color: #1a56db;
+}
+
+.tyb-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.tyb-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.tyb-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .tyb-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .tyb-grid {
+        grid-template-columns: 1fr;
+    }
+}

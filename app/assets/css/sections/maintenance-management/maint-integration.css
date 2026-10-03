@@ -1,0 +1,183 @@
+/* app/assets/css/sections/maintenance-management/maint-integration.css */
+.maint-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.maint-inte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mi-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mi-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mi-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mi-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Diagram System Left */
+.mi-diagram {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.md-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.md-row.branches {
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.md-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: 0.5px;
+    text-align: center;
+    z-index: 2;
+}
+
+.md-box.top {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+}
+
+.md-box.main-m {
+    background: #1a56db;
+    color: #fff;
+    border-color: #1a56db;
+    font-size: 15px;
+    padding: 12px 25px;
+}
+
+.md-box.sec {
+    flex: 1;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.md-box.final {
+    background: #0f172a;
+    color: #fff;
+    border: none;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.md-stem {
+    width: 2px;
+    height: 25px;
+    background: #94a3b8;
+}
+
+.md-arrow {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.md-arrow.single {
+    margin-bottom: 5px;
+}
+
+.md-crossbar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.md-crossbar-bottom {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Text Cards Right */
+.mi-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mi-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #1a56db;
+    border-radius: 8px;
+    padding: 16px 20px;
+    transition: all 0.3s ease;
+}
+
+.mi-card:hover {
+    box-shadow: 0 5px 15px rgba(26, 86, 219, 0.05);
+    transform: translateX(4px);
+}
+
+.mi-card h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.mi-card p {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .mi-layout {
+        flex-direction: column;
+    }
+
+    .mi-diagram {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

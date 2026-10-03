@@ -1,66 +1,61 @@
 <template>
   <section class="fleet-features-wrapper">
     <div class="fleet-features-container">
-      <div class="fleet-features-header" data-aos="fade-up">
-        <h2 class="fleet-features-title">Fitur untuk Mengelola Armada</h2>
+      <div class="ff-header" data-aos="fade-up">
+        <h2 class="ff-title">Fitur untuk Mengelola Armada Secara Terstruktur</h2>
+        <p class="ff-subtitle">FleetSumo menyediakan fitur yang membantu tim operasional mengelola informasi kendaraan dan aktivitas armada dari satu platform.</p>
       </div>
 
-      <div class="fleet-features-grid">
-        <!-- Feature 1 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="fleet-feature-icon">🚙</div>
-          <h3 class="fleet-feature-title">Data Kendaraan</h3>
-          <p class="fleet-feature-desc">Kelola informasi utama kendaraan dalam satu database terpusat.</p>
-        </div>
+      <div class="ff-grid">
+         
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="100">
+            <span class="ff-icon">🚚</span>
+            <div>
+               <h4>Fleet & Vehicle</h4>
+               <p>Kelola data, status, dokumen, dan informasi kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- Feature 2 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="fleet-feature-icon">🟢</div>
-          <h3 class="fleet-feature-title">Status Kendaraan</h3>
-          <p class="fleet-feature-desc">Pantau status kendaraan berdasarkan kondisi dan penggunaannya.</p>
-        </div>
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="150">
+            <span class="ff-icon">🪪</span>
+            <div>
+               <h4>Driver Management</h4>
+               <p>Kelola informasi pengemudi dan keterkaitannya dengan kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- Feature 3 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="fleet-feature-icon">📄</div>
-          <h3 class="fleet-feature-title">Dokumen Kendaraan</h3>
-          <p class="fleet-feature-desc">Simpan dan kelola informasi dokumen kendaraan secara terstruktur.</p>
-        </div>
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="200">
+            <span class="ff-icon">⏳</span>
+            <div>
+               <h4>Vehicle History</h4>
+               <p>Telusuri riwayat aktivitas dan informasi kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- Feature 4 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="fleet-feature-icon">👤</div>
-          <h3 class="fleet-feature-title">Driver Assignment</h3>
-          <p class="fleet-feature-desc">Hubungkan kendaraan dengan pengemudi sesuai kebutuhan operasional.</p>
-        </div>
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="250">
+            <span class="ff-icon">📄</span>
+            <div>
+               <h4>Document Management</h4>
+               <p>Kelola informasi dokumen yang berkaitan dengan kendaraan.</p>
+            </div>
+         </div>
 
-        <!-- Feature 5 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="fleet-feature-icon">🕒</div>
-          <h3 class="fleet-feature-title">Vehicle History</h3>
-          <p class="fleet-feature-desc">Telusuri riwayat aktivitas kendaraan dalam satu tempat.</p>
-        </div>
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="300">
+            <span class="ff-icon">🚥</span>
+            <div>
+               <h4>Vehicle Status</h4>
+               <p>Pantau status kendaraan dalam satu sistem.</p>
+            </div>
+         </div>
 
-        <!-- Feature 6 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="fleet-feature-icon">📡</div>
-          <h3 class="fleet-feature-title">Fleet Monitoring</h3>
-          <p class="fleet-feature-desc">Pantau kondisi dan status armada melalui informasi yang terpusat.</p>
-        </div>
+         <div class="ff-item" data-aos="fade-up" data-aos-delay="350">
+            <span class="ff-icon">🖥️</span>
+            <div>
+               <h4>Fleet Dashboard</h4>
+               <p>Dapatkan informasi armada melalui dashboard yang tersedia.</p>
+            </div>
+         </div>
 
-        <!-- Feature 7 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="700">
-          <div class="fleet-feature-icon">🗂️</div>
-          <h3 class="fleet-feature-title">Fleet Classification</h3>
-          <p class="fleet-feature-desc">Kelompokkan kendaraan berdasarkan kebutuhan operasional perusahaan.</p>
-        </div>
-
-        <!-- Feature 8 -->
-        <div class="fleet-feature-card" data-aos="fade-up" data-aos-delay="800">
-          <div class="fleet-feature-icon">📊</div>
-          <h3 class="fleet-feature-title">Dashboard</h3>
-          <p class="fleet-feature-desc">Dapatkan ringkasan informasi armada melalui satu tampilan dashboard.</p>
-        </div>
       </div>
     </div>
   </section>

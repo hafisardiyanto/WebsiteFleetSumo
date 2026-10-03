@@ -1,0 +1,129 @@
+/* app/assets/css/sections/monitoring-reporting/report-dashboard.css */
+.report-dash-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.report-dash-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rd-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.rd-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.rd-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.rd-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* BIG MOCKUP */
+.rd-hero-mockup {
+    position: relative;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 25px 50px rgba(15, 23, 42, 0.1);
+    width: 100%;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.rd-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+}
+
+.rd-dot {
+    position: absolute;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.d1 {
+    left: 25px;
+    background: #ef4444;
+}
+
+.d2 {
+    left: 45px;
+    background: #eab308;
+}
+
+.d3 {
+    left: 65px;
+    background: #22c55e;
+}
+
+/* Dashboard Highlights mapped to 5 columns */
+.rd-highlights {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.rd-point {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.rd-point h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1a56db;
+    margin-bottom: 8px;
+}
+
+.rd-point p {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .rd-highlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .rd-highlights {
+        grid-template-columns: 1fr;
+    }
+}

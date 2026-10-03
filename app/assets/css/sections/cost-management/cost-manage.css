@@ -1,0 +1,84 @@
+/* app/assets/css/sections/cost-management/cost-manage.css */
+.cost-manage-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-manage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.cm-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.cm-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.cm-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.cm-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.cm-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+.cm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    /* slight blue highlight */
+    border-color: #1a56db;
+}
+
+.cm-icon {
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.cm-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.cm-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .cm-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .cm-grid {
+        grid-template-columns: 1fr;
+    }
+}

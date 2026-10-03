@@ -1,43 +1,40 @@
 <template>
   <section class="fuel-workflow-wrapper">
     <div class="fuel-workflow-container">
-      <div class="fuel-workflow-header" data-aos="fade-up">
-        <h2 class="fuel-workflow-title">Setiap Tetes Terhitung, Setiap Rupiah Terukur</h2>
+      <div class="fwf-header" data-aos="fade-up">
+        <h2 class="fwf-title">Pantau Aktivitas BBM melalui Alur yang Terstruktur</h2>
+        <p class="fwf-subtitle">FleetSumo membantu menghubungkan aktivitas pengisian BBM dengan informasi kendaraan sehingga data dapat digunakan untuk monitoring penggunaan armada.</p>
       </div>
 
-      <div class="fuel-workflow-layout">
-        <!-- Text Flow Section -->
-        <div class="workflow-steps" data-aos="fade-right" data-aos-delay="100">
-          <div class="wf-step">
-            <h3 class="wf-step-title">Pencatatan Odometer</h3>
-            <p class="wf-step-desc">Sistem melacak jarak logis dari titik A ke titik B.</p>
-          </div>
+      <div class="fwf-path">
+         <div class="fwf-step" data-aos="fade-up" data-aos-delay="100">
+            <div class="fwf-label">CATAT</div>
+            <p>Catat aktivitas pengisian BBM kendaraan.</p>
+         </div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Input Riwayat Struk</h3>
-            <p class="wf-step-desc">Pengajuan dana BBM dipadatkan dengan resi bukti dari SPBU.</p>
-          </div>
+         <div class="fwf-arrow">▼</div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Validasi Konsumsi</h3>
-            <p class="wf-step-desc">Algoritma mendeteksi kecurangan rasio KM/Liter secara mandiri.</p>
-          </div>
+         <div class="fwf-step" data-aos="fade-up" data-aos-delay="200">
+            <div class="fwf-label">HUBUNGKAN</div>
+            <p>Hubungkan data pengisian dengan kendaraan yang terkait.</p>
+         </div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Hasil Data Analitik</h3>
-            <p class="wf-step-desc">Grafik langsung memproyeksikan perbandingan efisiensi dan kerugian harian armada ke dalam bentuk biaya.</p>
-          </div>
-        </div>
+         <div class="fwf-arrow">▼</div>
 
-        <!-- Visual Section (using DashboardBBM.png) -->
-        <div class="workflow-visual" data-aos="fade-left" data-aos-delay="200">
-          <div class="workflow-mockup">
-            <img src="/DashboardBBM.png" alt="Grafik Laporan Keuangan dan Dashboard BBM FleetSumo" class="workflow-img">
-          </div>
-        </div>
+         <div class="fwf-step" data-aos="fade-up" data-aos-delay="300">
+            <div class="fwf-label">MONITOR</div>
+            <p>Pantau volume, biaya, dan riwayat penggunaan berdasarkan data yang tersedia.</p>
+         </div>
+
+         <div class="fwf-arrow">▼</div>
+
+         <div class="fwf-step final" data-aos="fade-up" data-aos-delay="400">
+            <div class="fwf-label">EVALUASI</div>
+            <p>Gunakan informasi BBM untuk membantu evaluasi operasional armada.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/fuel/fuel-workflow.css" scoped></style>
+<style src="~/assets/css/sections/fuel-management/fuel-workflow.css" scoped></style>

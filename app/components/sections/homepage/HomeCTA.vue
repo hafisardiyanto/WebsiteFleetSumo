@@ -1,18 +1,18 @@
 <template>
   <section class="home-cta-wrapper">
-    <!-- CTA Background Abstract AI (As specified priority 4) -->
-    <div class="hcta-bg-image" style="background-image: url('/GambarCTA3.jpg');"></div>
-    <div class="hcta-overlay"></div>
+    <!-- CTA Visual Background using 13.jpg -->
+    <img src="/13.jpg" class="cta-bg-img" alt="Fleet Operations Action" />
+    <div class="cta-overlay"></div>
 
-    <div class="hcta-container" data-aos="zoom-in">
-      <div class="hcta-content">
-        <h2 class="hcta-title">Siap Mengelola Armada dengan Lebih Terintegrasi?</h2>
-        <p class="hcta-desc">
-          Jadwalkan demonstrasi hari ini dan lihat langsung bagaimana FleetSumo dapat mentransformasi efisiensi manajemen logistik dan *cost control* armada Anda.
-        </p>
-        <div class="hcta-actions">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Hubungi Tim Sales</button>
+    <div class="home-cta-container">
+      <div class="cta-content" data-aos="zoom-in">
+        <span class="cta-label">SIAP MENGELOLA ARMADA DENGAN LEBIH TERSTRUKTUR?</span>
+        <h2 class="cta-title">Mulai Kelola Operasional Armada dalam Satu Platform</h2>
+        <p class="cta-desc">Diskusikan kebutuhan operasional armada perusahaan Anda bersama tim FleetSumo dan temukan bagaimana FleetSumo dapat mendukung proses pengelolaan armada Anda.</p>
+        
+        <div class="cta-actions">
+           <button class="btn-primary">Minta Demo</button>
+           <button class="btn-secondary-white">Hubungi Kami</button>
         </div>
       </div>
     </div>

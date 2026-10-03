@@ -1,0 +1,190 @@
+/* app/assets/css/sections/fleet-management/fleet-definition.css */
+.fleet-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fleet-def-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fd-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fd-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fd-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.fd-highlight {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a56db;
+    background: #e0e7ff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/* Definition Diagram Logic */
+.fd-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+    font-family: inherit;
+}
+
+.fd-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fd-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    z-index: 2;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.fd-box.core {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+    font-size: 16px;
+    padding: 14px 30px;
+}
+
+.fd-box.bottom {
+    width: 200px;
+}
+
+.fd-box.final {
+    background: #0f172a;
+    color: #ffffff;
+    border: none;
+    width: 250px;
+}
+
+.fd-stem {
+    width: 2px;
+    height: 30px;
+    background: #94a3b8;
+}
+
+.fd-stem-long {
+    width: 2px;
+    height: 40px;
+    background: #94a3b8;
+}
+
+.fd-stem.below-core {
+    height: 25px;
+}
+
+.fd-arrow {
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+.middle-row {
+    gap: 15px;
+}
+
+.fd-line-horiz {
+    display: flex;
+    align-items: center;
+    color: #94a3b8;
+    font-size: 14px;
+    position: relative;
+}
+
+.fd-line-horiz::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.fd-line-horiz.arr-r {
+    flex-direction: row;
+}
+
+.fd-line-horiz.arr-l {
+    flex-direction: row-reverse;
+}
+
+.fd-crossbar {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    border-top: 2px solid #94a3b8;
+    position: relative;
+    padding-top: 10px;
+}
+
+.fd-branch {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    color: #334155;
+    position: relative;
+    top: -10px;
+}
+
+@media (max-width: 768px) {
+    .middle-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fd-line-horiz {
+        transform: rotate(90deg);
+        margin: 10px 0;
+    }
+
+    .fd-line-horiz::before {
+        width: 20px;
+    }
+
+    .fd-crossbar {
+        flex-direction: column;
+        border-top: none;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .fd-branch {
+        top: 0;
+    }
+}

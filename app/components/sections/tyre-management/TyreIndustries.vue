@@ -1,79 +1,45 @@
 <template>
-  <section class="tyre-industries-section">
-    <div class="tyre-industries-container">
-      <div class="tyre-industries-header" data-aos="fade-up">
-        <h2 class="tyre-industries-title">Cocok untuk Berbagai Jenis Operasional Armada</h2>
+  <section class="tyre-industries-wrapper">
+    <div class="tyre-industries-visual">
+       <img src="/Visualindustri.jpg" alt="Fleet Industrial Uses" class="tind-bg" />
+       <div class="tind-overlay"></div>
+    </div>
+
+    <div class="tyre-industries-container relative-content">
+      <div class="tind-header" data-aos="fade-up">
+        <span class="tind-label">UNTUK BERBAGAI INDUSTRI</span>
+        <h2 class="tind-title">Mendukung Pengelolaan Ban di Berbagai Jenis Armada</h2>
+        <p class="tind-subtitle">Kebutuhan pengelolaan ban dapat berbeda berdasarkan karakteristik armada dan aktivitas operasional. FleetSumo membantu perusahaan mengelola informasi ban sesuai kebutuhan operasionalnya.</p>
       </div>
 
-      <div class="tyre-industries-grid">
-        <!-- Industry 1 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">🚚</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Logistik & Transportasi</span>
-               <span class="tyre-industry-desc">Mengelola penggunaan ban ber-aktivitas operasional tinggi.</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- Industry 2 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">⛏️</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Pertambangan</span>
-               <span class="tyre-industry-desc">Membantu pengelolaan data ban ekstrim tambang.</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- Industry 3 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">🌱</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Perkebunan</span>
-               <span class="tyre-industry-desc">Mendukung pengelolaan ban kendaraan alat perkebunan.</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- Industry 4 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">🏗️</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Konstruksi</span>
-               <span class="tyre-industry-desc">Mengelola informasi ban pendukung proyek.</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- Industry 5 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">🏭</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Manufaktur</span>
-               <span class="tyre-industry-desc">Mendukung kendaraan operasional produksi.</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- Industry 6 -->
-        <a href="#" class="tyre-industry-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="tyre-industry-content">
-            <span class="tyre-industry-icon">🚛</span>
-            <div class="tyre-industry-text">
-               <span class="tyre-industry-name">Armada Lainnya</span>
-               <span class="tyre-industry-desc">Untuk berbagai kebutuhan perusahaan transportasi komersial.</span>
-            </div>
-          </div>
-        </a>
+      <div class="tind-grid" data-aos="fade-up" data-aos-delay="100">
+         <div class="tind-card">
+            <h4>Logistik & Transportasi</h4>
+            <p>Kelola ban kendaraan yang digunakan dalam aktivitas distribusi dan transportasi.</p>
+         </div>
+         <div class="tind-card">
+            <h4>Pertambangan</h4>
+            <p>Pantau informasi ban pada kendaraan operasional yang bekerja dalam lingkungan pertambangan.</p>
+         </div>
+         <div class="tind-card">
+            <h4>Perkebunan</h4>
+            <p>Kelola informasi ban kendaraan yang digunakan untuk mendukung aktivitas operasional perkebunan.</p>
+         </div>
+         <div class="tind-card">
+            <h4>Konstruksi</h4>
+            <p>Kelola ban kendaraan dan alat transportasi yang mendukung aktivitas proyek.</p>
+         </div>
+         <div class="tind-card">
+            <h4>Manufaktur</h4>
+            <p>Kelola informasi ban pada kendaraan yang digunakan dalam aktivitas operasional perusahaan.</p>
+         </div>
+         <div class="tind-card">
+            <h4>Usaha Armada Lainnya</h4>
+            <p>Sesuaikan pengelolaan ban dengan kebutuhan operasional armada perusahaan.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/tyre/tyre-industries.css" scoped></style>
+<style src="~/assets/css/sections/tyre-management/tyre-industries.css" scoped></style>

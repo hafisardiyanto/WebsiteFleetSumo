@@ -1,0 +1,83 @@
+/* app/assets/css/sections/maintenance-management/maint-definition.css */
+.maint-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.maint-def-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.md-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.md-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.md-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.md-highlight {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a56db;
+    background: #e0e7ff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/* Vertical Diagram Pipeline */
+.md-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.md-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.md-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    letter-spacing: 1px;
+}
+
+.md-box.active {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+}
+
+.md-arrow {
+    color: #94a3b8;
+    font-size: 16px;
+    margin: 10px 0;
+}

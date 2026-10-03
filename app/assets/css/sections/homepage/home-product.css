@@ -13,7 +13,7 @@
 .product-header {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 50px auto;
 }
 
 .product-title {
@@ -30,24 +30,14 @@
     line-height: 1.6;
 }
 
-.product-layout {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-/* Visualization holding the valid application screenshot image */
-.product-visual {
-    flex: 1.2;
-}
-
 .pv-mockup {
     position: relative;
     background: #f8fafc;
     border: 1px solid #cbd5e1;
     border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+    padding: 12px;
+    box-shadow: 0 25px 50px rgba(15, 23, 42, 0.1);
+    margin-bottom: 40px;
 }
 
 .pv-img {
@@ -58,59 +48,58 @@
     border: 1px solid #e2e8f0;
 }
 
-/* macOS style dots for presentation aesthetics */
+/* Add Mac dots to the header of the container if desired */
 .pv-dot {
     position: absolute;
-    top: 20px;
-    width: 10px;
-    height: 10px;
+    top: 18px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
 }
 
-/* We don't render them over the image itself but can use them to add detail to the border padding if needed */
+.d1 {
+    left: 20px;
+    background: #ef4444;
+}
 
-.product-details {
-    flex: 0.8;
-    display: flex;
-    flex-direction: column;
+.d2 {
+    left: 34px;
+    background: #eab308;
+}
+
+.d3 {
+    left: 48px;
+    background: #22c55e;
+}
+
+.product-details-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
 
-.pd-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.pd-icon {
-    font-size: 28px;
-    width: 54px;
-    height: 54px;
-    background: #f1f5f9;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    border: 1px solid #e2e8f0;
-}
-
-.pd-text h4 {
+.pd-item h4 {
     font-size: 16px;
     font-weight: 800;
-    color: #0f172a;
-    margin-bottom: 8px;
+    color: #1a56db;
+    margin-bottom: 10px;
 }
 
-.pd-text p {
+.pd-item p {
     font-size: 14.5px;
     color: #475569;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 0;
 }
 
 @media (max-width: 992px) {
-    .product-layout {
-        flex-direction: column;
+    .product-details-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-details-bottom {
+        grid-template-columns: 1fr;
     }
 }

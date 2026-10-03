@@ -1,0 +1,119 @@
+/* app/assets/css/sections/monitoring-reporting/report-vehicle.css */
+.report-vehicle-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.report-vehicle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rv-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.rv-details {
+    flex: 4;
+}
+
+.rv-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.rv-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.rv-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.rv-points {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rv-point {
+    position: relative;
+    padding-left: 20px;
+}
+
+.rv-point h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.rv-point h4::before {
+    content: '•';
+    color: #1a56db;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    font-size: 20px;
+}
+
+.rv-point p {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.rv-visual {
+    flex: 6;
+}
+
+.rv-mockup {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+    width: 100%;
+}
+
+.rv-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+}
+
+@media (max-width: 992px) {
+    .rv-layout {
+        flex-direction: column;
+    }
+
+    .rv-details {
+        width: 100%;
+    }
+
+    .rv-visual {
+        width: 100%;
+    }
+}

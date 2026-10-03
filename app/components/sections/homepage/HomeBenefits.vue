@@ -2,33 +2,35 @@
   <section class="home-benefits-wrapper">
     <div class="home-benefits-container">
       <div class="hb-header" data-aos="fade-up">
-        <h2 class="hb-title">Memberikan Kendali Lebih Baik atas Armada</h2>
+        <span class="hb-label">MANFAAT FLEETSUMO</span>
+        <h2 class="hb-title">Operasional Armada Lebih Terstruktur, Informasi Lebih Mudah Dikendalikan</h2>
+        <p class="hb-subtitle">FleetSumo membantu perusahaan mengelola data dan aktivitas armada secara terstruktur, sehingga informasi operasional lebih mudah dipantau, ditelusuri, dan digunakan sebagai dasar evaluasi.</p>
       </div>
 
       <div class="hb-grid">
          
          <div class="hb-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="hb-icon">🎯</div>
-            <h3>Eksekusi Operasional Jelas</h3>
-            <p>Data tersimpan pada sistem digital yang mudah dilacak tanpa perlu mencari kertas terpisah.</p>
+            <div class="hb-icon">👁️</div>
+            <h3>01 — Visibilitas Armada</h3>
+            <p>Dapatkan informasi kendaraan, status, aktivitas, dan riwayat armada dalam satu sistem.</p>
          </div>
 
          <div class="hb-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="hb-icon">🛡️</div>
-            <h3>Minimalisir Risiko Biaya Lolos</h3>
-            <p>Otorisasi birokrasi budget berbasis hierarki mengurangi klaim transaksi yang tidak disetujui.</p>
+            <div class="hb-icon">🔄</div>
+            <h3>02 — Proses Lebih Terstruktur</h3>
+            <p>Kelola aktivitas operasional melalui alur kerja yang jelas mulai dari pengajuan, approval, pelaksanaan, hingga realisasi.</p>
          </div>
          
          <div class="hb-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="hb-icon">⏳</div>
-            <h3>Pertahankan Umur Aset</h3>
-            <p>Penelusuran umur perawatan dan rutinitas mekanik membuat kendaraan menua lebih lama.</p>
+            <div class="hb-icon">📉</div>
+            <h3>03 — Pengendalian Biaya</h3>
+            <p>Hubungkan informasi biaya dengan kendaraan dan aktivitas armada untuk membantu proses monitoring dan evaluasi.</p>
          </div>
 
          <div class="hb-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="hb-icon">⚖️</div>
-            <h3>Evaluasi Bebas Asumsi</h3>
-            <p>Perusahaan bertumpu pada laporan nyata dari histori transaksi, meredam subjektivitas tebakan.</p>
+            <div class="hb-icon">📊</div>
+            <h3>04 — Informasi untuk Pengambilan Keputusan</h3>
+            <p>Gunakan dashboard dan laporan untuk memahami kondisi operasional armada berdasarkan data yang tersedia.</p>
          </div>
 
       </div>

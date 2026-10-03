@@ -1,0 +1,174 @@
+/* app/assets/css/sections/fuel-management/fuel-integration.css */
+.fuel-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fuel-inte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fi-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fi-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fi-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fi-layout {
+    display: flex;
+    justify-content: center;
+}
+
+/* Diagram Center Full Width Config */
+.fi-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    width: 600px;
+}
+
+.fd-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fd-row.branches {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 5px;
+}
+
+.fd-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: 0.5px;
+    text-align: center;
+    z-index: 2;
+}
+
+.fd-box.top {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+    width: 220px;
+}
+
+.fd-box.main-f {
+    background: #1a56db;
+    color: #fff;
+    border-color: #1a56db;
+    font-size: 15px;
+    padding: 12px 25px;
+    width: 220px;
+}
+
+.fd-box.sec {
+    flex: 1;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.fd-box.final {
+    background: #0f172a;
+    color: #fff;
+    border: none;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.fd-stem {
+    width: 2px;
+    height: 25px;
+    background: #94a3b8;
+}
+
+.fd-stem.line-small {
+    height: 15px;
+}
+
+.fd-arrow {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.fd-arrow.single {
+    margin-bottom: 5px;
+}
+
+.fd-crossbar {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/* Base merging for final box */
+.fd-crossbar-bottom {
+    position: relative;
+    width: 65%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.sec-stem {
+    position: absolute;
+    top: 0;
+}
+
+.sl-1 {
+    left: 0;
+    transform: rotate(-30deg) translateX(15px);
+    height: 32px;
+}
+
+.sl-2 {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25px;
+}
+
+.sl-3 {
+    right: 0;
+    transform: rotate(30deg) translateX(-15px);
+    height: 32px;
+}
+
+@media (max-width: 768px) {
+    .fi-diagram {
+        width: 100%;
+    }
+
+    .fd-crossbar-bottom .sec-stem {
+        display: none;
+    }
+}

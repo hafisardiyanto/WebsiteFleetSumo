@@ -1,44 +1,45 @@
 <template>
   <section class="fuel-problems-wrapper">
     <div class="fuel-problems-container">
-      <div class="fuel-problems-header" data-aos="fade-up">
-        <h2 class="fuel-problems-title">Kebocoran Konsumsi BBM Mengancam Margin Operasional</h2>
-        <p class="fuel-problems-subtitle">
-          Ketika pencatatan pengisian dan kalkulasi rasio liter terhadap jarak tidak tervalidasi, perusahaan berisiko kesulitan melacak pemborosan biaya bahan bakar armada.
-        </p>
+      <div class="fup-header" data-aos="fade-up">
+        <span class="fup-label">TANTANGAN PENGELOLAAN BBM</span>
+        <h2 class="fup-title">Penggunaan BBM Armada Perlu Dicatat dan Dipantau Secara Konsisten</h2>
+        <p class="fup-subtitle">Aktivitas BBM terjadi berulang kali dan melibatkan banyak kendaraan. Tanpa pencatatan yang terstruktur, informasi pengisian, volume, biaya, dan riwayat penggunaan akan lebih sulit ditelusuri.</p>
       </div>
 
-      <div class="fuel-problems-grid">
-        <!-- Problem 1 -->
-        <div class="fuel-problem-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="fuel-problem-icon">💸</div>
-          <h3 class="fuel-problem-title">Biaya Sulit Dilacak</h3>
-          <p class="fuel-problem-desc">Kebocoran dana bahan bakar yang hilang tanpa adanya pencocokan struk transaksi SPBU.</p>
-        </div>
+      <div class="fup-grid">
+         <div class="fup-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="fup-icon">🗄️</div>
+            <h3>01 — Data Pengisian Tersebar</h3>
+            <p>Informasi pengisian BBM dari berbagai kendaraan perlu dikumpulkan dalam satu sistem.</p>
+         </div>
 
-        <!-- Problem 2 -->
-        <div class="fuel-problem-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="fuel-problem-icon">📉</div>
-          <h3 class="fuel-problem-title">Data Odometer Fiktif</h3>
-          <p class="fuel-problem-desc">Ketidakseimbangan laporan antara jarak tempuh kendaraan dan rasio konsumsi BBM yang tidak disorot.</p>
-        </div>
+         <div class="fup-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="fup-icon">⛽</div>
+            <h3>02 — Volume BBM Sulit Dipantau</h3>
+            <p>Perusahaan membutuhkan informasi pengisian BBM untuk melihat penggunaan kendaraan.</p>
+         </div>
 
-        <!-- Problem 3 -->
-        <div class="fuel-problem-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="fuel-problem-icon">📝</div>
-          <h3 class="fuel-problem-title">Pencatatan Manual Rentan Error</h3>
-          <p class="fuel-problem-desc">Pengisian buku catatan laporan BBM yang lambat, berantakan, dan berpotensi hilang.</p>
-        </div>
+         <div class="fup-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="fup-icon">💰</div>
+            <h3>03 — Biaya BBM Sulit Ditelusuri</h3>
+            <p>Pengeluaran BBM perlu dikaitkan dengan kendaraan dan aktivitas yang relevan.</p>
+         </div>
 
-        <!-- Problem 4 -->
-        <div class="fuel-problem-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="fuel-problem-icon">⚠️</div>
-          <h3 class="fuel-problem-title">Efisiensi Tidak Terukur</h3>
-          <p class="fuel-problem-desc">Armada yang mengkonsumsi BBM lebih dari standar kewajaran luput dari perhatian.</p>
-        </div>
+         <div class="fup-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="fup-icon">⏳</div>
+            <h3>04 — Riwayat Penggunaan Sulit Dicari</h3>
+            <p>Data pengisian sebelumnya dibutuhkan untuk monitoring dan evaluasi.</p>
+         </div>
+
+         <div class="fup-card full" data-aos="fade-up" data-aos-delay="500">
+            <div class="fup-icon">🖥️</div>
+            <h3>05 — Monitoring Banyak Kendaraan</h3>
+            <p>Semakin banyak kendaraan, semakin banyak transaksi BBM yang harus dikelola.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/fuel/fuel-problems.css" scoped></style>
+<style src="~/assets/css/sections/fuel-management/fuel-problems.css" scoped></style>

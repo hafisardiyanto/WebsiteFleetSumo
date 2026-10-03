@@ -1,55 +1,40 @@
 <template>
   <section class="maint-workflow-wrapper">
     <div class="maint-workflow-container">
-      <div class="maint-workflow-header" data-aos="fade-up">
-        <h2 class="maint-workflow-title">Setiap Temuan Dapat Ditindaklanjuti</h2>
+      <div class="mwf-header" data-aos="fade-up">
+        <h2 class="mwf-title">Proses Maintenance yang Lebih Terpantau</h2>
+        <p class="mwf-subtitle">Setiap kebutuhan maintenance dapat mengikuti proses yang terstruktur sehingga tim dapat mengetahui tahapan pekerjaan dan informasi yang berkaitan dengan kendaraan.</p>
       </div>
 
-      <div class="maint-workflow-layout">
-        <!-- Visual Section (using ProsesMaintenance.jpg) -->
-        <div class="workflow-visual" data-aos="fade-right" data-aos-delay="100">
-          <div class="workflow-mockup">
-            <img src="/ProsesMaintenance.jpg" alt="Alur Perbaikan Kendaraan - Dari Temuan hingga Realisasi" class="workflow-img">
-          </div>
-        </div>
+      <div class="mwf-path">
+         <div class="mwf-step" data-aos="fade-up" data-aos-delay="100">
+            <div class="mwf-label">IDENTIFIKASI</div>
+            <p>Pemeriksaan, temuan, dan keluhan menjadi dasar untuk mengetahui kebutuhan maintenance.</p>
+         </div>
 
-        <!-- Text Flow Section -->
-        <div class="workflow-steps" data-aos="fade-left" data-aos-delay="200">
-          
-          <div class="wf-step">
-            <h3 class="wf-step-title">Temuan</h3>
-            <p class="wf-step-desc">Kendaraan mengalami masalah pada sistem pengereman.</p>
-          </div>
+         <div class="mwf-arrow">▼</div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Pengajuan Maintenance</h3>
-            <p class="wf-step-desc">Tim mengajukan kebutuhan pemeriksaan dan perbaikan.</p>
-          </div>
+         <div class="mwf-step" data-aos="fade-up" data-aos-delay="200">
+            <div class="mwf-label">PENGAJUAN & APPROVAL</div>
+            <p>Kebutuhan maintenance diproses melalui pengajuan dan persetujuan.</p>
+         </div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Approval</h3>
-            <p class="wf-step-desc">Pengajuan diperiksa dan disetujui sesuai alur perusahaan.</p>
-          </div>
+         <div class="mwf-arrow">▼</div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Pelaksanaan</h3>
-            <p class="wf-step-desc">Pekerjaan maintenance dilakukan oleh mekanik atau vendor.</p>
-          </div>
+         <div class="mwf-step" data-aos="fade-up" data-aos-delay="300">
+            <div class="mwf-label">PELAKSANAAN</div>
+            <p>Maintenance dilakukan berdasarkan kebutuhan kendaraan yang telah diproses.</p>
+         </div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Realisasi</h3>
-            <p class="wf-step-desc">Hasil pekerjaan dan biaya dicatat.</p>
-          </div>
+         <div class="mwf-arrow">▼</div>
 
-          <div class="wf-step">
-            <h3 class="wf-step-title">Riwayat</h3>
-            <p class="wf-step-desc">Aktivitas tersimpan pada riwayat kendaraan.</p>
-          </div>
-          
-        </div>
+         <div class="mwf-step final" data-aos="fade-up" data-aos-delay="400">
+            <div class="mwf-label">REALISASI & RIWAYAT</div>
+            <p>Hasil maintenance dan informasi realisasi tercatat sebagai bagian dari histori kendaraan.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/maintenance/maint-workflow.css" scoped></style>
+<style src="~/assets/css/sections/maintenance-management/maint-workflow.css" scoped></style>

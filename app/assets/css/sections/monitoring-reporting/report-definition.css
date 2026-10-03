@@ -1,0 +1,163 @@
+/* app/assets/css/sections/monitoring-reporting/report-definition.css */
+.report-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.report-def-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rdf-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.rdf-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.rdf-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.rdf-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.rdf-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.rdf-top-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.rdf-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    letter-spacing: 1px;
+}
+
+.rdf-box.src {
+    flex: 1;
+}
+
+.rdf-connectors {
+    position: relative;
+    width: 80%;
+    /* Connects the middle points roughly */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.rdf-line-horiz {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.rdf-stem {
+    position: absolute;
+    top: 50%;
+    width: 2px;
+    height: 20px;
+    background: #94a3b8;
+}
+
+.rdf-step {
+    width: 280px;
+}
+
+.rdf-box.core {
+    background: #1e3a8a;
+    color: #ffffff;
+    border-color: #1e3a8a;
+    font-size: 15px;
+    padding: 16px 24px;
+}
+
+.rdf-box.core-alt {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+    font-size: 15px;
+    padding: 16px 24px;
+}
+
+.rdf-box.core-light {
+    background: #e0e7ff;
+    color: #1a56db;
+    border-color: #cbd5e1;
+    font-size: 15px;
+    padding: 16px 24px;
+}
+
+.rdf-box.final {
+    background: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
+    font-size: 15px;
+    padding: 16px 24px;
+}
+
+.rdf-arrow {
+    color: #94a3b8;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+@media (max-width: 900px) {
+    .rdf-top-row {
+        flex-wrap: wrap;
+    }
+
+    .rdf-box.src {
+        width: calc(50% - 7.5px);
+        flex: none;
+    }
+
+    .rdf-connectors {
+        display: none;
+    }
+}

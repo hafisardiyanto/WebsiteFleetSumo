@@ -16,11 +16,30 @@
     margin: 0 auto 60px auto;
 }
 
+.hb-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
 .hb-title {
     font-size: 34px;
     font-weight: 800;
     color: #0f172a;
     line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.hb-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
 }
 
 .hb-grid {
@@ -37,22 +56,22 @@
     display: flex;
     flex-direction: column;
     transition: all 0.3s ease;
+    border-top: 4px solid transparent;
 }
 
 .hb-card:hover {
-    transform: translateX(5px);
+    transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
-    /* Gray scale smooth shadow */
-    border-color: #cbd5e1;
+    border-top-color: #1a56db;
 }
 
 .hb-icon {
-    font-size: 32px;
-    width: 60px;
-    height: 60px;
+    font-size: 36px;
+    width: 65px;
+    height: 65px;
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;

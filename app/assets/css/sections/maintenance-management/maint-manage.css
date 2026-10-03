@@ -1,0 +1,114 @@
+/* app/assets/css/sections/maintenance-management/maint-manage.css */
+.maint-manage-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.maint-manage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mm-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mm-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mm-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mm-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+/* Make the last 3 items center by putting them in empty grid spaces or using span */
+.mm-card:nth-child(5) {
+    grid-column: 1 / span 2;
+    justify-self: end;
+    width: 100%;
+    max-width: 320px;
+}
+
+.mm-card:nth-child(6) {
+    grid-column: 3 / span 1;
+}
+
+.mm-card:nth-child(7) {
+    grid-column: 4 / span 1;
+}
+
+.mm-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+.mm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    /* slight blue */
+    border-color: #1a56db;
+}
+
+.mm-icon {
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.mm-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.mm-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .mm-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mm-card:nth-child(5) {
+        grid-column: auto;
+        max-width: 100%;
+        justify-self: auto;
+    }
+
+    .mm-card:nth-child(6) {
+        grid-column: auto;
+    }
+
+    .mm-card:nth-child(7) {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .mm-grid {
+        grid-template-columns: 1fr;
+    }
+}

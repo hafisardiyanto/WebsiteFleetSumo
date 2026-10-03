@@ -1,0 +1,87 @@
+/* app/assets/css/sections/cost-management/cost-workflow.css */
+.cost-workflow-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-workflow-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.cwf-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cwf-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.cwf-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.cwf-path {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cwf-step {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 24px 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.05);
+}
+
+.cwf-step.final {
+    border-color: #1a56db;
+    background: #ffffff;
+}
+
+.cwf-label {
+    display: inline-block;
+    background: #1a56db;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.cwf-step.final .cwf-label {
+    background: #0f172a;
+}
+
+.cwf-step p {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.cwf-arrow {
+    color: #94a3b8;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .cwf-step {
+        padding: 20px;
+    }
+}

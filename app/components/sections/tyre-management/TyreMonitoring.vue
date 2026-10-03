@@ -1,73 +1,63 @@
 <template>
   <section class="tyre-monitoring-wrapper">
     <div class="tyre-monitoring-container">
-      <div class="tyre-monitoring-header" data-aos="fade-up">
-        <h2 class="tyre-monitoring-title">Pantau Informasi Ban dalam Satu Tampilan</h2>
-        <p class="tyre-monitoring-subtitle">
-          Data ban yang tersimpan dalam sistem dapat digunakan untuk membantu tim memahami kondisi dan aktivitas ban secara lebih terstruktur.
-        </p>
+      <div class="tym-header" data-aos="fade-up">
+        <span class="tym-label">MONITORING</span>
+        <h2 class="tym-title">Gunakan Data Ban untuk Monitoring dan Evaluasi</h2>
+        <p class="tym-subtitle">Data ban yang tercatat secara terstruktur membantu perusahaan mendapatkan informasi yang lebih mudah dipantau dan digunakan untuk evaluasi operasional armada.</p>
       </div>
 
-      <div class="tyre-monitoring-mockup" data-aos="zoom-in" data-aos-delay="100">
-        <!-- Mockup top bar -->
-        <div class="mockup-bar">
-          <div class="mockup-dots"><span></span><span></span><span></span></div>
-          <div class="mockup-title">Tyre Management Dashboard</div>
-        </div>
-
-        <div class="mockup-body">
-          <div class="mockup-stats-row">
-            <div class="m-stat-card">
-              <span class="m-stat-label">Total Ban</span>
-              <span class="m-stat-val">340</span>
-            </div>
-            <div class="m-stat-card">
-              <span class="m-stat-label">Ban Terpasang</span>
-              <span class="m-stat-val highlight">215</span>
-            </div>
-            <div class="m-stat-card">
-              <span class="m-stat-label">Ban Tersedia</span>
-              <span class="m-stat-val">84</span>
-            </div>
-            <div class="m-stat-card">
-              <span class="m-stat-label">Aktivitas Ban</span>
-              <span class="m-stat-val warn">41</span>
-            </div>
-          </div>
-
-          <div class="mockup-bottom-row">
-             <div class="mockup-table">
-               <div class="m-table-head">
-                 <div>ID Ban</div>
-                 <div>Kondisi (Tread)</div>
-                 <div>Posisi</div>
-                 <div>Riwayat Ban</div>
-               </div>
-               <div class="m-table-row">
-                 <div><strong>#TYR-089</strong></div>
-                 <div>8.5 mm</div>
-                 <div>Roda Depan Kanan</div>
-                 <div><span class="m-badge">Terpasang Okt 1</span></div>
-               </div>
-               <div class="m-table-row">
-                 <div><strong>#TYR-092</strong></div>
-                 <div>3.1 mm (Kritis)</div>
-                 <div>Roda Belakang Kiri</div>
-                 <div><span class="m-badge warn">Warning (32.000 KM)</span></div>
-               </div>
-               <div class="m-table-row">
-                 <div><strong>#TYR-011</strong></div>
-                 <div>Vulkanisir Baru</div>
-                 <div>Gudang (Tersedia)</div>
-                 <div><span class="m-badge normal">Dilepas Sep 20</span></div>
-               </div>
+      <div class="tym-layout">
+         
+         <div class="tym-points" data-aos="fade-right" data-aos-delay="100">
+             <div class="tym-point">
+                 <h4>Informasi Ban</h4>
+                 <p>Pantau data dan status ban yang tersedia dalam sistem.</p>
              </div>
-          </div>
-        </div>
+             <div class="tym-point">
+                 <h4>Posisi Ban</h4>
+                 <p>Telusuri posisi ban berdasarkan kendaraan.</p>
+             </div>
+             <div class="tym-point">
+                 <h4>Riwayat Penggunaan</h4>
+                 <p>Lihat aktivitas dan riwayat ban yang telah tercatat.</p>
+             </div>
+             <div class="tym-point">
+                 <h4>Informasi Armada</h4>
+                 <p>Hubungkan informasi ban dengan data kendaraan untuk gambaran lebih lengkap.</p>
+             </div>
+         </div>
+
+         <!-- Fallback HTML CSS UI for Monitoring since no actual tyre dashboard screenshot was supplied -->
+         <div class="tym-visual" data-aos="fade-left" data-aos-delay="200">
+             <div class="tym-dashboard-ui">
+                 <div class="t-card">
+                     <span class="t-ico yellow">⚠️</span>
+                     <div>
+                        <h5>Perlu Inspeksi</h5>
+                        <p>12 Ban</p>
+                     </div>
+                 </div>
+                 <div class="t-card">
+                     <span class="t-ico green">📍</span>
+                     <div>
+                        <h5>Status Posisi</h5>
+                        <p>Terhubung ke Kendaraan</p>
+                     </div>
+                 </div>
+                 <div class="t-card">
+                     <span class="t-ico blue">📊</span>
+                     <div>
+                        <h5>Riwayat Pemakaian</h5>
+                        <p>Tercatat Sistem</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
 
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/tyre/tyre-monitoring.css" scoped></style>
+<style src="~/assets/css/sections/tyre-management/tyre-monitoring.css" scoped></style>

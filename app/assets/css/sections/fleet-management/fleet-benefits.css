@@ -1,105 +1,76 @@
 /* app/assets/css/sections/fleet-management/fleet-benefits.css */
-.fleet-benefits-section {
-    background-color: #f8fafc;
+.fleet-benefits-wrapper {
+    background-color: #ffffff;
     padding: 100px 0;
-    position: relative;
-    border-top: 1px solid #e2e8f0;
 }
 
 .fleet-benefits-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
-.fleet-benefits-header {
+.fb-header {
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto 60px auto;
 }
 
-.fleet-benefits-title {
-    font-size: 38px;
+.fb-title {
+    font-size: 34px;
     font-weight: 800;
     color: #0f172a;
-    line-height: 1.25;
+    line-height: 1.35;
 }
 
-.fleet-benefits-grid {
+.fb-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
-.fleet-benefit-card {
-    background-color: #ffffff;
+.fb-card {
+    background: #f8fafc;
     border: 1px solid #e2e8f0;
-    border-radius: 16px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    text-align: center;
 }
 
-.fleet-benefit-card:hover {
+.fb-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
-    border-color: #0ea5e9;
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    border-color: #1a56db;
 }
 
-.fleet-benefit-icon-wrapper {
-    width: 60px;
-    height: 60px;
-    background: #e0f2fe;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-    transition: transform 0.3s ease;
+.fb-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-.fleet-benefit-icon {
-    font-size: 28px;
-}
-
-.fleet-benefit-card:hover .fleet-benefit-icon-wrapper {
-    transform: scale(1.1);
-    background: #bae6fd;
-}
-
-.fleet-benefit-title {
-    font-size: 22px;
-    font-weight: 700;
+.fb-card h3 {
+    font-size: 16px;
+    font-weight: 800;
     color: #0f172a;
     margin-bottom: 12px;
 }
 
-.fleet-benefit-desc {
-    font-size: 15px;
-    color: #64748b;
-    line-height: 1.6;
+.fb-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
     margin: 0;
 }
 
 @media (max-width: 992px) {
-    .fleet-benefits-grid {
-        gap: 24px;
-    }
-
-    .fleet-benefit-card {
-        padding: 30px;
+    .fb-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 768px) {
-    .fleet-benefits-grid {
+@media (max-width: 600px) {
+    .fb-grid {
         grid-template-columns: 1fr;
-    }
-
-    .fleet-benefits-title {
-        font-size: 30px;
     }
 }

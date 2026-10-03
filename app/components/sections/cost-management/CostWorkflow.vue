@@ -1,76 +1,40 @@
 <template>
   <section class="cost-workflow-wrapper">
     <div class="cost-workflow-container">
-      <div class="cost-workflow-header" data-aos="fade-up">
-        <h2 class="cost-workflow-title">Hubungkan Aktivitas Operasional dengan Informasi Biaya</h2>
+      <div class="cwf-header" data-aos="fade-up">
+        <h2 class="cwf-title">Kelola Proses Biaya Secara Lebih Terstruktur</h2>
+        <p class="cwf-subtitle">FleetSumo membantu menghubungkan proses pengajuan, persetujuan, realisasi, dan monitoring biaya dalam satu alur.</p>
       </div>
 
-      <div class="cost-workflow-body" data-aos="fade-up" data-aos-delay="100">
-        
-        <div class="hub-spoke-diagram">
-          
-          <!-- Outer branches mapped linearly as defined -->
-          <div class="cw-node">
-            <div class="cw-box header-node">
-               <h3>FLEET</h3>
-               <p>Kendaraan & aktivitas armada</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
+      <div class="cwf-path">
+         <div class="cwf-step" data-aos="fade-up" data-aos-delay="100">
+            <div class="cwf-label">AJUKAN</div>
+            <p>Catat kebutuhan biaya yang berkaitan dengan operasional armada.</p>
+         </div>
 
-          <div class="cw-node">
-            <div class="cw-box">
-               <h3>MAINTENANCE</h3>
-               <p>Biaya perawatan kendaraan</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
+         <div class="cwf-arrow">▼</div>
 
-          <div class="cw-node">
-            <div class="cw-box">
-               <h3>FUEL</h3>
-               <p>Biaya penggunaan BBM</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
+         <div class="cwf-step" data-aos="fade-up" data-aos-delay="200">
+            <div class="cwf-label">SETUJUI</div>
+            <p>Kelola proses approval berdasarkan workflow perusahaan.</p>
+         </div>
 
-          <div class="cw-node">
-            <div class="cw-box">
-               <h3>TYRE</h3>
-               <p>Biaya terkait ban</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
+         <div class="cwf-arrow">▼</div>
 
-          <div class="cw-node">
-            <div class="cw-box">
-               <h3>VENDOR</h3>
-               <p>Biaya dari vendor eksternal</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
+         <div class="cwf-step" data-aos="fade-up" data-aos-delay="300">
+            <div class="cwf-label">REALISASIKAN</div>
+            <p>Catat biaya yang telah direalisasikan.</p>
+         </div>
 
-          <!-- Target central node -->
-          <div class="cw-node">
-            <div class="cw-box central-node">
-               <h3>COST MANAGEMENT</h3>
-               <p>Data biaya terstruktur menjadi satu</p>
-            </div>
-            <div class="cw-arrow">↓</div>
-          </div>
-          
-          <!-- Analytics conclusion -->
-          <div class="cw-node">
-            <div class="cw-box end-node">
-               <h3>DASHBOARD & REPORT</h3>
-               <p>Monitoring nyata dan laporan valid untuk biaya operasional</p>
-            </div>
-          </div>
+         <div class="cwf-arrow">▼</div>
 
-        </div>
+         <div class="cwf-step final" data-aos="fade-up" data-aos-delay="400">
+            <div class="cwf-label">MONITOR</div>
+            <p>Pantau informasi biaya berdasarkan kendaraan dan periode.</p>
+         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/cost/cost-workflow.css" scoped></style>
+<style src="~/assets/css/sections/cost-management/cost-workflow.css" scoped></style>
