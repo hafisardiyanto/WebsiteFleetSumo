@@ -1,0 +1,155 @@
+/* app/assets/css/sections/fleet-management/fleet-integrated-system.css */
+.fleet-integrated-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fleet-integrated-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.fleet-integrated-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fleet-integrated-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.fleet-integrated-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Diagram Structure */
+.integrated-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.diagram-node {
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+    z-index: 10;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.diagram-node:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.1);
+    border-color: #0ea5e9;
+}
+
+.node-primary {
+    border-width: 3px;
+    border-color: #0f172a;
+}
+
+.node-primary h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f172a;
+    letter-spacing: 1px;
+}
+
+.node-secondary {
+    font-size: 15px;
+    font-weight: 700;
+    color: #475569;
+    padding: 12px 24px;
+    border-color: #e2e8f0;
+}
+
+/* Connectors */
+.diagram-line {
+    background-color: #cbd5e1;
+    z-index: 1;
+}
+
+.line-vertical {
+    width: 2px;
+    height: 40px;
+}
+
+.diagram-line-horizontal {
+    width: 75%;
+    height: 2px;
+    background-color: #cbd5e1;
+    z-index: 1;
+    position: relative;
+}
+
+.diagram-branches {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.branch-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diagram-arrow-down {
+    width: 2px;
+    height: 30px;
+    background-color: #cbd5e1;
+    position: relative;
+}
+
+.diagram-arrow-down::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #cbd5e1;
+    font-size: 12px;
+}
+
+/* Mobile Fallback - Turns into a vertical list map */
+@media (max-width: 900px) {
+    .diagram-line-horizontal {
+        width: 100%;
+    }
+
+    .diagram-branches {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .diagram-branches {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .diagram-line-horizontal {
+        display: none;
+    }
+
+    .branch-item {
+        width: 100%;
+    }
+}

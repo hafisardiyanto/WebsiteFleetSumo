@@ -3,7 +3,7 @@
     <div class="footer-container">
       <div class="footer-brand">
         <div class="footer-logo">Fleet<span>Sumo</span></div>
-        <p class="footer-desc">Solusi Enterprise Fleet Management terdepan di Indonesia. Menghubungkan orang, aset, dan proses bisnis logistik dalam satu platform andal.</p>
+        <p class="footer-desc">Platform manajemen armada untuk membantu perusahaan mengelola kendaraan, operasional, dan biaya secara terintegrasi.</p>
         <div class="footer-socials">
           <a href="#" class="footer-social">in</a>
           <a href="#" class="footer-social">ig</a>
@@ -12,7 +12,7 @@
       </div>
 
       <div class="footer-widget">
-        <h4>Solusi</h4>
+        <h4>SOLUSI</h4>
         <ul class="footer-links">
           <li><a href="#">Fleet Management</a></li>
           <li><a href="#">Maintenance Management</a></li>
@@ -24,37 +24,53 @@
       </div>
 
       <div class="footer-widget">
-        <h4>Fitur</h4>
+        <h4>FITUR</h4>
         <ul class="footer-links">
           <li><a href="#">Fleet & Vehicle</a></li>
-          <li><a href="#">Driver</a></li>
+          <li><a href="#">Driver Management</a></li>
           <li><a href="#">Maintenance</a></li>
           <li><a href="#">Fuel</a></li>
           <li><a href="#">Tyre</a></li>
           <li><a href="#">Sparepart</a></li>
           <li><a href="#">Vendor</a></li>
-          <li><a href="#">Approval</a></li>
-          <li><a href="#">Cost</a></li>
-          <li><a href="#">Dashboard & Reporting</a></li>
+          <li><a href="#">Approval & Workflow</a></li>
+          <li><a href="#">Cost & Financial</a></li>
+          <li><a href="#">Dashboard & Reports</a></li>
         </ul>
       </div>
 
-      <div class="footer-widget">
-        <h4>Perusahaan</h4>
-        <ul class="footer-links">
-          <li><a href="#">Tentang FleetSumo</a></li>
-          <li><a href="#">Visi & Misi</a></li>
-          <li><a href="#">Hubungi Kami</a></li>
-        </ul>
+      <div class="footer-widget combo-widget">
+        <div class="widget-col">
+          <h4>INDUSTRI</h4>
+          <ul class="footer-links">
+            <li><a href="#">Logistik & Transportasi</a></li>
+            <li><a href="#">Pertambangan</a></li>
+            <li><a href="#">Perkebunan</a></li>
+            <li><a href="#">Konstruksi</a></li>
+            <li><a href="#">Manufaktur</a></li>
+            <li><a href="#">Usaha Armada Lainnya</a></li>
+          </ul>
+        </div>
         
-        <h4 style="margin-top: 24px;">Resources</h4>
-        <ul class="footer-links">
-          <li><a href="#">Artikel</a></li>
-          <li><a href="#">Case Study</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
+        <div class="widget-col stacked">
+          <h4>RESOURCES</h4>
+          <ul class="footer-links">
+            <li><a href="#">Blog & Artikel</a></li>
+            <li><a href="#">Studi Kasus</a></li>
+            <li><a href="#">Pembaruan Produk</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+
+          <h4 style="margin-top: 24px;">TENTANG KAMI</h4>
+          <ul class="footer-links">
+            <li><a href="#">Tentang FleetSumo</a></li>
+            <li><a href="#">Visi & Misi</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    
     <div class="footer-bottom">
       <div class="copyright">&copy; 2026 FleetSumo - PT Inovasi Ekspedisi Nusantara. All rights reserved.</div>
       <div class="legal-links">

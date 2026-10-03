@@ -2,16 +2,16 @@
   <div>
     <Navbar />
     <HeroSection />
-    <AdvantageSection />
+    <TrustSection />
     <ProblemSection />
-    <SolutionSection />
+    <SolutionDiagramSection />
     <HowItWorksSection />
     <ServicesGrid />
     <FeaturesSection />
+    <ProductPreviewSection />
     <BenefitsSection />
     <IndustriesSection />
-    <ProductPreviewSection />
-    <AboutWidget />
+    <WhyFleetSumoSection />
     <BlogSection />
     <ContactForm />
     <FooterSection />
@@ -21,16 +21,16 @@
 <script setup>
 import Navbar from '~/components/sections/Navbar.vue'
 import HeroSection from '~/components/sections/HeroSection.vue'
-import AdvantageSection from '~/components/sections/AdvantageSection.vue'
+import TrustSection from '~/components/sections/TrustSection.vue'
 import ProblemSection from '~/components/sections/ProblemSection.vue'
-import SolutionSection from '~/components/sections/SolutionSection.vue'
+import SolutionDiagramSection from '~/components/sections/SolutionDiagramSection.vue'
 import HowItWorksSection from '~/components/sections/HowItWorksSection.vue'
 import ServicesGrid from '~/components/sections/ServicesGrid.vue'
 import FeaturesSection from '~/components/sections/FeaturesSection.vue'
+import ProductPreviewSection from '~/components/sections/ProductPreviewSection.vue'
 import BenefitsSection from '~/components/sections/BenefitsSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
-import ProductPreviewSection from '~/components/sections/ProductPreviewSection.vue'
-import AboutWidget from '~/components/sections/AboutWidget.vue'
+import WhyFleetSumoSection from '~/components/sections/WhyFleetSumoSection.vue'
 import BlogSection from '~/components/sections/BlogSection.vue'
 import ContactForm from '~/components/sections/ContactForm.vue'
 import FooterSection from '~/components/sections/FooterSection.vue'

@@ -1,0 +1,87 @@
+/* app/assets/css/sections/tyre/tyre-features.css */
+.tyre-features-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.tyre-features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tyre-features-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.tyre-features-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.tyre-features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.tyre-feature-item {
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tyre-feature-item:hover {
+    border-bottom-color: #64748b;
+    transform: translateY(-5px);
+}
+
+.tyre-fe-icon {
+    font-size: 28px;
+    width: 56px;
+    height: 56px;
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tyre-feature-item:hover .tyre-fe-icon {
+    background-color: #e2e8f0;
+}
+
+.tyre-fe-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.tyre-fe-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .tyre-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .tyre-features-grid {
+        grid-template-columns: 1fr;
+    }
+}

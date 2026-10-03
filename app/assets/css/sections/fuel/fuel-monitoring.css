@@ -1,0 +1,261 @@
+/* app/assets/css/sections/fuel/fuel-monitoring.css */
+.fuel-monitoring-wrapper {
+    background-color: #0f172a;
+    padding: 100px 0;
+}
+
+.fuel-monitoring-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.fuel-monitoring-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.fuel-monitoring-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.fuel-overview-board {
+    background-color: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+/* Stats */
+.fuel-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.fuel-stat-item {
+    flex: 1;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.fuel-stat-item:hover {
+    transform: translateY(-5px);
+    background: rgba(16, 185, 129, 0.1);
+    /* theme hover */
+}
+
+.fuel-stat-item span {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.fuel-stat-item strong {
+    font-size: 36px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.fuel-stat-item strong span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #cbd5e1;
+}
+
+/* Lower split styling */
+.fuel-dashboard-split {
+    display: flex;
+    gap: 40px;
+}
+
+.fuel-sidebar {
+    width: 330px;
+}
+
+.fuel-sidebar-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.fuel-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fuel-list li {
+    font-size: 15px;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 24px;
+    line-height: 1.5;
+}
+
+.fuel-list li::before {
+    content: '❯';
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-size: 12px;
+}
+
+/* Internal Dashboard mock CSS */
+.fuel-visual-right {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.browser-mockup {
+    height: 40px;
+    background: #f1f5f9;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.browser-dots {
+    display: flex;
+    gap: 8px;
+    margin-right: 15px;
+}
+
+.browser-dots span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.browser-dots span:nth-child(1) {
+    background-color: #ef4444;
+}
+
+.browser-dots span:nth-child(2) {
+    background-color: #eab308;
+}
+
+.browser-dots span:nth-child(3) {
+    background-color: #22c55e;
+}
+
+.browser-url {
+    background: #e2e8f0;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: #64748b;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    flex: 1;
+    text-align: center;
+    margin-right: 47px;
+}
+
+.fuel-html-mockup-content {
+    padding: 24px;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cbd5e1;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 14px;
+    color: #0f172a;
+    align-items: center;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.stat-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+
+.stat-badge.success {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.stat-badge.warning {
+    background-color: #fef9c3;
+    color: #a16207;
+}
+
+@media (max-width: 992px) {
+    .fuel-dashboard-split {
+        flex-direction: column;
+    }
+
+    .fuel-sidebar {
+        width: 100%;
+    }
+
+    .fuel-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .fuel-overview-board {
+        padding: 20px;
+    }
+
+    .fuel-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .table-header,
+    .table-row {
+        grid-template-columns: 2fr 1fr 1.5fr;
+    }
+
+    .table-header div:nth-child(2),
+    .table-row div:nth-child(2) {
+        display: none;
+        /* hide date on very small screens to fit */
+    }
+}

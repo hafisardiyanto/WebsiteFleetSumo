@@ -1,0 +1,105 @@
+/* app/assets/css/sections/monitoring/mon-reporting.css */
+.mon-reporting-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.mon-reporting-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mon-reporting-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.mon-reporting-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #4338ca;
+    /* Indigo theme focus */
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mon-reporting-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mon-reporting-grid {
+    display: grid;
+    /* 5 blocks provided by user. Best arranged as flex/wrap or 3/2 grid. We'll use flex layout representation */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rep-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: calc(33.333% - 14px);
+    transition: all 0.3s ease;
+}
+
+.rep-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(67, 56, 202, 0.08);
+    /* indigo shadow */
+    border-color: #4338ca;
+    background-color: #ffffff;
+}
+
+.rep-icon {
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.rep-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.rep-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.rep-desc {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .rep-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 640px) {
+    .rep-card {
+        width: 100%;
+    }
+}

@@ -2,9 +2,7 @@
   <section class="services-wrapper">
     <div class="services-container">
       <div class="services-header" data-aos="fade-up">
-        <div class="services-tagline">SOLUSI FLEETSUMO</div>
-        <h2 class="services-title">Solusi untuk Mengelola Operasional Armada</h2>
-        <p class="services-subtitle">Pilih modul yang paling relevan dengan kebutuhan bisnis Anda.</p>
+        <h2 class="services-title">Solusi untuk Setiap Bagian Operasional Armada</h2>
       </div>
 
       <div class="services-grid">
@@ -17,7 +15,7 @@
             </svg>
           </div>
           <h3 class="service-title">Fleet Management</h3>
-          <p class="service-desc">Kelola data, status, dan aktivitas kendaraan dalam satu sistem terpusat.</p>
+          <p class="service-desc">Kelola kendaraan dan informasi armada secara terpusat.</p>
         </div>
 
         <!-- Card 2 -->
@@ -28,7 +26,7 @@
             </svg>
           </div>
           <h3 class="service-title">Maintenance Management</h3>
-          <p class="service-desc">Kelola perawatan, jadwal maintenance, histori, dan biaya kendaraan.</p>
+          <p class="service-desc">Rencanakan, jalankan, dan dokumentasikan aktivitas perawatan kendaraan.</p>
         </div>
 
         <!-- Card 3 -->
@@ -39,7 +37,7 @@
             </svg>
           </div>
           <h3 class="service-title">Fuel Management</h3>
-          <p class="service-desc">Pantau penggunaan BBM dan analisis pola biaya bahan bakar armada Anda.</p>
+          <p class="service-desc">Kelola pencatatan dan penggunaan BBM kendaraan.</p>
         </div>
 
         <!-- Card 4 -->
@@ -52,7 +50,7 @@
             </svg>
           </div>
           <h3 class="service-title">Tyre Management</h3>
-          <p class="service-desc">Kelola pemasangan, rotasi, umur pakai, penggantian, dan histori ban.</p>
+          <p class="service-desc">Pantau penggunaan, pemasangan, rotasi, dan riwayat ban.</p>
         </div>
 
         <!-- Card 5 -->
@@ -65,7 +63,7 @@
             </svg>
           </div>
           <h3 class="service-title">Cost Management</h3>
-          <p class="service-desc">Pantau dan kendalikan biaya dari seluruh aktivitas yang berkaitan dengan operasional.</p>
+          <p class="service-desc">Kelola pengajuan, realisasi, dan pengeluaran yang berkaitan dengan armada.</p>
         </div>
 
         <!-- Card 6 -->
@@ -78,8 +76,12 @@
             </svg>
           </div>
           <h3 class="service-title">Monitoring & Reporting</h3>
-          <p class="service-desc">Dapatkan informasi komprehensif untuk membantu monitoring armada dan pelaporan manajemen.</p>
+          <p class="service-desc">Pantau aktivitas dan kondisi armada melalui dashboard dan laporan.</p>
         </div>
+      </div>
+      
+      <div class="services-footer" data-aos="fade-up" data-aos-delay="200">
+        <a href="#" class="btn-link">Lihat Semua Solusi &rarr;</a>
       </div>
     </div>
   </section>

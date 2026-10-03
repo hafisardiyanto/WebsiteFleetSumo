@@ -1,0 +1,98 @@
+/* app/assets/css/sections/fuel/fuel-other-solutions.css */
+.fuel-other-solutions-wrapper {
+    background-color: #f1f5f9;
+    padding: 100px 0;
+}
+
+.fuel-other-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.fuel-other-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fuel-other-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.fuel-other-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.fuel-other-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.other-solution-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.other-solution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.08);
+    border-color: #10b981;
+}
+
+.other-solution-content {
+    margin-bottom: 24px;
+}
+
+.other-solution-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.other-solution-desc {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.other-solution-link {
+    font-size: 15px;
+    font-weight: 700;
+    color: #059669;
+    /* emerald accent link */
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    transition: color 0.3s ease;
+}
+
+.other-solution-link:hover {
+    color: #10b981;
+}
+
+@media (max-width: 768px) {
+    .fuel-other-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fuel-other-title {
+        font-size: 28px;
+    }
+}

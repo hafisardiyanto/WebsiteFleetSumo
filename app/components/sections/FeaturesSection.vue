@@ -2,11 +2,7 @@
   <section class="features-wrapper">
     <div class="features-container">
       <div class="features-header" data-aos="fade-up">
-        <div class="features-tagline">FITUR LENGKAP</div>
-        <h2 class="features-title">Fitur untuk Pengelolaan Armada yang Lebih Terintegrasi</h2>
-        <p class="features-subtitle">
-          Modul fungsional yang menjangkau seluruh siklus aset mulai dari operasional hingga administrasi.
-        </p>
+        <h2 class="features-title">Semua Kebutuhan Pengelolaan Armada dalam Satu Platform</h2>
       </div>
 
       <div class="features-grid">
@@ -15,7 +11,7 @@
           <div class="feature-icon">🚛</div>
           <div class="feature-content">
             <h3>Fleet & Vehicle</h3>
-            <p>Kelola informasi kendaraan, status, dan data armada.</p>
+            <p>Kelola data kendaraan dan status operasional armada.</p>
           </div>
         </div>
 
@@ -24,7 +20,7 @@
           <div class="feature-icon">👨‍✈️</div>
           <div class="feature-content">
             <h3>Driver Management</h3>
-            <p>Kelola informasi driver yang berkaitan dengan kendaraan dan aktivitas operasional.</p>
+            <p>Kelola profil pengemudi dan tugas yang dialokasikan.</p>
           </div>
         </div>
 
@@ -33,7 +29,7 @@
           <div class="feature-icon">🔧</div>
           <div class="feature-content">
             <h3>Maintenance</h3>
-            <p>Kelola perawatan, pekerjaan maintenance, histori, dan biaya kendaraan.</p>
+            <p>Jadwalkan dan catat riwayat pemeliharaan kendaraan.</p>
           </div>
         </div>
 
@@ -42,7 +38,7 @@
           <div class="feature-icon">⛽</div>
           <div class="feature-content">
             <h3>Fuel</h3>
-            <p>Kelola transaksi dan penggunaan BBM kendaraan.</p>
+            <p>Lacak konsumsi dan efisiensi bahan bakar secara akurat.</p>
           </div>
         </div>
 
@@ -51,7 +47,7 @@
           <div class="feature-icon">⚙️</div>
           <div class="feature-content">
             <h3>Tyre</h3>
-            <p>Kelola pemasangan, rotasi, penggantian, dan histori ban.</p>
+            <p>Monitor pemasangan, rotasi, dan durabilitas ban.</p>
           </div>
         </div>
 
@@ -60,7 +56,7 @@
           <div class="feature-icon">🔩</div>
           <div class="feature-content">
             <h3>Sparepart</h3>
-            <p>Kelola penggunaan dan kebutuhan sparepart yang berkaitan dengan operasional.</p>
+            <p>Kelola inventaris dan penggunaan suku cadang armada.</p>
           </div>
         </div>
 
@@ -69,7 +65,7 @@
           <div class="feature-icon">🏢</div>
           <div class="feature-content">
             <h3>Vendor</h3>
-            <p>Kelola vendor yang terlibat dalam kebutuhan operasional armada.</p>
+            <p>Integrasikan data vendor yang mendukung operasional.</p>
           </div>
         </div>
 
@@ -78,7 +74,7 @@
           <div class="feature-icon">📝</div>
           <div class="feature-content">
             <h3>Approval & Workflow</h3>
-            <p>Kelola proses pengajuan dan persetujuan secara terstruktur.</p>
+            <p>Strukturisasi proses persetujuan dokumen operasional.</p>
           </div>
         </div>
 
@@ -86,8 +82,8 @@
         <div class="feature-item" data-aos="fade-up" data-aos-delay="450">
           <div class="feature-icon">💰</div>
           <div class="feature-content">
-            <h3>Cost Management</h3>
-            <p>Kelola dan monitor biaya yang berkaitan dengan aktivitas armada.</p>
+            <h3>Cost & Financial</h3>
+            <p>Kontrol pengeluaran dan kelola anggaran armada.</p>
           </div>
         </div>
 
@@ -95,10 +91,14 @@
         <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
           <div class="feature-icon">📊</div>
           <div class="feature-content">
-            <h3>Dashboard & Reporting</h3>
-            <p>Monitor data armada melalui dashboard analitik dan kustomisasi laporan.</p>
+            <h3>Dashboard & Reports</h3>
+            <p>Rangkum seluruh wawasan operasional dalam analitik interaktif.</p>
           </div>
         </div>
+      </div>
+
+      <div class="features-footer" data-aos="fade-up" data-aos-delay="300">
+        <a href="#" class="btn-link">Lihat Semua Fitur &rarr;</a>
       </div>
     </div>
   </section>

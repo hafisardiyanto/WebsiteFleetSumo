@@ -1,0 +1,88 @@
+/* app/assets/css/sections/cost/cost-types.css */
+.cost-types-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-types-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-types-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.cost-types-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.cost-types-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.ct-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.ct-item:hover {
+    background: #ffffff;
+    border-color: #b45309;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(180, 83, 9, 0.08);
+}
+
+.ct-icon {
+    font-size: 28px;
+    width: 56px;
+    height: 56px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.02);
+}
+
+.ct-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.ct-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .cost-types-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .cost-types-grid {
+        grid-template-columns: 1fr;
+    }
+}

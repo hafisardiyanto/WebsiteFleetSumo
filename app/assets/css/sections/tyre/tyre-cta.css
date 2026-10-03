@@ -1,0 +1,119 @@
+/* app/assets/css/sections/tyre/tyre-cta.css */
+.tyre-cta-section {
+    position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.tyre-cta-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.tyre-cta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dark professional corporate overlay with blue highlights */
+    background: linear-gradient(90deg, rgba(15, 23, 42, 0.9) 20%, rgba(15, 23, 42, 0.7) 100%);
+    z-index: 2;
+}
+
+.tyre-cta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 3;
+}
+
+/* User wants strong negative space center-left for text */
+.tyre-cta-content {
+    max-width: 600px;
+}
+
+.tyre-cta-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 24px;
+}
+
+.tyre-cta-desc {
+    font-size: 18px;
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.tyre-cta-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    /* Blue corporate highlight */
+    color: #ffffff;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(59, 130, 246, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+@media (max-width: 768px) {
+    .tyre-cta-container {
+        padding: 0 20px;
+    }
+
+    .tyre-cta-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .tyre-cta-title {
+        font-size: 32px;
+    }
+
+    .tyre-cta-actions {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

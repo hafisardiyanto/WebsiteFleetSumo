@@ -1,0 +1,174 @@
+/* app/assets/css/sections/cost/cost-other-solutions.css */
+.cost-integration-wrapper {
+    background-color: #f1f5f9;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.cost-integration-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-integration-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.cost-integration-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+/* Hub and spoke layout via CSS positioning and Flexbox */
+.cost-integration-hub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.ci-mid-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.ci-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ci-side.left-side {
+    align-items: flex-end;
+    padding-right: 40px;
+}
+
+.ci-side.right-side {
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+/* Base box styles */
+.ci-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 16px 20px;
+    text-align: center;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.ci-box:hover {
+    transform: scale(1.05);
+    border-color: #b45309;
+}
+
+.ci-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.ci-box p {
+    font-size: 13px;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Center node emphasis */
+.center-node {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.central {
+    background: #b45309;
+    /* amber prominent */
+    border-color: #b45309;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(180, 83, 9, 0.2);
+}
+
+.central h3,
+.central p {
+    color: #ffffff;
+}
+
+/* Nodes specific spacing logic */
+.ci-node {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Flow pseudo lines using distinct blocks */
+.fleet-node {
+    flex-direction: column;
+}
+
+.report-node {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+/* Pseudo element linear connecting arrows (simplified for desktop) */
+.ci-line {
+    position: absolute;
+    background: #cbd5e1;
+    z-index: 1;
+}
+
+.diag-right {
+    width: 2px;
+    height: 40px;
+    bottom: -40px;
+    left: 50%;
+}
+
+.vertical-down {
+    width: 2px;
+    height: 40px;
+    top: -40px;
+    left: 50%;
+}
+
+@media (max-width: 900px) {
+    .ci-mid-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .ci-side {
+        width: 100%;
+        align-items: center !important;
+        padding: 0 !important;
+    }
+
+    .ci-line {
+        display: none;
+        /* Strip lines on mobile for linearity focus */
+    }
+
+    .ci-box {
+        margin-bottom: 10px;
+    }
+}

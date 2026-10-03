@@ -1,0 +1,101 @@
+/* app/assets/css/sections/maintenance/maint-industries.css */
+.maint-industries-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.maint-industries-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.maint-industries-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.maint-industries-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.maint-industries-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.maint-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.maint-industry-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.maint-industry-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+    border-color: #0369a1;
+    background-color: #ffffff;
+}
+
+.maint-industry-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.maint-industry-icon {
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maint-industry-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    transition: color 0.3s ease;
+}
+
+.maint-industry-card:hover .maint-industry-name {
+    color: #0369a1;
+}
+
+.maint-industry-arrow {
+    color: #94a3b8;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.maint-industry-card:hover .maint-industry-arrow {
+    color: #0369a1;
+    transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+    .maint-industries-grid {
+        grid-template-columns: 1fr;
+    }
+}

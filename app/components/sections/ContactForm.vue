@@ -2,9 +2,9 @@
   <section class="cta-section">
     <div class="cta-container" data-aos="zoom-in">
       <div class="cta-content">
-        <h2 class="cta-title">Siap Mengelola Armada dengan Lebih Terintegrasi?</h2>
+        <h2 class="cta-title">Siap Mengelola Armada dengan Lebih Terstruktur?</h2>
         <p class="cta-desc">
-          Temukan bagaimana FleetSumo dapat membantu perusahaan mengelola operasional armada, maintenance, penggunaan sumber daya, dan biaya dalam satu platform yang andal.
+          Kenali bagaimana FleetSumo dapat membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, dan biaya dalam satu platform.
         </p>
         <div class="cta-actions">
           <button class="btn-primary">Minta Demo</button>
@@ -12,9 +12,8 @@
         </div>
       </div>
       
-      <!-- Decorative Elements -->
-      <div class="cta-circle-top"></div>
-      <div class="cta-circle-bottom"></div>
+      <!-- Abstract Digital Background Overlay (CSS) -->
+      <div class="cta-bg-overlay"></div>
     </div>
   </section>
 </template>

@@ -1,0 +1,91 @@
+/* app/assets/css/sections/cost/cost-benefits.css */
+.cost-benefits-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-benefits-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.cost-benefits-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.cost-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cb-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.cb-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(180, 83, 9, 0.08);
+    /* amber shade hover for Cost theme */
+    border-color: #b45309;
+    background-color: #ffffff;
+}
+
+.cb-icon {
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background: #e2e8f0;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.cb-card:hover .cb-icon {
+    transform: scale(1.1);
+    background: #fffbeb;
+    /* light amber */
+}
+
+.cb-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.cb-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .cost-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .cost-benefits-grid {
+        grid-template-columns: 1fr;
+    }
+}

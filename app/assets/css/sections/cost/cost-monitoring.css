@@ -1,0 +1,273 @@
+/* app/assets/css/sections/cost/cost-monitoring.css */
+.cost-monitoring-wrapper {
+    background-color: #0f172a;
+    /* Tech/Dark tone contrasting standard white UI */
+    padding: 100px 0;
+}
+
+.cost-monitoring-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-monitoring-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.cost-monitoring-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.cost-monitoring-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* Mockup Container */
+.cost-mockup-ui {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mockup-header-bar {
+    background-color: #f1f5f9;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.dots-win {
+    display: flex;
+    gap: 8px;
+    margin-right: 20px;
+}
+
+.dots-win span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dots-win span:nth-child(1) {
+    background-color: #ef4444;
+}
+
+.dots-win span:nth-child(2) {
+    background-color: #eab308;
+}
+
+.dots-win span:nth-child(3) {
+    background-color: #22c55e;
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+    letter-spacing: 0.5px;
+    margin-right: 68px;
+    /* centering compensation */
+}
+
+.mockup-main {
+    padding: 30px;
+    background-color: #f8fafc;
+}
+
+/* Top KPI */
+.mockup-kpi-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kpi-card.highlighted {
+    border-color: #b45309;
+    box-shadow: 0 4px 15px rgba(180, 83, 9, 0.05);
+}
+
+.kpi-label {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.kpi-score {
+    font-size: 32px;
+    font-weight: 900;
+    color: #0f172a;
+}
+
+.kpi-score span {
+    font-size: 16px;
+    color: #94a3b8;
+    font-weight: 700;
+}
+
+.kpi-score.success {
+    color: #16a34a;
+}
+
+/* Mid Section */
+.mockup-mid-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+}
+
+.mockup-chart-block,
+.mockup-list-block {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.m-block-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 12px;
+}
+
+/* Simulated Chart */
+.chart-bars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 180px;
+    padding-bottom: 30px;
+    position: relative;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.bar-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.bar-fill {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    transition: height 1s ease;
+}
+
+.bar-fill.fuel {
+    background: #b45309;
+}
+
+/* amber */
+.bar-fill.maint {
+    background: #0ea5e9;
+}
+
+/* cyan */
+.bar-fill.tyre {
+    background: #64748b;
+}
+
+/* slate */
+.bar-fill.vendor {
+    background: #a8a29e;
+}
+
+/* stone */
+
+.bar-col span {
+    position: absolute;
+    bottom: -25px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+/* List Items */
+.m-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.m-list-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.m-list-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.m-list-info strong {
+    font-size: 14px;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.m-list-info span {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.badge.warn {
+    background: #fffbeb;
+    color: #b45309;
+}
+
+.badge.done {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+@media (max-width: 900px) {
+    .mockup-kpi-row {
+        grid-template-columns: 1fr;
+    }
+
+    .mockup-mid-row {
+        grid-template-columns: 1fr;
+    }
+}

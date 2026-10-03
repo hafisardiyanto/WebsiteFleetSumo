@@ -2,41 +2,36 @@
   <section class="preview-section">
     <div class="preview-container">
       <div class="preview-header" data-aos="fade-up">
-        <div class="preview-tagline">PRODUCT PREVIEW</div>
-        <h2 class="preview-title">Pantau Armada Anda dalam Satu Dashboard</h2>
+        <h2 class="preview-title">Lihat Kondisi Armada dalam Satu Dashboard</h2>
         <p class="preview-subtitle">
-          Dapatkan informasi komprehensif mengenai kondisi armada, aktivitas, jadwal maintenance, dan rasio biaya operasional secara langsung.
+          FleetSumo membantu mengubah data operasional menjadi informasi yang lebih mudah dipantau, sehingga tim dapat melihat kondisi armada, aktivitas maintenance, penggunaan sumber daya, dan biaya dalam satu tampilan.
         </p>
       </div>
 
       <!-- Highlights Bar -->
       <div class="highlights-bar" data-aos="fade-up" data-aos-delay="100">
         <div class="highlight-item">
-          <span class="highlight-icon">🚚</span>
           <div class="highlight-text">
-            <strong>Total Armada</strong>
-            <span>Visibilitas Penuh</span>
+            <span>Total Armada</span>
+            <strong>120</strong>
           </div>
         </div>
         <div class="highlight-item">
-          <span class="highlight-icon">✅</span>
           <div class="highlight-text">
-            <strong>Armada Aktif</strong>
-            <span>Status Real-time</span>
+            <span>Aktif</span>
+            <strong style="color: #22c55e;">98</strong>
           </div>
         </div>
         <div class="highlight-item">
-          <span class="highlight-icon">🔧</span>
           <div class="highlight-text">
-            <strong>Maintenance</strong>
-            <span>Jadwal Terkontrol</span>
+            <span>Maintenance</span>
+            <strong style="color: #eab308;">12</strong>
           </div>
         </div>
         <div class="highlight-item">
-          <span class="highlight-icon">📈</span>
           <div class="highlight-text">
-            <strong>Biaya Armada</strong>
-            <span>Analisis Akurat</span>
+            <span>Biaya</span>
+            <strong>Rp xxx.xxx</strong>
           </div>
         </div>
       </div>
@@ -47,6 +42,7 @@
           <div class="browser-dots">
             <span></span><span></span><span></span>
           </div>
+          <div class="browser-title">FleetSumo Platform v2.0</div>
         </div>
         <img src="/DashboardKendaraan.jpg" alt="FleetSumo Dashboard Preview" class="dashboard-img">
         

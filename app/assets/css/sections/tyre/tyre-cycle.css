@@ -1,0 +1,149 @@
+/* app/assets/css/sections/tyre/tyre-cycle.css */
+.tyre-cycle-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.tyre-cycle-container {
+    max-width: 1300px;
+    /* Wider for 7 steps */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tyre-cycle-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.tyre-cycle-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.tyre-cycle-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Horizontal Pipeline */
+.tyre-horizontal-timeline {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tyre-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.tyre-step:hover {
+    transform: translateY(-5px);
+}
+
+.tyre-step-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f1f5f9;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.tyre-step:hover .tyre-step-icon {
+    border-color: #0f172a;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.1);
+}
+
+.tyre-step-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+
+.tyre-step-desc {
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.tyre-timeline-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #cbd5e1;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.tyre-timeline-line::after {
+    content: '▶';
+    position: absolute;
+    right: -4px;
+    top: -5px;
+    font-size: 10px;
+    color: #cbd5e1;
+}
+
+@media (max-width: 1024px) {
+    .tyre-horizontal-timeline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .tyre-timeline-line {
+        display: none;
+    }
+
+    .tyre-step {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding: 20px 0;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .tyre-step:last-child {
+        border-bottom: none;
+    }
+
+    .tyre-step-icon {
+        margin-bottom: 0;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .tyre-step:not(:last-child)::after {
+        content: '▼';
+        position: absolute;
+        bottom: -15px;
+        left: 24px;
+        /* center of the 60px circle */
+        color: #cbd5e1;
+        font-size: 12px;
+    }
+}

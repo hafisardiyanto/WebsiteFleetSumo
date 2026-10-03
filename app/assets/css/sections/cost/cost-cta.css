@@ -1,0 +1,118 @@
+/* app/assets/css/sections/cost/cost-cta.css */
+.cost-cta-section {
+    position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.cost-cta-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.cost-cta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dark professional theme overlapping financial imagery */
+    background: linear-gradient(90deg, rgba(15, 23, 42, 0.95) 20%, rgba(15, 23, 42, 0.6) 100%);
+    z-index: 2;
+}
+
+.cost-cta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.cost-cta-content {
+    max-width: 600px;
+}
+
+.cost-cta-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 24px;
+}
+
+.cost-cta-desc {
+    font-size: 18px;
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.cost-cta-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-primary {
+    background-color: #b45309;
+    /* Financial amber priority logic */
+    color: #ffffff;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(180, 83, 9, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #92400e;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(180, 83, 9, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #1e293b;
+    border-color: #1e293b;
+}
+
+@media (max-width: 768px) {
+    .cost-cta-container {
+        padding: 0 20px;
+    }
+
+    .cost-cta-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .cost-cta-title {
+        font-size: 32px;
+    }
+
+    .cost-cta-actions {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

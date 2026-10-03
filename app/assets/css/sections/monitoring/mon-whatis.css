@@ -1,0 +1,128 @@
+/* app/assets/css/sections/monitoring/mon-whatis.css */
+.mon-whatis-wrapper {
+    background-color: #f1f5f9;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.mon-whatis-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mon-whatis-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mon-whatis-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mon-whatis-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.mw-horizontal-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mw-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.03);
+    transition: all 0.3s ease;
+    border-top: 4px solid #4338ca;
+    /* indigo accent */
+}
+
+.mw-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(67, 56, 202, 0.1);
+}
+
+.mw-card.accent {
+    background-color: #e0e7ff;
+    border-color: #4338ca;
+}
+
+.mw-icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.mw-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.mw-desc {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.mw-arrow {
+    font-size: 24px;
+    color: #cbd5e1;
+    font-weight: bold;
+    padding: 0 15px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+    .mw-horizontal-layout {
+        flex-direction: column;
+        align-items: stretch;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 16px;
+        padding: 40px;
+    }
+
+    .mw-arrow {
+        transform: rotate(90deg);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .mw-card {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        border-top: 1px solid #e2e8f0;
+        border-left: 4px solid #4338ca;
+        min-width: 100%;
+        box-shadow: none;
+    }
+
+    .mw-card:hover {
+        transform: translateX(5px);
+    }
+
+    .mw-icon {
+        margin: 0 20px 0 0;
+        padding-bottom: 0;
+    }
+}

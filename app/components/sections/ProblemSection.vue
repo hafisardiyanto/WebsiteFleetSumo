@@ -1,69 +1,58 @@
 <template>
-  <section class="problems-wrapper">
-    <div class="problems-container">
-      
-      <!-- Left Column: Visuals -->
-      <div class="problems-visual" data-aos="fade-right">
-        <div class="visual-card">
-          <!-- Top Floating Box -->
-          <div class="floating-box-360">
-            <span class="fb-title">360&deg;</span>
-            <span class="fb-subtitle">Kendali<br>Armada</span>
-          </div>
-
-          <!-- Main Image -->
-          <img src="/Gambar.jpg" alt="Tantangan Operasional" class="main-problem-img" />
-
-          <!-- Bottom Vision Box -->
-          <div class="vision-box">
-            <div class="vision-icon-col">
-              <div class="vision-icon-orange">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 8V4h4M4 16v4h4M20 8V4h-4M20 16v4h-4"/>
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                    <circle cx="12" cy="12" r="3" />
-                </svg>
-              </div>
-              <span class="vision-label">Visi Kami</span>
-            </div>
-            <div class="vision-text">
-              Kami percaya setiap kendaraan harus selalu siap jalan, setiap biaya dapat ditelusuri, dan setiap keputusan harus didukung data. <b>FleetSumo</b> dibangun untuk membantu perusahaan mengelola seluruh siklus armada secara lebih terintegrasi, preventif, efisien, dan terukur.
-            </div>
-          </div>
-        </div>
+  <section class="problem-section">
+    <div class="problem-container">
+      <div class="problem-header" data-aos="fade-up">
+        <h2 class="problem-title">Mengelola Banyak Armada Tidak Cukup Hanya Mengetahui Lokasinya</h2>
+        <p class="problem-subtitle">
+          Ketika jumlah kendaraan bertambah, pengelolaan armada menjadi semakin kompleks. Data kendaraan, maintenance, BBM, ban, sparepart, pengemudi, hingga biaya dapat tersebar di berbagai proses dan dokumen.
+        </p>
       </div>
 
-      <!-- Right Column: Content -->
-      <div class="problems-content" data-aos="fade-left">
-        <div class="section-tagline">
-          <span class="tagline-bullet"></span> TANTANGAN OPERASIONAL
+      <div class="problem-grid">
+        <!-- Problem 1 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="problem-icon">📑</div>
+          <h3 class="problem-card-title">Data Armada Tersebar</h3>
+          <p class="problem-card-desc">Informasi kendaraan dan riwayat operasional sulit ditemukan ketika masih dikelola secara terpisah.</p>
         </div>
-        <h2 class="problems-title">
-          Semakin Banyak Kendaraan, Semakin Sulit Biaya dan Kondisinya Dikendalikan
-        </h2>
-        <div class="title-divider"></div>
-        
-        <p class="problems-desc">
-          Saat data kendaraan, maintenance, ban, BBM, sparepart, dokumen, dan biaya tersebar di berbagai file, tim baru bereaksi setelah masalah terjadi. Akibatnya, jadwal perawatan terlewat, kendaraan mengalami downtime, stok tidak tersedia, dan pengeluaran sulit ditelusuri.
-        </p>
-        
-        <p class="problems-desc">
-          FleetSumo menyatukan seluruh proses tersebut agar risiko dapat diketahui lebih awal, biaya lebih transparan, dan keputusan operasional dapat diambil berdasarkan data yang akurat.
-        </p>
 
-        <button class="btn-black-action">
-          <div class="btn-icon-block">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 5l7 7-7 7" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M13 5l7 7-7 7" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <span class="btn-text">LIHAT CARA FLEETSUMO BEKERJA</span>
-        </button>
+        <!-- Problem 2 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="problem-icon">⏰</div>
+          <h3 class="problem-card-title">Maintenance Terlambat</h3>
+          <p class="problem-card-desc">Jadwal dan aktivitas perawatan sulit dipantau sehingga risiko kendaraan mengalami downtime dapat meningkat.</p>
+        </div>
+
+        <!-- Problem 3 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="problem-icon">💸</div>
+          <h3 class="problem-card-title">Biaya Sulit Ditelusuri</h3>
+          <p class="problem-card-desc">Pengeluaran armada sulit dikaitkan dengan kendaraan dan aktivitas yang menyebabkannya.</p>
+        </div>
+
+        <!-- Problem 4 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="problem-icon">⛽</div>
+          <h3 class="problem-card-title">Penggunaan BBM Tidak Terpantau</h3>
+          <p class="problem-card-desc">Data pengisian dan konsumsi BBM membutuhkan pencatatan yang konsisten agar dapat dianalisis.</p>
+        </div>
+
+        <!-- Problem 5 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="problem-icon">⚙️</div>
+          <h3 class="problem-card-title">Sparepart Sulit Dikontrol</h3>
+          <p class="problem-card-desc">Penggunaan sparepart perlu dikaitkan dengan aktivitas maintenance agar riwayat dan biaya lebih mudah ditelusuri.</p>
+        </div>
+
+        <!-- Problem 6 -->
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="problem-icon">⏳</div>
+          <h3 class="problem-card-title">Laporan Membutuhkan Banyak Waktu</h3>
+          <p class="problem-card-desc">Data dari berbagai aktivitas harus dikumpulkan kembali sebelum dapat digunakan untuk monitoring.</p>
+        </div>
       </div>
-
     </div>
   </section>
 </template>
 
-<style src="~/assets/css/sections/problems.css" scoped></style>
+<style src="~/assets/css/sections/problem.css" scoped></style>

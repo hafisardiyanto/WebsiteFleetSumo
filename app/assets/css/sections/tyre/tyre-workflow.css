@@ -1,0 +1,102 @@
+/* app/assets/css/sections/tyre/tyre-workflow.css */
+.tyre-workflow-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.tyre-workflow-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tyre-workflow-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.tyre-workflow-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+}
+
+.tyre-structural-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 60px 40px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.ts-node {
+    width: 100%;
+    max-width: 600px;
+}
+
+.ts-box {
+    background: #f1f5f9;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 20px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.ts-box:hover {
+    transform: scale(1.02);
+    border-color: #64748b;
+}
+
+.ts-box h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.ts-box p {
+    font-size: 15px;
+    color: #475569;
+    margin: 0;
+}
+
+/* Secondary styled nodes pointing back to other modules */
+.ts-box.accent {
+    background: #e2e8f0;
+    border-color: #94a3b8;
+}
+
+/* Final action node */
+.ts-box.highlight-box {
+    background: #0f172a;
+    border-color: #0f172a;
+}
+
+.ts-box.highlight-box h3 {
+    color: #ffffff;
+}
+
+.ts-box.highlight-box p {
+    color: #cbd5e1;
+}
+
+.ts-arrow {
+    font-size: 24px;
+    color: #94a3b8;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .tyre-structural-diagram {
+        padding: 40px 20px;
+    }
+}

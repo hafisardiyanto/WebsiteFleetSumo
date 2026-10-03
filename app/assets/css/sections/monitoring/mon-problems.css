@@ -1,0 +1,100 @@
+/* app/assets/css/sections/monitoring/mon-problems.css */
+.mon-problems-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.mon-problems-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mon-problems-header {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 60px auto;
+}
+
+.mon-problems-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 24px;
+}
+
+.mon-problems-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mon-problems-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+
+.mp-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.03);
+    display: flex;
+    flex-direction: column;
+}
+
+.mp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(67, 56, 202, 0.08);
+    /* indigo shadow tint */
+    border-color: #4338ca;
+}
+
+.mp-icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    background-color: #e0e7ff;
+    /* indigo light */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.mp-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.mp-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .mon-problems-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .mon-problems-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mon-problems-title {
+        font-size: 28px;
+    }
+}

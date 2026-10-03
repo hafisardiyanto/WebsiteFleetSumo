@@ -1,0 +1,112 @@
+/* app/assets/css/sections/tyre/tyre-problems.css */
+.tyre-problems-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.tyre-problems-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tyre-problems-header {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+}
+
+.tyre-problems-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 24px;
+}
+
+.tyre-problems-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.tyre-problems-grid {
+    display: grid;
+    /* User specified 5 cards. A 3-top, 2-bottom layout creates aesthetic balance */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-content: center;
+}
+
+.tyre-problems-grid .tyre-prob-card:nth-child(4) {
+    grid-column: 1 / 2;
+    margin-left: 50%;
+}
+
+.tyre-problems-grid .tyre-prob-card:nth-child(5) {
+    grid-column: 2 / 3;
+    margin-left: 50%;
+}
+
+.tyre-prob-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.03);
+}
+
+.tyre-prob-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(51, 65, 85, 0.1);
+    border-color: #64748b;
+}
+
+.tyre-prob-icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    background-color: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.tyre-prob-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.tyre-prob-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .tyre-problems-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tyre-problems-grid .tyre-prob-card:nth-child(4),
+    .tyre-problems-grid .tyre-prob-card:nth-child(5) {
+        grid-column: auto;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .tyre-problems-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tyre-problems-title {
+        font-size: 28px;
+    }
+}

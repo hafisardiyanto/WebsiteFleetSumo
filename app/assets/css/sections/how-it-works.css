@@ -2,154 +2,121 @@
 .how-it-works-section {
     background-color: #ffffff;
     padding: 100px 0;
-    position: relative;
 }
 
-.how-container {
+.hiw-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.how-header {
+.hiw-header {
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto 60px auto;
 }
 
-.how-tagline {
-    font-size: 14px;
-    font-weight: 800;
-    color: #f97316;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.how-title {
+.hiw-title {
     font-size: 38px;
     font-weight: 800;
     color: #0f172a;
     line-height: 1.25;
-    margin-bottom: 16px;
 }
 
-.how-subtitle {
-    font-size: 16px;
-    color: #64748b;
-    line-height: 1.6;
-    margin: 0;
-}
-
-/* Steps Flow Grid */
-.steps-flow {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+.hiw-timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.step-card {
-    background-color: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 16px;
-    padding: 32px 24px;
-    position: relative;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.hiw-step {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    padding: 0 10px;
 }
 
-.step-card:hover {
-    transform: translateY(-8px);
-    background-color: #ffffff;
-    border-color: #f97316;
-    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.12);
-}
-
-.step-badge {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 20px;
+.hiw-step-number {
+    width: 64px;
+    height: 64px;
+    background-color: #0f172a;
+    color: #ffffff;
+    font-size: 24px;
     font-weight: 900;
-    color: #cbd5e1;
-    transition: color 0.3s ease;
-}
-
-.step-card:hover .step-badge {
-    color: #f97316;
-}
-
-.step-icon-wrapper {
-    width: 52px;
-    height: 52px;
-    background-color: #fff7ed;
-    color: #f97316;
-    border-radius: 12px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
-    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2);
+    border: 4px solid #ffffff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.step-card:hover .step-icon-wrapper {
+.hiw-step:hover .hiw-step-number {
+    transform: scale(1.1);
     background-color: #f97316;
-    color: #ffffff;
-    transform: scale(1.05);
 }
 
-.step-title {
-    font-size: 22px;
+.hiw-step-title {
+    font-size: 20px;
     font-weight: 800;
     color: #0f172a;
     margin-bottom: 12px;
 }
 
-.step-desc {
+.hiw-step-desc {
     font-size: 14px;
     color: #64748b;
     line-height: 1.6;
-    margin: 0;
 }
 
-.step-arrow {
+.hiw-connector {
+    flex: 0.5;
+    height: 2px;
+    background: linear-gradient(90deg, #e2e8f0 0%, #cbd5e1 50%, #e2e8f0 100%);
+    margin-top: 32px;
+    position: relative;
+}
+
+.hiw-connector::after {
+    content: '▶';
     position: absolute;
-    right: -16px;
     top: 50%;
-    transform: translateY(-50%);
-    width: 32px;
-    height: 32px;
-    background-color: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f97316;
-    font-weight: 700;
-    z-index: 2;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cbd5e1;
+    font-size: 14px;
 }
 
-@media (max-width: 992px) {
-    .steps-flow {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 32px;
+@media (max-width: 768px) {
+    .hiw-timeline {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .step-arrow {
-        display: none;
-    }
-}
-
-@media (max-width: 640px) {
-    .steps-flow {
-        grid-template-columns: 1fr;
+    .hiw-connector {
+        width: 2px;
+        height: 40px;
+        margin: 10px 0;
+        background: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 50%, #e2e8f0 100%);
     }
 
-    .how-title {
-        font-size: 28px;
+    .hiw-connector::after {
+        content: '▼';
+        top: 50%;
+        left: unset;
+        right: -6px;
+        transform: translateY(-50%);
+    }
+
+    .hiw-step {
+        margin-bottom: 20px;
     }
 }

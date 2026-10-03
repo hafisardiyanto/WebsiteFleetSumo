@@ -1,0 +1,205 @@
+/* app/assets/css/sections/tyre/tyre-hero.css */
+.tyre-hero-wrapper {
+    position: relative;
+    padding: 160px 0 100px;
+    background-color: #f8fafc;
+    overflow: hidden;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.tyre-hero-bg-accent {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    filter: blur(140px);
+    z-index: 0;
+    opacity: 0.15;
+}
+
+/* Rubber/Slate structural tone for Tyre theme */
+.top-accent {
+    background-color: #64748b;
+    /* slate */
+    top: -200px;
+    left: -100px;
+}
+
+.bottom-accent {
+    background-color: #0369a1;
+    /* mechanical blue */
+    bottom: -150px;
+    right: -200px;
+}
+
+.tyre-hero-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.tyre-hero-content {
+    flex: 1.1;
+    max-width: 650px;
+}
+
+.tyre-hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e2e8f0;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(51, 65, 85, 0.2);
+}
+
+.tyre-hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+    margin-bottom: 24px;
+}
+
+.tyre-hero-title .highlight {
+    color: #334155;
+    position: relative;
+}
+
+.tyre-hero-title .highlight::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 8px;
+    background-color: rgba(51, 65, 85, 0.2);
+    z-index: -1;
+}
+
+.tyre-hero-subtitle {
+    font-size: 18px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.tyre-hero-actions {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.btn-primary {
+    background-color: #334155;
+    color: #ffffff;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(51, 65, 85, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #334155;
+    border: 2px solid #334155;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e2e8f0;
+}
+
+.tyre-hero-visual {
+    flex: 1;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(15, 23, 42, 0.15);
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.tyre-hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    display: block;
+}
+
+.image-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background: #64748b;
+    filter: blur(80px);
+    opacity: 0.15;
+    z-index: -1;
+}
+
+@media (max-width: 1024px) {
+    .tyre-hero-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .tyre-hero-content {
+        margin: 0 auto;
+    }
+
+    .tyre-hero-title {
+        font-size: 40px;
+    }
+
+    .tyre-hero-actions {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .tyre-hero-wrapper {
+        padding: 120px 0 60px;
+    }
+
+    .tyre-hero-title {
+        font-size: 34px;
+    }
+
+    .tyre-hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,97 @@
+/* app/assets/css/sections/cost/cost-industries.css */
+.cost-industries-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-industries-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-industries-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.cost-industries-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.cost-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cost-industry-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px 30px;
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cost-industry-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 25px rgba(180, 83, 9, 0.05);
+    /* amber highlight tint */
+    border-color: #b45309;
+    background-color: #ffffff;
+}
+
+.cost-industry-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cost-industry-icon {
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 6px rgba(15, 23, 42, 0.02);
+}
+
+.cost-industry-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cost-industry-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+    transition: color 0.3s ease;
+}
+
+.cost-industry-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+.cost-industry-card:hover .cost-industry-name {
+    color: #b45309;
+}
+
+@media (max-width: 768px) {
+    .cost-industries-grid {
+        grid-template-columns: 1fr;
+    }
+}

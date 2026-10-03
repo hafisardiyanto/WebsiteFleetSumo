@@ -1,0 +1,189 @@
+/* app/assets/css/sections/monitoring/mon-architecture.css */
+.mon-arch-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.mon-arch-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mon-arch-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.mon-arch-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mon-arch-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Flexbox visual logic for bracket structure */
+.mon-arch-diagram {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+    padding: 60px 40px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(15, 23, 42, 0.05);
+}
+
+.ma-sources {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1.5;
+    position: relative;
+    padding-right: 60px;
+    /* Space for bracket */
+}
+
+.ma-node {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 16px 20px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.ma-node:hover {
+    border-color: #4f46e5;
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.1);
+    transform: translateX(5px);
+}
+
+.ma-node h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.ma-node p {
+    font-size: 13px;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Pseudo element branches */
+.ma-line.horizontal-right {
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #94a3b8;
+    right: -60px;
+    top: 50%;
+    z-index: 1;
+}
+
+/* The vertical connecting rod */
+.ma-bracket-rod {
+    position: absolute;
+    width: 2px;
+    background-color: #94a3b8;
+    right: 0px;
+    top: 40px;
+    /* offset to center first box */
+    bottom: 40px;
+    /* offset to center last box */
+    z-index: 1;
+}
+
+.ma-target {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ma-target-line {
+    font-size: 32px;
+    color: #94a3b8;
+    margin-right: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: -24px;
+    z-index: 3;
+}
+
+.ma-target-box {
+    background: #4f46e5;
+    /* indigo focus */
+    border-radius: 12px;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.ma-target-box:hover {
+    transform: scale(1.03);
+    background: #4338ca;
+}
+
+.ma-target-box h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.ma-target-box p {
+    font-size: 14.5px;
+    color: #e0e7ff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+@media (max-width: 900px) {
+    .mon-arch-diagram {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .ma-sources {
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .ma-bracket-rod,
+    .ma-line.horizontal-right {
+        display: none;
+        /* simplifies layout on mobile */
+    }
+
+    .ma-node {
+        border-bottom: 2px solid #e2e8f0;
+    }
+
+    .ma-target-line {
+        transform: rotate(90deg);
+        left: 50%;
+        top: -45px;
+        margin-left: -16px;
+    }
+
+    .ma-target {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

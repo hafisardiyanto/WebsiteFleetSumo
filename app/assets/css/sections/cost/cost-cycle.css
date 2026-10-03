@@ -1,0 +1,116 @@
+/* app/assets/css/sections/cost/cost-cycle.css */
+.cost-cycle-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.cost-cycle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cost-cycle-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.cost-cycle-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.cost-cycle-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.cost-sg-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    /* Spacing between flex items */
+}
+
+/* Because there are 8 items, let's flex them equally 4 on top, 4 on bottom if on desktop */
+.cc-step {
+    flex: 0 0 calc(25% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.cc-icon {
+    width: 56px;
+    height: 56px;
+    background-color: #f8fafc;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+.cc-step:hover .cc-icon {
+    transform: scale(1.1);
+    border-color: #b45309;
+    background-color: #fef9c3;
+}
+
+.cc-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.cc-desc {
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Arrow logic between flexing elements */
+.cc-arrow {
+    display: none;
+    /* Hide default arrow since flex wrapping breaks linear arrows */
+}
+
+@media (max-width: 1024px) {
+    .cc-step {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 640px) {
+    .cc-step {
+        flex: 0 0 100%;
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        border-bottom: 1px solid #f1f5f9;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+
+    .cc-icon {
+        margin-bottom: 0;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+}
