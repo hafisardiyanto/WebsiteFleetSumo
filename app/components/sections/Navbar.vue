@@ -25,8 +25,8 @@
         <div class="nav-item has-dropdown">
           <a href="#" class="nav-link">Fitur <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
-            <a href="#">Fleet & Vehicle</a>
-            <a href="#">Driver Management</a>
+            <a href="/fitur/fleet-vehicle">Fleet & Vehicle</a>
+            <a href="/fitur/driver-management">Driver Management</a>
             <a href="#">Maintenance</a>
             <a href="#">Fuel</a>
             <a href="#">Tyre</a>

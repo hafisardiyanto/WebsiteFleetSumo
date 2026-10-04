@@ -1,0 +1,161 @@
+/* app/assets/css/sections/driver-management/dm-hero.css */
+.dm-hero-wrapper {
+    position: relative;
+    padding: 140px 0 100px 0;
+    overflow: hidden;
+    background: #0f172a;
+}
+
+.dm-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dm-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dm-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Gradient overlay for AI vs UI balance */
+    background: linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.7));
+}
+
+.relative-content {
+    position: relative;
+    z-index: 2;
+}
+
+.dm-hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.dm-hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-label {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #93c5fd;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+    backdrop-filter: blur(4px);
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+}
+
+.highlight {
+    color: #93c5fd;
+}
+
+.hero-subtitle {
+    font-size: 17px;
+    color: #e2e8f0;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-primary {
+    background: #1a56db;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary-white {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+}
+
+.dm-hero-visual {
+    flex: 1;
+}
+
+.hero-mockup {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: -20px 30px 60px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .dm-hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dm-hero-content {
+        max-width: 800px;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .dm-bg-overlay {
+        background: linear-gradient(to bottom, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.7));
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+    }
+}

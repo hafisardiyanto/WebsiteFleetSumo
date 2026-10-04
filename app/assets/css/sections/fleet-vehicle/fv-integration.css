@@ -1,0 +1,150 @@
+/* app/assets/css/sections/fleet-vehicle/fv-integration.css */
+.fv-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fv-inte-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fvi-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fvi-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fvi-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fvi-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    width: 100%;
+}
+
+.fvi-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.fvi-box {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 13.5px;
+    font-weight: 800;
+    color: #475569;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.fvi-box.module {
+    flex: 1;
+    min-width: 120px;
+}
+
+.fvi-box.core {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    flex: none;
+}
+
+.fvi-box.final {
+    color: #1a56db;
+    background: #eff6ff;
+}
+
+.fvi-connectors {
+    position: relative;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-con {
+    margin-bottom: 0;
+}
+
+.btm-con {
+    margin-top: 0;
+}
+
+.fvi-line-h {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.fvi-stem {
+    width: 2px;
+    height: 40px;
+    background: #94a3b8;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.top-con .fvi-stem {
+    height: 50%;
+    top: 50%;
+}
+
+.btm-con .fvi-stem {
+    height: 50%;
+    top: 0;
+}
+
+@media (max-width: 768px) {
+    .fvi-diagram {
+        padding: 30px 15px;
+    }
+
+    .fvi-box.module {
+        width: calc(50% - 7.5px);
+        flex: none;
+    }
+
+    .fvi-connectors {
+        display: none;
+    }
+
+    .fvi-row.center-node {
+        margin: 30px 0;
+    }
+}

@@ -1,0 +1,215 @@
+/* app/assets/css/sections/driver-management/dm-definition.css */
+.dm-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.dm-def-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.dmd-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.dmd-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.dmd-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.dmd-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.dmd-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dmd-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    z-index: 2;
+    letter-spacing: 1px;
+}
+
+.dmd-box.core {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+    font-size: 16px;
+    padding: 16px 36px;
+    min-width: 220px;
+}
+
+.dmd-box.split {
+    min-width: 160px;
+    margin: 0 20px;
+}
+
+.dmd-box.node {
+    min-width: 180px;
+}
+
+.dmd-box.end {
+    background: #f1f5f9;
+    border-style: dashed;
+    border-color: #94a3b8;
+    color: #475569;
+}
+
+.dmd-stem-down {
+    width: 2px;
+    height: 35px;
+    background: #94a3b8;
+}
+
+.dmd-stem-down-mid {
+    width: 2px;
+    height: 35px;
+    background: #94a3b8;
+    margin-top: -2px;
+    /* Fix gap */
+}
+
+.connect-line,
+.join-line {
+    position: relative;
+    height: 25px;
+    width: 440px;
+    /* span between Data Driver and Kendaraan */
+}
+
+.dmd-line-h {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.dmd-line-h-join {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #94a3b8;
+}
+
+.dmd-stem-node {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #94a3b8;
+}
+
+.connect-line .dmd-stem-node {
+    top: 0;
+}
+
+.join-line .dmd-stem-node {
+    bottom: 0;
+}
+
+.dmd-stem-node.left {
+    left: 0;
+}
+
+.dmd-stem-node.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dmd-stem-node.right {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .dmd-row.splits {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .connect-line,
+    .join-line {
+        display: none;
+    }
+
+    .dmd-box.split {
+        position: relative;
+        margin: 0;
+    }
+
+    .dmd-box.split::before {
+        content: '';
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        width: 2px;
+        height: 25px;
+        background: #94a3b8;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    /* Override for the first split so we dont duplicate stems */
+    .dmd-box.split:first-child::before {
+        display: none;
+    }
+
+    .dmd-stem-down-mid {
+        display: none;
+    }
+
+    .dmd-row:has(.dmd-box.node) {
+        position: relative;
+        margin-top: 25px;
+    }
+
+    .dmd-row:has(.dmd-box.node)::before {
+        content: '';
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        width: 2px;
+        height: 25px;
+        background: #94a3b8;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .dmd-stem-down {
+        height: 25px;
+    }
+}

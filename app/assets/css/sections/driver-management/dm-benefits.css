@@ -1,0 +1,76 @@
+/* app/assets/css/sections/driver-management/dm-benefits.css */
+.dm-benefits-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+}
+
+.dm-benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.dmb-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.dmb-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.dmb-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.dmb-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.dmb-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    border-color: #1a56db;
+}
+
+.dmb-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dmb-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.dmb-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .dmb-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .dmb-grid {
+        grid-template-columns: 1fr;
+    }
+}

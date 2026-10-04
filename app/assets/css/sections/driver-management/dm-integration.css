@@ -1,0 +1,91 @@
+/* app/assets/css/sections/driver-management/dm-integration.css */
+.dm-inte-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.dm-inte-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.dmi-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.dmi-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.dmi-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.dmi-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dmi-row.flex-row {
+    gap: 15px;
+}
+
+.dmi-box.core {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #475569;
+    text-align: center;
+    min-width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.dmi-box.core.split {
+    min-width: 132.5px;
+}
+
+.dmi-box.highlight {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+    font-size: 16px;
+    padding: 16px 40px;
+}
+
+.dmi-box.final {
+    color: #1a56db;
+    background: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.dmi-arrow {
+    color: #94a3b8;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .dmi-box.core {
+        min-width: 100%;
+    }
+}

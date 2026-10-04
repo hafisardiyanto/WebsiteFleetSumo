@@ -1,0 +1,106 @@
+/* app/assets/css/sections/driver-management/dm-monitoring.css */
+.dm-monitor-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.dm-monitor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.dmm-m-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.dmm-m-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.dmm-m-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.dmm-m-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.dmm-m-point {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.dmm-m-point h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.dmm-m-point h4::before {
+    content: '→';
+    color: #1a56db;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 16px;
+}
+
+.dmm-m-point p {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 18px;
+}
+
+.dmm-m-visual {
+    display: flex;
+    justify-content: center;
+}
+
+.dmm-m-mockup {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+    width: 100%;
+}
+
+.dmm-m-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+}
+
+@media (max-width: 900px) {
+    .dmm-m-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .dmm-m-grid {
+        grid-template-columns: 1fr;
+    }
+}

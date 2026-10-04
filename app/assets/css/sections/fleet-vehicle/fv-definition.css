@@ -1,0 +1,162 @@
+/* app/assets/css/sections/fleet-vehicle/fv-definition.css */
+.fv-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fv-def-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fvd-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fvd-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fvd-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fvd-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.fvd-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.fvd-row.middle-cross {
+    justify-content: center;
+    position: relative;
+}
+
+.fvd-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    z-index: 2;
+    letter-spacing: 1px;
+}
+
+.fvd-box.node {
+    min-width: 160px;
+}
+
+.fvd-box.core {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+    font-size: 16px;
+    padding: 16px 36px;
+    min-width: 220px;
+}
+
+.fvd-box.end {
+    background: #f1f5f9;
+    border-style: dashed;
+}
+
+.fvd-stem {
+    width: 2px;
+    height: 35px;
+    background: #94a3b8;
+}
+
+.fvd-con-h {
+    height: 2px;
+    width: 40px;
+    background: #94a3b8;
+    z-index: 1;
+}
+
+.fvd-desc {
+    margin-top: 40px;
+    font-size: 14.5px;
+    color: #64748b;
+    font-weight: 600;
+    text-align: center;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .fvd-row.middle-cross {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fvd-con-h {
+        display: none;
+    }
+
+    /* Mobile pseudo-connecting lines */
+    .fvd-row.middle-cross {
+        gap: 0;
+    }
+
+    .fvd-row.middle-cross .side-l {
+        margin-bottom: 0px;
+    }
+
+    .fvd-row.middle-cross .core {
+        margin: 35px 0;
+        position: relative;
+    }
+
+    .fvd-row.middle-cross .core::before {
+        content: '';
+        position: absolute;
+        top: -35px;
+        left: 50%;
+        width: 2px;
+        height: 35px;
+        background: #94a3b8;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .fvd-row.middle-cross .core::after {
+        content: '';
+        position: absolute;
+        bottom: -35px;
+        left: 50%;
+        width: 2px;
+        height: 35px;
+        background: #94a3b8;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .fvd-row.middle-cross .side-r {
+        margin-top: 0px;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,87 @@
+/* app/assets/css/sections/driver-management/dm-workflow.css */
+.dm-workflow-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.dm-workflow-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.dmw-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.dmw-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.dmw-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.dmw-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+}
+
+.dmw-num {
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.dmw-num.final {
+    border-color: #1a56db;
+    background: #1a56db;
+    color: #fff;
+}
+
+.dmw-item h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.dmw-item p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.dmw-arrow {
+    color: #94a3b8;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 15px 0;
+}
