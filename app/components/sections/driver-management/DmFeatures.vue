@@ -32,10 +32,10 @@
          </div>
 
          <div class="dmf-item" data-aos="fade-up" data-aos-delay="160">
-            <span class="dmf-icon">🚚</span>
+            <span class="dmf-icon">📋</span>
             <div>
-               <h4>Vehicle Relation</h4>
-               <p>Hubungkan pengemudi dengan kendaraan sesuai data yang tersedia.</p>
+               <h4>Supporting Information</h4>
+               <p>Kelola informasi dan data pendukung kualifikasi pengemudi.</p>
             </div>
          </div>
 

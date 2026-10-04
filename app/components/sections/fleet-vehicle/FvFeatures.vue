@@ -40,10 +40,10 @@
          </div>
 
          <div class="fvf-item" data-aos="fade-up" data-aos-delay="180">
-            <span class="fvf-icon">🤝</span>
+            <span class="fvf-icon">👤</span>
             <div>
-               <h4>Driver Relation</h4>
-               <p>Hubungkan kendaraan dengan pengemudi yang terkait.</p>
+               <h4>Driver Assignment</h4>
+               <p>Tentukan pengemudi yang bertugas langsung dari profil kendaraan.</p>
             </div>
          </div>
 

@@ -23,8 +23,8 @@
          
          <div class="dmw-item">
             <div class="dmw-num">03</div>
-            <h3>HUBUNGKAN</h3>
-            <p>Hubungkan dengan kendaraan atau informasi operasional.</p>
+            <h3>KELENGKAPAN DATA</h3>
+            <p>Kelola dokumen dan informasi pendukung pengemudi.</p>
          </div>
          <div class="dmw-arrow">↓</div>
          

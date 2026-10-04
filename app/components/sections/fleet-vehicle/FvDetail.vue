@@ -10,20 +10,24 @@
             
             <div class="fvdd-points">
                 <div class="fvdd-point">
-                    <h4>Identitas Kendaraan</h4>
-                    <p>Informasi utama kendaraan tersedia dalam satu tampilan.</p>
+                    <h4>Data Kendaraan</h4>
+                    <p>Informasi dan identitas utama kendaraan tersedia dalam satu tampilan.</p>
                 </div>
                 <div class="fvdd-point">
                     <h4>Status</h4>
-                    <p>Lihat status kendaraan berdasarkan data yang tercatat.</p>
+                    <p>Lihat status kendaraan terkini.</p>
                 </div>
                 <div class="fvdd-point">
-                    <h4>Informasi Pendukung</h4>
-                    <p>Akses informasi lain yang berkaitan dengan kendaraan.</p>
+                    <h4>Driver</h4>
+                    <p>Informasi pengemudi yang ditugaskan pada kendaraan.</p>
+                </div>
+                <div class="fvdd-point">
+                    <h4>Dokumen</h4>
+                    <p>Akses informasi dokumen yang berkaitan dengan kendaraan.</p>
                 </div>
                 <div class="fvdd-point">
                     <h4>Riwayat</h4>
-                    <p>Telusuri aktivitas kendaraan yang tersedia.</p>
+                    <p>Telusuri seluruh aktivitas yang pernah dilakukan kendaraan.</p>
                 </div>
             </div>
         </div>

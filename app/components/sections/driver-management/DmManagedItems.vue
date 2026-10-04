@@ -25,9 +25,9 @@
          </div>
 
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="250">
-            <div class="dmm-icon">🚚</div>
-            <h3>04 Kendaraan</h3>
-            <p>Hubungkan informasi pengemudi dengan kendaraan yang digunakan dalam operasional.</p>
+            <div class="dmm-icon">📋</div>
+            <h3>04 Informasi Pendukung</h3>
+            <p>Lengkapi profil pengemudi dengan data administratif atau kualifikasi tambahan.</p>
          </div>
 
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="300">

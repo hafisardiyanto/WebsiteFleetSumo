@@ -33,8 +33,8 @@
 
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="300">
             <div class="fvm-icon">👤</div>
-            <h3>05 — Pengemudi</h3>
-            <p>Hubungkan kendaraan dengan informasi pengemudi yang berkaitan.</p>
+            <h3>05 — Pengemudi pada Kendaraan</h3>
+            <p>Dari halaman detail kendaraan, pengguna dapat menentukan pengemudi yang terkait dengan kendaraan tersebut.</p>
          </div>
 
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="350">
