@@ -11,25 +11,31 @@
          <div class="fp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="fp-icon">🗄️</div>
             <h3>01 — Data Kendaraan Tersebar</h3>
-            <p>Informasi kendaraan, spesifikasi, dokumen, status, dan riwayat dapat tersebar di berbagai pencatatan.</p>
+            <p>Informasi fisik kendaraan dan dokumen STNK maupun BPKB belum terpusat secara rapi di satu database.</p>
          </div>
 
          <div class="fp-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="fp-icon">🚐</div>
-            <h3>02 — Status Armada Sulit Dipantau</h3>
-            <p>Perusahaan membutuhkan informasi yang jelas mengenai kondisi dan status kendaraan yang sedang digunakan maupun tersedia.</p>
+            <div class="fp-icon">📍</div>
+            <h3>02 — Status Kendaraan Sulit Dipantau</h3>
+            <p>Kesulitan memeriksa secara presisi mana unit yang sedang aktif, siaga, atau dalam masa perbaikan.</p>
          </div>
 
          <div class="fp-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="fp-icon">⏳</div>
-            <h3>03 — Riwayat Kendaraan Sulit Ditelusuri</h3>
-            <p>Berbagai aktivitas kendaraan perlu terdokumentasi agar informasi historis dapat digunakan kembali ketika dibutuhkan.</p>
+            <div class="fp-icon">👥</div>
+            <h3>03 — Assignment Tidak Terdokumentasi Baik</h3>
+            <p>Kurangnya pencatatan log kronologis saat serah terima kendaraan kepada pengemudi dari hari ke hari.</p>
          </div>
 
          <div class="fp-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="fp-icon">⏳</div>
+            <h3>04 — Riwayat Kendaraan Sulit Ditelusuri</h3>
+            <p>Sangat repot menarik catatan historis aktivitas mekanik dan kejadian selama kendaraan beroperasi.</p>
+         </div>
+
+         <div class="fp-card" data-aos="fade-up" data-aos-delay="500">
             <div class="fp-icon">🖥️</div>
-            <h3>04 — Informasi Armada Tidak Terpusat</h3>
-            <p>Data kendaraan dan informasi pendukung perlu berada dalam satu sistem agar lebih mudah diakses dan dikelola.</p>
+            <h3>05 — Info Operasional Terpisah dari Sistem Utama</h3>
+            <p>Data penggunaan BBM hingga laporan teknis tercerai berai di luar sistem manajemen operasional perusahaan, menjadikan pengawasan buram.</p>
          </div>
       </div>
     </div>

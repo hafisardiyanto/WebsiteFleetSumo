@@ -34,7 +34,7 @@
         <!-- Right Visual (LaporanKendaraan.png real proof) -->
         <div class="rv-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="rv-mockup">
-                <img src="/LaporanKendaraan.png" alt="FleetSumo Laporan Kendaraan Real" class="rv-img" />
+                <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Laporan Kendaraan Real" class="rv-img" />
             </div>
         </div>
 

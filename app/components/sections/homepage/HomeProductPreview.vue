@@ -6,41 +6,43 @@
         <p class="product-subtitle">Satu platform untuk memantau kendaraan, maintenance, BBM, ban, biaya, dan aktivitas operasional armada.</p>
       </div>
 
-      <div class="product-layout" data-aos="fade-up" data-aos-delay="100">
-        <!-- HUGE SCREENSHOT WRAPPER -->
-        <div class="pv-mockup">
-            <!-- Full Width Product Demo -->
-            <img src="/LaporanKendaraan.png" alt="FleetSumo Product Dashboard" class="pv-img" />
-            
-            <div class="pv-dot d1"></div>
-            <div class="pv-dot d2"></div>
-            <div class="pv-dot d3"></div>
+      <div class="product-layout" data-aos="fade-up" data-aos-delay="100" style="display:flex; flex-direction:column; gap:4rem; margin-top:3rem;">
+        
+        <!-- Fleet & Vehicle -->
+        <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px;">Fleet & Vehicle</h3>
+            <p style="color:#64748b; margin-bottom:20px;">Lihat seluruh informasi kendaraan dalam satu halaman.</p>
+            <div class="pv-mockup" style="max-width:900px; margin:0 auto;"><img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="Fleet & Vehicle" class="pv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" /></div>
         </div>
 
-        <!-- 4 Sub Sections placed below as requested -->
-        <div class="product-details-bottom">
-           
-           <div class="pd-item">
-              <h4>Fleet Monitoring</h4>
-              <p>Pantau informasi dan status kendaraan dalam satu tampilan.</p>
-           </div>
-
-           <div class="pd-item">
-              <h4>Maintenance</h4>
-              <p>Kelola proses maintenance dan riwayat kendaraan secara terstruktur.</p>
-           </div>
-
-           <div class="pd-item">
-              <h4>Cost Control</h4>
-              <p>Telusuri biaya kendaraan dan aktivitas operasional.</p>
-           </div>
-
-           <div class="pd-item">
-              <h4>Reporting</h4>
-              <p>Gunakan dashboard dan laporan untuk monitoring dan evaluasi.</p>
-           </div>
-
+        <!-- Driver Management -->
+        <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px;">Driver Management</h3>
+            <p style="color:#64748b; margin-bottom:20px;">Kelola data pengemudi dan assignment kendaraan.</p>
+            <div class="pv-mockup" style="max-width:900px; margin:0 auto;"><img src="/assets/fitur/driver-management/driver-list.png" alt="Driver Management" class="pv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" /></div>
         </div>
+
+        <!-- Maintenance -->
+        <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px;">Maintenance</h3>
+            <p style="color:#64748b; margin-bottom:20px;">Pantau histori dan proses maintenance kendaraan.</p>
+            <div class="pv-mockup" style="max-width:900px; margin:0 auto;"><img src="/assets/fitur/maintenance/maintenance-history.png" alt="Maintenance" class="pv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" /></div>
+        </div>
+
+        <!-- Fuel -->
+        <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px;">Fuel</h3>
+            <p style="color:#64748b; margin-bottom:20px;">Catat dan pantau aktivitas BBM kendaraan.</p>
+            <div class="pv-mockup" style="max-width:900px; margin:0 auto;"><img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Fuel" class="pv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" /></div>
+        </div>
+
+        <!-- Vehicle Report -->
+        <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px;">Vehicle Report</h3>
+            <p style="color:#64748b; margin-bottom:20px;">Bandingkan total biaya kendaraan dan tren biaya bulanan.</p>
+            <div class="pv-mockup" style="max-width:900px; margin:0 auto;"><img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Vehicle Report" class="pv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" /></div>
+        </div>
+
       </div>
     </div>
   </section>

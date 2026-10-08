@@ -4,7 +4,7 @@
       <div class="mon-arch-header" data-aos="fade-up">
         <h2 class="mon-arch-title">Satukan Data Operasional Armada</h2>
         <p class="mon-arch-subtitle">
-          Lihat armada dari berbagai sudut dalam satu ekosistem. FleetSumo dapat menghubungkan seluruh informasi dari aktivitas fungsional.
+          Lihat armada dari berbagSistem sudut dalam satu ekosistem. FleetSumo dapat menghubungkan seluruh informasi dari aktivitas fungsional.
         </p>
       </div>
 

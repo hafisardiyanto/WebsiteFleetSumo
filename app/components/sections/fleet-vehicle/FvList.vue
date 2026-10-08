@@ -10,7 +10,7 @@
       <!-- Screenshot layout -->
       <div class="fvl-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">
          <div class="fvl-mockup">
-             <img src="/LaporanKendaraan.png" alt="Daftar Kendaraan FleetSumo" class="fvl-img" />
+             <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Daftar Kendaraan FleetSumo" class="fvl-img" />
          </div>
       </div>
 

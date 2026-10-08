@@ -4,7 +4,7 @@
       <div class="maint-other-header" data-aos="fade-up">
         <h2 class="maint-other-title">Maintenance Terhubung dengan Pengelolaan Armada</h2>
         <p class="maint-other-subtitle">
-          Aktivitas maintenance dapat berkaitan dengan berbagai aspek armada lainnya. FleetSumo membantu menghubungkan informasi tersebut sehingga aktivitas perawatan dapat dikelola sebagai bagian dari keseluruhan operasional armada.
+          Aktivitas maintenance dapat berkaitan dengan berbagSistem aspek armada lainnya. FleetSumo membantu menghubungkan informasi tersebut sehingga aktivitas perawatan dapat dikelola sebagSistem bagian dari keseluruhan operasional armada.
         </p>
       </div>
 
@@ -24,7 +24,7 @@
             <h3 class="other-solution-title">Sparepart</h3>
             <p class="other-solution-desc">Kebutuhan dan penggunaan sparepart dapat dikaitkan dengan maintenance.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Sparepart &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Sparepart &rarr;</a>
         </div>
 
         <!-- Solution 3 -->
@@ -33,7 +33,7 @@
             <h3 class="other-solution-title">Vendor</h3>
             <p class="other-solution-desc">Pekerjaan tertentu dapat melibatkan vendor atau workshop.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Vendor &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Vendor &rarr;</a>
         </div>
 
         <!-- Solution 4 -->
@@ -42,7 +42,7 @@
             <h3 class="other-solution-title">Cost Management</h3>
             <p class="other-solution-desc">Biaya yang muncul dari maintenance dapat dicatat dan dipantau.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Cost Management &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Cost Management &rarr;</a>
         </div>
       </div>
     </div>

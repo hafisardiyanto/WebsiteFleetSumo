@@ -1,13 +1,13 @@
 <template>
   <section class="dm-industries-wrapper">
     <div class="dm-industries-visual">
-       <img src="/Visualindustri.jpg" alt="Fleet Industrial Uses" class="dmind-bg" />
+       <img src="/assets/umum/backgrounds/industry-shared-3.jpg" alt="Fleet Industrial Uses" class="dmind-bg" />
        <div class="dmind-overlay"></div>
     </div>
 
     <div class="dm-industries-container relative-content">
       <div class="dmind-header" data-aos="fade-up">
-        <h2 class="dmind-title">Mendukung Kebutuhan Pengelolaan Pengemudi di Berbagai Industri</h2>
+        <h2 class="dmind-title">Mendukung Kebutuhan Pengelolaan Pengemudi di BerbagSistem Industri</h2>
       </div>
 
       <div class="dmind-grid" data-aos="fade-up" data-aos-delay="100">

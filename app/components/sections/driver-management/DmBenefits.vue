@@ -15,13 +15,13 @@
          <div class="dmb-card" data-aos="fade-up" data-aos-delay="200">
             <div class="dmb-icon">⚡</div>
             <h3>Informasi Mudah Diakses</h3>
-            <p>Data pengemudi dapat ditemukan dan digunakan sesuai kebutuhan operasional.</p>
+            <p>Data pengemudi dapat ditemukan dan digunakan sesuSistem kebutuhan operasional.</p>
          </div>
 
          <div class="dmb-card" data-aos="fade-up" data-aos-delay="300">
             <div class="dmb-icon">🔗</div>
             <h3>Hubungan Driver & Kendaraan Jelas</h3>
-            <p>Informasi pengemudi dikaitkan dengan kendaraan sesuai data yang tersedia.</p>
+            <p>Informasi pengemudi dikaitkan dengan kendaraan sesuSistem data yang tersedia.</p>
          </div>
 
          <div class="dmb-card" data-aos="fade-up" data-aos-delay="400">

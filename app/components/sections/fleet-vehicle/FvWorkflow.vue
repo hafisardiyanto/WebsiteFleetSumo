@@ -3,7 +3,7 @@
     <div class="fv-workflow-container">
       <div class="fvw-header" data-aos="fade-up">
         <h2 class="fvw-title">Dari Data Kendaraan hingga Informasi Operasional</h2>
-        <p class="fvw-subtitle">Data kendaraan menjadi dasar untuk menghubungkan berbagai aktivitas armada dalam FleetSumo.</p>
+        <p class="fvw-subtitle">Data kendaraan menjadi dasar untuk menghubungkan berbagSistem aktivitas armada dalam FleetSumo.</p>
       </div>
 
       <!-- Arrow-based Timeline -->

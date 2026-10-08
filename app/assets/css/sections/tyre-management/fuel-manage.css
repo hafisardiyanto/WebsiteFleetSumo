@@ -1,0 +1,107 @@
+/* app/assets/css/sections/tyre-management/tyre-manage.css */
+.tyre-manage-wrapper {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.tyre-manage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fm-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fm-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.fm-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.fm-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+/* 7 items trick */
+.fm-card:nth-child(5) {
+    grid-column: 1 / span 2;
+    justify-self: end;
+    width: 100%;
+    max-width: 320px;
+}
+
+.fm-card:nth-child(6) {
+    grid-column: 3 / span 1;
+}
+
+.fm-card:nth-child(7) {
+    grid-column: 4 / span 1;
+}
+
+.fm-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+.fm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    border-color: #1a56db;
+}
+
+.fm-icon {
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.fm-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.fm-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .fm-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fm-card:nth-child(5),
+    .fm-card:nth-child(6),
+    .fm-card:nth-child(7) {
+        grid-column: auto;
+        max-width: 100%;
+        justify-self: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .fm-grid {
+        grid-template-columns: 1fr;
+    }
+}

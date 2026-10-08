@@ -29,7 +29,7 @@
         <div class="image-container">
           <!-- Glassmorphism border effect behind image -->
           <div class="image-glow"></div>
-          <img src="/GambarHero.jpg" alt="FleetSumo Dashboard and Fleet" class="hero-img">
+          <img src="/assets/umum/backgrounds/hero-home.jpg" alt="FleetSumo Dashboard and Fleet" class="hero-img">
         </div>
       </div>
     </div>

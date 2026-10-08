@@ -2,7 +2,7 @@
   <section class="maint-industries-wrapper">
     <div class="maint-industries-container">
       <div class="mind-header" data-aos="fade-up">
-        <h2 class="mind-title">Maintenance Management untuk Berbagai Operasional Armada</h2>
+        <h2 class="mind-title">Maintenance Management untuk BerbagSistem Operasional Armada</h2>
         <p class="mind-subtitle">FleetSumo dapat membantu perusahaan dengan kebutuhan perawatan kendaraan yang memiliki aktivitas armada secara rutin dan terstruktur.</p>
       </div>
 
@@ -25,7 +25,7 @@
          <div class="mind-card">
             <span class="mind-icon">🏗️</span>
             <h4>Konstruksi</h4>
-            <p>Kelola perawatan kendaraan dan armada yang digunakan dalam berbagai proyek.</p>
+            <p>Kelola perawatan kendaraan dan armada yang digunakan dalam berbagSistem proyek.</p>
          </div>
          <div class="mind-card">
             <span class="mind-icon">🏭</span>

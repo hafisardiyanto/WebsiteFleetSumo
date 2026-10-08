@@ -3,7 +3,7 @@
     <div class="home-features-container">
       <div class="hf-header" data-aos="fade-up">
         <h2 class="hf-title">Fitur Lengkap untuk Mendukung Operasional Armada</h2>
-        <p class="hf-subtitle">FleetSumo menyediakan berbagai fitur yang membantu perusahaan mengelola aktivitas armada secara lebih terstruktur dari satu platform.</p>
+        <p class="hf-subtitle">FleetSumo menyediakan berbagSistem fitur yang membantu perusahaan mengelola aktivitas armada secara lebih terstruktur dari satu platform.</p>
       </div>
 
       <!-- User-requested 10 features split into Grid layout -->

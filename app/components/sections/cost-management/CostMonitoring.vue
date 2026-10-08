@@ -31,7 +31,7 @@
          <!-- Visual representation using LaporanKendaraan as actual proof -->
          <div class="csm-visual" data-aos="fade-left" data-aos-delay="200">
              <div class="csm-mockup">
-                 <img src="/LaporanKendaraan.png" alt="FleetSumo Biaya Analytics" class="csm-img" />
+                 <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Biaya Analytics" class="csm-img" />
              </div>
          </div>
 

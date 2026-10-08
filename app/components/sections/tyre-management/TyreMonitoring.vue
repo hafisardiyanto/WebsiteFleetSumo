@@ -1,57 +1,36 @@
 <template>
   <section class="tyre-monitoring-wrapper">
     <div class="tyre-monitoring-container">
-      <div class="tym-header" data-aos="fade-up">
-        <span class="tym-label">MONITORING</span>
-        <h2 class="tym-title">Gunakan Data Ban untuk Monitoring dan Evaluasi</h2>
-        <p class="tym-subtitle">Data ban yang tercatat secara terstruktur membantu perusahaan mendapatkan informasi yang lebih mudah dipantau dan digunakan untuk evaluasi operasional armada.</p>
+      <div class="tmo-header" data-aos="fade-up">
+        <h2 class="tmo-title">Pantau Informasi Ban Armada dengan Lebih Mudah</h2>
+        <p class="tmo-subtitle">Data ban yang tercatat dalam sistem membantu perusahaan melihat informasi penggunaan, posisi, kondisi, dan riwayat ban sebagSistem bagian dari monitoring operasional armada.</p>
       </div>
 
-      <div class="tym-layout">
+      <div class="tmo-layout">
          
-         <div class="tym-points" data-aos="fade-right" data-aos-delay="100">
-             <div class="tym-point">
-                 <h4>Informasi Ban</h4>
-                 <p>Pantau data dan status ban yang tersedia dalam sistem.</p>
-             </div>
-             <div class="tym-point">
-                 <h4>Posisi Ban</h4>
-                 <p>Telusuri posisi ban berdasarkan kendaraan.</p>
-             </div>
-             <div class="tym-point">
-                 <h4>Riwayat Penggunaan</h4>
-                 <p>Lihat aktivitas dan riwayat ban yang telah tercatat.</p>
-             </div>
-             <div class="tym-point">
-                 <h4>Informasi Armada</h4>
-                 <p>Hubungkan informasi ban dengan data kendaraan untuk gambaran lebih lengkap.</p>
+         <div class="tmo-visual" data-aos="fade-right" data-aos-delay="100">
+             <div class="tmo-mockup">
+                 <!-- Using placeholder combination of List/Detail since specific Tampilan Utama doesn't exist yet -->
+                 <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Monitoring Ban" class="tmo-img" />
              </div>
          </div>
 
-         <!-- Fallback HTML CSS UI for Monitoring since no actual tyre dashboard screenshot was supplied -->
-         <div class="tym-visual" data-aos="fade-left" data-aos-delay="200">
-             <div class="tym-dashboard-ui">
-                 <div class="t-card">
-                     <span class="t-ico yellow">⚠️</span>
-                     <div>
-                        <h5>Perlu Inspeksi</h5>
-                        <p>12 Ban</p>
-                     </div>
-                 </div>
-                 <div class="t-card">
-                     <span class="t-ico green">📍</span>
-                     <div>
-                        <h5>Status Posisi</h5>
-                        <p>Terhubung ke Kendaraan</p>
-                     </div>
-                 </div>
-                 <div class="t-card">
-                     <span class="t-ico blue">📊</span>
-                     <div>
-                        <h5>Riwayat Pemakaian</h5>
-                        <p>Tercatat Sistem</p>
-                     </div>
-                 </div>
+         <div class="tmo-content" data-aos="fade-left" data-aos-delay="200">
+             <div class="tmo-card">
+                 <h4>Inspeksi Kedalaman Tapak (Tread Depth)</h4>
+                 <p>Input pengukuran alur ban sisa dalam satuan milimeter (mm) secara berkala.</p>
+             </div>
+             <div class="tmo-card">
+                 <h4>Inspeksi Kerusakan Fisik</h4>
+                 <p>Catat observasi keausan asimetris, sobek, retak pecah, atau benjol terdeteksi.</p>
+             </div>
+             <div class="tmo-card">
+                 <h4>Monitoring Tekanan Angin Sehat</h4>
+                 <p>Update PSI tekanan angin harian untuk menjaga konsumsi BBM tidak boros.</p>
+             </div>
+             <div class="tmo-card">
+                 <h4>Alarm Batas Odometer Afkir</h4>
+                 <p>Notifikasi sistem otomatis saat batas KM ambang usia aman tercapai.</p>
              </div>
          </div>
 
@@ -60,4 +39,82 @@
   </section>
 </template>
 
-<style src="~/assets/css/sections/tyre-management/tyre-monitoring.css" scoped></style>
+<style scoped>
+.tyre-monitoring-wrapper {
+  padding: 8rem 5%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.tyre-monitoring-container {
+  max-width: 1200px;
+  width: 100%;
+}
+.tmo-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.tmo-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+.tmo-subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.tmo-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .tmo-layout {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.tmo-mockup {
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+}
+.tmo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.tmo-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .tmo-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.tmo-card {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.tmo-card h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+.tmo-card p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+</style>

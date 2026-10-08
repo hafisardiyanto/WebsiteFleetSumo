@@ -1,41 +1,27 @@
 <template>
   <section class="fuel-preview-wrapper">
     <div class="fuel-preview-container">
-      <div class="fpv-header" data-aos="fade-up">
-        <h2 class="fpv-title">Lihat Pengelolaan BBM di FleetSumo</h2>
-        <p class="fpv-subtitle">Catat dan pantau aktivitas penggunaan BBM kendaraan melalui sistem FleetSumo.</p>
+      <div class="fdf-header" data-aos="fade-up" style="max-width:800px; margin: 0 auto; text-align:center; padding-bottom: 2rem;">
+        <h2 class="fdf-title">Proses Transparan, Bukti Nyata</h2>
+        <p class="fdf-subtitle" style="color:#64748b; margin-top:1rem;">Seluruh rekam data dari pencatatan harian hingga detail rincian transaksi tervisualisasi jelas tanpa asumsi.</p>
       </div>
 
-      <div class="fpv-layout">
+      <div class="mpv-layout" style="display:flex; flex-direction:column; gap:4rem; margin-top:1rem;">
          
-         <!-- UI Preview Screen -->
-         <div class="fpv-left" data-aos="fade-right" data-aos-delay="100">
-             <div class="fpv-mockup">
-                 <img src="/DashboardBBM.png" alt="FleetSumo Daftar BBM" class="fpv-img" />
-                 <div class="fpv-dot d1"></div>
-                 <div class="fpv-dot d2"></div>
-                 <div class="fpv-dot d3"></div>
-             </div>
+         <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px; text-align:center;">Daftar Transaksi BBM Kendaraan</h3>
+            <p style="color:#64748b; margin-bottom:20px; text-align:center;">Monitor kapan, di mana, dan berapa besar volume pengisian bahan bakar terjadi pada setiap rute perjalanan.</p>
+            <div class="mpv-mockup" data-aos="fade-up" data-aos-delay="100" style="max-width:960px; margin:0 auto; width:100%;">
+                <img src="/assets/fitur/fuel/fuel-list.png" alt="Daftar Data Fuel FleetSumo" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
+            </div>
          </div>
 
-         <!-- Info Details -->
-         <div class="fpv-right" data-aos="fade-left" data-aos-delay="200">
-             <div class="fpv-point">
-                 <h4>Daftar Aktivitas BBM</h4>
-                 <p>Lihat dan kelola aktivitas pengisian BBM kendaraan dalam satu tampilan.</p>
-             </div>
-             <div class="fpv-point">
-                 <h4>Pencatatan BBM</h4>
-                 <p>Catat informasi pengisian BBM kendaraan secara terstruktur.</p>
-             </div>
-             <div class="fpv-point">
-                 <h4>Detail Pengisian</h4>
-                 <p>Akses informasi lengkap mengenai aktivitas pengisian BBM.</p>
-             </div>
-             <div class="fpv-point">
-                 <h4>Laporan Penggunaan BBM</h4>
-                 <p>Gunakan data BBM untuk membantu monitoring dan evaluasi penggunaan armada.</p>
-             </div>
+         <div class="preview-stack">
+            <h3 style="color:#0f172a; margin-bottom:8px; text-align:center;">Detail Registrasi Transaksi BBM (Bukti Struk & Odometer)</h3>
+            <p style="color:#64748b; margin-bottom:20px; text-align:center;">Validasi struk pengisian dan foto odometer yang diunggah langsung oleh pengemudi sebagai bukti transaksi.</p>
+            <div class="mpv-mockup" data-aos="fade-up" data-aos-delay="200" style="max-width:960px; margin:0 auto; width:100%;">
+                <img src="/assets/fitur/fuel/fuel-detail.png" alt="Detail Info Fuel FleetSumo" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
+            </div>
          </div>
 
       </div>

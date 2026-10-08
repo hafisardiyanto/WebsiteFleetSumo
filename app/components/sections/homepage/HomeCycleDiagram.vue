@@ -3,7 +3,7 @@
     <div class="home-cycle-container">
       <div class="cycle-header" data-aos="fade-up">
         <h2 class="cycle-title">Satu Platform untuk Mengelola Seluruh Siklus Armada</h2>
-        <p class="cycle-subtitle">FleetSumo menghubungkan berbagai aktivitas operasional armada dalam satu sistem, sehingga data kendaraan, maintenance, BBM, ban, sparepart, biaya, dan aktivitas terkait dapat dikelola secara lebih terstruktur.</p>
+        <p class="cycle-subtitle">FleetSumo menghubungkan berbagSistem aktivitas operasional armada dalam satu sistem, sehingga data kendaraan, maintenance, BBM, ban, sparepart, biaya, dan aktivitas terkait dapat dikelola secara lebih terstruktur.</p>
       </div>
 
       <!-- New HTML Tree Architecture Structure -->

@@ -9,7 +9,7 @@
       </div>
 
       <div class="maint-what-visual" data-aos="fade-up" data-aos-delay="100">
-        <img src="/ProsesBengkel.jpg" alt="Pusat Pengelolaan Maintenance" class="maint-what-img">
+        <img src="/assets/solusi/maintenance-management/process.jpg" alt="Pusat Pengelolaan Maintenance" class="maint-what-img">
       </div>
 
       <div class="maint-what-grid">

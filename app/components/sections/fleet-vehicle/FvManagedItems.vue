@@ -3,7 +3,7 @@
     <div class="fv-manage-container">
       <div class="fvm-header" data-aos="fade-up">
         <h2 class="fvm-title">Kelola Informasi Kendaraan Secara Terpusat</h2>
-        <p class="fvm-subtitle">FleetSumo menyediakan tempat untuk mengelola berbagai informasi yang berkaitan dengan kendaraan.</p>
+        <p class="fvm-subtitle">FleetSumo menyediakan tempat untuk mengelola berbagSistem informasi yang berkaitan dengan kendaraan.</p>
       </div>
 
       <div class="fvm-grid">
@@ -28,7 +28,7 @@
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="250">
             <div class="fvm-icon">🟢</div>
             <h3>04 — Status Kendaraan</h3>
-            <p>Pantau status kendaraan sesuai informasi yang tercatat.</p>
+            <p>Pantau status kendaraan sesuSistem informasi yang tercatat.</p>
          </div>
 
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="300">
@@ -40,7 +40,7 @@
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="350">
             <div class="fvm-icon">🛠️</div>
             <h3>06 — Aktivitas Kendaraan</h3>
-            <p>Hubungkan kendaraan dengan berbagai aktivitas operasional.</p>
+            <p>Hubungkan kendaraan dengan berbagSistem aktivitas operasional.</p>
          </div>
 
          <div class="fvm-card" data-aos="fade-up" data-aos-delay="400">

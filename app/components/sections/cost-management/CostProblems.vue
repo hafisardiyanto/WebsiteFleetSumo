@@ -4,44 +4,38 @@
       <div class="csp-header" data-aos="fade-up">
         <span class="csp-label">TANTANGAN OPERASIONAL</span>
         <h2 class="csp-title">Biaya Armada Perlu Dipantau dari Setiap Aktivitas Operasional</h2>
-        <p class="csp-subtitle">Biaya kendaraan dapat berasal dari berbagai aktivitas seperti maintenance, BBM, ban, sparepart, dan kebutuhan operasional lainnya. Tanpa pencatatan yang terstruktur, perusahaan akan lebih sulit melihat bagaimana biaya terbentuk dan berkembang.</p>
+        <p class="csp-subtitle">Biaya kendaraan dapat berasal dari berbagSistem aktivitas seperti maintenance, BBM, ban, sparepart, dan kebutuhan operasional lainnya. Tanpa pencatatan yang terstruktur, perusahaan akan lebih sulit melihat bagaimana biaya terbentuk dan berkembang.</p>
       </div>
 
       <div class="csp-grid">
          <div class="csp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="csp-icon">💸</div>
-            <h3>01 — Biaya Tersebar di Berbagai Aktivitas</h3>
-            <p>Biaya armada berasal dari berbagai aktivitas sehingga membutuhkan pencatatan yang terstruktur.</p>
+            <h3>Gagal Membedah Rincian per Kendaraan</h3>
+            <p>Biaya tagihan invoice (misal: servis lump-sum) sering digabung per pool, menghilangkan jejak armada mana yang sebenarnya paling menguras kas mingguan.</p>
          </div>
 
          <div class="csp-card" data-aos="fade-up" data-aos-delay="200">
             <div class="csp-icon">📝</div>
-            <h3>02 — Pengajuan Biaya Sulit Dipantau</h3>
-            <p>Pengajuan biaya perlu ditelusuri berdasarkan proses dan statusnya.</p>
+            <h3>Pencatatan Tagihan Tidak Terkategori</h3>
+            <p>Pengeluaran mekanikal, denda tilang, ritase operasional, dan administrasi tergabung rata membuat manajemen bingung menentukan sektor mana yang boros.</p>
          </div>
 
          <div class="csp-card" data-aos="fade-up" data-aos-delay="300">
             <div class="csp-icon">✅</div>
-            <h3>03 — Approval Membutuhkan Kontrol</h3>
-            <p>Proses persetujuan biaya perlu dilakukan sesuai alur kerja perusahaan.</p>
+            <h3>Biaya Darurat (Kasbon) Sering Tercecer</h3>
+            <p>Insiden mogok mendadak atau tambal ban di rute luar kota dicatat secara lisan / kertas coretan, gagal masuk rekap utama saat tutup buku.</p>
          </div>
 
          <div class="csp-card" data-aos="fade-up" data-aos-delay="400">
             <div class="csp-icon">🔄</div>
-            <h3>04 — Realisasi Sulit Ditelusuri</h3>
-            <p>Nilai biaya yang direalisasikan perlu dapat dibandingkan dengan informasi pengajuan atau kebutuhan awal.</p>
+            <h3>Biaya Antar Kendaraan Sejenis Sulit Dibandingkan</h3>
+            <p>Dua truk Hino tipe sama tak bisa disandingkan metrik pengeluarannya karena pencatatan histori pemakaian suku cadangnya saling terpisah.</p>
          </div>
 
-         <div class="csp-card" data-aos="fade-up" data-aos-delay="500">
-            <div class="csp-icon">🚛</div>
-            <h3>05 — Biaya per Kendaraan Sulit Dilihat</h3>
-            <p>Perusahaan membutuhkan informasi biaya berdasarkan kendaraan untuk mengetahui distribusi pengeluaran armada.</p>
-         </div>
-
-         <div class="csp-card" data-aos="fade-up" data-aos-delay="600">
+         <div class="csp-card full" data-aos="fade-up" data-aos-delay="500">
             <div class="csp-icon">📊</div>
-            <h3>06 — Evaluasi Biaya Membutuhkan Data</h3>
-            <p>Data biaya yang terstruktur diperlukan untuk membantu monitoring dan evaluasi operasional.</p>
+            <h3>Perubahan Tren Biaya Vendor Sulit Ditelusuri</h3>
+            <p>Tanpa penyusunan data historis berbasis periodik (bulan ke bulan), pelonjakan repetitif harga vendor di lapangan tidak pernah disadari manajemen puncak.</p>
          </div>
       </div>
     </div>

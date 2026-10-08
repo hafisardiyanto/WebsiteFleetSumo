@@ -1,51 +1,45 @@
 <template>
   <section class="fuel-def-wrapper">
     <div class="fuel-def-container">
-      <div class="fdf-header" data-aos="fade-up">
-        <h2 class="fdf-title">Satu Sistem untuk Mengelola Aktivitas BBM Armada</h2>
-        <p class="fdf-subtitle">Fuel Management di FleetSumo membantu perusahaan mencatat dan mengelola aktivitas penggunaan BBM berdasarkan kendaraan dan informasi pengisian yang tersedia.</p>
-        <div class="fdf-highlight">Catat aktivitas BBM, hubungkan dengan kendaraan, lalu gunakan datanya untuk monitoring dan evaluasi.</div>
+      <div class="fdf-header" data-aos="fade-up" style="max-width:800px; margin: 0 auto; text-align:center;">
+        <h2 class="fdf-title">Sentralisasi Pencatatan Transaksi BBM</h2>
+        <p class="fdf-subtitle">Permudah tim admin mengkonsolidasikan ribuan nota bensin yang tersebar ke dalam satu basis data rapi berbasis nomor polisi (Nopol) kendaraan.</p>
       </div>
 
-      <div class="fdf-diagram" data-aos="fade-up" data-aos-delay="200">
-         <div class="fdf-step">
-            <div class="fdf-box">KENDARAAN</div>
-            <div class="fdf-arrow">▼</div>
-         </div>
-         <div class="fdf-step">
-            <div class="fdf-box">PENGISIAN BBM</div>
-            <div class="fdf-arrow">▼</div>
-         </div>
-         <div class="fdf-step core-step">
-            <div class="fdf-box core">PENCATATAN</div>
-         </div>
+      <div class="fdf-diagram" data-aos="fade-up" data-aos-delay="200" style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; max-width: 800px; margin: 2rem auto 0; text-align: left;">
          
-         <div class="fdf-stem"></div>
-         <div class="fdf-crossbar">
-            <div class="fdf-arrow slanted-l">↙</div>
-            <div class="fdf-arrow slanted-r">↘</div>
+         <div style="background: #ffffff; padding: 2rem; border-radius: 12px; border: 1px solid #e2e8f0; display:flex; gap: 1rem; align-items: flex-start;">
+            <div style="font-size: 24px;">📝</div>
+            <div>
+               <h4 style="color:#0f172a; margin-bottom:4px; font-weight:600;">Input Transaksi Harian</h4>
+               <p style="color:#64748b; font-size:15px; margin:0;">Rekam nominal pengeluaran tunai/non-tunai setiap supir saat melakukan pengisian bahan bakar di jalan.</p>
+            </div>
          </div>
 
-         <div class="fdf-row branches">
-            <div class="fdf-box branch">VOLUME</div>
-            <div class="fdf-box branch">BIAYA</div>
+         <div style="background: #ffffff; padding: 2rem; border-radius: 12px; border: 1px solid #e2e8f0; display:flex; gap: 1rem; align-items: flex-start;">
+            <div style="font-size: 24px;">⛽</div>
+            <div>
+               <h4 style="color:#0f172a; margin-bottom:4px; font-weight:600;">Validasi Volume Liter</h4>
+               <p style="color:#64748b; font-size:15px; margin:0;">Pastikan literatur kuitansi setara dengan kapasitas tangki armada dan kewajaran jarak tempuh.</p>
+            </div>
          </div>
 
-         <div class="fdf-crossbar-bottom">
-            <div class="fdf-arrow up-r">↘</div>
-            <div class="fdf-arrow up-l">↙</div>
+         <div style="background: #ffffff; padding: 2rem; border-radius: 12px; border: 1px solid #e2e8f0; display:flex; gap: 1rem; align-items: flex-start;">
+            <div style="font-size: 24px;">📍</div>
+            <div>
+               <h4 style="color:#0f172a; margin-bottom:4px; font-weight:600;">Mapping Lokasi / Vendor</h4>
+               <p style="color:#64748b; font-size:15px; margin:0;">Lacak di SPBU mana transaksi dilakukan untuk menganalisa titik konsumsi tertinggi operasional.</p>
+            </div>
          </div>
-         
-         <div class="fdf-stem final-stem"></div>
-         <div class="fdf-arrow">▼</div>
-         
-         <div class="fdf-step">
-            <div class="fdf-box">MONITORING</div>
-            <div class="fdf-arrow">▼</div>
+
+         <div style="background: #ffffff; padding: 2rem; border-radius: 12px; border: 1px solid #e2e8f0; display:flex; gap: 1rem; align-items: flex-start;">
+            <div style="font-size: 24px;">⚙️</div>
+            <div>
+               <h4 style="color:#0f172a; margin-bottom:4px; font-weight:600;">Integrasi Odometer</h4>
+               <p style="color:#64748b; font-size:15px; margin:0;">Wajib sertakan data KM awal saat pengisian untuk merangkai perhitungan konsumsi BBM yang valid.</p>
+            </div>
          </div>
-         <div class="fdf-step final">
-            <div class="fdf-box">LAPORAN</div>
-         </div>
+
       </div>
     </div>
   </section>

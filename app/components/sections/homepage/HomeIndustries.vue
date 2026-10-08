@@ -2,15 +2,15 @@
   <section class="home-industries-wrapper">
     <div class="home-industries-container">
       <div class="hi-header" data-aos="fade-up">
-        <span class="hi-label">UNTUK BERBAGAI INDUSTRI</span>
-        <h2 class="hi-title">Mendukung Berbagai Kebutuhan Operasional Armada</h2>
+        <span class="hi-label">UNTUK BERBAGSistem INDUSTRI</span>
+        <h2 class="hi-title">Mendukung BerbagSistem Kebutuhan Operasional Armada</h2>
         <p class="hi-subtitle">Setiap industri memiliki karakteristik dan kebutuhan operasional yang berbeda. FleetSumo membantu perusahaan mengelola armada dengan pendekatan yang dapat disesuaikan dengan proses bisnis masing-masing.</p>
       </div>
 
       <div class="hi-grid">
          <div class="hi-card" data-aos="fade-up" data-aos-delay="100">
             <div class="hi-img-space">
-               <img src="/1.jpg" alt="Logistik & Transportasi" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/logistics.jpg" alt="Logistik & Transportasi" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>01 — Logistik & Transportasi</h3>
@@ -20,7 +20,7 @@
 
          <div class="hi-card" data-aos="fade-up" data-aos-delay="200">
             <div class="hi-img-space">
-               <img src="/2.jpg" alt="Pertambangan" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/mining.jpg" alt="Pertambangan" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>02 — Pertambangan</h3>
@@ -30,7 +30,7 @@
 
          <div class="hi-card" data-aos="fade-up" data-aos-delay="300">
             <div class="hi-img-space">
-               <img src="/3.jpg" alt="Perkebunan" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/plantation.jpg" alt="Perkebunan" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>03 — Perkebunan</h3>
@@ -40,17 +40,17 @@
 
          <div class="hi-card" data-aos="fade-up" data-aos-delay="400">
             <div class="hi-img-space">
-               <img src="/4.jpg" alt="Konstruksi" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/construction.jpg" alt="Konstruksi" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>04 — Konstruksi</h3>
-               <p>Kelola armada dan aktivitas maintenance untuk mendukung mobilitas kendaraan di berbagai proyek konstruksi.</p>
+               <p>Kelola armada dan aktivitas maintenance untuk mendukung mobilitas kendaraan di berbagSistem proyek konstruksi.</p>
             </div>
          </div>
 
          <div class="hi-card" data-aos="fade-up" data-aos-delay="500">
             <div class="hi-img-space">
-               <img src="/5.jpg" alt="Manufaktur" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/manufacturing.jpg" alt="Manufaktur" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>05 — Manufaktur</h3>
@@ -60,11 +60,11 @@
 
          <div class="hi-card" data-aos="fade-up" data-aos-delay="600">
             <div class="hi-img-space">
-               <img src="/6.jpg" alt="Usaha Armada Lainnya" class="hi-img-cover" />
+               <img src="/assets/beranda/industries/other.jpg" alt="Usaha Armada Lainnya" class="hi-img-cover" />
             </div>
             <div class="hi-content">
                <h3>06 — Usaha Armada Lainnya</h3>
-               <p>Fleksibel digunakan untuk berbagai jenis bisnis yang memiliki kebutuhan pengelolaan kendaraan dan armada.</p>
+               <p>Fleksibel digunakan untuk berbagSistem jenis bisnis yang memiliki kebutuhan pengelolaan kendaraan dan armada.</p>
             </div>
          </div>
       </div>

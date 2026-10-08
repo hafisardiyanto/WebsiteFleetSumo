@@ -1,0 +1,76 @@
+/* app/assets/css/sections/maintenance/mnt-definition.css */
+.mnt-def-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.mnt-def-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mnd-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mnd-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.mnd-subtitle {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.mnd-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.mnd-step {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mnd-box {
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    padding: 14px 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    min-width: 240px;
+    letter-spacing: 0.5px;
+}
+
+.mnd-box.final {
+    background: #1a56db;
+    color: #ffffff;
+    border-color: #1a56db;
+}
+
+.mnd-arrow {
+    color: #94a3b8;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 12px 0;
+    font-weight: bold;
+}

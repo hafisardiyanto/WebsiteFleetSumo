@@ -29,7 +29,7 @@
 
          <div class="fmr-visual" data-aos="fade-left" data-aos-delay="200">
              <div class="fmr-mockup">
-                 <img src="/LaporanKendaraan.png" alt="FleetSumo Dashboard" class="fmr-img" />
+                 <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Dashboard" class="fmr-img" />
              </div>
          </div>
 

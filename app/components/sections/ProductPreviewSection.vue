@@ -44,7 +44,7 @@
           </div>
           <div class="browser-title">FleetSumo Platform v2.0</div>
         </div>
-        <img src="/DashboardKendaraan.jpg" alt="FleetSumo Dashboard Preview" class="dashboard-img">
+        <img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="FleetSumo Dashboard Preview" class="dashboard-img">
         
         <!-- Subtle Glow Effects -->
         <div class="glow-effect glow-orange"></div>

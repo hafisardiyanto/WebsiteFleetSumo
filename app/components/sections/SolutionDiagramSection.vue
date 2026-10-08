@@ -9,7 +9,7 @@
       </div>
 
       <div class="diagram-visual" data-aos="fade-up" data-aos-delay="200">
-        <img src="/GambarFleetSumo.jpg" alt="FleetSumo Platform Integration Solution" class="diagram-img">
+        <img src="/assets/tentang-kami/company/solution-diagram.jpg" alt="FleetSumo Platform Integration Solution" class="diagram-img">
       </div>
     </div>
   </section>

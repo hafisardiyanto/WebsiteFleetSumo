@@ -12,9 +12,9 @@
       <HomeProductPreview />
       <HomeFeatures />
       <HomeBenefits />
-      <HomeIndustries />
+      <!-- <HomeIndustries /> -->
       <HomeWhy />
-      <HomeInsights />
+      <!-- <HomeInsights /> -->
       <HomeCTA />
     </main>
 
@@ -72,9 +72,30 @@ onUnmounted(() => {
 })
 
 useHead({
-  title: 'FleetSumo | Enterprise Fleet Management Terintegrasi',
+  title: 'FleetSumo | Software Manajemen Armada Terintegrasi',
   meta: [
-    { name: 'description', content: 'FleetSumo membantu perusahaan logistik mengelola kendaraan, maintenance, BBM, ban, biaya, dan laporan armada dalam satu sistem analitik komprehensif.' }
+    { name: 'description', content: 'FleetSumo adalah software manajemen armada untuk mengelola kendaraan, pengemudi, perawatan, BBM, ban, suku cadang, biaya, dan laporan dalam satu sistem terintegrasi.' },
+    { property: 'og:title', content: 'FleetSumo | Software Manajemen Armada Terintegrasi' },
+    { property: 'og:description', content: 'FleetSumo adalah software manajemen armada untuk mengelola kendaraan, pengemudi, perawatan, BBM, ban, suku cadang, biaya, dan laporan dalam satu sistem terintegrasi.' },
+    { property: 'og:url', content: 'https://fleetsumo.id' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'robots', content: 'index, follow' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://fleetsumo.id' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "FleetSumo",
+        "url": "https://fleetsumo.id",
+        "description": "Platform Manajemen Armada Terintegrasi dari Indonesia untuk mengelola kendaraan operasional."
+      })
+    }
   ]
 })
 </script>

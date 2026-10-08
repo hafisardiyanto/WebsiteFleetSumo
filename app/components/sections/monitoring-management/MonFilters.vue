@@ -4,7 +4,7 @@
       <div class="mon-filters-header" data-aos="fade-up">
         <h2 class="mon-filters-title">Temukan Informasi Secara Cepat Melalui Filter Spesifik</h2>
         <p class="mon-filters-subtitle">
-          Laporan yang baik tidak hanya menampilkan data melingkar, tetapi membantu pengguna mengiris informasi sesuai parameter yang mereka butuhkan.
+          Laporan yang baik tidak hanya menampilkan keseluruhan data armada, tetapi juga membantu pengguna menyaring data operasional berdasarkan parameter tertentu seperti periode, cabang/depot, maupun unit kendaraan.
         </p>
       </div>
 

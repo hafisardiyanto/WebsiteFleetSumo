@@ -2,7 +2,7 @@
   <section class="maint-cycle-wrapper">
     <div class="maint-cycle-container">
       <div class="mc-header" data-aos="fade-up">
-        <h2 class="mc-title">Dari Temuan hingga Maintenance Selesai</h2>
+        <h2 class="mc-title">Dari Temuan hingga Maintenance SelesSistem</h2>
         <p class="mc-subtitle">FleetSumo membantu menghubungkan setiap tahapan maintenance sehingga proses dapat dipantau secara lebih terstruktur.</p>
       </div>
 
@@ -16,7 +16,7 @@
          <div class="mc-item">
             <div class="mc-num">02</div>
             <h3>Temuan</h3>
-            <p>Hasil pemeriksaan atau keluhan kendaraan dicatat sebagai kebutuhan maintenance.</p>
+            <p>Hasil pemeriksaan atau keluhan kendaraan dicatat sebagSistem kebutuhan maintenance.</p>
          </div>
          <div class="mc-arrow">→</div>
          <div class="mc-item">
@@ -28,7 +28,7 @@
          <div class="mc-item">
             <div class="mc-num">04</div>
             <h3>Approval</h3>
-            <p>Pengajuan diproses melalui tahapan persetujuan sesuai workflow perusahaan.</p>
+            <p>Pengajuan diproses melalui tahapan persetujuan sesuSistem workflow perusahaan.</p>
          </div>
          <div class="mc-arrow line-break"></div>
          <div class="mc-item lower">
@@ -46,7 +46,7 @@
          <div class="mc-item lower final">
             <div class="mc-num active">07</div>
             <h3>Riwayat</h3>
-            <p>Aktivitas maintenance tersimpan sebagai histori kendaraan.</p>
+            <p>Aktivitas maintenance tersimpan sebagSistem histori kendaraan.</p>
          </div>
       </div>
     </div>

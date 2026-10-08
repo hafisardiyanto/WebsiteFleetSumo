@@ -20,7 +20,7 @@
          <div class="rac-card" data-aos="fade-up" data-aos-delay="150">
             <!-- Reuse DashboardBBM for fuel micro-screenshot representation -->
             <div class="rac-mini-visual">
-                <img src="/DashboardBBM.png" alt="Fuel Dashboard mini" class="rac-mini-img" />
+                <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Fuel Dashboard mini" class="rac-mini-img" />
             </div>
             <div class="rac-content">
                <h3>Fuel</h3>

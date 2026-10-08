@@ -6,63 +6,38 @@
         <p class="mi-subtitle">Maintenance tidak berdiri sendiri. Aktivitas perawatan kendaraan berkaitan dengan kendaraan, sparepart, vendor, dan biaya operasional.</p>
       </div>
 
-      <div class="mi-layout" data-aos="fade-up" data-aos-delay="200">
+      <div class="mi-layout" data-aos="fade-up" data-aos-delay="200" style="display:flex; flex-direction:column; align-items:center;">
          
-         <div class="mi-diagram">
-            <div class="md-row">
-               <div class="md-box top">KENDARAAN</div>
+         <div class="mi-cards" data-aos="fade-up" data-aos-delay="300" style="width:100%; max-width:1000px; display:grid; grid-template-columns: repeat(3, 1fr); gap:1.5rem; justify-content:center;">
+            
+            <div class="mi-card" onclick="window.location.href='/fitur/maintenance'" style="cursor:pointer;">
+               <h4>Maintenance</h4>
+               <p>Eksekusi jadwal servis bengkel.</p>
             </div>
             
-            <div class="md-stem"></div>
-            <div class="md-arrow single">▼</div>
-            
-            <div class="md-row">
-               <div class="md-box main-m">MAINTENANCE</div>
+            <div class="mi-card" onclick="window.location.href='/fitur/fleet-vehicle'" style="cursor:pointer;">
+               <h4>Fleet & Vehicle</h4>
+               <p>Pusat identitas aset kendaraan.</p>
             </div>
 
-            <div class="md-crossbar">
-                <div class="md-arrow slanted-l">↙</div>
-                <div class="md-arrow">↓</div>
-                <div class="md-arrow slanted-r">↘</div>
-            </div>
-            
-            <div class="md-row branches">
-               <div class="md-box sec">SPAREPART</div>
-               <div class="md-box sec">VENDOR</div>
-               <div class="md-box sec">COST</div>
-            </div>
-
-            <div class="md-crossbar-bottom">
-                <div class="md-arrow up-slanted-r">↘</div>
-                <div class="md-arrow">↓</div>
-                <div class="md-arrow up-slanted-l">↙</div>
-            </div>
-
-            <div class="md-row">
-               <div class="md-box final">HISTORY & REPORT</div>
-            </div>
-         </div>
-
-         <div class="mi-cards" data-aos="fade-up" data-aos-delay="300">
-            <div class="mi-card">
-               <h4>Fleet Management</h4>
-               <p>Maintenance dikaitkan dengan kendaraan yang dikelola.</p>
-            </div>
-            <div class="mi-card">
+            <div class="mi-card" onclick="window.location.href='/fitur/sparepart'" style="cursor:pointer;">
                <h4>Sparepart</h4>
-               <p>Kebutuhan sparepart dapat berkaitan dengan aktivitas maintenance.</p>
+               <p>Inventori suku cadang bengkel.</p>
             </div>
-            <div class="mi-card">
+
+            <div class="mi-card" onclick="window.location.href='/fitur/vendor'" style="cursor:pointer;">
                <h4>Vendor</h4>
-               <p>Aktivitas maintenance dapat melibatkan vendor sesuai proses perusahaan.</p>
+               <p>Manajemen koneksi mitra perbaikan eksternal.</p>
             </div>
-            <div class="mi-card">
-               <h4>Cost Management</h4>
-               <p>Biaya yang berkaitan dengan maintenance dapat menjadi bagian dari pengelolaan biaya.</p>
+
+            <div class="mi-card" onclick="window.location.href='/fitur/approval-workflow'" style="cursor:pointer;">
+               <h4>Approval & Workflow</h4>
+               <p>Regulasi ACC pengeluaran dan eksekusi tim.</p>
             </div>
-            <div class="mi-card">
-               <h4>Monitoring & Reporting</h4>
-               <p>Informasi maintenance dapat digunakan untuk monitoring dan laporan.</p>
+
+            <div class="mi-card" onclick="window.location.href='/fitur/cost-financial'" style="cursor:pointer;">
+               <h4>Cost & Financial</h4>
+               <p>Pengawasan realisasi arus kas armada.</p>
             </div>
          </div>
 

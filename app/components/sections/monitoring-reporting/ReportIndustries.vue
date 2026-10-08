@@ -1,7 +1,7 @@
 <template>
   <section class="report-industries-wrapper">
     <div class="report-industries-visual">
-       <img src="/Visualindustri.jpg" alt="Fleet Industrial Uses" class="rind-bg" />
+       <img src="/assets/umum/backgrounds/industry-shared-3.jpg" alt="Fleet Industrial Uses" class="rind-bg" />
        <div class="rind-overlay"></div>
     </div>
 

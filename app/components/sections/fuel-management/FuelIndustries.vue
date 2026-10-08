@@ -2,8 +2,8 @@
   <section class="fuel-industries-wrapper">
     <div class="fuel-industries-container">
       <div class="find-header" data-aos="fade-up">
-        <h2 class="find-title">Fuel Management untuk Berbagai Operasional Armada</h2>
-        <p class="find-subtitle">FleetSumo dapat membantu perusahaan mengelola aktivitas BBM pada berbagai jenis armada dan kebutuhan operasional.</p>
+        <h2 class="find-title">Fuel Management untuk BerbagSistem Operasional Armada</h2>
+        <p class="find-subtitle">FleetSumo dapat membantu perusahaan mengelola aktivitas BBM pada berbagSistem jenis armada dan kebutuhan operasional.</p>
       </div>
 
       <div class="find-grid" data-aos="fade-up" data-aos-delay="100">
@@ -25,7 +25,7 @@
          <div class="find-card">
             <span class="find-icon">🏗️</span>
             <h4>Konstruksi</h4>
-            <p>Kelola aktivitas BBM kendaraan yang digunakan pada berbagai proyek.</p>
+            <p>Kelola aktivitas BBM kendaraan yang digunakan pada berbagSistem proyek.</p>
          </div>
          <div class="find-card">
             <span class="find-icon">🏭</span>

@@ -2,7 +2,7 @@
   <section class="cost-types-wrapper">
     <div class="cost-types-container">
       <div class="cost-types-header" data-aos="fade-up">
-        <h2 class="cost-types-title">Satu Data untuk Berbagai Kebutuhan Biaya Armada</h2>
+        <h2 class="cost-types-title">Satu Data untuk BerbagSistem Kebutuhan Biaya Armada</h2>
       </div>
 
       <div class="cost-types-grid">

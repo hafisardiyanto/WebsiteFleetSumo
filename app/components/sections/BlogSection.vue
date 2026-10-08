@@ -35,7 +35,7 @@
       </div>
       
       <div class="blog-footer" data-aos="fade-up" data-aos-delay="400">
-        <a href="#" class="btn-primary-outline">Lihat Semua Artikel &rarr;</a>
+        <a href="/kontak/demo" class="btn-primary-outline">Lihat Semua Artikel &rarr;</a>
       </div>
     </div>
   </section>

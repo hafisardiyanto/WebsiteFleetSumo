@@ -14,10 +14,10 @@
         <div class="timeline-vertical">
           <div class="timeline-row">
             <div class="timeline-date">Okt 05</div>
-            <div class="timeline-point error"></div>
+            <div class="timeline-point"></div>
             <div class="timeline-detail">
-              <h4>Alert: Kenaikan Konsumsi Cepat</h4>
-              <p>Rasio drop ke 5.2 KM/L (biasanya 8.0 KM/L).</p>
+              <h4>Pengisian SPBU Rest Area km 125</h4>
+              <p>Volume: 40 L | Harga Rp 272.000 | Odometer 21.400</p>
             </div>
           </div>
           
@@ -34,8 +34,8 @@
             <div class="timeline-date">Sep 28</div>
             <div class="timeline-point"></div>
             <div class="timeline-detail">
-              <h4>Validasi Laporan Bulanan</h4>
-              <p>Total transaksi divalidasi ke Finance.</p>
+              <h4>Pengisian Depo Pool Logistik</h4>
+              <p>Volume: 80 L | Internal Costing | Odometer 20.650</p>
             </div>
           </div>
 
@@ -43,8 +43,8 @@
             <div class="timeline-date">Sep 25</div>
             <div class="timeline-point"></div>
             <div class="timeline-detail">
-              <h4>Pengisian Depo Pool Logistik</h4>
-              <p>Volume: 100 L | Internal Costing | Odometer 20.800</p>
+              <h4>Pengisian SPBU Dalam Kota</h4>
+              <p>Volume: 35 L | Harga Rp 238.000 | Odometer 20.300</p>
             </div>
           </div>
         </div>

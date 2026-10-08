@@ -9,26 +9,26 @@
       <div class="csb-grid">
          <div class="csb-card" data-aos="fade-up" data-aos-delay="100">
             <div class="csb-icon">⚙️</div>
-            <h3>Biaya Lebih Terstruktur</h3>
-            <p>Informasi biaya dikelola melalui proses yang lebih terorganisir.</p>
+            <h3>Data Biaya Dari Berbagai Aktivitas Lebih Terpusat</h3>
+            <p>Menyatukan nota BBM, invoice bengkel rute luar kota, dan belanja ban dalam satu wadah catatan.</p>
          </div>
 
          <div class="csb-card" data-aos="fade-up" data-aos-delay="200">
             <div class="csb-icon">🔍</div>
-            <h3>Proses Lebih Mudah Ditelusuri</h3>
-            <p>Pengajuan hingga realisasi dapat mengikuti alur yang jelas.</p>
+            <h3>Biaya Lebih Mudah Ditelusuri Berdasarkan Kendaraan</h3>
+            <p>Setiap Rupiah yang keluar dapat dilacak sampai ke plat nomor unit armada yang menggunakannya.</p>
          </div>
 
          <div class="csb-card" data-aos="fade-up" data-aos-delay="300">
             <div class="csb-icon">🚚</div>
-            <h3>Biaya Kendaraan Lebih Terlihat</h3>
-            <p>Perusahaan dapat melihat informasi biaya berdasarkan kendaraan.</p>
+            <h3>Mendukung Evaluasi Kondisi Kendaraan</h3>
+            <p>Riwayat pengeluaran membantu manajemen menimbang apakah suatu unit lebih baik diremajakan ketimbang dirawat.</p>
          </div>
 
          <div class="csb-card" data-aos="fade-up" data-aos-delay="400">
             <div class="csb-icon">📈</div>
-            <h3>Mendukung Evaluasi</h3>
-            <p>Data biaya dapat digunakan sebagai bahan monitoring dan evaluasi operasional armada.</p>
+            <h3>Laporan Biaya Lebih Mudah Ditelusuri untuk Kebutuhan Evaluasi</h3>
+            <p>Laporan biaya lebih mudah ditelusuri untuk kebutuhan evaluasi dan pembuatan komparasi saat tutup buku.</p>
          </div>
       </div>
     </div>

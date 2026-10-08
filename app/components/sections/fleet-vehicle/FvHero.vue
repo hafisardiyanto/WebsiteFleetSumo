@@ -1,8 +1,8 @@
 <template>
   <section class="fv-hero-wrapper">
-    <!-- Using the AI image as an elegant background wash or split -->
+    <!-- Using the Sistem image as an elegant background wash or split -->
     <div class="fv-hero-bg">
-        <img src="/HeroFleet&Vehicle.jpg" alt="Fleet Vehicle Background" class="fv-bg-img" />
+        <img src="/assets/fitur/fleet-vehicle/hero.jpg" alt="Fleet Vehicle Background" class="fv-bg-img" />
         <div class="fv-bg-overlay"></div>
     </div>
 
@@ -13,18 +13,17 @@
           Kelola Data dan Informasi Kendaraan <span class="highlight">dalam Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola informasi kendaraan secara terpusat, mulai dari data kendaraan, dokumen, status, pengemudi, hingga riwayat kendaraan.
+          FleetSumo membantu perusahaan mengelola informasi kendaraan secara terpusat, mulSistem dari data kendaraan, dokumen, status, pengemudi, hingga riwayat kendaraan.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary-white">Lihat FleetSumo</button>
+          <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
 
       <div class="fv-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-mockup">
-          <img src="/LaporanKendaraan.png" alt="Screenshot Daftar Kendaraan" class="hero-img">
+          <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Screenshot Daftar Kendaraan" class="hero-img">
         </div>
       </div>
     </div>

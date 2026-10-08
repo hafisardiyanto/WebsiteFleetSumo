@@ -1,99 +1,98 @@
 /* app/assets/css/sections/fuel/fuel-features.css */
 .fuel-features-wrapper {
-    background-color: #ffffff;
+    background-color: #f8fafc;
     padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
 }
 
 .fuel-features-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
-.fuel-features-header {
+.fuf-header {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 60px auto;
 }
 
-.fuel-features-title {
-    font-size: 36px;
+.fuf-label {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #1a56db;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+}
+
+.fuf-title {
+    font-size: 34px;
     font-weight: 800;
     color: #0f172a;
-    line-height: 1.3;
+    line-height: 1.35;
 }
 
-.fuel-features-grid {
+.fuf-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    gap: 20px;
 }
 
-.fuel-feature-card {
-    background-color: #f8fafc;
+.fuf-item {
+    background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 16px;
     transition: all 0.3s ease;
 }
 
-.fuel-feature-card:hover {
-    background-color: #ffffff;
+.fuf-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(15, 23, 42, 0.08);
-    /* emerald touch */
-    border-color: #10b981;
+    box-shadow: 0 10px 25px rgba(26, 86, 219, 0.08);
+    border-color: #1a56db;
 }
 
-.fuel-feature-icon {
-    font-size: 28px;
-    width: 56px;
-    height: 56px;
-    background-color: #ffffff;
+.fuf-icon {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background: #f1f5f9;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.05);
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
+    flex-shrink: 0;
 }
 
-.fuel-feature-card:hover .fuel-feature-icon {
-    transform: scale(1.1);
-}
-
-.fuel-feature-title {
-    font-size: 18px;
-    font-weight: 700;
+.fuf-item h4 {
+    font-size: 15px;
+    font-weight: 800;
     color: #0f172a;
     margin-bottom: 8px;
 }
 
-.fuel-feature-desc {
-    font-size: 14px;
+.fuf-item p {
+    font-size: 13.5px;
     color: #475569;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
 }
 
 @media (max-width: 1024px) {
-    .fuel-features-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .fuel-features-grid {
+    .fuf-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 480px) {
-    .fuel-features-grid {
+@media (max-width: 600px) {
+    .fuf-grid {
         grid-template-columns: 1fr;
     }
 }

@@ -6,15 +6,15 @@ const activeSlide = ref(0);
 const slides = [
   {
     title: 'Daftar Kendaraan',
-    img: '/LaporanKendaraan.png',
+    img: '/assets/fitur/dashboard-reports/vehicle-report.png',
   },
   {
     title: 'Detail Kendaraan',
-    img: '/LaporanKendaraan.png',
+    img: '/assets/fitur/dashboard-reports/vehicle-report.png',
   },
   {
     title: 'Informasi/Riwayat Kendaraan',
-    img: '/LaporanKendaraan.png',
+    img: '/assets/fitur/dashboard-reports/vehicle-report.png',
   }
 ];
 

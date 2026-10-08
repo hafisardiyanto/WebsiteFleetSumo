@@ -81,7 +81,7 @@
       </div>
       
       <div class="services-footer" data-aos="fade-up" data-aos-delay="200">
-        <a href="#" class="btn-link">Lihat Semua Solusi &rarr;</a>
+        <a href="/kontak/demo" class="btn-link">Lihat Semua Solusi &rarr;</a>
       </div>
     </div>
   </section>

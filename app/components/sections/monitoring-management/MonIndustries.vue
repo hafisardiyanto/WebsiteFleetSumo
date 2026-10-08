@@ -2,12 +2,12 @@
   <section class="mon-industries-section">
     <div class="mon-industries-container">
       <div class="mon-industries-header" data-aos="fade-up">
-        <h2 class="mon-industries-title">Monitoring Armada untuk Berbagai Kebutuhan Operasional</h2>
+        <h2 class="mon-industries-title">Monitoring Armada untuk BerbagSistem Kebutuhan Operasional</h2>
       </div>
 
       <div class="mon-industries-grid">
         <!-- Industry 1 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="100">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="100">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">🚚</span>
             <div class="mon-industry-text">
@@ -18,7 +18,7 @@
         </a>
 
         <!-- Industry 2 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="200">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="200">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">⛏️</span>
             <div class="mon-industry-text">
@@ -29,7 +29,7 @@
         </a>
 
         <!-- Industry 3 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="300">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="300">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">🌱</span>
             <div class="mon-industry-text">
@@ -40,7 +40,7 @@
         </a>
 
         <!-- Industry 4 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="400">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="400">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">🏗️</span>
             <div class="mon-industry-text">
@@ -51,7 +51,7 @@
         </a>
 
         <!-- Industry 5 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="500">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="500">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">🏭</span>
             <div class="mon-industry-text">
@@ -62,12 +62,12 @@
         </a>
 
         <!-- Industry 6 -->
-        <a href="#" class="mon-industry-card" data-aos="fade-up" data-aos-delay="600">
+        <a href="/kontak/demo" class="mon-industry-card" data-aos="fade-up" data-aos-delay="600">
           <div class="mon-industry-content">
             <span class="mon-industry-icon">🚛</span>
             <div class="mon-industry-text">
                <span class="mon-industry-name">Usaha Armada Lainnya</span>
-               <span class="mon-industry-desc">Skalabilitas parameter monitor ke berbagai komersial.</span>
+               <span class="mon-industry-desc">Skalabilitas parameter monitor ke berbagSistem komersial.</span>
             </div>
           </div>
         </a>

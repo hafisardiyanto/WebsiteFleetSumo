@@ -51,7 +51,7 @@
            <ul>
              <li><strong>11 Okt:</strong> Diajukan (Rp 3.500.000) oleh <i>Mekanik</i></li>
              <li><strong>12 Okt:</strong> Disetujui secara bersyarat (Rp 3.450.000) oleh <i>Finance</i></li>
-             <li><strong>14 Okt:</strong> Invoice dicetak (Terealisasi) otomatis via sistem.</li>
+             <li><strong>14 Okt:</strong> Invoice dicetak (Terealisasi) secara terpusat via sistem.</li>
            </ul>
         </div>
         

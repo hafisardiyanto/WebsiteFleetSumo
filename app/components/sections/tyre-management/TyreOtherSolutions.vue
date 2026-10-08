@@ -58,7 +58,7 @@
         <!-- Module Link 6 -->
         <div class="ti-module-node">
           <div class="ti-mod-box end-node">
-             <h3>Dashboard & Reporting</h3>
+             <h3>Tampilan Utama & Reporting</h3>
              <p>Menyajikan informasi untuk monitoring dan evaluasi.</p>
           </div>
         </div>

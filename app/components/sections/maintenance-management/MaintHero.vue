@@ -6,15 +6,14 @@
       <div class="maint-hero-content">
         <span class="hero-label" data-aos="fade-up">MAINTENANCE MANAGEMENT</span>
         <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
-          Kelola Maintenance Kendaraan dari <span class="highlight">Temuan hingga Riwayat</span>
+          Maintenance Management untuk <span class="highlight">Pengelolaan Perawatan Armada yang Lebih Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola proses maintenance kendaraan secara terstruktur, mulai dari inspeksi dan temuan, pengajuan, approval, pelaksanaan maintenance, hingga pencatatan realisasi dan riwayat kendaraan.
+          FleetSumo dirancang untuk memastikan setiap kebutuhan perawatan mesin dari temuan harian hingga persetujuan biaya terkelola seluruhnya dalam satu sistem alur kerja terpusat.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Lihat Fitur Maintenance</button>
+          <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
 
@@ -22,7 +21,7 @@
       <div class="maint-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-image-container">
           <div class="hero-glow"></div>
-          <img src="/HeroMaintenance.jpg" alt="Fleet Maintenance Operations" class="hero-img">
+          <img src="/assets/umum/backgrounds/hero-maintenance.jpg" alt="Fleet Maintenance Operations" class="hero-img">
         </div>
       </div>
 

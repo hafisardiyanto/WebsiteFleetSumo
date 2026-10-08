@@ -6,68 +6,32 @@
         <p class="fi-subtitle">Data kendaraan menjadi bagian penting dalam berbagai aktivitas FleetSumo. Informasi yang dikelola dapat terhubung dengan modul lain sesuai kebutuhan operasional perusahaan.</p>
       </div>
 
-      <div class="fi-layout" data-aos="fade-up" data-aos-delay="200">
+      <div class="fi-layout" data-aos="fade-up" data-aos-delay="200" style="display:flex; flex-direction:column; align-items:center;">
          
-         <div class="fi-diagram">
-            <div class="fd-row">
-               <div class="fd-box top">FLEET MANAGEMENT</div>
+         <div class="fi-cards" data-aos="fade-up" data-aos-delay="300" style="width:100%; max-width:1000px; display:grid; grid-template-columns: repeat(3, 1fr); gap:1.5rem; justify-content:center;">
+            <div class="fi-card" onclick="window.location.href='/fitur/fleet-vehicle'" style="cursor:pointer;">
+               <h4>Fleet & Vehicle</h4>
+               <p>Informasi teknis dan operasional aset.</p>
             </div>
-            
-            <div class="fd-stem-long"></div>
-            
-            <div class="fd-crossbar">
-                <div class="fd-arrow">▼</div>
-                <div class="fd-arrow">▼</div>
-                <div class="fd-arrow">▼</div>
+            <div class="fi-card" onclick="window.location.href='/fitur/driver-management'" style="cursor:pointer;">
+               <h4>Driver Management</h4>
+               <p>Informasi penugasan pengemudi kendaraan.</p>
             </div>
-            
-            <div class="fd-row branches">
-               <div class="fd-box sec">MAINTENANCE</div>
-               <div class="fd-box sec">FUEL</div>
-               <div class="fd-box sec">TYRE</div>
+            <div class="fi-card" onclick="window.location.href='/fitur/maintenance'" style="cursor:pointer;">
+               <h4>Maintenance</h4>
+               <p>Jadwal dan riwayat perbaikan armada.</p>
             </div>
-
-            <div class="fd-crossbar-bottom">
-                <div class="fd-stem-up"></div>
-                <div class="fd-stem-up"></div>
-                <div class="fd-stem-up"></div>
+            <div class="fi-card" onclick="window.location.href='/fitur/fuel'" style="cursor:pointer;">
+               <h4>Fuel</h4>
+               <p>Data konsumsi pengisian bahan bakar.</p>
             </div>
-
-            <div class="fd-stem-long"></div>
-            <div class="fd-arrow single">▼</div>
-
-            <div class="fd-row">
-               <div class="fd-box thrd">COST</div>
+            <div class="fi-card" onclick="window.location.href='/fitur/tyre'" style="cursor:pointer;">
+               <h4>Tyre</h4>
+               <p>Pencatatan umur pakai ban operasional.</p>
             </div>
-
-            <div class="fd-stem"></div>
-            <div class="fd-arrow single">▼</div>
-
-            <div class="fd-row">
-               <div class="fd-box final">MONITORING & REPORTING</div>
-            </div>
-         </div>
-
-         <div class="fi-cards" data-aos="fade-up" data-aos-delay="300">
-            <div class="fi-card">
-               <h4>Maintenance Management</h4>
-               <p>Kelola aktivitas maintenance yang berkaitan dengan kendaraan.</p>
-            </div>
-            <div class="fi-card">
-               <h4>Fuel Management</h4>
-               <p>Hubungkan kendaraan dengan aktivitas penggunaan BBM.</p>
-            </div>
-            <div class="fi-card">
-               <h4>Tyre Management</h4>
-               <p>Kelola informasi ban berdasarkan kendaraan dan penggunaannya.</p>
-            </div>
-            <div class="fi-card">
-               <h4>Cost Management</h4>
-               <p>Pantau biaya yang berkaitan dengan kendaraan dan aktivitas operasional.</p>
-            </div>
-            <div class="fi-card">
-               <h4>Monitoring & Reporting</h4>
-               <p>Gunakan data yang terintegrasi untuk monitoring dan reporting.</p>
+            <div class="fi-card" onclick="window.location.href='/fitur/cost-financial'" style="cursor:pointer;">
+               <h4>Cost & Financial</h4>
+               <p>Monitor realisasi dana operasional.</p>
             </div>
          </div>
 

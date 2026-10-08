@@ -1,6 +1,6 @@
 <template>
   <section class="dm-cta-wrapper">
-    <img src="/CTADriver.jpg" class="dmcta-bg-img" alt="Driver Platform Action CTA" />
+    <img src="/assets/fitur/driver-management/cta-bg.jpg" class="dmcta-bg-img" alt="Driver Platform Action CTA" />
     <div class="dmcta-overlay"></div>
 
     <div class="dm-cta-container">
@@ -10,8 +10,7 @@
         <p class="dmcta-desc">Diskusikan kebutuhan pengelolaan pengemudi dan operasional armada perusahaan Anda bersama tim FleetSumo.</p>
         
         <div class="dmcta-actions">
-           <button class="btn-primary">Minta Demo</button>
-           <button class="btn-secondary-white">Hubungi Kami</button>
+           <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
     </div>

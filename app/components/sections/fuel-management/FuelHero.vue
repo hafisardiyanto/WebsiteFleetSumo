@@ -9,7 +9,7 @@
           Kelola Penggunaan BBM Armada dengan <span class="highlight">Lebih Terukur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mencatat dan memantau aktivitas BBM kendaraan, mulai dari pengisian, volume, biaya, hingga riwayat penggunaan dalam satu sistem yang terstruktur.
+          Pastikan setiap liter bahan bakar yang dikonsumsi operasional armada Anda tercatat akurat menjadi basis data yang mendukung efisiensi jangka panjang.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -22,7 +22,7 @@
       <div class="fuel-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-image-container">
           <div class="hero-glow"></div>
-          <img src="/HeroFuel.jpg" alt="Fleet Fuel Management" class="hero-img">
+          <img src="/assets/umum/backgrounds/hero-fuel.jpg" alt="Fleet Fuel Management" class="hero-img">
         </div>
       </div>
 

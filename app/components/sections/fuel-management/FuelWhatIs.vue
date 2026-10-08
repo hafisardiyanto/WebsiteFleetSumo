@@ -4,7 +4,7 @@
       <div class="fuel-what-header" data-aos="fade-up">
         <h2 class="fuel-what-title">Sistem Terpusat Mengelola Pengisian & Efisiensi Bahan Bakar</h2>
         <p class="fuel-what-subtitle">
-          Fuel Management FleetSumo menyambungkan mata rantai aktivitas operasional SPBU. Mulai dari log transaksi, pencatatan odometer (jarak), validasi dokumen finansial, hingga penyajian grafik rasio liter.
+          Fuel Management FleetSumo menyambungkan mata rantSistem aktivitas operasional SPBU. MulSistem dari log transaksi, pencatatan odometer (jarak), validasi dokumen finansial, hingga penyajian grafik rasio liter.
         </p>
       </div>
 

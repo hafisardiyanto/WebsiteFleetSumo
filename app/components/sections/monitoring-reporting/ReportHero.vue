@@ -22,7 +22,7 @@
       <div class="report-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-image-container">
           <div class="hero-glow"></div>
-          <img src="/HeroReport.jpg" alt="Fleet Monitoring Reporting Hero" class="hero-img">
+          <img src="/assets/fitur/dashboard-reports/hero-1.jpg" alt="Fleet Monitoring Reporting Hero" class="hero-img">
         </div>
       </div>
 

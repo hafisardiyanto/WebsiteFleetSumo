@@ -6,19 +6,19 @@ const activeSlide = ref(0);
 const slides = [
   {
     title: 'Daftar Pengemudi',
-    img: '/DaftarDriver.png',
+    img: '/assets/fitur/driver-management/driver-list.png',
   },
   {
     title: 'Detail Pengemudi',
-    img: '/DetailDriver.png',
+    img: '/assets/fitur/driver-management/driver-detail.png',
   },
   {
     title: 'Form Tambah/Edit Pengemudi',
-    img: '/TambahDriver.png',
+    img: '/assets/fitur/driver-management/driver-form.png',
   },
   {
     title: 'Driver Terhubung Kendaraan',
-    img: '/DetailKendaraan.png',
+    img: '/assets/fitur/fleet-vehicle/vehicle-detail.png',
   }
 ];
 

@@ -1,15 +1,15 @@
 <template>
   <section class="fv-industries-wrapper">
     <div class="fv-industries-visual">
-       <img src="/Visualindustri.jpg" alt="Fleet Industrial Uses" class="fvind-bg" />
+       <img src="/assets/umum/backgrounds/industry-shared-3.jpg" alt="Fleet Industrial Uses" class="fvind-bg" />
        <div class="fvind-overlay"></div>
     </div>
 
     <div class="fv-industries-container relative-content">
       <div class="fvind-header" data-aos="fade-up">
-        <span class="fvind-label">UNTUK BERBAGAI INDUSTRI</span>
-        <h2 class="fvind-title">Pengelolaan Kendaraan untuk Berbagai Jenis Armada</h2>
-        <p class="fvind-subtitle">Fleet & Vehicle dapat digunakan untuk mendukung kebutuhan pengelolaan kendaraan pada berbagai jenis industri dan operasional armada.</p>
+        <span class="fvind-label">UNTUK BERBAGSistem INDUSTRI</span>
+        <h2 class="fvind-title">Pengelolaan Kendaraan untuk BerbagSistem Jenis Armada</h2>
+        <p class="fvind-subtitle">Fleet & Vehicle dapat digunakan untuk mendukung kebutuhan pengelolaan kendaraan pada berbagSistem jenis industri dan operasional armada.</p>
       </div>
 
       <div class="fvind-grid" data-aos="fade-up" data-aos-delay="100">
@@ -35,7 +35,7 @@
          </div>
          <div class="fvind-card">
             <h4>Usaha Armada Lainnya</h4>
-            <p>Kelola kendaraan sesuai kebutuhan operasional perusahaan.</p>
+            <p>Kelola kendaraan sesuSistem kebutuhan operasional perusahaan.</p>
          </div>
       </div>
     </div>

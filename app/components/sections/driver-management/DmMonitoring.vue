@@ -13,7 +13,7 @@
          </div>
          <div class="dmm-m-point">
              <h4>Status Pengemudi</h4>
-             <p>Informasi status pengemudi sesuai data yang tersedia.</p>
+             <p>Informasi status pengemudi sesuSistem data yang tersedia.</p>
          </div>
          <div class="dmm-m-point">
              <h4>Kendaraan Terkait</h4>
@@ -27,7 +27,7 @@
 
       <div class="dmm-m-visual" data-aos="zoom-in" data-aos-delay="200">
          <div class="dmm-m-mockup">
-             <img src="/DaftarDriver.png" alt="Driver Monitoring Dashboard" class="dmm-m-img" />
+             <img src="/assets/fitur/driver-management/driver-list.png" alt="Driver Monitoring Tampilan Utama" class="dmm-m-img" />
          </div>
       </div>
 

@@ -3,7 +3,7 @@
     <div class="fleet-workflow-container">
       <div class="fw-header" data-aos="fade-up">
         <h2 class="fw-title">Dari Data Kendaraan Menjadi Informasi Operasional</h2>
-        <p class="fw-subtitle">FleetSumo menghubungkan data kendaraan dengan berbagai aktivitas operasional sehingga informasi armada dapat dikelola dan ditelusuri dalam satu alur.</p>
+        <p class="fw-subtitle">FleetSumo menghubungkan data kendaraan dengan berbagSistem aktivitas operasional sehingga informasi armada dapat dikelola dan ditelusuri dalam satu alur.</p>
       </div>
 
       <div class="fw-path">

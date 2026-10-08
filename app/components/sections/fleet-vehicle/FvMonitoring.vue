@@ -10,7 +10,7 @@
       <div class="fvm-m-layout">
          <div class="fvm-m-visual" data-aos="fade-right" data-aos-delay="100">
              <div class="fvm-m-mockup">
-                 <img src="/LaporanKendaraan.png" alt="Fleet Vehicle Monitoring Status" class="fvm-m-img" />
+                 <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Fleet Vehicle Monitoring Status" class="fvm-m-img" />
              </div>
          </div>
 

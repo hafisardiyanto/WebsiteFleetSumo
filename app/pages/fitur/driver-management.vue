@@ -1,25 +1,39 @@
 <script setup>
+useHead({
+  title: 'Driver Management | FleetSumo',
+  meta: [
+    { name: 'description', content: 'Pusat data pengemudi, riwayat SIM, dan penugasan armada yang aman dan terkendali.' },
+    { property: 'og:title', content: 'Driver Management | FleetSumo' },
+    { property: 'og:description', content: 'Pusat data pengemudi, riwayat SIM, dan penugasan armada yang aman dan terkendali.' },
+    { property: 'og:url', content: 'https://fleetsumo.id/fitur/driver-management' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'robots', content: 'index, follow' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://fleetsumo.id/fitur/driver-management' }
+  ]
+})
+
 import { onMounted } from 'vue';
-import NavbarSection from '~/components/sections/Navbar.vue';
-
-// Import all Driver Management Components
-import DmHero from '~/components/sections/driver-management/DmHero.vue';
-import DmProblems from '~/components/sections/driver-management/DmProblems.vue';
-import DmDefinition from '~/components/sections/driver-management/DmDefinition.vue';
-import DmManagedItems from '~/components/sections/driver-management/DmManagedItems.vue';
-import DmDetail from '~/components/sections/driver-management/DmDetail.vue';
-import DmList from '~/components/sections/driver-management/DmList.vue';
-import DmFeatures from '~/components/sections/driver-management/DmFeatures.vue';
-import DmWorkflow from '~/components/sections/driver-management/DmWorkflow.vue';
-import DmIntegration from '~/components/sections/driver-management/DmIntegration.vue';
-import DmMonitoring from '~/components/sections/driver-management/DmMonitoring.vue';
-import DmBenefits from '~/components/sections/driver-management/DmBenefits.vue';
-import DmShowcase from '~/components/sections/driver-management/DmShowcase.vue';
-import DmIndustries from '~/components/sections/driver-management/DmIndustries.vue';
-import DmCTA from '~/components/sections/driver-management/DmCTA.vue';
-
-import FooterSection from '~/components/sections/FooterSection.vue';
 import smoothscroll from 'lenis';
+import NavbarSection from '~/components/sections/Navbar.vue';
+import FooterSection from '~/components/sections/FooterSection.vue';
+
+// 01 Hero
+import DmHero from '~/components/sections/driver-management/DmHero.vue';
+// 02 Use Case
+import DmUseCase from '~/components/sections/driver-management/DmUseCase.vue';
+// 03 Product Evidence 
+import DmEvidence from '~/components/sections/driver-management/DmEvidence.vue';
+// 04 Roles & Workflow
+import DmRoles from '~/components/sections/driver-management/DmRoles.vue';
+// 05 Ecosystem Integration
+import DmIntegration from '~/components/sections/driver-management/DmIntegration.vue';
+// 06 FAQ
+import DmFAQ from '~/components/sections/driver-management/DmFAQ.vue';
+// 07 CTA
+import DmCTA from '~/components/sections/driver-management/DmCTA.vue';
 
 onMounted(() => {
   const lenis = new smoothscroll({
@@ -28,10 +42,6 @@ onMounted(() => {
     direction: 'vertical',
     gestureDirection: 'vertical',
     smooth: true,
-    mouseMultiplier: 1,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false,
   });
 
   function raf(time) {
@@ -49,18 +59,11 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <DmHero />
-      <DmProblems />
-      <DmDefinition />
-      <DmManagedItems />
-      <DmDetail />
-      <DmList />
-      <DmFeatures />
-      <DmWorkflow />
+      <DmUseCase />
+      <DmEvidence />
+      <DmRoles />
       <DmIntegration />
-      <DmMonitoring />
-      <DmBenefits />
-      <DmShowcase />
-      <DmIndustries />
+      <DmFAQ />
       <DmCTA />
     </div>
 
@@ -69,11 +72,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.page-wrapper {
-  overflow: hidden;
-}
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
+.page-wrapper { overflow: hidden; }
+.content-wrapper { display: flex; flex-direction: column; }
 </style>

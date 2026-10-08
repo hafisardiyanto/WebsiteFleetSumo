@@ -16,7 +16,7 @@
       </div>
       
       <div class="about-visual" data-aos="fade-left">
-        <img src="/Gambar.jpg" alt="Visi FleetSumo" class="about-img">
+        <img src="/assets/tentang-kami/company/about-us.jpg" alt="Visi FleetSumo" class="about-img">
         <div class="about-badge">
           <div class="badge-icon">🚀</div>
           <div class="badge-text">

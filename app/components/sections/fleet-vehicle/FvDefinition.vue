@@ -3,7 +3,7 @@
     <div class="fv-def-container">
        <div class="fvd-header" data-aos="fade-up">
         <h2 class="fvd-title">Satu Pusat Informasi untuk Data Kendaraan</h2>
-        <p class="fvd-subtitle">Fitur Fleet & Vehicle menjadi tempat untuk mengelola informasi kendaraan yang digunakan dalam operasional perusahaan. Data kendaraan dapat menjadi penghubung dengan berbagai aktivitas armada lainnya.</p>
+        <p class="fvd-subtitle">Fitur Fleet & Vehicle menjadi tempat untuk mengelola informasi kendaraan yang digunakan dalam operasional perusahaan. Data kendaraan dapat menjadi penghubung dengan berbagSistem aktivitas armada lainnya.</p>
       </div>
 
       <div class="fvd-diagram" data-aos="fade-up" data-aos-delay="200">
@@ -53,7 +53,7 @@
             <div class="fvd-box node end">RIWAYAT</div>
          </div>
 
-         <p class="fvd-desc">Kendaraan menjadi pusat informasi yang menghubungkan berbagai aktivitas operasional armada.</p>
+         <p class="fvd-desc">Kendaraan menjadi pusat informasi yang menghubungkan berbagSistem aktivitas operasional armada.</p>
       </div>
     </div>
   </section>

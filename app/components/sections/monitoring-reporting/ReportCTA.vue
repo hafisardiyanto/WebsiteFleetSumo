@@ -1,6 +1,6 @@
 <template>
   <section class="report-cta-wrapper">
-    <img src="/CTAReport.jpg" class="rcta-bg-img" alt="Report Insight Action CTA" />
+    <img src="/assets/fitur/dashboard-reports/cta-bg.jpg" class="rcta-bg-img" alt="Report Insight Action CTA" />
     <div class="rcta-overlay"></div>
 
     <div class="report-cta-container">

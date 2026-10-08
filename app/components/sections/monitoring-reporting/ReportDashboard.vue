@@ -10,7 +10,7 @@
       </div>
 
       <div class="rd-hero-mockup" data-aos="zoom-in" data-aos-delay="100">
-         <img src="/LaporanKendaraan.png" alt="FleetSumo Dashboard Layout Placeholder" class="rd-img" />
+         <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Dashboard Layout Placeholder" class="rd-img" />
          <!-- Simulated UI Frame -->
          <div class="rd-dot d1"></div>
          <div class="rd-dot d2"></div>

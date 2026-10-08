@@ -30,7 +30,7 @@
          <div class="fc-item lower">
             <div class="fc-num">04</div>
             <h3>Validasi</h3>
-            <p>Pastikan informasi pengisian tercatat sesuai proses perusahaan.</p>
+            <p>Pastikan informasi pengisian tercatat sesuSistem proses perusahaan.</p>
          </div>
          <div class="fc-arrow lower">→</div>
          <div class="fc-item lower">

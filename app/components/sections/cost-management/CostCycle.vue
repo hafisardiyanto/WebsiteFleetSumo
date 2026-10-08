@@ -37,7 +37,7 @@
         <div class="cc-step">
           <div class="cc-icon">✅</div>
           <h4 class="cc-title">Approval</h4>
-          <p class="cc-desc">Persetujuan sesuai workflow internal perusahaan.</p>
+          <p class="cc-desc">Persetujuan sesuSistem workflow internal perusahaan.</p>
         </div>
         
         <!-- Next row breaker for responsive/aesthetics if needed, but in flex it wraps -->
@@ -55,7 +55,7 @@
         <div class="cc-step">
           <div class="cc-icon">🗃️</div>
           <h4 class="cc-title">Pencatatan</h4>
-          <p class="cc-desc">Aman tersimpan sebagai log informasi operasional.</p>
+          <p class="cc-desc">Aman tersimpan sebagSistem log informasi operasional.</p>
         </div>
         <div class="cc-arrow"></div>
 

@@ -2,38 +2,52 @@
   <section class="home-how-wrapper">
     <div class="home-how-container">
       <div class="how-header" data-aos="fade-up">
-        <h2 class="how-title">Dari Data Armada Menjadi Informasi yang Bernilai</h2>
-        <p class="how-subtitle">FleetSumo membantu perusahaan mengelola aktivitas armada secara terstruktur, mulai dari pengelolaan data hingga monitoring dan pelaporan.</p>
+        <h2 class="how-title">Satu Sistem untuk Seluruh Siklus Armada</h2>
+        <p class="how-subtitle">Mengontrol seluruh aspek manajerial armada dari tingkat aset, operasional, logistik hingga ke tingkatan finansial dalam satu alur tersentralisasi.</p>
       </div>
 
-      <div class="how-flow">
-         <!-- Step 1 -->
+      <div class="how-flow" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 2rem;">
+         
          <div class="how-card" data-aos="fade-up" data-aos-delay="100">
-            <span class="how-num">01</span>
-            <h3>KELOLA</h3>
-            <p>Kelola data kendaraan, pengemudi, dokumen, sparepart, vendor, dan informasi pendukung lainnya.</p>
+            <h3>KENDARAAN</h3>
+            <p>Data unit, status, dokumen dan penugasan armada harian.</p>
          </div>
 
-         <!-- Step 2 -->
          <div class="how-card" data-aos="fade-up" data-aos-delay="200">
-            <span class="how-num">02</span>
-            <h3>JALANKAN</h3>
-            <p>Catat dan kelola aktivitas armada seperti maintenance, BBM, ban, dan aktivitas operasional lainnya.</p>
+            <h3>DRIVER</h3>
+            <p>Kelola data, izin mengemudi, dan assignment pengemudi.</p>
          </div>
 
-         <!-- Step 3 -->
          <div class="how-card" data-aos="fade-up" data-aos-delay="300">
-            <span class="how-num">03</span>
-            <h3>KONTROL</h3>
-            <p>Kelola pengajuan, approval, realisasi, biaya, dan proses operasional sesuai kebutuhan perusahaan.</p>
+            <h3>MAINTENANCE</h3>
+            <p>Jadwal bengkel, histori perbaikan, approval dan pekerjaan mekanik.</p>
          </div>
 
-         <!-- Step 4 -->
-         <div class="how-card highlight" data-aos="fade-up" data-aos-delay="400">
-            <span class="how-num h-num">04</span>
-            <h3 class="h-tit">MONITOR</h3>
-            <p class="h-desc">Pantau aktivitas dan data armada melalui dashboard dan laporan untuk mendukung evaluasi.</p>
+         <div class="how-card" data-aos="fade-up" data-aos-delay="400">
+            <h3>FUEL</h3>
+            <p>Catat isi BBM, konsumsi, dan log pengeluaran kendaraan.</p>
          </div>
+
+         <div class="how-card" data-aos="fade-up" data-aos-delay="500">
+            <h3>TYRE</h3>
+            <p>Kelola rotasi pemasangan, pelepasan, dan histori aus ban.</p>
+         </div>
+
+         <div class="how-card" data-aos="fade-up" data-aos-delay="600">
+            <h3>SPAREPART</h3>
+            <p>Kontrol inventori stok gudang dan pemakaian suku cadang.</p>
+         </div>
+
+         <div class="how-card highlight" data-aos="fade-up" data-aos-delay="700">
+            <h3 class="h-tit">COST</h3>
+            <p class="h-desc" style="color:#0f172a; margin-top:10px;">Pantau biaya akumulatif dan operasional tiap kendaraan armada.</p>
+         </div>
+
+         <div class="how-card highlight" data-aos="fade-up" data-aos-delay="800">
+            <h3 class="h-tit">DASHBOARD</h3>
+            <p class="h-desc" style="color:#0f172a; margin-top:10px;">Ubah data lapangan menjadi laporan analitik terpusat otomatis.</p>
+         </div>
+
       </div>
     </div>
   </section>

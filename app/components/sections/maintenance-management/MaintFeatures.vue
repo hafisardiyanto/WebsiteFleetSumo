@@ -36,7 +36,7 @@
             <span class="mf-icon">✅</span>
             <div>
                <h4>Approval</h4>
-               <p>Proses persetujuan maintenance sesuai workflow perusahaan.</p>
+               <p>Proses persetujuan maintenance sesuSistem workflow perusahaan.</p>
             </div>
          </div>
 

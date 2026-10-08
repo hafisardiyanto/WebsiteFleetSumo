@@ -6,15 +6,14 @@
       <div class="fleet-hero-content">
         <span class="hero-label" data-aos="fade-up">FLEET MANAGEMENT</span>
         <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
-          Kelola Seluruh Armada dalam <br/><span class="highlight">Satu Sistem Terintegrasi</span>
+          Fleet Management untuk <span class="highlight">Pengelolaan Armada yang Lebih Terukur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola data kendaraan, pengemudi, dokumen, status, aktivitas, dan riwayat armada dalam satu platform yang terstruktur.
+          FleetSumo dirancang sebagai sistem sentral pengelolaan kendaraan armada perusahaan. Membantu mengkonsolidasikan seluruh pemantauan operasional kendaraan ke dalam satu alur manajemen yang akurat.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Lihat Fitur Fleet Management</button>
+          <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
 
@@ -22,7 +21,7 @@
       <div class="fleet-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-image-container">
           <div class="hero-glow"></div>
-          <img src="/HeroFleet.jpg" alt="Fleet Management Operations" class="hero-img">
+          <img src="/assets/solusi/fleet-management/hero.jpg" alt="Fleet Management Operations" class="hero-img">
         </div>
       </div>
 

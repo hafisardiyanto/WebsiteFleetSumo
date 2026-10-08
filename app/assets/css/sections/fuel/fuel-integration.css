@@ -1,0 +1,116 @@
+/* app/assets/css/sections/fuel/fuel-integration.css */
+.fuel-int-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.fuel-int-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fui-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.fui-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.fui-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.fui-box {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    min-width: 180px;
+}
+
+.fui-box.parent {
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.fui-box.active {
+    background: #1a56db;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(26, 86, 219, 0.3);
+}
+
+.fui-box.child {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #0f172a;
+    min-width: 120px;
+}
+
+.fui-box.child-alt {
+    background: #f8fafc;
+    border: 1px solid #94a3b8;
+    color: #0f172a;
+}
+
+.fui-box.final {
+    background: #0f172a;
+    color: #ffffff;
+}
+
+.fui-arrow-down {
+    color: #94a3b8;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.fui-arrow-down.small {
+    margin: 5px 0;
+}
+
+.fui-branches {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.fui-branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branch-arrow {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.fui-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .fui-branches {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

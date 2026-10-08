@@ -2,9 +2,9 @@
   <section class="fleet-other-solutions-wrapper">
     <div class="fleet-other-container">
       <div class="fleet-other-header" data-aos="fade-up">
-        <h2 class="fleet-other-title">Fleet Management sebagai Pusat Pengelolaan Armada</h2>
+        <h2 class="fleet-other-title">Fleet Management sebagSistem Pusat Pengelolaan Armada</h2>
         <p class="fleet-other-subtitle">
-          Pengelolaan kendaraan tidak berdiri sendiri. Data armada dapat menjadi bagian dari berbagai aktivitas operasional lainnya.
+          Pengelolaan kendaraan tidak berdiri sendiri. Data armada dapat menjadi bagian dari berbagSistem aktivitas operasional lainnya.
         </p>
       </div>
 
@@ -15,7 +15,7 @@
             <h3 class="other-solution-title">Maintenance Management</h3>
             <p class="other-solution-desc">Kelola perawatan dan riwayat maintenance kendaraan.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Maintenance &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Maintenance &rarr;</a>
         </div>
 
         <!-- Solution 2 -->
@@ -24,7 +24,7 @@
             <h3 class="other-solution-title">Fuel Management</h3>
             <p class="other-solution-desc">Kelola aktivitas dan penggunaan BBM armada.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Fuel &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Fuel &rarr;</a>
         </div>
 
         <!-- Solution 3 -->
@@ -33,7 +33,7 @@
             <h3 class="other-solution-title">Tyre Management</h3>
             <p class="other-solution-desc">Kelola siklus penggunaan dan riwayat ban.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Tyre &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Tyre &rarr;</a>
         </div>
 
         <!-- Solution 4 -->
@@ -42,7 +42,7 @@
             <h3 class="other-solution-title">Cost Management</h3>
             <p class="other-solution-desc">Pantau biaya yang berkaitan dengan aktivitas armada.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Cost &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Cost &rarr;</a>
         </div>
       </div>
     </div>

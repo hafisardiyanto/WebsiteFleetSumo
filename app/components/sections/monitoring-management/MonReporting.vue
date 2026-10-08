@@ -2,7 +2,7 @@
   <section class="mon-reporting-wrapper">
     <div class="mon-reporting-container">
       <div class="mon-reporting-header" data-aos="fade-up">
-        <h2 class="mon-reporting-title">Jadikan Data Armada sebagai Laporan Terstruktur</h2>
+        <h2 class="mon-reporting-title">Jadikan Data Armada sebagSistem Laporan Terstruktur</h2>
         <p class="mon-reporting-subtitle">
           Reporting membantu perusahaan menyajikan informasi operasional dalam bentuk siap santap yang dapat digunakan seketika untuk kebutuhan evaluasi.
         </p>

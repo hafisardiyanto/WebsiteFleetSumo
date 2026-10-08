@@ -21,7 +21,7 @@
         <div class="cw-card">
           <div class="cw-index">02</div>
           <h3 class="cw-title">APPROVE</h3>
-          <p class="cw-desc">Mengelola proses persetujuan sesuai workflow perusahaan.</p>
+          <p class="cw-desc">Mengelola proses persetujuan sesuSistem workflow perusahaan.</p>
         </div>
 
         <div class="cw-arrow">→</div>

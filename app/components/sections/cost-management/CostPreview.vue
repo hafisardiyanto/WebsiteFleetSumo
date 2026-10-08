@@ -10,7 +10,7 @@
       <!-- MAIN UI PREVIEW -->
       <div class="cpv-layout center-preview" data-aos="zoom-in" data-aos-delay="100">
          <div class="cpv-mockup">
-             <img src="/LaporanKendaraan.png" alt="FleetSumo Laporan Kendaraan Cost" class="cpv-img" />
+             <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Laporan Kendaraan Cost" class="cpv-img" />
              <div class="cpv-dot d1"></div>
              <div class="cpv-dot d2"></div>
              <div class="cpv-dot d3"></div>
@@ -29,7 +29,7 @@
          </div>
          <div class="cpv-point">
              <h4>Kendaraan dengan Biaya Tertinggi</h4>
-             <p>Identifikasi kendaraan dengan nilai biaya yang paling besar berdasarkan data laporan.</p>
+             <p>Identifikasi kendaraan dengan nilSistem biaya yang paling besar berdasarkan data laporan.</p>
          </div>
          <div class="cpv-point">
              <h4>Daftar Kendaraan</h4>

@@ -47,7 +47,7 @@
          <div class="tyc-item lower">
             <div class="tyc-num">06</div>
             <h3>Perubahan Posisi</h3>
-            <p>Perpindahan posisi ban dicatat sesuai siklus.</p>
+            <p>Perpindahan posisi ban dicatat sesuSistem siklus.</p>
          </div>
          <div class="tyc-arrow lower">→</div>
          
@@ -61,7 +61,7 @@
          <div class="tyc-item lower final">
             <div class="tyc-num active">08</div>
             <h3>Riwayat</h3>
-            <p>Aktivitas ban tersimpan sebagai riwayat penelusuran.</p>
+            <p>Aktivitas ban tersimpan sebagSistem riwayat penelusuran.</p>
          </div>
       </div>
     </div>

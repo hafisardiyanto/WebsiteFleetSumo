@@ -38,7 +38,7 @@
           <div class="dmw-item">
             <div class="dmw-num">05</div>
             <h3>SIMPAN RIWAYAT</h3>
-            <p>Informasi yang tersedia dapat digunakan sebagai histori.</p>
+            <p>Informasi yang tersedia dapat digunakan sebagSistem histori.</p>
          </div>
          <div class="dmw-arrow">↓</div>
 

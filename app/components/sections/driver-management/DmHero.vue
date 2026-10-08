@@ -1,7 +1,7 @@
 <template>
   <section class="dm-hero-wrapper">
     <div class="dm-hero-bg">
-        <img src="/HeroDriver.jpg" alt="Driver Management Background" class="dm-bg-img" />
+        <img src="/assets/fitur/driver-management/hero.jpg" alt="Driver Management Background" class="dm-bg-img" />
         <div class="dm-bg-overlay"></div>
     </div>
 
@@ -16,14 +16,13 @@
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary-white">Lihat Fitur FleetSumo</button>
+          <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
 
       <div class="dm-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-mockup">
-          <img src="/DaftarDriver.png" alt="Screenshot Daftar Pengemudi" class="hero-img">
+          <img src="/assets/fitur/driver-management/driver-list.png" alt="Screenshot Daftar Pengemudi" class="hero-img">
         </div>
       </div>
     </div>

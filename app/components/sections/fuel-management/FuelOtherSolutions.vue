@@ -22,7 +22,7 @@
         <div class="other-solution-card" data-aos="fade-up" data-aos-delay="200">
           <div class="other-solution-content">
             <h3 class="other-solution-title">Maintenance</h3>
-            <p class="other-solution-desc">Anjloknya efisiensi KM/L memicu pemeriksaan / Work Order secara otomatis.</p>
+            <p class="other-solution-desc">Riwayat efisiensi KM/L yang buruk dapat dipantau untuk mendukung penjadwalan Work Order pemeriksaan lanjutan.</p>
           </div>
           <a href="/solusi/maintenance-management" class="other-solution-link">Pelajari Maintenance &rarr;</a>
         </div>
@@ -33,7 +33,7 @@
             <h3 class="other-solution-title">Cost Management</h3>
             <p class="other-solution-desc">Nota pengisian bahan bakar terekam di satu titik jurnal pembukuan internal.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Cost Management &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Cost Management &rarr;</a>
         </div>
 
         <!-- Solution 4 -->
@@ -42,7 +42,7 @@
             <h3 class="other-solution-title">Tyre Management</h3>
             <p class="other-solution-desc">Hubungkan efek umur ban dan tekanan udara ban terhadap konsumsi BBM di log analitik.</p>
           </div>
-          <a href="#" class="other-solution-link">Pelajari Tyre Management &rarr;</a>
+          <a href="/kontak/demo" class="other-solution-link">Pelajari Tyre Management &rarr;</a>
         </div>
       </div>
     </div>

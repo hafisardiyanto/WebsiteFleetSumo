@@ -1,17 +1,16 @@
 <template>
   <section class="cost-cta-wrapper">
-    <img src="/CTACostManagement.jpg" class="ccta-bg-img" alt="Cost Activity Action CTA" />
+    <img src="/assets/solusi/cost-management/cta-bg.jpg" class="ccta-bg-img" alt="Cost Activity Action CTA" />
     <div class="ccta-overlay"></div>
 
     <div class="cost-cta-container">
       <div class="ccta-content" data-aos="zoom-in">
-        <span class="ccta-label">SIAP MENGENDALIKAN BIAYA ARMADA?</span>
-        <h2 class="ccta-title">Kelola Biaya Operasional Armada dalam Satu Platform</h2>
-        <p class="ccta-desc">Diskusikan kebutuhan pengelolaan biaya armada perusahaan Anda bersama tim FleetSumo dan lihat bagaimana data biaya dapat dikelola secara lebih terstruktur.</p>
+        <span class="ccta-label">COST MANAGEMENT</span>
+        <h2 class="ccta-title">Kumpulkan dan Kelola Tren Biaya Armada Terpusat</h2>
+        <p class="ccta-desc">Diskusikan kebutuhan tata kelola beban operasional bersama tim implementasi FleetSumo hari ini.</p>
         
         <div class="ccta-actions">
-           <button class="btn-primary">Minta Demo</button>
-           <button class="btn-secondary-white">Hubungi Kami</button>
+           <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
     </div>

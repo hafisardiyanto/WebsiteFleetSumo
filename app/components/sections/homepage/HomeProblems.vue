@@ -11,37 +11,43 @@
         <div class="hp-card" data-aos="fade-up" data-aos-delay="100">
           <div class="hp-icon">🚛</div>
           <h3 class="hp-name">Data Kendaraan Tersebar</h3>
-          <p class="hp-desc">Informasi kendaraan, dokumen, status, dan riwayat operasional tersimpan di berbagai tempat.</p>
+          <p class="hp-desc">Informasi unit kendaraan dan history yang terpencar di berbagai tempat.</p>
         </div>
 
         <div class="hp-card" data-aos="fade-up" data-aos-delay="200">
           <div class="hp-icon">🔧</div>
-          <h3 class="hp-name">Maintenance Sulit Dipantau</h3>
-          <p class="hp-desc">Jadwal perawatan, temuan kendaraan, pengajuan, dan riwayat perbaikan membutuhkan pencatatan yang terstruktur.</p>
+          <h3 class="hp-name">Riwayat Maintenance Sulit Ditelusuri</h3>
+          <p class="hp-desc">Catatan perbaikan dan jadwal mekanik yang tidak rapi membuat unit rawan rusak.</p>
         </div>
 
         <div class="hp-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="hp-icon">⛽</div>
-          <h3 class="hp-name">Penggunaan BBM Sulit Ditelusuri</h3>
-          <p class="hp-desc">Data pengisian, volume, dan biaya BBM perlu dikaitkan dengan kendaraan dan aktivitas operasional.</p>
+          <div class="hp-icon">💰</div>
+          <h3 class="hp-name">Biaya Per Kendaraan Sulit Dibandingkan</h3>
+          <p class="hp-desc">Sulit menganalisa pengeluaran riil setiap armada secara akurat.</p>
         </div>
 
         <div class="hp-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="hp-icon">🛞</div>
-          <h3 class="hp-name">Ban dan Sparepart Sulit Dikontrol</h3>
-          <p class="hp-desc">Data penggunaan, pemasangan, posisi, dan riwayat komponen membutuhkan pengelolaan yang konsisten.</p>
+          <div class="hp-icon">⛽</div>
+          <h3 class="hp-name">Penggunaan BBM Sulit Dipantau</h3>
+          <p class="hp-desc">Lemahnya pelacakan konsumsi bahan bakar dan temuan efisiensi BBM.</p>
         </div>
 
         <div class="hp-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="hp-icon">💰</div>
-          <h3 class="hp-name">Biaya Armada Sulit Ditelusuri</h3>
-          <p class="hp-desc">Pengeluaran dari berbagai aktivitas armada membuat perusahaan membutuhkan informasi biaya yang lebih terstruktur.</p>
+          <div class="hp-icon">🔩</div>
+          <h3 class="hp-name">Sparepart Tidak Terkontrol</h3>
+          <p class="hp-desc">Stok suku cadang gudang tidak terhubung langsung dengan proses perbaikan unit.</p>
         </div>
 
         <div class="hp-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="hp-icon">📊</div>
-          <h3 class="hp-name">Laporan Perlu Banyak Proses Manual</h3>
-          <p class="hp-desc">Data dari berbagai aktivitas perlu dikumpulkan sebelum dapat digunakan untuk monitoring dan evaluasi.</p>
+          <div class="hp-icon">📋</div>
+          <h3 class="hp-name">Dokumen Kendaraan Bisa Terlewat</h3>
+          <p class="hp-desc">Pajak dan KIR yang kedaluwarsa karena tidak ada sistem peringatan dini termonitor.</p>
+        </div>
+
+        <div class="hp-card" data-aos="fade-up" data-aos-delay="700">
+          <div class="hp-icon">✍️</div>
+          <h3 class="hp-name">Approval Maintenance Masih Manual</h3>
+          <p class="hp-desc">Lambatnya proses persetujuan dokumen bengkel karena birokrasi dan tidak terotomatisasi.</p>
         </div>
         
       </div>

@@ -34,7 +34,7 @@
 
         <div class="dmdd-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="dmdd-mockup">
-                <img src="/DetailDriver.png" alt="Detail Driver FleetSumo" class="dmdd-img" />
+                <img src="/assets/fitur/driver-management/driver-detail.png" alt="Detail Driver FleetSumo" class="dmdd-img" />
             </div>
         </div>
       </div>

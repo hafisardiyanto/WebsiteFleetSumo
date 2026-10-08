@@ -1,0 +1,772 @@
+{
+  "1.jpg": {
+    "name": "1.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 3112597,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "11.jpg": {
+    "name": "11.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2371634,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\homepage\\HomeWhy.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "12.jpg": {
+    "name": "12.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2934626,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeInsights.vue"
+    ],
+    "unused": false
+  },
+  "13.jpg": {
+    "name": "13.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2977755,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\homepage\\HomeCTA.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "2.jpg": {
+    "name": "2.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 3745846,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "3.jpg": {
+    "name": "3.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 4028272,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "4.jpg": {
+    "name": "4.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2713577,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "5.jpg": {
+    "name": "5.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2981206,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "6.jpg": {
+    "name": "6.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2687120,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeIndustries.vue"
+    ],
+    "unused": false
+  },
+  "CTA.jpg": {
+    "name": "CTA.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 3014245,
+    "usedIn": [
+      "app\\components\\sections\\fleet-management\\FleetCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTACost.jpg": {
+    "name": "CTACost.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2392674,
+    "usedIn": [
+      "app\\components\\sections\\cost-financial\\CostCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTACostManagement.jpg": {
+    "name": "CTACostManagement.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2336316,
+    "usedIn": [
+      "app\\components\\sections\\cost-management\\CostCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTADriver.jpg": {
+    "name": "CTADriver.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 3265519,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTAFleet&Vehicle.jpg": {
+    "name": "CTAFleet&Vehicle.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2291503,
+    "usedIn": [
+      "app\\components\\sections\\fleet-vehicle\\FvCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTAFuel.jpg": {
+    "name": "CTAFuel.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2091632,
+    "usedIn": [
+      "app\\components\\sections\\fuel-management\\FuelCTA.vue"
+    ],
+    "unused": false
+  },
+  "CtaInventory.jpg": {
+    "name": "CtaInventory.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2521899,
+    "usedIn": [
+      "app\\components\\sections\\sparepart-management\\SparepartCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTAMaintenance.jpg": {
+    "name": "CTAMaintenance.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2242770,
+    "usedIn": [
+      "app\\components\\sections\\maintenance-management\\MaintCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTApproval.jpg": {
+    "name": "CTApproval.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2253548,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTAReport.jpg": {
+    "name": "CTAReport.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2267230,
+    "usedIn": [
+      "app\\components\\sections\\monitoring-reporting\\ReportCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTATyre.jpg": {
+    "name": "CTATyre.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2319978,
+    "usedIn": [
+      "app\\components\\sections\\tyre-management\\TyreCTA.vue"
+    ],
+    "unused": false
+  },
+  "CTAVendor.jpg": {
+    "name": "CTAVendor.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2173740,
+    "usedIn": [
+      "app\\components\\sections\\vendor-management\\VendorCTA.vue"
+    ],
+    "unused": false
+  },
+  "DaftarDriver.png": {
+    "name": "DaftarDriver.png",
+    "ext": ".png",
+    "sizeBytes": 62834,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmHero.vue",
+      "app\\components\\sections\\driver-management\\DmList.vue",
+      "app\\components\\sections\\driver-management\\DmMonitoring.vue",
+      "app\\components\\sections\\driver-management\\DmShowcase.vue"
+    ],
+    "unused": false
+  },
+  "DashboardBBM.png": {
+    "name": "DashboardBBM.png",
+    "ext": ".png",
+    "sizeBytes": 121144,
+    "usedIn": [
+      "app\\components\\sections\\fuel\\FuelHero.vue",
+      "app\\components\\sections\\fuel\\FuelMonitoring.vue",
+      "app\\components\\sections\\fuel\\FuelShowcase.vue",
+      "app\\components\\sections\\fuel-management\\FuelPreview.vue",
+      "app\\components\\sections\\monitoring-reporting\\ReportActivities.vue"
+    ],
+    "unused": false
+  },
+  "DashboardKendaraan.jpg": {
+    "name": "DashboardKendaraan.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2254474,
+    "usedIn": [
+      "app\\components\\sections\\ProductPreviewSection.vue"
+    ],
+    "unused": false
+  },
+  "DetailDriver.png": {
+    "name": "DetailDriver.png",
+    "ext": ".png",
+    "sizeBytes": 61886,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmDetail.vue",
+      "app\\components\\sections\\driver-management\\DmShowcase.vue"
+    ],
+    "unused": false
+  },
+  "DetailKendaraan.png": {
+    "name": "DetailKendaraan.png",
+    "ext": ".png",
+    "sizeBytes": 58114,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmShowcase.vue"
+    ],
+    "unused": false
+  },
+  "DetailPerawatanMNT.png": {
+    "name": "DetailPerawatanMNT.png",
+    "ext": ".png",
+    "sizeBytes": 223945,
+    "usedIn": [
+      "app\\components\\sections\\maintenance\\MntDetail.vue",
+      "app\\components\\sections\\maintenance\\MntShowcase.vue"
+    ],
+    "unused": false
+  },
+  "DetailRegisterBBMFleetsumo.png": {
+    "name": "DetailRegisterBBMFleetsumo.png",
+    "ext": ".png",
+    "sizeBytes": 48171,
+    "usedIn": [
+      "app\\components\\sections\\fuel\\FuelDetail.vue",
+      "app\\components\\sections\\fuel\\FuelShowcase.vue"
+    ],
+    "unused": false
+  },
+  "favicon.ico": {
+    "name": "favicon.ico",
+    "ext": ".ico",
+    "sizeBytes": 4286,
+    "usedIn": [],
+    "unused": true
+  },
+  "Fuel.jpg": {
+    "name": "Fuel.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2440475,
+    "usedIn": [
+      "app\\components\\sections\\fuel\\FuelCTA.vue"
+    ],
+    "unused": false
+  },
+  "Gambar 5.jpg": {
+    "name": "Gambar 5.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2823304,
+    "usedIn": [],
+    "unused": true
+  },
+  "Gambar 6.jpg": {
+    "name": "Gambar 6.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2799571,
+    "usedIn": [],
+    "unused": true
+  },
+  "Gambar.jpg": {
+    "name": "Gambar.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2387786,
+    "usedIn": [
+      "app\\components\\sections\\AboutWidget.vue"
+    ],
+    "unused": false
+  },
+  "Gambar2.jpg": {
+    "name": "Gambar2.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2574435,
+    "usedIn": [],
+    "unused": true
+  },
+  "Gambar3.jpg": {
+    "name": "Gambar3.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2368340,
+    "usedIn": [
+      "app\\components\\sections\\AdvantageSection.vue"
+    ],
+    "unused": false
+  },
+  "Gambar4.jpg": {
+    "name": "Gambar4.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2935251,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarCTA.jpg": {
+    "name": "GambarCTA.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2534464,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarCTA2.jpg": {
+    "name": "GambarCTA2.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2387130,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarCTA3.jpg": {
+    "name": "GambarCTA3.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2232151,
+    "usedIn": [
+      "app\\components\\sections\\monitoring-management\\MonCTA.vue"
+    ],
+    "unused": false
+  },
+  "GambarFleetSumo.jpg": {
+    "name": "GambarFleetSumo.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 1909867,
+    "usedIn": [
+      "app\\components\\sections\\SolutionDiagramSection.vue"
+    ],
+    "unused": false
+  },
+  "GambarHero.jpg": {
+    "name": "GambarHero.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2480400,
+    "usedIn": [
+      "app\\components\\sections\\HeroSection.vue",
+      "app\\components\\sections\\homepage\\HomeHero.vue"
+    ],
+    "unused": false
+  },
+  "GambarHero2.jpg": {
+    "name": "GambarHero2.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2140827,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarHero3.jpg": {
+    "name": "GambarHero3.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2195089,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarHero4.jpg": {
+    "name": "GambarHero4.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2211151,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarHero5.jpg": {
+    "name": "GambarHero5.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2026679,
+    "usedIn": [],
+    "unused": true
+  },
+  "GambarHero6.jpg": {
+    "name": "GambarHero6.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2319935,
+    "usedIn": [
+      "app\\components\\sections\\monitoring-management\\MonHero.vue"
+    ],
+    "unused": false
+  },
+  "GambarProses.jpg": {
+    "name": "GambarProses.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 1702416,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\fleet-management\\FleetWhatIsManaged.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "GambarSolusi.jpg": {
+    "name": "GambarSolusi.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2419676,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "GambarSolusi4.jpg": {
+    "name": "GambarSolusi4.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2388116,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "GambarSolusi6.jpg": {
+    "name": "GambarSolusi6.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 1762218,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalIndustries.vue",
+      "app\\components\\sections\\cost-financial\\CostIndustries.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportIndustries.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartIndustries.vue",
+      "app\\components\\sections\\tyre-management\\TyreIndustries.vue",
+      "app\\components\\sections\\vendor-management\\VendorIndustries.vue"
+    ],
+    "unused": false
+  },
+  "GambarTyre.jpg": {
+    "name": "GambarTyre.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2122000,
+    "usedIn": [
+      "app\\components\\sections\\tyre-management\\TyreDetail.vue",
+      "app\\components\\sections\\tyre-management\\TyreList.vue",
+      "app\\components\\sections\\tyre-management\\TyreMonitoring.vue",
+      "app\\components\\sections\\tyre-management\\TyrePreview.vue"
+    ],
+    "unused": false
+  },
+  "HeroApproval.jpg": {
+    "name": "HeroApproval.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2220065,
+    "usedIn": [
+      "app\\components\\sections\\approval-workflow\\ApprovalDetail.vue",
+      "app\\components\\sections\\approval-workflow\\ApprovalHero.vue",
+      "app\\components\\sections\\approval-workflow\\ApprovalList.vue",
+      "app\\components\\sections\\approval-workflow\\ApprovalMonitoring.vue",
+      "app\\components\\sections\\approval-workflow\\ApprovalPreview.vue"
+    ],
+    "unused": false
+  },
+  "HeroCostManagement.jpg": {
+    "name": "HeroCostManagement.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2257911,
+    "usedIn": [
+      "app\\components\\sections\\cost-financial\\CostDetail.vue",
+      "app\\components\\sections\\cost-financial\\CostHero.vue",
+      "app\\components\\sections\\cost-financial\\CostList.vue",
+      "app\\components\\sections\\cost-financial\\CostMonitoring.vue",
+      "app\\components\\sections\\cost-financial\\CostPreview.vue",
+      "app\\components\\sections\\cost-management\\CostHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroDriver.jpg": {
+    "name": "HeroDriver.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2271540,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroFleet&Vehicle.jpg": {
+    "name": "HeroFleet&Vehicle.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2364552,
+    "usedIn": [
+      "app\\components\\sections\\fleet-vehicle\\FvHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroFleet.jpg": {
+    "name": "HeroFleet.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2985865,
+    "usedIn": [
+      "app\\components\\sections\\fleet-management\\FleetHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroFuel.jpg": {
+    "name": "HeroFuel.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2149337,
+    "usedIn": [
+      "app\\components\\sections\\fuel-management\\FuelHero.vue",
+      "app\\components\\sections\\homepage\\HomeInsights.vue"
+    ],
+    "unused": false
+  },
+  "HeroInventory.jpg": {
+    "name": "HeroInventory.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2680655,
+    "usedIn": [
+      "app\\components\\sections\\sparepart-management\\SparepartDetail.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartHero.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartList.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartMonitoring.vue",
+      "app\\components\\sections\\sparepart-management\\SparepartPreview.vue"
+    ],
+    "unused": false
+  },
+  "HeroMaintenance.jpg": {
+    "name": "HeroMaintenance.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2341734,
+    "usedIn": [
+      "app\\components\\sections\\homepage\\HomeInsights.vue",
+      "app\\components\\sections\\maintenance-management\\MaintHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroReport.jpg": {
+    "name": "HeroReport.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2200866,
+    "usedIn": [
+      "app\\components\\sections\\monitoring-reporting\\ReportHero.vue"
+    ],
+    "unused": false
+  },
+  "HeroTyre.jpg": {
+    "name": "HeroTyre.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2533376,
+    "usedIn": [],
+    "unused": true
+  },
+  "HeroVendor.jpg": {
+    "name": "HeroVendor.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2163544,
+    "usedIn": [
+      "app\\components\\sections\\vendor-management\\VendorDetail.vue",
+      "app\\components\\sections\\vendor-management\\VendorHero.vue",
+      "app\\components\\sections\\vendor-management\\VendorList.vue",
+      "app\\components\\sections\\vendor-management\\VendorMonitoring.vue",
+      "app\\components\\sections\\vendor-management\\VendorPreview.vue"
+    ],
+    "unused": false
+  },
+  "Home - FleetSumo (1).mp4": {
+    "name": "Home - FleetSumo (1).mp4",
+    "ext": ".mp4",
+    "sizeBytes": 9189831,
+    "usedIn": [],
+    "unused": true
+  },
+  "Home - FleetSumo.mp4": {
+    "name": "Home - FleetSumo.mp4",
+    "ext": ".mp4",
+    "sizeBytes": 1131049,
+    "usedIn": [],
+    "unused": true
+  },
+  "HomePageAtas.jpg": {
+    "name": "HomePageAtas.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2352115,
+    "usedIn": [],
+    "unused": true
+  },
+  "LaporanKendaraan.png": {
+    "name": "LaporanKendaraan.png",
+    "ext": ".png",
+    "sizeBytes": 77752,
+    "usedIn": [
+      "app\\components\\sections\\cost-management\\CostMonitoring.vue",
+      "app\\components\\sections\\cost-management\\CostPreview.vue",
+      "app\\components\\sections\\fleet-management\\FleetMonitoring.vue",
+      "app\\components\\sections\\fleet-management\\FleetPreview.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvDetail.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvHero.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvList.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvMonitoring.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvShowcase.vue",
+      "app\\components\\sections\\homepage\\HomeProductPreview.vue",
+      "app\\components\\sections\\monitoring-reporting\\ReportDashboard.vue",
+      "app\\components\\sections\\monitoring-reporting\\ReportVehicle.vue"
+    ],
+    "unused": false
+  },
+  "ListRegisterBBM.png": {
+    "name": "ListRegisterBBM.png",
+    "ext": ".png",
+    "sizeBytes": 38485,
+    "usedIn": [
+      "app\\components\\sections\\fuel\\FuelList.vue",
+      "app\\components\\sections\\fuel\\FuelShowcase.vue"
+    ],
+    "unused": false
+  },
+  "maintenance.jpg": {
+    "name": "maintenance.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2659564,
+    "usedIn": [
+      "app\\components\\sections\\maintenance\\MntCTA.vue",
+      "app\\components\\sections\\maintenance\\MntHero.vue"
+    ],
+    "unused": false
+  },
+  "PengajuanPerawatan.png": {
+    "name": "PengajuanPerawatan.png",
+    "ext": ".png",
+    "sizeBytes": 72002,
+    "usedIn": [
+      "app\\components\\sections\\maintenance\\MntHero.vue",
+      "app\\components\\sections\\maintenance\\MntList.vue",
+      "app\\components\\sections\\maintenance\\MntShowcase.vue",
+      "app\\components\\sections\\maintenance-management\\MaintPreview.vue"
+    ],
+    "unused": false
+  },
+  "PengajuanPerawatanKendaraan.png": {
+    "name": "PengajuanPerawatanKendaraan.png",
+    "ext": ".png",
+    "sizeBytes": 71497,
+    "usedIn": [
+      "app\\components\\sections\\maintenance\\MntShowcase.vue"
+    ],
+    "unused": false
+  },
+  "ProsesBengkel.jpg": {
+    "name": "ProsesBengkel.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 1901245,
+    "usedIn": [
+      "app\\components\\sections\\maintenance-management\\MaintWhatIs.vue"
+    ],
+    "unused": false
+  },
+  "ProsesMaintenance.jpg": {
+    "name": "ProsesMaintenance.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2099989,
+    "usedIn": [],
+    "unused": true
+  },
+  "ReportHero.jpg": {
+    "name": "ReportHero.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2201232,
+    "usedIn": [
+      "app\\components\\sections\\dashboard-reports\\ReportCTA.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportDashboard.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportHero.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportMonitoring.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportPreview.vue",
+      "app\\components\\sections\\dashboard-reports\\ReportVehicle.vue"
+    ],
+    "unused": false
+  },
+  "robots.txt": {
+    "name": "robots.txt",
+    "ext": ".txt",
+    "sizeBytes": 24,
+    "usedIn": [],
+    "unused": true
+  },
+  "TambahDriver.png": {
+    "name": "TambahDriver.png",
+    "ext": ".png",
+    "sizeBytes": 93116,
+    "usedIn": [
+      "app\\components\\sections\\driver-management\\DmShowcase.vue"
+    ],
+    "unused": false
+  },
+  "TambahPerawatanKendaraan.png": {
+    "name": "TambahPerawatanKendaraan.png",
+    "ext": ".png",
+    "sizeBytes": 186645,
+    "usedIn": [
+      "app\\components\\sections\\maintenance\\MntShowcase.vue"
+    ],
+    "unused": false
+  },
+  "Truk.jpg": {
+    "name": "Truk.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2574435,
+    "usedIn": [],
+    "unused": true
+  },
+  "Tyre.jpg": {
+    "name": "Tyre.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2470575,
+    "usedIn": [],
+    "unused": true
+  },
+  "tyrehero.jpg": {
+    "name": "tyrehero.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 2471982,
+    "usedIn": [],
+    "unused": true
+  },
+  "Visualindustri.jpg": {
+    "name": "Visualindustri.jpg",
+    "ext": ".jpg",
+    "sizeBytes": 3956626,
+    "usedIn": [
+      "app\\components\\sections\\cost-management\\CostIndustries.vue",
+      "app\\components\\sections\\driver-management\\DmIndustries.vue",
+      "app\\components\\sections\\fleet-vehicle\\FvIndustries.vue",
+      "app\\components\\sections\\monitoring-reporting\\ReportIndustries.vue"
+    ],
+    "unused": false
+  }
+}

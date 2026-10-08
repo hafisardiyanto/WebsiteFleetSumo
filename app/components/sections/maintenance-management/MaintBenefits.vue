@@ -8,26 +8,32 @@
       <div class="mb-grid">
          <div class="mb-card" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-icon">⚙️</div>
-            <h3>Proses Lebih Terorganisir</h3>
-            <p>Setiap tahapan maintenance dapat dikelola melalui alur yang jelas.</p>
+            <h3>Membantu tim memantau kebutuhan perawatan</h3>
+            <p>Rutinitas mekanik yang dimonitor menjamin tidak adanya masalah operasional yang terlewat dari sistem.</p>
          </div>
 
          <div class="mb-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="mb-icon">🔍</div>
-            <h3>Temuan Lebih Mudah Ditindaklanjuti</h3>
-            <p>Informasi temuan dan kebutuhan perbaikan terdokumentasi untuk proses berikutnya.</p>
+            <div class="mb-icon">📅</div>
+            <h3>Kepatuhan jadwal terjamin</h3>
+            <p>Pemberitahuan otomatis menjamin inspeksi rutin selalu dieksekusi tepat waktu tanpa instruksi manual.</p>
          </div>
 
          <div class="mb-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="mb-icon">📂</div>
-            <h3>Riwayat Kendaraan Lebih Lengkap</h3>
-            <p>Aktivitas maintenance dapat menjadi bagian dari histori kendaraan.</p>
+            <div class="mb-icon">⚡</div>
+            <h3>Alur persetujuan lebih terdokumentasi</h3>
+            <p>Otorisasi perbaikan dalam satu sistem meniadakan penumpukan tiket yang tidak jelas status persetujuannya.</p>
          </div>
 
          <div class="mb-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="mb-icon">📊</div>
-            <h3>Monitoring Lebih Mudah</h3>
-            <p>Informasi maintenance membantu tim memantau aktivitas perawatan armada.</p>
+            <div class="mb-icon">📉</div>
+            <h3>Biaya perbaikan lebih terukur</h3>
+            <p>Hanya menyetujui anggaran setelah membandingkan estimasi dengan stok suku cadang dan kronologi harga vendor.</p>
+         </div>
+
+         <div class="mb-card full" data-aos="fade-up" data-aos-delay="500">
+            <div class="mb-icon">📑</div>
+            <h3>Bukti histori terdokumentasi jelas</h3>
+            <p>Mendukung pengambilan keputusan berbasis data mengenai peremajaan armada dibanding terus mereparasi unit lama.</p>
          </div>
       </div>
     </div>

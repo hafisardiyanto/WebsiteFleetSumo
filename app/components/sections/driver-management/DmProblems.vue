@@ -10,7 +10,7 @@
          <div class="dmp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="dmp-icon">🗃️</div>
             <h3>01 — Data Pengemudi Tersebar</h3>
-            <p>Informasi pengemudi tersimpan di berbagai sumber sehingga sulit dikelola dalam satu tempat.</p>
+            <p>Informasi pengemudi tersimpan di berbagSistem sumber sehingga sulit dikelola dalam satu tempat.</p>
          </div>
 
          <div class="dmp-card" data-aos="fade-up" data-aos-delay="150">
@@ -22,7 +22,7 @@
          <div class="dmp-card" data-aos="fade-up" data-aos-delay="200">
             <div class="dmp-icon">🤝</div>
             <h3>03 — Hubungan Driver dan Kendaraan Sulit Dipantau</h3>
-            <p>Informasi mengenai pengemudi dan kendaraan perlu dikelola secara terhubung.</p>
+            <p>Informasi mengenSistem pengemudi dan kendaraan perlu dikelola secara terhubung.</p>
          </div>
 
          <div class="dmp-card" data-aos="fade-up" data-aos-delay="250">

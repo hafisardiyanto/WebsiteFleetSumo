@@ -46,7 +46,7 @@
     box-shadow: 0 5px 15px rgba(15, 23, 42, 0.05);
 }
 
-.twf-step.final {
+.twf-step.tinal {
     border-color: #1a56db;
     background: #ffffff;
 }
@@ -63,7 +63,7 @@
     margin-bottom: 12px;
 }
 
-.twf-step.final .twf-label {
+.twf-step.tinal .twf-label {
     background: #0f172a;
 }
 

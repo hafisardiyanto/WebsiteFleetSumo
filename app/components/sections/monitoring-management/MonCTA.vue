@@ -1,7 +1,7 @@
 <template>
   <section class="mon-cta-section">
     <!-- GambarCTA3.jpg background as requested -->
-    <div class="mon-cta-bg-image" style="background-image: url('/GambarCTA3.jpg');"></div>
+    <div class="mon-cta-bg-image" style="background-image: url('/assets/solusi/monitoring-reporting/cta-bg.jpg');"></div>
     <div class="mon-cta-overlay"></div>
 
     <div class="mon-cta-container" data-aos="zoom-in">
@@ -11,8 +11,7 @@
           Pantau kendaraan, biaya, maintenance, BBM, ban, dan aktivitas armada melalu sistem FleetSumo yang terintegrasi secara valid.
         </p>
         <div class="mon-cta-actions">
-          <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Pelajari FleetSumo</button>
+          <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>
         </div>
       </div>
     </div>

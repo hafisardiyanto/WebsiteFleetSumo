@@ -3,7 +3,7 @@
     <div class="fleet-manage-container">
       <div class="fm-header" data-aos="fade-up">
         <h2 class="fm-title">Kelola Informasi Armada Secara Menyeluruh</h2>
-        <p class="fm-subtitle">FleetSumo menyediakan berbagai komponen pengelolaan kendaraan untuk membantu perusahaan menjaga informasi armada tetap terstruktur dan mudah dipantau.</p>
+        <p class="fm-subtitle">FleetSumo menyediakan berbagSistem komponen pengelolaan kendaraan untuk membantu perusahaan menjaga informasi armada tetap terstruktur dan mudah dipantau.</p>
       </div>
 
       <div class="fm-grid">

@@ -18,7 +18,7 @@
          <div class="ccc-item">
             <div class="ccc-num">02</div>
             <h3>Pengajuan</h3>
-            <p>Ajukan kebutuhan biaya sesuai proses perusahaan.</p>
+            <p>Ajukan kebutuhan biaya sesuSistem proses perusahaan.</p>
          </div>
          <div class="ccc-arrow">→</div>
          
@@ -33,7 +33,7 @@
          <div class="ccc-item lower">
             <div class="ccc-num">04</div>
             <h3>Approval</h3>
-            <p>Proses pengajuan melalui persetujuan sesuai workflow.</p>
+            <p>Proses pengajuan melalui persetujuan sesuSistem workflow.</p>
          </div>
          <div class="ccc-arrow lower">→</div>
          
@@ -54,7 +54,7 @@
          <div class="ccc-item lower final">
             <div class="ccc-num active">07</div>
             <h3>Evaluasi</h3>
-            <p>Gunakan informasi biaya sebagai bahan monitoring dan evaluasi.</p>
+            <p>Gunakan informasi biaya sebagSistem bahan monitoring dan evaluasi.</p>
          </div>
       </div>
     </div>

@@ -98,7 +98,7 @@
       </div>
 
       <div class="features-footer" data-aos="fade-up" data-aos-delay="300">
-        <a href="#" class="btn-link">Lihat Semua Fitur &rarr;</a>
+        <a href="/kontak/demo" class="btn-link">Lihat Semua Fitur &rarr;</a>
       </div>
     </div>
   </section>

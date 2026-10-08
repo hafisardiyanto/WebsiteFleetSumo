@@ -53,7 +53,7 @@
       <!-- Right Column: Visual Box with Image & Accent Badge -->
       <div class="adv-right-col" data-aos="fade-left">
         <div class="adv-image-box">
-          <img src="/Gambar3.jpg" alt="Mengelola Armada FleetSumo" class="adv-img" />
+          <img src="/assets/tentang-kami/vision-mission/advantage.jpg" alt="Mengelola Armada FleetSumo" class="adv-img" />
           <div class="adv-card">
             <h4>Data-Driven Management</h4>
             <p>Keputusan strategis armada berbasis analitik real-time.</p>

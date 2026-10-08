@@ -1,25 +1,37 @@
 <script setup>
+useHead({
+  title: 'Vehicle Fleet Management | FleetSumo',
+  meta: [
+    { name: 'description', content: 'Manajemen basis data kendaraan, dokumen, dan spesifikasi seluruh armada Anda secara terpusat.' },
+    { property: 'og:title', content: 'Vehicle Fleet Management | FleetSumo' },
+    { property: 'og:description', content: 'Manajemen basis data kendaraan, dokumen, dan spesifikasi seluruh armada Anda secara terpusat.' },
+    { property: 'og:url', content: 'https://fleetsumo.id/fitur/fleet-vehicle' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'robots', content: 'index, follow' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://fleetsumo.id/fitur/fleet-vehicle' }
+  ]
+})
+
 import { onMounted } from 'vue';
-import NavbarSection from '~/components/sections/Navbar.vue';
-
-// Import all Fleet & Vehicle Components
-import FvHero from '~/components/sections/fleet-vehicle/FvHero.vue';
-import FvProblems from '~/components/sections/fleet-vehicle/FvProblems.vue';
-import FvDefinition from '~/components/sections/fleet-vehicle/FvDefinition.vue';
-import FvManagedItems from '~/components/sections/fleet-vehicle/FvManagedItems.vue';
-import FvDetail from '~/components/sections/fleet-vehicle/FvDetail.vue';
-import FvList from '~/components/sections/fleet-vehicle/FvList.vue';
-import FvFeatures from '~/components/sections/fleet-vehicle/FvFeatures.vue';
-import FvWorkflow from '~/components/sections/fleet-vehicle/FvWorkflow.vue';
-import FvIntegration from '~/components/sections/fleet-vehicle/FvIntegration.vue';
-import FvMonitoring from '~/components/sections/fleet-vehicle/FvMonitoring.vue';
-import FvBenefits from '~/components/sections/fleet-vehicle/FvBenefits.vue';
-import FvShowcase from '~/components/sections/fleet-vehicle/FvShowcase.vue';
-import FvIndustries from '~/components/sections/fleet-vehicle/FvIndustries.vue';
-import FvCTA from '~/components/sections/fleet-vehicle/FvCTA.vue';
-
-import FooterSection from '~/components/sections/FooterSection.vue';
 import smoothscroll from 'lenis';
+import NavbarSection from '~/components/sections/Navbar.vue';
+import FooterSection from '~/components/sections/FooterSection.vue';
+
+// 01 Hero
+import FvHero from '~/components/sections/fleet-vehicle/FvHero.vue';
+// 02 Capability Flow
+import FvCapabilityFlow from '~/components/sections/fleet-vehicle/FvCapabilityFlow.vue';
+// 03 Evidence 
+import FvEvidence from '~/components/sections/fleet-vehicle/FvEvidence.vue';
+// 04 Ecosystem Link
+import FvIntegration from '~/components/sections/fleet-vehicle/FvIntegration.vue';
+// 05 FAQ
+import FvFAQ from '~/components/sections/fleet-vehicle/FvFAQ.vue';
+// 06 CTA
+import FvCTA from '~/components/sections/fleet-vehicle/FvCTA.vue';
 
 onMounted(() => {
   const lenis = new smoothscroll({
@@ -28,10 +40,6 @@ onMounted(() => {
     direction: 'vertical',
     gestureDirection: 'vertical',
     smooth: true,
-    mouseMultiplier: 1,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false,
   });
 
   function raf(time) {
@@ -49,18 +57,10 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <FvHero />
-      <FvProblems />
-      <FvDefinition />
-      <FvManagedItems />
-      <FvDetail />
-      <FvList />
-      <FvFeatures />
-      <FvWorkflow />
+      <FvCapabilityFlow />
+      <FvEvidence />
       <FvIntegration />
-      <FvMonitoring />
-      <FvBenefits />
-      <FvShowcase />
-      <FvIndustries />
+      <FvFAQ />
       <FvCTA />
     </div>
 
@@ -69,11 +69,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.page-wrapper {
-  overflow: hidden;
-}
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
+.page-wrapper { overflow: hidden; }
+.content-wrapper { display: flex; flex-direction: column; }
 </style>

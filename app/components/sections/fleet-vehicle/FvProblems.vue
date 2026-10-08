@@ -11,7 +11,7 @@
          <div class="fvp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="fvp-icon">🗂️</div>
             <h3>01 — Data Kendaraan Tersebar</h3>
-            <p>Informasi kendaraan dapat tersimpan di berbagai pencatatan sehingga sulit dikelola secara terpusat.</p>
+            <p>Informasi kendaraan dapat tersimpan di berbagSistem pencatatan sehingga sulit dikelola secara terpusat.</p>
          </div>
 
          <div class="fvp-card" data-aos="fade-up" data-aos-delay="150">
@@ -35,7 +35,7 @@
          <div class="fvp-card" data-aos="fade-up" data-aos-delay="300">
             <div class="fvp-icon">🕒</div>
             <h3>05 — Riwayat Kendaraan Sulit Ditelusuri</h3>
-            <p>Aktivitas yang berkaitan dengan kendaraan perlu tersimpan sebagai informasi historis.</p>
+            <p>Aktivitas yang berkaitan dengan kendaraan perlu tersimpan sebagSistem informasi historis.</p>
          </div>
 
          <div class="fvp-card" data-aos="fade-up" data-aos-delay="350">

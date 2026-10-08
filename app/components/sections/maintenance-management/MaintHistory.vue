@@ -2,9 +2,9 @@
   <section class="maint-history-wrapper">
     <div class="maint-history-container">
       <div class="maint-history-header" data-aos="fade-up">
-        <h2 class="maint-history-title">Bangun Riwayat Maintenance Setiap Kendaraan</h2>
+        <h2 class="maint-history-title">Riwayat Maintenance Kendaraan Terkelola Rapi</h2>
         <p class="maint-history-subtitle">
-          Setiap aktivitas maintenance dapat menjadi bagian dari riwayat kendaraan. Informasi tersebut dapat digunakan untuk mengetahui pekerjaan yang pernah dilakukan dan membantu tim memahami kondisi unit dari waktu ke waktu.
+          Semua rekam jejak servis dan penggantian komponen tersimpan dalam satu sistem, membuatnya mudah dipanggil ulang kapan saja untuk evaluasi performa mekanik unit armada.
         </p>
       </div>
 
@@ -34,17 +34,8 @@
             <div class="timeline-month">Jun</div>
             <div class="timeline-point"></div>
             <div class="timeline-detail">
-              <h4>Pemeriksaan</h4>
-              <p>Inspeksi kelayakan jalan sebelum perjalanan luar kota.</p>
-            </div>
-          </div>
-
-          <div class="timeline-row">
-            <div class="timeline-month">Aug</div>
-            <div class="timeline-point"></div>
-            <div class="timeline-detail">
-              <h4>Perbaikan</h4>
-              <p>Tindak lanjut temuan kerusakan minor pada kelistrikan.</p>
+              <h4>Temuan Pasca Jalan</h4>
+              <p>Tindak lanjut temuan kelistrikan setelah ekspedisi luar kota.</p>
             </div>
           </div>
 
@@ -52,8 +43,8 @@
             <div class="timeline-month">Sep</div>
             <div class="timeline-point"></div>
             <div class="timeline-detail">
-              <h4>Service Berkala</h4>
-              <p>Perawatan rutin interval lanjutan.</p>
+              <h4>Inspeksi Rutin</h4>
+              <p>Pemeriksaan standar operasional tanpa ada indikasi kerusakan.</p>
             </div>
           </div>
         </div>

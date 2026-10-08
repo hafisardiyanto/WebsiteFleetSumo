@@ -14,7 +14,7 @@
                  <p>Pantau pekerjaan maintenance yang sedang diproses.</p>
              </div>
              <div class="mmr-point">
-                 <h4>Maintenance Selesai</h4>
+                 <h4>Maintenance SelesSistem</h4>
                  <p>Identifikasi aktivitas maintenance yang telah diselesaikan.</p>
              </div>
              <div class="mmr-point">
@@ -41,7 +41,7 @@
                     <div class="ui-icon-box green">✅</div>
                     <div class="ui-text">
                        <h5>Maintenance</h5>
-                       <span>Selesai</span>
+                       <span>SelesSistem</span>
                     </div>
                  </div>
                  <div class="ui-card flex">

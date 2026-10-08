@@ -2,38 +2,30 @@
   <section class="cost-def-wrapper">
     <div class="cost-def-container">
       <div class="csf-header" data-aos="fade-up">
-        <h2 class="csf-title">Satu Alur untuk Mengelola Biaya Operasional Armada</h2>
-        <p class="csf-subtitle">Cost Management FleetSumo membantu perusahaan mengelola proses biaya secara lebih terstruktur, mulai dari kebutuhan biaya hingga realisasi dan monitoring.</p>
-        <div class="csf-highlight">Setiap proses biaya dapat dikaitkan dengan informasi armada dan aktivitas operasional yang relevan.</div>
+        <h2 class="csf-title">Pencatatan dan Kategorisasi Biaya</h2>
+        <p class="csf-subtitle">FleetSumo membantu Anda mengelompokkan berbagai sumber pengeluaran armada dalam satu pembukuan yang tertib dan mudah dibaca.</p>
+        <div class="csf-highlight">Semua nota pembayaran tidak lagi tercecer, melainkan diklasifikasikan ke dalam kategori masing-masing.</div>
       </div>
 
       <div class="csf-diagram" data-aos="fade-up" data-aos-delay="200">
          <div class="csf-step">
-            <div class="csf-box">KEBUTUHAN BIAYA</div>
+            <div class="csf-box">BIAYA BBM / SOLAR</div>
             <div class="csf-arrow">▼</div>
          </div>
          <div class="csf-step">
-            <div class="csf-box">PENGAJUAN</div>
+            <div class="csf-box">MAINTENANCE & SERVIS</div>
             <div class="csf-arrow">▼</div>
          </div>
          <div class="csf-step">
-            <div class="csf-box">ESTIMASI</div>
+            <div class="csf-box">PAJAK / KIR / SURAT</div>
             <div class="csf-arrow">▼</div>
          </div>
          <div class="csf-step">
-            <div class="csf-box core">APPROVAL</div>
+            <div class="csf-box">BAN & SPAREPART</div>
             <div class="csf-arrow">▼</div>
          </div>
          <div class="csf-step">
-            <div class="csf-box">REALISASI</div>
-            <div class="csf-arrow">▼</div>
-         </div>
-         <div class="csf-step">
-            <div class="csf-box">MONITORING</div>
-            <div class="csf-arrow">▼</div>
-         </div>
-         <div class="csf-step final">
-            <div class="csf-box">LAPORAN</div>
+            <div class="csf-box core">KATALOG BIAYA FLEETSUMO</div>
          </div>
       </div>
     </div>

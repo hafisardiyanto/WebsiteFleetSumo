@@ -1,21 +1,43 @@
 <script setup>
+useHead({
+  title: 'Fuel Management System | FleetSumo',
+  meta: [
+    { name: 'description', content: 'Pelacakan dan analisis konsumsi bahan bakar (BBM) armada Anda untuk meningkatkan efisiensi dan transparansi operasional.' },
+    { property: 'og:title', content: 'Fuel Management System | FleetSumo' },
+    { property: 'og:description', content: 'Pelacakan dan analisis konsumsi bahan bakar (BBM) armada Anda untuk meningkatkan efisiensi dan transparansi operasional.' },
+    { property: 'og:url', content: 'https://fleetsumo.id/solusi/fuel-management' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'robots', content: 'index, follow' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://fleetsumo.id/solusi/fuel-management' }
+  ]
+})
+
 import { onMounted } from 'vue';
-import NavbarSection from '~/components/sections/Navbar.vue';
-import FuelHero from '~/components/sections/fuel-management/FuelHero.vue';
-import FuelProblems from '~/components/sections/fuel-management/FuelProblems.vue';
-import FuelDefinition from '~/components/sections/fuel-management/FuelDefinition.vue';
-import FuelManagedItems from '~/components/sections/fuel-management/FuelManagedItems.vue';
-import FuelCycle from '~/components/sections/fuel-management/FuelCycle.vue';
-import FuelWorkflow from '~/components/sections/fuel-management/FuelWorkflow.vue';
-import FuelFeatures from '~/components/sections/fuel-management/FuelFeatures.vue';
-import FuelPreview from '~/components/sections/fuel-management/FuelPreview.vue';
-import FuelMonitoring from '~/components/sections/fuel-management/FuelMonitoring.vue';
-import FuelBenefits from '~/components/sections/fuel-management/FuelBenefits.vue';
-import FuelIntegration from '~/components/sections/fuel-management/FuelIntegration.vue';
-import FuelIndustries from '~/components/sections/fuel-management/FuelIndustries.vue';
-import FuelCTA from '~/components/sections/fuel-management/FuelCTA.vue';
-import FooterSection from '~/components/sections/FooterSection.vue';
 import smoothscroll from 'lenis';
+import NavbarSection from '~/components/sections/Navbar.vue';
+import FooterSection from '~/components/sections/FooterSection.vue';
+
+// Section 01: Hero
+import FuelHero from '~/components/sections/fuel-management/FuelHero.vue';
+// Section 02: Operational Challenge
+import FuelProblems from '~/components/sections/fuel-management/FuelProblems.vue';
+// Section 03: Solution Overview (Pencatatan Transaksi)
+import FuelDefinition from '~/components/sections/fuel-management/FuelDefinition.vue';
+// Section 04: Data Penggunaan
+import FuelHistory from '~/components/sections/fuel-management/FuelHistory.vue';
+// Section 05: Perbandingan
+import FuelWorkflow from '~/components/sections/fuel-management/FuelWorkflow.vue';
+// Section 06: Executive/Product Proof
+import FuelPreview from '~/components/sections/fuel-management/FuelPreview.vue';
+// Section 07: Integration / Kapabilitas Terkait
+import FuelIntegration from '~/components/sections/fuel-management/FuelIntegration.vue';
+// Section 08: Business Value
+import FuelBenefits from '~/components/sections/fuel-management/FuelBenefits.vue';
+// Section 09: CTA
+import FuelCTA from '~/components/sections/fuel-management/FuelCTA.vue';
 
 onMounted(() => {
   const lenis = new smoothscroll({
@@ -24,10 +46,6 @@ onMounted(() => {
     direction: 'vertical',
     gestureDirection: 'vertical',
     smooth: true,
-    mouseMultiplier: 1,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false,
   });
 
   function raf(time) {
@@ -47,15 +65,11 @@ onMounted(() => {
       <FuelHero />
       <FuelProblems />
       <FuelDefinition />
-      <FuelManagedItems />
-      <FuelCycle />
+      <FuelHistory />
       <FuelWorkflow />
-      <FuelFeatures />
       <FuelPreview />
-      <FuelMonitoring />
-      <FuelBenefits />
       <FuelIntegration />
-      <FuelIndustries />
+      <FuelBenefits />
       <FuelCTA />
     </div>
 
@@ -64,11 +78,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.page-wrapper {
-  overflow: hidden;
-}
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
+.page-wrapper { overflow: hidden; }
+.content-wrapper { display: flex; flex-direction: column; }
 </style>

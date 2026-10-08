@@ -10,32 +10,32 @@
       <div class="fup-grid">
          <div class="fup-card" data-aos="fade-up" data-aos-delay="100">
             <div class="fup-icon">🗄️</div>
-            <h3>01 — Data Pengisian Tersebar</h3>
-            <p>Informasi pengisian BBM dari berbagai kendaraan perlu dikumpulkan dalam satu sistem.</p>
+            <h3>Pencatatan BBM tersebar</h3>
+            <p>Nota pengisian dari berbagai SPBU sering hilang atau menumpuk tanpa sentralisasi log yang jelas.</p>
          </div>
 
          <div class="fup-card" data-aos="fade-up" data-aos-delay="200">
             <div class="fup-icon">⛽</div>
-            <h3>02 — Volume BBM Sulit Dipantau</h3>
-            <p>Perusahaan membutuhkan informasi pengisian BBM untuk melihat penggunaan kendaraan.</p>
+            <h3>Riwayat pengisian sulit ditelusuri</h3>
+            <p>Sangat merepotkan untuk melacak kembali kapan terakhir sebuah kendaraan melakukan pengisian penuh.</p>
          </div>
 
          <div class="fup-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="fup-icon">💰</div>
-            <h3>03 — Biaya BBM Sulit Ditelusuri</h3>
-            <p>Pengeluaran BBM perlu dikaitkan dengan kendaraan dan aktivitas yang relevan.</p>
+            <div class="fup-icon">⚖️</div>
+            <h3>Penggunaan BBM antar kendaraan sulit dibandingkan</h3>
+            <p>Tidak ada metrik yang jelas untuk membandingkan rasio liter per kilometer antara dua kendaraan sejenis.</p>
          </div>
 
          <div class="fup-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="fup-icon">⏳</div>
-            <h3>04 — Riwayat Penggunaan Sulit Dicari</h3>
-            <p>Data pengisian sebelumnya dibutuhkan untuk monitoring dan evaluasi.</p>
+            <div class="fup-icon">📊</div>
+            <h3>Data transaksi BBM sulit direkap</h3>
+            <p>Menghabiskan waktu terlalu lama di tiap akhir bulan hanya untuk merekap kuitansi ke dalam spreadsheet Excel.</p>
          </div>
 
          <div class="fup-card full" data-aos="fade-up" data-aos-delay="500">
-            <div class="fup-icon">🖥️</div>
-            <h3>05 — Monitoring Banyak Kendaraan</h3>
-            <p>Semakin banyak kendaraan, semakin banyak transaksi BBM yang harus dikelola.</p>
+            <div class="fup-icon">💰</div>
+            <h3>Biaya BBM sulit dianalisis</h3>
+            <p>Pengeluaran bahan bakar sering terpisah dari biaya operasional mesin lain sehingga cost total armada tidak terlihat.</p>
          </div>
       </div>
     </div>

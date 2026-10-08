@@ -4,7 +4,7 @@
       <div class="fleet-integrated-header" data-aos="fade-up">
         <h2 class="fleet-integrated-title">Data Armada Terhubung dengan Aktivitas Operasional</h2>
         <p class="fleet-integrated-subtitle">
-          Fleet Management menjadi pusat informasi kendaraan yang dapat terhubung dengan berbagai aktivitas pengelolaan armada.
+          Fleet Management menjadi pusat informasi kendaraan yang dapat terhubung dengan berbagSistem aktivitas pengelolaan armada.
         </p>
       </div>
 

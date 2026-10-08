@@ -4,7 +4,7 @@
       <div class="mon-problems-header" data-aos="fade-up">
         <h2 class="mon-problems-title">Data Armada Banyak, tetapi Informasi Sulit Didapatkan</h2>
         <p class="mon-problems-subtitle">
-          Semakin besar operasional armada, semakin banyak pula data yang harus dipantau. Tanpa sistem monitoring dan reporting yang terstruktur, data dari berbagai aktivitas dapat sulit digunakan untuk melihat kondisi operasional secara menyeluruh.
+          Semakin besar operasional armada, semakin banyak pula data yang harus dipantau. Tanpa sistem monitoring dan reporting yang terstruktur, data dari berbagSistem aktivitas dapat sulit digunakan untuk melihat kondisi operasional secara menyeluruh.
         </p>
       </div>
 
@@ -12,7 +12,7 @@
         <!-- Prob 1 -->
         <div class="mp-card" data-aos="fade-up" data-aos-delay="100">
           <div class="mp-icon">🗄️</div>
-          <h3 class="mp-title">Data Tersebar di Berbagai Modul</h3>
+          <h3 class="mp-title">Data Operasional Tersebar</h3>
           <p class="mp-desc">Informasi kendaraan, maintenance, BBM, ban, dan biaya berada pada aktivitas yang berbeda.</p>
         </div>
 
@@ -20,7 +20,7 @@
         <div class="mp-card" data-aos="fade-up" data-aos-delay="200">
           <div class="mp-icon">👁️</div>
           <h3 class="mp-title">Sulit Melihat Kondisi Menyeluruh</h3>
-          <p class="mp-desc">Tim membutuhkan waktu yang lama untuk mengumpulkan informasi dari berbagai sumber.</p>
+          <p class="mp-desc">Tim membutuhkan waktu yang lama untuk mengumpulkan informasi dari berbagSistem sumber.</p>
         </div>
 
         <!-- Prob 3 -->
@@ -33,8 +33,8 @@
         <!-- Prob 4 -->
         <div class="mp-card" data-aos="fade-up" data-aos-delay="400">
           <div class="mp-icon">📈</div>
-          <h3 class="mp-title">Tren Operasional Sulit Dipantau</h3>
-          <p class="mp-desc">Perubahan dan gejolak data dari waktu ke waktu tidak selalu mudah terlihat secara kasat mata.</p>
+          <h3 class="mp-title">Perubahan Tren Operasional Sulit Dipantau</h3>
+          <p class="mp-desc">Perubahan dan gejolak data dari waktu ke waktu tidak selalu mudah terlihat secara kasat mata tanpa visualisasi.</p>
         </div>
 
         <!-- Prob 5 -->

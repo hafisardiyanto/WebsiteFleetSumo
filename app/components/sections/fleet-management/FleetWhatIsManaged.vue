@@ -9,7 +9,7 @@
       </div>
 
       <div class="fleet-what-visual" data-aos="fade-up" data-aos-delay="100">
-        <img src="/GambarProses.jpg" alt="Pusat Pengelolaan FleetSumo" class="fleet-what-img">
+        <img src="/assets/umum/backgrounds/solution-construction.jpg" alt="Pusat Pengelolaan FleetSumo" class="fleet-what-img">
       </div>
 
       <div class="fleet-what-grid">

@@ -34,7 +34,7 @@
 
         <div class="fvdd-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="fvdd-mockup">
-                <img src="/LaporanKendaraan.png" alt="Detail Kendaraan FleetSumo" class="fvdd-img" />
+                <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Detail Kendaraan FleetSumo" class="fvdd-img" />
             </div>
         </div>
       </div>

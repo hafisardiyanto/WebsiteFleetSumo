@@ -1,0 +1,98 @@
+/* app/assets/css/sections/maintenance/mnt-integration.css */
+.mnt-int-wrapper {
+    background-color: #f8fafc;
+    padding: 100px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.mnt-int-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mni-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.mni-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.mni-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.mni-box {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    min-width: 180px;
+}
+
+.mni-box.parent {
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.mni-box.active {
+    background: #1a56db;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(26, 86, 219, 0.3);
+}
+
+.mni-box.child {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #0f172a;
+}
+
+.mni-box.final {
+    background: #0f172a;
+    color: #ffffff;
+}
+
+.mni-arrow-down {
+    color: #94a3b8;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.mni-branches {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.mni-branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branch-arrow {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 650px) {
+    .mni-branches {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

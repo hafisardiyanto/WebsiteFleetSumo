@@ -21,7 +21,7 @@
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="200">
             <div class="dmm-icon">🪪</div>
             <h3>03 Dokumen Pengemudi</h3>
-            <p>Kelola informasi dokumen pengemudi sesuai kebutuhan perusahaan.</p>
+            <p>Kelola informasi dokumen pengemudi sesuSistem kebutuhan perusahaan.</p>
          </div>
 
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="250">
@@ -33,7 +33,7 @@
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="300">
             <div class="dmm-icon">🟢</div>
             <h3>05 Status Pengemudi</h3>
-            <p>Pantau informasi status pengemudi sesuai data yang tersedia di sistem.</p>
+            <p>Pantau informasi status pengemudi sesuSistem data yang tersedia di sistem.</p>
          </div>
 
          <div class="dmm-card" data-aos="fade-up" data-aos-delay="350">

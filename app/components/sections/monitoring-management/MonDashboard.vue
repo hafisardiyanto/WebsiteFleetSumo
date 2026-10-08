@@ -49,7 +49,7 @@
               <div class="ui-kpi-card">
                  <span class="kpi-icon">⛽</span>
                  <div class="kpi-data">
-                    <span class="kpi-lbl">Total BBM Terpakai</span>
+                    <span class="kpi-lbl">Total BBM TerpakSistem</span>
                     <strong class="kpi-val warning">12,540 <span>Liter</span></strong>
                  </div>
               </div>
@@ -79,7 +79,7 @@
                  <ul class="sim-list">
                     <li><span class="status red">Alert</span> B-1934-KL: Tekanan Angin Rendah</li>
                     <li><span class="status yellow">Warn</span> D-8812-ZZ: 2 Ban R. Belakang Botak</li>
-                    <li><span class="status green">Log</span> H-1190-XX: Pergantian 4 Ban Selesai</li>
+                    <li><span class="status green">Log</span> H-1190-XX: Pergantian 4 Ban SelesSistem</li>
                  </ul>
               </div>
            </div>

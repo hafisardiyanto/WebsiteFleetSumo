@@ -9,33 +9,33 @@
 
       <div class="mp-grid">
          <div class="mp-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="mp-icon">📋</div>
-            <h3>01 — Temuan Kendaraan Tidak Terdokumentasi</h3>
-            <p>Hasil pemeriksaan dan temuan kendaraan perlu dicatat agar dapat ditindaklanjuti.</p>
+            <div class="mp-icon">📅</div>
+            <h3>Jadwal/perawatan sulit dipantau</h3>
+            <p>Sering kehilangan track atas rutinitas servis dan interval pemeliharaan setiap unit yang beroperasi.</p>
          </div>
 
          <div class="mp-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="mp-icon">📝</div>
-            <h3>02 — Pengajuan Maintenance Sulit Dipantau</h3>
-            <p>Setiap kebutuhan perbaikan membutuhkan proses pengajuan dan tindak lanjut yang jelas.</p>
+            <div class="mp-icon">🗂️</div>
+            <h3>Riwayat maintenance tersebar</h3>
+            <p>Sulit menarik benang merah jenis perbaikan karena dokumen invoice mekanik terpencar.</p>
          </div>
 
          <div class="mp-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="mp-icon">✅</div>
-            <h3>03 — Approval Membutuhkan Kontrol</h3>
-            <p>Pengajuan maintenance perlu melalui proses persetujuan sesuai alur perusahaan.</p>
+            <div class="mp-icon">⚠️</div>
+            <h3>Temuan kendaraan sulit ditindaklanjuti</h3>
+            <p>Inspeksi lapangan dari supir atau supervisor hangus begitu saja tanpa eksekusi perbaikan aktual.</p>
          </div>
 
          <div class="mp-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="mp-icon">🔧</div>
-            <h3>04 — Proses Maintenance Sulit Dipantau</h3>
-            <p>Perusahaan perlu mengetahui maintenance yang sedang berjalan, selesai, maupun belum ditindaklanjuti.</p>
+            <div class="mp-icon">📋</div>
+            <h3>Proses approval tidak terdokumentasi</h3>
+            <p>Persetujuan atas biaya dan bengkel rekanan dilakukan via chat yang rawan miskomunikasi kronologis.</p>
          </div>
 
          <div class="mp-card full" data-aos="fade-up" data-aos-delay="500">
-            <div class="mp-icon">⏳</div>
-            <h3>05 — Riwayat Perawatan Tidak Terpusat</h3>
-            <p>Informasi maintenance sebelumnya penting untuk mengetahui histori kendaraan.</p>
+            <div class="mp-icon">💸</div>
+            <h3>Biaya maintenance sulit ditelusuri</h3>
+            <p>Ketiadaan sistem pemantauan pengeluaran detail per suku cadang membuat biaya perbaikan menjadi tidak jelas ujung pangkalnya.</p>
          </div>
       </div>
     </div>
