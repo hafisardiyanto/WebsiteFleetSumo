@@ -3,7 +3,7 @@
     <div class="sparepart-def-container">
       <div class="sdf-header" data-aos="fade-up">
         <h2 class="sdf-title">Satu Sistem untuk Mengelola Sparepart Armada</h2>
-        <p class="sdf-subtitle">Sparepart Management membantu perusahaan mengelola data dan aktivitas sparepart, mulSistem dari pencatatan barang, stok, transaksi, penggunaan, hingga riwayat sparepart dalam satu sistem.</p>
+        <p class="sdf-subtitle">Sparepart Management membantu perusahaan mengelola data dan aktivitas sparepart, mulai dari pencatatan barang, stok, transaksi, penggunaan, hingga riwayat sparepart dalam satu sistem.</p>
       </div>
 
       <div class="sdf-diagram" data-aos="fade-up" data-aos-delay="200">

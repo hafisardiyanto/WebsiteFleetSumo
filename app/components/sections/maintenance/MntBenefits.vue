@@ -15,7 +15,7 @@
          <div class="mnb-card" data-aos="fade-up" data-aos-delay="150">
             <div class="mnb-icon">⚡</div>
             <h3>Temuan Lebih Mudah Ditindaklanjuti</h3>
-            <p>Kebutuhan maintenance dapat dicatat dan diproses sesuSistem workflow.</p>
+            <p>Kebutuhan maintenance dapat dicatat dan diproses sesuai workflow.</p>
          </div>
 
          <div class="mnb-card" data-aos="fade-up" data-aos-delay="200">

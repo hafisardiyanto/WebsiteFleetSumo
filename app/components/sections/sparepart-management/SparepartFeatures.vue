@@ -42,7 +42,7 @@
             <div class="spf-icon">⚙️</div>
             <div class="spf-content">
                <h3>05 — Sparepart Usage</h3>
-               <p>Kelola informasi penggunaan sparepart sesuSistem proses yang tersedia.</p>
+               <p>Kelola informasi penggunaan sparepart sesuai proses yang tersedia.</p>
             </div>
          </div>
 
@@ -66,7 +66,7 @@
             <div class="spf-icon">📊</div>
             <div class="spf-content">
                <h3>08 — Inventory Monitoring</h3>
-               <p>Pantau informasi sparepart dan stok sebagSistem bagian dari pengelolaan inventory.</p>
+               <p>Pantau informasi sparepart dan stok sebagai bagian dari pengelolaan inventory.</p>
             </div>
          </div>
       </div>

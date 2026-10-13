@@ -10,7 +10,7 @@
          <div class="rb-card" data-aos="fade-up" data-aos-delay="100">
             <div class="rb-icon">👀</div>
             <h3>01 — Visibilitas Lebih Baik</h3>
-            <p>Informasi dari berbagSistem aktivitas armada dapat dilihat melalui dashboard dan laporan.</p>
+            <p>Informasi dari berbagai aktivitas armada dapat dilihat melalui dashboard dan laporan.</p>
          </div>
 
          <div class="rb-card" data-aos="fade-up" data-aos-delay="200">
@@ -28,7 +28,7 @@
          <div class="rb-card" data-aos="fade-up" data-aos-delay="400">
             <div class="rb-icon">📈</div>
             <h3>04 — Mendukung Evaluasi</h3>
-            <p>Laporan dapat digunakan sebagSistem salah satu sumber informasi untuk melakukan evaluasi operasional.</p>
+            <p>Laporan dapat digunakan sebagai salah satu sumber informasi untuk melakukan evaluasi operasional.</p>
          </div>
       </div>
     </div>

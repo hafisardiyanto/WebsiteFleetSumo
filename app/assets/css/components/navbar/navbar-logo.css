@@ -1,0 +1,20 @@
+/* ==========================================================
+   components/navbar/navbar-logo.css
+   
+   ALUR: Mengatur tampilan logo "FleetSumo" di navbar.
+   
+   Logo dirender sebagai <a> tag dengan dua <span> di dalam
+   Navbar.vue — span pertama (#0f172a) dan span kedua (#f97316).
+   Warna span diatur inline di template, file ini mengatur
+   ukuran, berat, dan spacing logo secara keseluruhan.
+   ========================================================== */
+
+/* ── Brand Logo ─────────────────────────────────────────── */
+.navbar-logo {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    /* Negative tracking untuk tampilan "bold brand" */
+    /* Warna span diatur inline di Navbar.vue template */
+}

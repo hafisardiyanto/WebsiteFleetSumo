@@ -15,7 +15,7 @@
          <div class="cma-card" data-aos="fade-up" data-aos-delay="150">
             <div class="cma-icon">🧮</div>
             <h3>02 — Estimasi Biaya</h3>
-            <p>Kelola informasi estimasi biaya sesuSistem proses yang tersedia.</p>
+            <p>Kelola informasi estimasi biaya sesuai proses yang tersedia.</p>
          </div>
 
          <div class="cma-card" data-aos="fade-up" data-aos-delay="200">
@@ -51,7 +51,7 @@
          <div class="cma-card" data-aos="fade-up" data-aos-delay="450">
             <div class="cma-icon">📊</div>
             <h3>08 — Informasi Keuangan Armada</h3>
-            <p>Pantau informasi biaya sebagSistem bagian dari pengelolaan operasional armada.</p>
+            <p>Pantau informasi biaya sebagai bagian dari pengelolaan operasional armada.</p>
          </div>
       </div>
     </div>

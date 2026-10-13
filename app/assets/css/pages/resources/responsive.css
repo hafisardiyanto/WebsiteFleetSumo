@@ -1,0 +1,32 @@
+/* Responsive utilities for resource pages */
+@media (max-width: 1024px) {
+  .res-hero-section {
+    padding: 80px 0 40px;
+  }
+  .res-hero-title {
+    font-size: 30px;
+  }
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .res-cta-banner {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .res-hero-section {
+    padding: 60px 0 30px;
+  }
+  .res-hero-title {
+    font-size: 24px;
+  }
+  .article-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .res-cta-banner {
+    padding: 30px 15px;
+  }
+}

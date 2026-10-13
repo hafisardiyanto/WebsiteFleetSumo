@@ -10,7 +10,7 @@
           Pantau Operasional Armada dalam <span class="highlight">Satu Tampilan</span>
         </h1>
         <p class="mon-hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengubah data operasional armada menjadi informasi yang lebih mudah dipantau dan dilaporkan, mulSistem dari kendaraan, maintenance, BBM, ban, hingga biaya operasional.
+          FleetSumo membantu perusahaan mengubah data operasional armada menjadi informasi yang lebih mudah dipantau dan dilaporkan, mulai dari kendaraan, maintenance, BBM, ban, hingga biaya operasional.
         </p>
         
         <div class="mon-hero-actions" data-aos="fade-up" data-aos-delay="300">

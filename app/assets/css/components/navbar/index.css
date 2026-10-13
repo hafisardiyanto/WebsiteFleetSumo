@@ -1,0 +1,26 @@
+/* ==========================================================
+   components/navbar/index.css (Navbar Aggregator)
+   
+   ALUR: File ini adalah "aggregator" untuk semua CSS navbar.
+   
+   Komponen Navbar.vue diupdate untuk mengimport HANYA file ini
+   via: <style src="~/assets/css/components/navbar/index.css" scoped>
+   
+   Urutan @import penting untuk cascade yang benar:
+   1. wrapper   → posisi & ukuran (konteks parent)
+   2. logo      → elemen pertama dalam flex row
+   3. links     → nav items & anchor styles
+   4. dropdown  → overlay yang muncul di atas nav links
+   5. cta       → tombol action paling kanan
+   6. responsive → breakpoint override (harus paling akhir)
+   
+   Dengan pola ini, menambahkan/mengubah CSS navbar cukup
+   pada file yang relevan tanpa menyentuh file lain.
+   ========================================================== */
+
+@import './navbar-wrapper.css';
+@import './navbar-logo.css';
+@import './navbar-links.css';
+@import './navbar-dropdown.css';
+@import './navbar-cta.css';
+@import './navbar-responsive.css';

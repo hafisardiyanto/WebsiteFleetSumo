@@ -1,0 +1,35 @@
+/* Industry Page – CTA Section */
+.ind-cta-banner {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin: 80px auto;
+    max-width: 1040px;
+}
+.ind-cta-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.ind-cta-desc {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #f1f5f9;
+}
+.ind-cta-btn {
+    background: #ffffff;
+    color: #ea580c;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+.ind-cta-btn:hover {
+    background: #f3f4f6;
+    transform: translateY(-2px);
+}

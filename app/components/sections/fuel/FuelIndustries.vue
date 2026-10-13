@@ -3,7 +3,7 @@
     <div class="fuel-ind-container">
       <div class="fui-header" data-aos="fade-up">
         <span class="fui-label">INDUSTRI</span>
-        <h2 class="fui-title">Mendukung Pengelolaan BBM di BerbagSistem Industri</h2>
+        <h2 class="fui-title">Mendukung Pengelolaan BBM di Berbagai Industri</h2>
       </div>
 
       <div class="fui-grid">

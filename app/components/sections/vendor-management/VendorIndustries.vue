@@ -2,9 +2,9 @@
   <section class="vendor-industries-wrapper">
     <div class="vendor-industries-container">
       <div class="vid-header" data-aos="fade-up">
-        <span class="vid-label">UNTUK BERBAGSistem INDUSTRI</span>
-        <h2 class="vid-title">Pengelolaan Vendor untuk BerbagSistem Kebutuhan Armada</h2>
-        <p class="vid-subtitle">Kebutuhan vendor berbeda pada setiap perusahaan dan industri. FleetSumo membantu mengelola informasi vendor sebagSistem bagian dari operasional armada yang lebih terstruktur.</p>
+        <span class="vid-label">UNTUK BERBAGAI INDUSTRI</span>
+        <h2 class="vid-title">Pengelolaan Vendor untuk Berbagai Kebutuhan Armada</h2>
+        <p class="vid-subtitle">Kebutuhan vendor berbeda pada setiap perusahaan dan industri. FleetSumo membantu mengelola informasi vendor sebagai bagian dari operasional armada yang lebih terstruktur.</p>
       </div>
 
       <div class="vid-grid">

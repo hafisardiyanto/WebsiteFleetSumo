@@ -1,0 +1,65 @@
+/* ==========================================================
+   components/navbar/navbar-links.css
+   
+   ALUR: Mengatur daftar navigasi tengah navbar.
+   
+   Struktur HTML yang diatur:
+   .navbar-links          → <nav> flex row di tengah
+     .nav-item            → <div> per menu item
+       .nav-link          → <a> link teks utama
+         .arrow           → <span> ▾ indikator dropdown
+   
+   Hover state mengubah warna teks dari abu-abu ke oranye brand.
+   Class .has-dropdown memicu logika dropdown (di navbar-dropdown.css)
+   ========================================================== */
+
+/* ── Navigation Link Container ──────────────────────────── */
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* Jarak antar menu item */
+    height: 100%;
+    /* Full height untuk area hover dropdown */
+}
+
+/* ── Nav Item (menu wrapper) ────────────────────────────── */
+/*
+  position: relative penting agar .dropdown-menu
+  bisa diposisikan absolute relatif terhadap .nav-item
+*/
+.nav-item {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Nav Link (anchor teks) ─────────────────────────────── */
+.nav-link {
+    color: #475569;
+    /* Warna abu-abu medium (slate-600) */
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color var(--transition-base, 0.3s ease);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* Jarak antara teks dan arrow ▾ */
+}
+
+.nav-link:hover {
+    color: #f97316;
+    /* Brand orange saat hover */
+}
+
+/* ── Dropdown Arrow Indicator ───────────────────────────── */
+/*
+  .arrow berputar 180° saat dropdown terbuka.
+  Animasinya diatur di navbar-dropdown.css via sibling selector.
+*/
+.arrow {
+    font-size: 12px;
+    transition: transform var(--transition-base, 0.3s ease);
+}

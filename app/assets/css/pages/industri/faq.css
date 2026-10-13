@@ -1,0 +1,33 @@
+/* Industry Page – FAQ Section */
+.faq-section {
+    background: #f8fafc;
+    padding: 80px 0;
+}
+.faq-header {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 50px;
+}
+.faq-item {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 24px 0;
+}
+.faq-question {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq-answer {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    display: none;
+}
+.faq-question.active + .faq-answer {
+    display: block;
+}

@@ -28,7 +28,7 @@
          <div class="vnb-card" data-aos="fade-up" data-aos-delay="400">
             <div class="vnb-icon">⚙️</div>
             <h3>Mendukung Pengelolaan Operasional</h3>
-            <p>Informasi vendor dapat mendukung kebutuhan operasional armada sesuSistem proses perusahaan.</p>
+            <p>Informasi vendor dapat mendukung kebutuhan operasional armada sesuai proses perusahaan.</p>
          </div>
       </div>
     </div>

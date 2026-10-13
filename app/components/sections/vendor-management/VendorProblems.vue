@@ -11,7 +11,7 @@
          <div class="vop-card" data-aos="fade-up" data-aos-delay="100">
             <div class="vop-icon">🗄️</div>
             <h3>01 — Data Vendor Tersebar</h3>
-            <p>Informasi vendor dapat tersimpan di berbagSistem pencatatan dan sulit dikelola secara terpusat.</p>
+            <p>Informasi vendor dapat tersimpan di berbagai pencatatan dan sulit dikelola secara terpusat.</p>
          </div>
 
          <div class="vop-card" data-aos="fade-up" data-aos-delay="200">
@@ -23,7 +23,7 @@
          <div class="vop-card" data-aos="fade-up" data-aos-delay="300">
             <div class="vop-icon">📋</div>
             <h3>03 — Layanan Vendor Sulit Dipantau</h3>
-            <p>Perusahaan membutuhkan informasi mengenSistem jenis layanan atau kebutuhan yang ditangani vendor.</p>
+            <p>Perusahaan membutuhkan informasi mengenai jenis layanan atau kebutuhan yang ditangani vendor.</p>
          </div>
 
          <div class="vop-card" data-aos="fade-up" data-aos-delay="400">

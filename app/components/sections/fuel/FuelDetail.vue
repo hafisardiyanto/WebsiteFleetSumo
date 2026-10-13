@@ -6,7 +6,7 @@
         <div class="fudd-details" data-aos="fade-right">
             <span class="fudd-label">DETAIL TRANSAKSI BBM</span>
             <h2 class="fudd-title">Lihat Detail Pengisian BBM Secara Lengkap</h2>
-            <p class="fudd-subtitle">Detail transaksi memberikan informasi yang lebih lengkap mengenSistem aktivitas pengisian BBM yang tercatat pada kendaraan.</p>
+            <p class="fudd-subtitle">Detail transaksi memberikan informasi yang lebih lengkap mengenai aktivitas pengisian BBM yang tercatat pada kendaraan.</p>
             
             <div class="fudd-points">
                 <div class="fudd-point">

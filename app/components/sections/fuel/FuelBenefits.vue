@@ -15,13 +15,13 @@
          <div class="fub-card" data-aos="fade-up" data-aos-delay="150">
             <div class="fub-icon">⚡</div>
             <h3>Riwayat Lebih Mudah Ditelusuri</h3>
-            <p>Data pengisian kendaraan dapat ditelusuri sesuSistem informasi yang tersedia.</p>
+            <p>Data pengisian kendaraan dapat ditelusuri sesuai informasi yang tersedia.</p>
          </div>
 
          <div class="fub-card" data-aos="fade-up" data-aos-delay="200">
             <div class="fub-icon">📊</div>
             <h3>Biaya Lebih Mudah Dipantau</h3>
-            <p>Informasi biaya BBM dapat digunakan sebagSistem bagian dari monitoring biaya armada.</p>
+            <p>Informasi biaya BBM dapat digunakan sebagai bagian dari monitoring biaya armada.</p>
          </div>
 
          <div class="fub-card" data-aos="fade-up" data-aos-delay="250">

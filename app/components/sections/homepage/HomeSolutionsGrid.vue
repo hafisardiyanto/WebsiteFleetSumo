@@ -3,7 +3,7 @@
     <div class="home-solutions-container">
       <div class="sol-header" data-aos="fade-up">
         <h2 class="sol-title">Solusi Terintegrasi untuk Setiap Kebutuhan Armada</h2>
-        <p class="sol-subtitle">Kelola berbagSistem aspek operasional armada melalui solusi yang saling terhubung dalam satu platform FleetSumo.</p>
+        <p class="sol-subtitle">Kelola berbagai aspek operasional armada melalui solusi yang saling terhubung dalam satu platform FleetSumo.</p>
       </div>
 
       <div class="sol-grid">
@@ -32,7 +32,7 @@
            <div class="sol-link">Pelajari Fuel Management &rarr;</div>
         </a>
 
-        <a href="/fitur/tyre" class="sol-card" data-aos="fade-up" data-aos-delay="400">
+        <a href="/solusi/tyre-management" class="sol-card" data-aos="fade-up" data-aos-delay="400">
            <div class="sol-icon">🛞</div>
            <h3 class="sol-name">Tyre Management</h3>
            <p class="sol-tag">Mengurangi Anggaran Belanja Ban</p>

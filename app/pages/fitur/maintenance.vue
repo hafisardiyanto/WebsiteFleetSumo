@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Maintenance Software | FleetSumo',
+  title: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Pencatatan aktivitas bengkel, instruksi kerja, dan pelacakan riwayat servis perbaikan kendaraan.' },
-    { property: 'og:title', content: 'Fleet Maintenance Software | FleetSumo' },
-    { property: 'og:description', content: 'Pencatatan aktivitas bengkel, instruksi kerja, dan pelacakan riwayat servis perbaikan kendaraan.' },
+    { name: 'description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
+    { property: 'og:title', content: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo' },
+    { property: 'og:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/maintenance' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-maintenance.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Work Order & Servis Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-maintenance.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/maintenance' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/maintenance"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maintenance",
+            "item": "https://fleetsumo.id/fitur/maintenance"
+          }
+        ]
+      })
+    }
   ]
 })
 

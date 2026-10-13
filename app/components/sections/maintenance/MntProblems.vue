@@ -22,13 +22,13 @@
          <div class="mnp-card" data-aos="fade-up" data-aos-delay="200">
             <div class="mnp-icon">🛡️</div>
             <h3>03 — Proses Approval Membutuhkan Kontrol</h3>
-            <p>Pengajuan maintenance perlu mengikuti proses persetujuan sesuSistem kebutuhan perusahaan.</p>
+            <p>Pengajuan maintenance perlu mengikuti proses persetujuan sesuai kebutuhan perusahaan.</p>
          </div>
 
          <div class="mnp-card" data-aos="fade-up" data-aos-delay="250">
             <div class="mnp-icon">⚙️</div>
             <h3>04 — Pekerjaan Maintenance Sulit Dipantau</h3>
-            <p>Perusahaan membutuhkan informasi mengenSistem maintenance yang sedang berjalan maupun yang telah selesSistem.</p>
+            <p>Perusahaan membutuhkan informasi mengenai maintenance yang sedang berjalan maupun yang telah selesai.</p>
          </div>
 
          <div class="mnp-card" data-aos="fade-up" data-aos-delay="300">

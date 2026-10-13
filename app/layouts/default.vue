@@ -14,4 +14,4 @@
   </div>
 </template>
 
-<style src="~/assets/css/layout.css" scoped></style>
+<style src="~/assets/css/layouts/default.css" scoped></style>

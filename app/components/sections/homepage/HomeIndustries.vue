@@ -2,8 +2,8 @@
   <section class="home-industries-wrapper">
     <div class="home-industries-container">
       <div class="hi-header" data-aos="fade-up">
-        <span class="hi-label">UNTUK BERBAGSistem INDUSTRI</span>
-        <h2 class="hi-title">Mendukung BerbagSistem Kebutuhan Operasional Armada</h2>
+        <span class="hi-label">UNTUK BERBAGAI INDUSTRI</span>
+        <h2 class="hi-title">Mendukung Berbagai Kebutuhan Operasional Armada</h2>
         <p class="hi-subtitle">Setiap industri memiliki karakteristik dan kebutuhan operasional yang berbeda. FleetSumo membantu perusahaan mengelola armada dengan pendekatan yang dapat disesuaikan dengan proses bisnis masing-masing.</p>
       </div>
 
@@ -44,7 +44,7 @@
             </div>
             <div class="hi-content">
                <h3>04 — Konstruksi</h3>
-               <p>Kelola armada dan aktivitas maintenance untuk mendukung mobilitas kendaraan di berbagSistem proyek konstruksi.</p>
+               <p>Kelola armada dan aktivitas maintenance untuk mendukung mobilitas kendaraan di berbagai proyek konstruksi.</p>
             </div>
          </div>
 
@@ -64,7 +64,7 @@
             </div>
             <div class="hi-content">
                <h3>06 — Usaha Armada Lainnya</h3>
-               <p>Fleksibel digunakan untuk berbagSistem jenis bisnis yang memiliki kebutuhan pengelolaan kendaraan dan armada.</p>
+               <p>Fleksibel digunakan untuk berbagai jenis bisnis yang memiliki kebutuhan pengelolaan kendaraan dan armada.</p>
             </div>
          </div>
       </div>

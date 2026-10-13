@@ -13,7 +13,7 @@
          </div>
          <div class="dmm-m-point">
              <h4>Status Pengemudi</h4>
-             <p>Informasi status pengemudi sesuSistem data yang tersedia.</p>
+             <p>Informasi status pengemudi sesuai data yang tersedia.</p>
          </div>
          <div class="dmm-m-point">
              <h4>Kendaraan Terkait</h4>

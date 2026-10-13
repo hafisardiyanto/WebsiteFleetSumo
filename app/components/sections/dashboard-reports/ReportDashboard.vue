@@ -3,7 +3,7 @@
     <div class="report-dash-container">
       <div class="rps-header" data-aos="fade-up">
         <h2 class="rps-title">Lihat Kondisi Operasional Armada dalam Satu Tampilan</h2>
-        <p class="rps-subtitle">Dashboard membantu pengguna melihat informasi operasional armada secara lebih ringkas sehingga data dari berbagSistem aktivitas dapat dipantau dengan lebih mudah.</p>
+        <p class="rps-subtitle">Dashboard membantu pengguna melihat informasi operasional armada secara lebih ringkas sehingga data dari berbagai aktivitas dapat dipantau dengan lebih mudah.</p>
       </div>
 
       <div class="rps-layout">

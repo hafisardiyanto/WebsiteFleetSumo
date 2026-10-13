@@ -1,0 +1,48 @@
+/* ==========================================================
+   base/typography.css
+   
+   ALUR: Dimuat pertama kali via main.css karena @import
+   eksternal (Google Fonts) harus berada di paling atas chain.
+   
+   Berisi:
+   1. Import font dari Google Fonts CDN
+   2. Skala tipografi global (heading size, line-height)
+   
+   Komponen Vue mewarisi font-family dari body (reset.css).
+   File ini mengatur ukuran dan rhythm teks secara global.
+   ========================================================== */
+
+/* ── Google Fonts CDN ───────────────────────────────────── */
+/* Inter digunakan di seluruh proyek FleetSumo */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Global Font Scale (Typographic Rhythm) ─────────────── */
+/* 
+  Tidak meng-override heading yang sudah di-style di komponen
+  masing-masing. Ini hanya mendefinisikan fallback global.
+*/
+html {
+    font-size: 16px;
+    /* 1rem = 16px sebagai basis kalkulasi */
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+/* ── Paragraph ──────────────────────────────────────────── */
+p {
+    line-height: 1.65;
+    /* Lebih lebar untuk keterbacaan body text */
+}
+
+/* ── Strong / Bold ──────────────────────────────────────── */
+strong,
+b {
+    font-weight: 700;
+}
+
+/* ── Code / Pre ─────────────────────────────────────────── */
+code,
+pre {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    font-size: 0.875rem;
+}

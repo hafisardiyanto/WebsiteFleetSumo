@@ -10,7 +10,7 @@
             <div class="rpt-icon">🚐</div>
             <div class="rpt-content">
                <h3>Fleet Report</h3>
-               <p>Informasi mengenSistem kendaraan dan armada.</p>
+               <p>Informasi mengenai kendaraan dan armada.</p>
             </div>
          </div>
 

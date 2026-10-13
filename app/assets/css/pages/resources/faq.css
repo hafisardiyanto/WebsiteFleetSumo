@@ -1,0 +1,49 @@
+/* FAQ Section for Resources */
+.faq-category-section {
+    margin: 40px 0 60px;
+}
+
+.cat-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 4px solid #ea580c;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.faq-q {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.faq-a {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.faq-a a {
+    color: #ea580c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.faq-a a:hover {
+    text-decoration: underline;
+}

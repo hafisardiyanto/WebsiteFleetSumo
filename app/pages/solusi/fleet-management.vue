@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Management System | FleetSumo',
+  title: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo',
   meta: [
-    { name: 'description', content: 'Sistem manajemen armada komprehensif untuk memantau kendaraan, pengemudi, dan keseluruhan siklus operasional dalam satu platform sentral.' },
-    { property: 'og:title', content: 'Fleet Management System | FleetSumo' },
-    { property: 'og:description', content: 'Sistem manajemen armada komprehensif untuk memantau kendaraan, pengemudi, dan keseluruhan siklus operasional dalam satu platform sentral.' },
+    { name: 'description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
+    { property: 'og:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo' },
+    { property: 'og:description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/fleet-management' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Solusi Fleet Management Terpusat' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo' },
+    { name: 'twitter:description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/solusi/fleet-management' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solusi",
+            "item": "https://fleetsumo.id/solusi/fleet-management"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fleet Management",
+            "item": "https://fleetsumo.id/solusi/fleet-management"
+          }
+        ]
+      })
+    }
   ]
 })
 

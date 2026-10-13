@@ -42,7 +42,7 @@
             <div class="vnf-icon">⚡</div>
             <div class="vnf-content">
                <h3>05 — Vendor Activity</h3>
-               <p>Catat atau pantau aktivitas vendor sesuSistem proses yang tersedia.</p>
+               <p>Catat atau pantau aktivitas vendor sesuai proses yang tersedia.</p>
             </div>
          </div>
 
@@ -58,7 +58,7 @@
             <div class="vnf-icon">📊</div>
             <div class="vnf-content">
                <h3>07 — Vendor Monitoring</h3>
-               <p>Pantau informasi vendor sebagSistem bagian dari operasional armada.</p>
+               <p>Pantau informasi vendor sebagai bagian dari operasional armada.</p>
             </div>
          </div>
          

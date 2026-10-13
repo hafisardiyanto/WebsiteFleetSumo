@@ -1,0 +1,41 @@
+/* ==========================================================
+   components/navbar/navbar-cta.css
+   
+   ALUR: Mengatur tombol CTA "Kontak / Minta Demo" di navbar.
+   
+   Tombol ini dirender sebagai <NuxtLink> dengan class .btn-demo
+   di Navbar.vue. Menggunakan warna oranye brand sebagai
+   primary action — satu-satunya elemen "accent" di navbar
+   agar menarik perhatian pengguna ke konversi.
+   ========================================================== */
+
+/* ── Demo Button ────────────────────────────────────────── */
+.btn-demo {
+    background-color: #f97316;
+    /* Brand orange */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-base, 0.3s ease);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
+
+    /* Diperlukan karena dirender sebagai NuxtLink (anchor) */
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ── Hover State ────────────────────────────────────────── */
+/*
+  Efek "lift" dengan translateY(-2px) + shadow lebih gelap
+  memberi kesan tombol terangkat saat dihover
+*/
+.btn-demo:hover {
+    background-color: #ea580c;
+    /* Sedikit lebih gelap dari base */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(249, 115, 22, 0.3);
+}

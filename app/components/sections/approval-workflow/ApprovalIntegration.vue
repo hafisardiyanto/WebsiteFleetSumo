@@ -2,7 +2,7 @@
   <section class="approval-integration-wrapper">
     <div class="approval-integration-container">
       <div class="api-header" data-aos="fade-up">
-        <h2 class="api-title">Satu Workflow untuk BerbagSistem Aktivitas Operasional</h2>
+        <h2 class="api-title">Satu Workflow untuk Berbagai Aktivitas Operasional</h2>
       </div>
 
       <div class="api-diagram" data-aos="fade-up" data-aos-delay="200">

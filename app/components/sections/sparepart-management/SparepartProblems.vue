@@ -11,7 +11,7 @@
          <div class="spp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="spp-icon">🗄️</div>
             <h3>01 — Data Sparepart Tersebar</h3>
-            <p>Informasi sparepart sulit dikelola ketika tersimpan dalam berbagSistem pencatatan.</p>
+            <p>Informasi sparepart sulit dikelola ketika tersimpan dalam berbagai pencatatan.</p>
          </div>
 
          <div class="spp-card" data-aos="fade-up" data-aos-delay="200">

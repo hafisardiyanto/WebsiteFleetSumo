@@ -1,0 +1,45 @@
+/* ==========================================================
+   components/navbar/navbar-wrapper.css
+   
+   ALUR: Mengatur "kerangka luar" navbar.
+   
+   .navbar-wrapper  → Kontainer fixed di top, blur background
+   .navbar-container → Flex row yang membatasi lebar ke 1200px
+   
+   Layer z-index: 1000 agar navbar selalu di atas
+   semua konten halaman (hero, section, modals dll).
+   ========================================================== */
+
+/* ── Navbar Outer Shell ──────────────────────────────────── */
+.navbar-wrapper {
+    position: fixed;
+    /* Menempel di atas layar saat scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    /* Sedikit transparan */
+    backdrop-filter: blur(10px);
+    /* Efek kaca/frosted */
+    border-bottom: 1px solid #f1f5f9;
+    z-index: var(--z-navbar, 1000);
+    transition: all var(--transition-base, 0.3s ease);
+}
+
+/* ── Inner Container (max-width limiter) ─────────────────── */
+/*
+  Pola "container" dipakai di seluruh proyek:
+  max-width → agar tidak terlalu lebar di layar besar
+  padding  → memberi breathing room di kiri-kanan
+  height   → tinggi fixed navbar 80px
+*/
+.navbar-container {
+    max-width: var(--container-width, 1200px);
+    margin: 0 auto;
+    padding: 0 20px;
+    height: var(--navbar-height, 80px);
+    display: flex;
+    justify-content: space-between;
+    /* Logo kiri, links tengah, CTA kanan */
+    align-items: center;
+}

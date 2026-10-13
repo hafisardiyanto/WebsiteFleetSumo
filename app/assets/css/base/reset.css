@@ -1,0 +1,83 @@
+/* ==========================================================
+   base/reset.css
+   
+   ALUR: Dimuat setelah variables.css. Menghapus semua
+   inkonsistensi default browser (UA stylesheet) agar setiap
+   elemen dimulai dari state yang bersih dan konsisten di
+   semua browser.
+   
+   Dimuat via main.css → nuxt.config.ts.
+   ========================================================== */
+
+/* ── Universal Box Model ────────────────────────────────── */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ── Body Base ──────────────────────────────────────────── */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--text-dark);
+    background-color: var(--bg-white);
+    overflow-x: hidden;
+    /* Mencegah horizontal scroll */
+    -webkit-font-smoothing: antialiased;
+    /* Font rendering lebih halus di macOS/iOS */
+    -moz-osx-font-smoothing: grayscale;
+    /* Font rendering di Firefox macOS */
+}
+
+/* ── Heading Reset ──────────────────────────────────────── */
+/* Browser memberi margin default di h1-h6, kita reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* ── Anchor Reset ───────────────────────────────────────── */
+/* Hilangkan underline default, warna diwariskan dari parent */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ── List Reset (opsional, jika diperlukan) ─────────────── */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Image ──────────────────────────────────────────────── */
+img,
+video {
+    max-width: 100%;
+    display: block;
+    /* Mencegah whitespace gap di bawah gambar */
+}
+
+/* ── Form Elements ──────────────────────────────────────── */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}

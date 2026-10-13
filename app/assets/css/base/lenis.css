@@ -1,0 +1,59 @@
+/* ==========================================================
+   base/lenis.css
+   
+   ALUR: Lenis adalah library JavaScript untuk smooth scrolling
+   yang dipakai di halaman Home dan halaman Solusi.
+   
+   Library Lenis menambahkan class .lenis ke <html> saat
+   diinisialisasi. File ini berisi CSS yang WAJIB ada agar
+   Lenis berfungsi dengan benar (mencegah konflik dengan
+   browser scroll behavior).
+   
+   Referensi: https://github.com/darkroomengineering/lenis
+   ========================================================== */
+
+/* ── Required Lenis Setup ────────────────────────────────── */
+/* 
+  Saat Lenis aktif, html harus "auto" agar library bisa
+  menghitung panjang scroll yang sebenarnya
+*/
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+/* ── Disable browser smooth-scroll ketika Lenis aktif ──── */
+/*
+  Browser punya native scroll-behavior: smooth, tetapi
+  ini akan konflik dengan animasi Lenis. Override ke auto.
+*/
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+/* ── Prevent overscroll di elemen nested ───────────────── */
+/*
+  Elemen dengan data-lenis-prevent tidak ikut dikelola Lenis
+  sehingga perlu dikonfigurasi agar tidak "bocor" ke parent
+*/
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+/* ── Freeze scroll saat Lenis stopped ──────────────────── */
+/*
+  Biasanya ketika modal/overlay aktif, Lenis di-stop()
+  dan class ini mengunci scroll sepenuhnya
+*/
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+/* ── iframe pointer events saat Lenis smooth aktif ─────── */
+/*
+  iframe bisa "mencuri" scroll event dan memutus Lenis.
+  pointer-events: none mencegah hal tersebut.
+*/
+.lenis.lenis-smooth iframe {
+    pointer-events: none;
+}

@@ -1,0 +1,59 @@
+/* Common resource page utilities */
+.resource-wrapper {
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: inherit;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Filter bar */
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.filter-pill {
+    cursor: pointer;
+    padding: 6px 12px;
+    background-color: #f3f4f6;
+    color: #374151;
+    border-radius: 9999px;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+.filter-pill.active {
+    background-color: #ea580c;
+    color: #ffffff;
+}
+
+/* Article card button */
+.article-card .btn-primary {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #ea580c;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+.article-card .btn-primary:hover {
+    background-color: #c2410c;
+}
+.article-detail-wrapper {
+  margin-top: var(--navbar-height, 80px);
+  padding: 20px;
+}
+.breadcrumb {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #64748b;
+}

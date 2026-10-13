@@ -28,7 +28,7 @@
          <div class="spb-card" data-aos="fade-up" data-aos-delay="400">
             <div class="spb-icon">🔧</div>
             <h3>Mendukung Operasional Maintenance</h3>
-            <p>Informasi sparepart dapat mendukung kebutuhan maintenance sesuSistem proses yang tersedia.</p>
+            <p>Informasi sparepart dapat mendukung kebutuhan maintenance sesuai proses yang tersedia.</p>
          </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
   <section class="approval-workflow-wrapper">
     <div class="approval-workflow-container">
       <div class="apw-header" data-aos="fade-up">
-        <h2 class="apw-title">Dari Pengajuan hingga SelesSistem dalam Alur yang Terstruktur</h2>
+        <h2 class="apw-title">Dari Pengajuan hingga Selesai dalam Alur yang Terstruktur</h2>
       </div>
 
       <div class="apw-content" data-aos="fade-up" data-aos-delay="200">
@@ -32,7 +32,7 @@
                   <div class="apw-arrow">↓</div>
                   <div class="apw-box">REALISASI</div>
                   <div class="apw-arrow">↓</div>
-                  <div class="apw-box dark">SELESSistem</div>
+                  <div class="apw-box dark">SELESAI</div>
                </div>
                <div class="apw-col">
                   <div class="apw-box danger">DITOLAK</div>
@@ -47,7 +47,7 @@
             </div>
             <div class="apw-info-item">
                <h4>Review</h4>
-               <p>Pengajuan diperiksa sesuSistem kebutuhan proses.</p>
+               <p>Pengajuan diperiksa sesuai kebutuhan proses.</p>
             </div>
             <div class="apw-info-item highlight-info">
                <h4>Approval</h4>
@@ -62,8 +62,8 @@
                <p>Aktivitas dilaksanakan dan dicatat.</p>
             </div>
             <div class="apw-info-item">
-               <h4>SelesSistem</h4>
-               <p>Proses tersimpan sebagSistem riwayat.</p>
+               <h4>Selesai</h4>
+               <p>Proses tersimpan sebagai riwayat.</p>
             </div>
          </div>
       </div>

@@ -3,7 +3,7 @@
     <div class="vendor-monitoring-container">
       <div class="vnm-header" data-aos="fade-up">
         <h2 class="vnm-title">Pantau Informasi Vendor dengan Lebih Mudah</h2>
-        <p class="vnm-subtitle">Informasi vendor yang tersimpan dalam sistem membantu perusahaan melihat data dan aktivitas vendor sebagSistem bagian dari pengelolaan operasional armada.</p>
+        <p class="vnm-subtitle">Informasi vendor yang tersimpan dalam sistem membantu perusahaan melihat data dan aktivitas vendor sebagai bagian dari pengelolaan operasional armada.</p>
       </div>
 
       <div class="vnm-layout">
@@ -25,7 +25,7 @@
              </div>
              <div class="vnm-card">
                  <h4>Aktivitas Vendor</h4>
-                 <p>Memantau aktivitas vendor sesuSistem proses yang tersedia.</p>
+                 <p>Memantau aktivitas vendor sesuai proses yang tersedia.</p>
              </div>
              <div class="vnm-card">
                  <h4>Riwayat Vendor</h4>

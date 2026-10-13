@@ -9,7 +9,7 @@
          <div class="ama-card" data-aos="fade-up" data-aos-delay="100">
             <div class="ama-icon">📝</div>
             <h3>01 — Pengajuan</h3>
-            <p>Kelola permintaan atau pengajuan aktivitas sesuSistem proses operasional.</p>
+            <p>Kelola permintaan atau pengajuan aktivitas sesuai proses operasional.</p>
          </div>
 
          <div class="ama-card" data-aos="fade-up" data-aos-delay="150">
@@ -27,7 +27,7 @@
          <div class="ama-card" data-aos="fade-up" data-aos-delay="250">
             <div class="ama-icon">❌</div>
             <h3>04 — Penolakan</h3>
-            <p>Kelola pengajuan yang tidak disetujui sesuSistem proses yang tersedia.</p>
+            <p>Kelola pengajuan yang tidak disetujui sesuai proses yang tersedia.</p>
          </div>
 
          <div class="ama-card" data-aos="fade-up" data-aos-delay="300">

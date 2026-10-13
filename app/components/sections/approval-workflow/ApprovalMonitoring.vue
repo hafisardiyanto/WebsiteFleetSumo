@@ -3,7 +3,7 @@
     <div class="approval-monitoring-container">
       <div class="apm-header" data-aos="fade-up">
         <h2 class="apm-title">Pantau Status Pengajuan dan Persetujuan dengan Lebih Mudah</h2>
-        <p class="apm-subtitle">Informasi pengajuan dan status persetujuan membantu pengguna memantau proses operasional yang sedang berjalan dan menelusuri aktivitas yang telah selesSistem.</p>
+        <p class="apm-subtitle">Informasi pengajuan dan status persetujuan membantu pengguna memantau proses operasional yang sedang berjalan dan menelusuri aktivitas yang telah selesai.</p>
       </div>
 
       <div class="apm-layout">
@@ -24,7 +24,7 @@
                  <p>Memantau pengajuan yang membutuhkan persetujuan.</p>
              </div>
              <div class="apm-card">
-                 <h4>Pengajuan SelesSistem</h4>
+                 <h4>Pengajuan Selesai</h4>
                  <p>Melihat pengajuan yang telah mendapatkan keputusan dan menyelesaikan prosesnya.</p>
              </div>
              <div class="apm-card">

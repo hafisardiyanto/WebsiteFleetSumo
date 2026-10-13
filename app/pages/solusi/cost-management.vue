@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Cost Management | FleetSumo',
+  title: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo',
   meta: [
-    { name: 'description', content: 'Kontrol dan analisis biaya armada secara mendalam untuk setiap kendaraan demi mencapai efisiensi finansial yang terukur.' },
-    { property: 'og:title', content: 'Fleet Cost Management | FleetSumo' },
-    { property: 'og:description', content: 'Kontrol dan analisis biaya armada secara mendalam untuk setiap kendaraan demi mencapai efisiensi finansial yang terukur.' },
+    { name: 'description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
+    { property: 'og:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo' },
+    { property: 'og:description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/cost-management' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-cost.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Solusi Manajemen Biaya Armada & Analisis TCO' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo' },
+    { name: 'twitter:description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-cost.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/solusi/cost-management' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solusi",
+            "item": "https://fleetsumo.id/solusi/cost-management"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cost Management",
+            "item": "https://fleetsumo.id/solusi/cost-management"
+          }
+        ]
+      })
+    }
   ]
 })
 

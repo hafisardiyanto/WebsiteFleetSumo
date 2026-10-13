@@ -2,9 +2,9 @@
   <section class="fleet-other-solutions-wrapper">
     <div class="fleet-other-container">
       <div class="fleet-other-header" data-aos="fade-up">
-        <h2 class="fleet-other-title">Fleet Management sebagSistem Pusat Pengelolaan Armada</h2>
+        <h2 class="fleet-other-title">Fleet Management sebagai Pusat Pengelolaan Armada</h2>
         <p class="fleet-other-subtitle">
-          Pengelolaan kendaraan tidak berdiri sendiri. Data armada dapat menjadi bagian dari berbagSistem aktivitas operasional lainnya.
+          Pengelolaan kendaraan tidak berdiri sendiri. Data armada dapat menjadi bagian dari berbagai aktivitas operasional lainnya.
         </p>
       </div>
 

@@ -38,11 +38,11 @@
              </div>
              <div class="csl-point">
                  <h4>Tanggal & Nominal</h4>
-                 <p>Ketahui kronologi waktu pengeluaran beserta jumlah tagihan definitif yang diperlukan untuk membiaySistem operasional.</p>
+                 <p>Ketahui kronologi waktu pengeluaran beserta jumlah tagihan definitif yang diperlukan untuk membiayai operasional.</p>
              </div>
              <div class="csl-point">
                  <h4>Status</h4>
-                 <p>Pantau posisi persetujuan biaya terhubung, mulSistem dari saat pengajuan hingga telah terverifikasi oleh pihak pengontrol.</p>
+                 <p>Pantau posisi persetujuan biaya terhubung, mulai dari saat pengajuan hingga telah terverifikasi oleh pihak pengontrol.</p>
              </div>
          </div>
 

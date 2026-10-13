@@ -17,25 +17,25 @@
          <div class="app-card" data-aos="fade-up" data-aos-delay="200">
             <div class="app-icon">❓</div>
             <h3>02 — Status Persetujuan Tidak Jelas</h3>
-            <p>Pengguna membutuhkan informasi mengenSistem apakah pengajuan masih menunggu, disetujui, atau ditolak.</p>
+            <p>Pengguna membutuhkan informasi mengenai apakah pengajuan masih menunggu, disetujui, atau ditolak.</p>
          </div>
 
          <div class="app-card" data-aos="fade-up" data-aos-delay="300">
             <div class="app-icon">📋</div>
             <h3>03 — Proses Persetujuan Tidak Terstruktur</h3>
-            <p>Setiap jenis pengajuan membutuhkan alur kerja yang jelas sesuSistem kebutuhan perusahaan.</p>
+            <p>Setiap jenis pengajuan membutuhkan alur kerja yang jelas sesuai kebutuhan perusahaan.</p>
          </div>
 
          <div class="app-card" data-aos="fade-up" data-aos-delay="400">
             <div class="app-icon">⏳</div>
             <h3>04 — Riwayat Persetujuan Sulit Ditelusuri</h3>
-            <p>Informasi mengenSistem proses persetujuan perlu tersimpan sebagSistem bagian dari riwayat aktivitas.</p>
+            <p>Informasi mengenai proses persetujuan perlu tersimpan sebagai bagian dari riwayat aktivitas.</p>
          </div>
 
          <div class="app-card" data-aos="fade-up" data-aos-delay="500">
             <div class="app-icon">🔗</div>
             <h3>05 — Tindak Lanjut Membutuhkan Informasi Jelas</h3>
-            <p>Pengajuan yang sudah mendapatkan keputusan perlu dapat ditindaklanjuti sesuSistem proses operasional.</p>
+            <p>Pengajuan yang sudah mendapatkan keputusan perlu dapat ditindaklanjuti sesuai proses operasional.</p>
          </div>
 
          <div class="app-card full" data-aos="fade-up" data-aos-delay="600">

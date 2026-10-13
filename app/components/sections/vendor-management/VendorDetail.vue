@@ -3,7 +3,7 @@
     <div class="vendor-detail-container">
       <div class="vnd-header" data-aos="fade-up">
         <h2 class="vnd-title">Lihat Informasi Vendor Secara Lebih Lengkap</h2>
-        <p class="vnd-subtitle">Halaman detail vendor memberikan informasi yang lebih lengkap mengenSistem vendor dan aktivitas yang berkaitan dengannya.</p>
+        <p class="vnd-subtitle">Halaman detail vendor memberikan informasi yang lebih lengkap mengenai vendor dan aktivitas yang berkaitan dengannya.</p>
       </div>
 
       <div class="vnd-layout">

@@ -4,14 +4,14 @@
       <div class="csp-header" data-aos="fade-up">
         <span class="csp-label">TANTANGAN PENGELOLAAN BIAYA</span>
         <h2 class="csp-title">Biaya Armada Membutuhkan Pengelolaan yang Terstruktur</h2>
-        <p class="csp-subtitle">Banyaknya aktivitas kendaraan membuat biaya armada berasal dari berbagSistem kebutuhan. Tanpa data yang terstruktur, perusahaan akan lebih sulit melihat, menelusuri, dan mengevaluasi biaya.</p>
+        <p class="csp-subtitle">Banyaknya aktivitas kendaraan membuat biaya armada berasal dari berbagai kebutuhan. Tanpa data yang terstruktur, perusahaan akan lebih sulit melihat, menelusuri, dan mengevaluasi biaya.</p>
       </div>
 
       <div class="csp-grid">
          <div class="csp-card" data-aos="fade-up" data-aos-delay="100">
             <div class="csp-icon">💸</div>
             <h3>01 — Daftar Pengajuan Biaya</h3>
-            <p>Sistem memfasilitasi pencatatan data biaya harian dari berbagSistem aktivitas armada menjadi satu tabel yang terpusat.</p>
+            <p>Sistem memfasilitasi pencatatan data biaya harian dari berbagai aktivitas armada menjadi satu tabel yang terpusat.</p>
          </div>
 
          <div class="csp-card" data-aos="fade-up" data-aos-delay="200">
@@ -23,7 +23,7 @@
          <div class="csp-card" data-aos="fade-up" data-aos-delay="300">
             <div class="csp-icon">🔒</div>
             <h3>03 — Proses Approval Sistematis</h3>
-            <p>Pengguna dapat memantau status pengajuan (Draft/Pending/Approved) yang berjalan sesuSistem alur kerja sistem.</p>
+            <p>Pengguna dapat memantau status pengajuan (Draft/Pending/Approved) yang berjalan sesuai alur kerja sistem.</p>
          </div>
 
          <div class="csp-card" data-aos="fade-up" data-aos-delay="400">

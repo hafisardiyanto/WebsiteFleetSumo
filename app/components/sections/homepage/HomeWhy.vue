@@ -6,12 +6,12 @@
       <div class="why-text-area" data-aos="fade-right">
          <span class="why-label">MENGAPA FLEETSUMO</span>
          <h2 class="why-title">Dibangun untuk Membantu Perusahaan Mengelola Armada Secara Terstruktur</h2>
-         <p class="why-desc">FleetSumo dirancang untuk menyatukan berbagSistem aktivitas operasional armada dalam satu platform, sehingga perusahaan dapat mengelola data, proses, dan informasi armada dengan lebih terintegrasi.</p>
+         <p class="why-desc">FleetSumo dirancang untuk menyatukan berbagai aktivitas operasional armada dalam satu platform, sehingga perusahaan dapat mengelola data, proses, dan informasi armada dengan lebih terintegrasi.</p>
 
          <div class="why-bullets">
             <div class="wb-item">
                <h4>01 — Terintegrasi</h4>
-               <p>BerbagSistem aktivitas armada dapat dikelola dalam satu platform tanpa harus berpindah-pindah sistem.</p>
+               <p>Berbagai aktivitas armada dapat dikelola dalam satu platform tanpa harus berpindah-pindah sistem.</p>
             </div>
             <div class="wb-item">
                <h4>02 — Terstruktur</h4>

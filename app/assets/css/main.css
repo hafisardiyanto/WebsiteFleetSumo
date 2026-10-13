@@ -1,0 +1,35 @@
+/* ==========================================================
+   main.css — Global CSS Entry Point
+   
+   ALUR LOADING:
+   nuxt.config.ts → css: ['~/assets/css/main.css']
+                          ↓
+                    main.css (@import chain)
+                    ├── base/typography.css   (Google Fonts + typescale)
+                    ├── base/variables.css    (design tokens / :root vars)
+                    ├── base/reset.css        (browser reset)
+                    └── base/lenis.css        (smooth scroll utilities)
+   
+   Mengapa urutan ini penting?
+   - typography.css HARUS pertama karena @import URL eksternal
+     (Google Fonts) hanya valid di paling atas stylesheet.
+   - variables.css SEBELUM reset.css agar variabel seperti
+     var(--text-dark) bisa dipakai oleh reset.css.
+   - lenis.css paling akhir agar tidak di-override reset.
+   
+   CSS sections (homepage, solusi, fitur, dll) TIDAK diimport
+   di sini — setiap komponen Vue memuat CSS-nya sendiri via
+   <style src="..." scoped>, menjaga isolasi dan performa bundle.
+   ========================================================== */
+
+/* 1. Font Import & Typography Scale */
+@import './base/typography.css';
+
+/* 2. Design Tokens / CSS Variables */
+@import './base/variables.css';
+
+/* 3. CSS Reset & Base Elements */
+@import './base/reset.css';
+
+/* 4. Lenis Smooth Scroll Utilities */
+@import './base/lenis.css';

@@ -10,7 +10,7 @@
          <div class="fup-card" data-aos="fade-up" data-aos-delay="100">
             <div class="fup-icon">🗂️</div>
             <h3>01 — Data Pengisian Tersebar</h3>
-            <p>Data aktivitas pengisian BBM dari berbagSistem kendaraan dapat sulit dikelola jika tidak tersimpan secara terpusat.</p>
+            <p>Data aktivitas pengisian BBM dari berbagai kendaraan dapat sulit dikelola jika tidak tersimpan secara terpusat.</p>
          </div>
 
          <div class="fup-card" data-aos="fade-up" data-aos-delay="150">

@@ -1,0 +1,25 @@
+/* ==========================================================
+   components/navbar/navbar-responsive.css
+   
+   ALUR: Breakpoint untuk tampilan mobile/tablet.
+   
+   Di layar ≤1024px, .navbar-links disembunyikan karena
+   tidak ada ruang yang cukup untuk menampilkan 5 menu item
+   secara horizontal.
+   
+   CATATAN: Proyek saat ini belum mengimplementasikan hamburger
+   menu / mobile nav. Jika ditambahkan di masa depan, semua
+   CSS mobile navbar cukup ditambahkan di file ini saja.
+   ========================================================== */
+
+/* ── Tablet & Mobile: Sembunyikan Nav Links ─────────────── */
+@media (max-width: 1024px) {
+    .navbar-links {
+        display: none;
+        /*
+          Jika suatu saat ingin menambahkan hamburger menu,
+          toggling visibility dilakukan via JS dengan
+          class .navbar-links.is-open { display: flex; flex-direction: column; }
+        */
+    }
+}

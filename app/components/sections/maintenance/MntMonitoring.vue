@@ -3,7 +3,7 @@
     <div class="mnt-mon-container">
       <div class="mnm-header" data-aos="fade-up">
         <h2 class="mnm-title">Pantau Aktivitas Maintenance dengan Lebih Mudah</h2>
-        <p class="mnm-subtitle">Informasi maintenance yang tersimpan secara terstruktur membantu perusahaan melihat aktivitas perawatan kendaraan dan menggunakannya sebagSistem bagian dari monitoring operasional.</p>
+        <p class="mnm-subtitle">Informasi maintenance yang tersimpan secara terstruktur membantu perusahaan melihat aktivitas perawatan kendaraan dan menggunakannya sebagai bagian dari monitoring operasional.</p>
       </div>
 
       <div class="mnm-grid">
@@ -15,8 +15,8 @@
 
          <div class="mnm-card" data-aos="fade-up" data-aos-delay="150">
             <div class="mnm-icon">✅</div>
-            <h3>Maintenance SelesSistem</h3>
-            <p>Informasi pekerjaan maintenance yang telah selesSistem.</p>
+            <h3>Maintenance Selesai</h3>
+            <p>Informasi pekerjaan maintenance yang telah selesai.</p>
          </div>
 
          <div class="mnm-card" data-aos="fade-up" data-aos-delay="200">

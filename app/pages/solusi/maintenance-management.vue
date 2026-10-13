@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Maintenance Management System | FleetSumo',
+  title: 'Solusi Perawatan Armada & Servis Terjadwal | FleetSumo',
   meta: [
-    { name: 'description', content: 'Kelola jadwal perawatan, penugasan teknisi, dan persetujuan perbaikan kendaraan armada untuk mencegah downtime operasional.' },
-    { property: 'og:title', content: 'Maintenance Management System | FleetSumo' },
-    { property: 'og:description', content: 'Kelola jadwal perawatan, penugasan teknisi, dan persetujuan perbaikan kendaraan armada untuk mencegah downtime operasional.' },
+    { name: 'description', content: 'Cegah downtime operasional tak terduga dengan sistem manajemen perawatan armada, penjadwalan servis preventif, dan kontrol riwayat mekanik bengkel.' },
+    { property: 'og:title', content: 'Solusi Perawatan Armada & Servis Terjadwal | FleetSumo' },
+    { property: 'og:description', content: 'Cegah downtime operasional tak terduga dengan sistem manajemen perawatan armada, penjadwalan servis preventif, dan kontrol riwayat mekanik bengkel.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/maintenance-management' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-maintenance.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Solusi Perawatan Armada Terjadwal' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Solusi Perawatan Armada & Servis Terjadwal | FleetSumo' },
+    { name: 'twitter:description', content: 'Cegah downtime operasional tak terduga dengan sistem manajemen perawatan armada, penjadwalan servis preventif, dan kontrol riwayat mekanik bengkel.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-maintenance.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/solusi/maintenance-management' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solusi",
+            "item": "https://fleetsumo.id/solusi/maintenance-management"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maintenance Management",
+            "item": "https://fleetsumo.id/solusi/maintenance-management"
+          }
+        ]
+      })
+    }
   ]
 })
 

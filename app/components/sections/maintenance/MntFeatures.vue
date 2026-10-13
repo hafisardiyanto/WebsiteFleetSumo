@@ -19,7 +19,7 @@
             <span class="mnf-icon">🛡️</span>
             <div>
                <h4>Maintenance Approval</h4>
-               <p>Dukung proses persetujuan maintenance sesuSistem workflow perusahaan.</p>
+               <p>Dukung proses persetujuan maintenance sesuai workflow perusahaan.</p>
             </div>
          </div>
 
@@ -43,7 +43,7 @@
             <span class="mnf-icon">🧾</span>
             <div>
                <h4>Maintenance Realization</h4>
-               <p>Catat informasi realisasi maintenance sesuSistem data yang tersedia.</p>
+               <p>Catat informasi realisasi maintenance sesuai data yang tersedia.</p>
             </div>
          </div>
 

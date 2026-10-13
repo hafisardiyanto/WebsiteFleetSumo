@@ -3,7 +3,7 @@
     <div class="sparepart-monitoring-container">
       <div class="spm-header" data-aos="fade-up">
         <h2 class="spm-title">Pantau Stok dan Aktivitas Sparepart dengan Lebih Mudah</h2>
-        <p class="spm-subtitle">Data sparepart yang tercatat dalam sistem membantu perusahaan memantau informasi stok dan aktivitas inventory sebagSistem bagian dari operasional armada.</p>
+        <p class="spm-subtitle">Data sparepart yang tercatat dalam sistem membantu perusahaan memantau informasi stok dan aktivitas inventory sebagai bagian dari operasional armada.</p>
       </div>
 
       <div class="spm-layout">

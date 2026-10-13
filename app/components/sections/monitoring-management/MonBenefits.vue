@@ -38,7 +38,7 @@
         <div class="mb-card" data-aos="fade-up" data-aos-delay="500">
           <div class="mb-icon">⚖️</div>
           <h3 class="mb-title">Perbandingan Antar Kendaraan</h3>
-          <p class="mb-desc">MenilSistem performa beban biaya unit yang identik dari satu pilar operasi.</p>
+          <p class="mb-desc">Menilai performa beban biaya unit yang identik dari satu pilar operasi.</p>
         </div>
 
         <!-- Benefit 6 -->

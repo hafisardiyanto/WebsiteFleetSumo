@@ -1,0 +1,470 @@
+/* app/assets/css/pages/industri/industri-page.css */
+
+.industri-wrapper {
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: inherit;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 1. Hero Section */
+.ind-hero-section {
+    padding: 130px 0 70px;
+    background: radial-gradient(circle at 50% 10%, rgba(249, 115, 22, 0.06) 0%, transparent 70%), #ffffff;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.ind-hero-header {
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto 40px;
+}
+
+.ind-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #fff7ed;
+    color: #ea580c;
+    border: 1px solid #ffedd5;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    margin-bottom: 20px;
+}
+
+.ind-title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.ind-title .highlight {
+    color: #ea580c;
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ind-subtitle {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #475569;
+    margin-bottom: 30px;
+}
+
+.ind-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f97316;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 14px rgba(249, 115, 22, 0.25);
+}
+
+.btn-primary:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.35);
+}
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+    color: #334155;
+    border: 1px solid #e2e8f0;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+
+.ind-hero-visual {
+    max-width: 1040px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+    border: 1px solid #e2e8f0;
+    position: relative;
+}
+
+.ind-hero-visual img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    display: block;
+}
+
+/* 2. Challenge & Problem Grid */
+.ind-section {
+    padding: 80px 0;
+}
+
+.ind-section-alt {
+    padding: 80px 0;
+    background-color: #f8fafc;
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.sec-header {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+}
+
+.sec-tag {
+    color: #ea580c;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.sec-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 14px;
+}
+
+.sec-desc {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.problem-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 28px;
+    transition: all 0.25s ease;
+}
+
+.problem-card:hover {
+    border-color: #fdba74;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+}
+
+.problem-icon {
+    font-size: 26px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.problem-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.problem-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* 3. Impact Highlight Box */
+.impact-box {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 44px;
+    margin: 40px auto 0;
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+}
+
+.impact-header h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #fdba74;
+}
+
+.impact-header p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.impact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.impact-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #e2e8f0;
+    line-height: 1.5;
+}
+
+.impact-list li::before {
+    content: "✕";
+    color: #f87171;
+    font-weight: 800;
+}
+
+/* 4. Solution Capabilities Grid */
+.capability-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.capability-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 28px;
+    transition: all 0.25s ease;
+}
+
+.capability-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.cap-badge {
+    display: inline-block;
+    background-color: #f0fdf4;
+    color: #16a34a;
+    border: 1px solid #bbf7d0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.cap-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.cap-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.cap-link {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ea580c;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cap-link:hover {
+    text-decoration: underline;
+}
+
+/* 5. Realistic Workflow */
+.workflow-timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    position: relative;
+}
+
+.workflow-step {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+}
+
+.step-num {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: #fff7ed;
+    color: #ea580c;
+    border: 1px solid #ffedd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.step-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.step-desc {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* 6. FAQ Section */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.faq-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.faq-q {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.faq-a {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* 7. Bottom CTA */
+.ind-cta-banner {
+    background: linear-gradient(135deg, #0b0f19 0%, #1e293b 100%);
+    border-radius: 20px;
+    padding: 60px 40px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px auto 90px;
+    max-width: 1100px;
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+    border: 1px solid #334155;
+}
+
+.cta-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.cta-desc {
+    font-size: 17px;
+    color: #94a3b8;
+    max-width: 680px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+
+    .problem-grid,
+    .capability-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .workflow-timeline {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .impact-box {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .ind-hero-section {
+        padding: 100px 0 50px;
+    }
+
+    .ind-title {
+        font-size: 28px;
+    }
+
+    .ind-hero-visual img {
+        height: 240px;
+    }
+
+    .problem-grid,
+    .capability-grid,
+    .workflow-timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .ind-cta-banner {
+        padding: 40px 20px;
+    }
+}

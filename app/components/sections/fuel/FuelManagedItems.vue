@@ -33,7 +33,7 @@
          <div class="fum-card" data-aos="fade-up" data-aos-delay="300">
             <div class="fum-icon">🕒</div>
             <h3>05 Waktu Pengisian</h3>
-            <p>Simpan informasi waktu atau tanggal aktivitas pengisian sesuSistem data transaksi.</p>
+            <p>Simpan informasi waktu atau tanggal aktivitas pengisian sesuai data transaksi.</p>
          </div>
 
          <div class="fum-card" data-aos="fade-up" data-aos-delay="350">

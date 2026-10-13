@@ -3,7 +3,7 @@
     <div class="mnt-ind-container">
       <div class="mni-header" data-aos="fade-up">
         <span class="mni-label">INDUSTRI</span>
-        <h2 class="mni-title">Mendukung Kebutuhan Maintenance di BerbagSistem Industri</h2>
+        <h2 class="mni-title">Mendukung Kebutuhan Maintenance di Berbagai Industri</h2>
       </div>
 
       <div class="mni-grid">
@@ -40,7 +40,7 @@
          <div class="mni-card" data-aos="fade-up" data-aos-delay="350">
             <div class="mni-icon">🚜</div>
             <h3>Usaha Armada Lainnya</h3>
-            <p>Fleksibel digunakan untuk berbagSistem jenis dan ukuran armada perusahaan.</p>
+            <p>Fleksibel digunakan untuk berbagai jenis dan ukuran armada perusahaan.</p>
          </div>
       </div>
     </div>

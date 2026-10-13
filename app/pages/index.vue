@@ -72,14 +72,21 @@ onUnmounted(() => {
 })
 
 useHead({
-  title: 'FleetSumo | Software Manajemen Armada Terintegrasi',
+  title: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia',
   meta: [
-    { name: 'description', content: 'FleetSumo adalah software manajemen armada untuk mengelola kendaraan, pengemudi, perawatan, BBM, ban, suku cadang, biaya, dan laporan dalam satu sistem terintegrasi.' },
-    { property: 'og:title', content: 'FleetSumo | Software Manajemen Armada Terintegrasi' },
-    { property: 'og:description', content: 'FleetSumo adalah software manajemen armada untuk mengelola kendaraan, pengemudi, perawatan, BBM, ban, suku cadang, biaya, dan laporan dalam satu sistem terintegrasi.' },
+    { name: 'description', content: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.' },
+    { property: 'og:title', content: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia' },
+    { property: 'og:description', content: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.' },
     { property: 'og:url', content: 'https://fleetsumo.id' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-home.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Software Manajemen Armada Terintegrasi Indonesia' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia' },
+    { name: 'twitter:description', content: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-home.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
@@ -90,10 +97,33 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "FleetSumo",
-        "url": "https://fleetsumo.id",
-        "description": "Platform Manajemen Armada Terintegrasi dari Indonesia untuk mengelola kendaraan operasional."
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://fleetsumo.id/#website",
+            "url": "https://fleetsumo.id",
+            "name": "FleetSumo",
+            "description": "Platform Manajemen Armada Terintegrasi dari Indonesia untuk mengelola kendaraan operasional."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://fleetsumo.id/#organization",
+            "name": "FleetSumo",
+            "url": "https://fleetsumo.id",
+            "logo": "https://fleetsumo.id/assets/og/og-home.png",
+            "email": "info@fleetsumo.id",
+            "description": "Platform manajemen armada terintegrasi dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://fleetsumo.id/#software",
+            "name": "Cek Kendaraan",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based",
+            "url": "https://fleetsumo.id",
+            "description": "Cek Kendaraan membantu perusahaan mengelola informasi kendaraan, dokumen, dan data operasional armada secara terstruktur."
+          }
+        ]
       })
     }
   ]

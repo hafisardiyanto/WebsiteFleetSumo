@@ -3,7 +3,7 @@
     <div class="cost-def-container">
       <div class="cdf-header" data-aos="fade-up">
         <h2 class="cdf-title">Satu Sistem untuk Mengelola Biaya Operasional Armada</h2>
-        <p class="cdf-subtitle">Cost & Financial membantu perusahaan mengelola proses biaya yang berkaitan dengan operasional armada, mulSistem dari pengajuan hingga realisasi dan monitoring biaya kendaraan.</p>
+        <p class="cdf-subtitle">Cost & Financial membantu perusahaan mengelola proses biaya yang berkaitan dengan operasional armada, mulai dari pengajuan hingga realisasi dan monitoring biaya kendaraan.</p>
       </div>
 
       <div class="cdf-diagram" data-aos="fade-up" data-aos-delay="200">

@@ -4,7 +4,7 @@
       <div class="csp-header" data-aos="fade-up">
         <span class="csp-label">TANTANGAN OPERASIONAL</span>
         <h2 class="csp-title">Biaya Armada Perlu Dipantau dari Setiap Aktivitas Operasional</h2>
-        <p class="csp-subtitle">Biaya kendaraan dapat berasal dari berbagSistem aktivitas seperti maintenance, BBM, ban, sparepart, dan kebutuhan operasional lainnya. Tanpa pencatatan yang terstruktur, perusahaan akan lebih sulit melihat bagaimana biaya terbentuk dan berkembang.</p>
+        <p class="csp-subtitle">Biaya kendaraan dapat berasal dari berbagai aktivitas seperti maintenance, BBM, ban, sparepart, dan kebutuhan operasional lainnya. Tanpa pencatatan yang terstruktur, perusahaan akan lebih sulit melihat bagaimana biaya terbentuk dan berkembang.</p>
       </div>
 
       <div class="csp-grid">

@@ -3,7 +3,7 @@
     <div class="cost-inte-container">
       <div class="ci-header" data-aos="fade-up">
         <h2 class="ci-title">Biaya Armada Terhubung dengan Aktivitas Operasional</h2>
-        <p class="ci-subtitle">Biaya tidak berdiri sendiri. FleetSumo membantu menghubungkan informasi biaya dengan berbagSistem aktivitas armada agar perusahaan mendapatkan informasi yang lebih lengkap.</p>
+        <p class="ci-subtitle">Biaya tidak berdiri sendiri. FleetSumo membantu menghubungkan informasi biaya dengan berbagai aktivitas armada agar perusahaan mendapatkan informasi yang lebih lengkap.</p>
       </div>
 
       <div class="ci-layout" data-aos="fade-up" data-aos-delay="200">

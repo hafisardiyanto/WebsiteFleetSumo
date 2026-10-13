@@ -1,0 +1,45 @@
+/* Industry Page – Impact Box */
+.impact-box {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 44px;
+    margin: 40px auto 0;
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+}
+.impact-header h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #fdba74;
+}
+.impact-header p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+.impact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.impact-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #e2e8f0;
+    line-height: 1.5;
+}
+.impact-list li::before {
+    content: "✕";
+    color: #f87171;
+    font-weight: 800;
+}

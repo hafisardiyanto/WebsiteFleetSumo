@@ -29,7 +29,7 @@
          </div>
          <div class="cpv-point">
              <h4>Kendaraan dengan Biaya Tertinggi</h4>
-             <p>Identifikasi kendaraan dengan nilSistem biaya yang paling besar berdasarkan data laporan.</p>
+             <p>Identifikasi kendaraan dengan nilai biaya yang paling besar berdasarkan data laporan.</p>
          </div>
          <div class="cpv-point">
              <h4>Daftar Kendaraan</h4>

@@ -12,7 +12,7 @@
           Kelola Proses Maintenance Kendaraan <span class="highlight">Secara Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola proses maintenance kendaraan mulSistem dari identifikasi kebutuhan, pengajuan, approval, pelaksanaan, hingga pencatatan riwayat maintenance dalam satu sistem.
+          FleetSumo membantu perusahaan mengelola proses maintenance kendaraan mulai dari identifikasi kebutuhan, pengajuan, approval, pelaksanaan, hingga pencatatan riwayat maintenance dalam satu sistem.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

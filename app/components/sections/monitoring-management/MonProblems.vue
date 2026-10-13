@@ -4,7 +4,7 @@
       <div class="mon-problems-header" data-aos="fade-up">
         <h2 class="mon-problems-title">Data Armada Banyak, tetapi Informasi Sulit Didapatkan</h2>
         <p class="mon-problems-subtitle">
-          Semakin besar operasional armada, semakin banyak pula data yang harus dipantau. Tanpa sistem monitoring dan reporting yang terstruktur, data dari berbagSistem aktivitas dapat sulit digunakan untuk melihat kondisi operasional secara menyeluruh.
+          Semakin besar operasional armada, semakin banyak pula data yang harus dipantau. Tanpa sistem monitoring dan reporting yang terstruktur, data dari berbagai aktivitas dapat sulit digunakan untuk melihat kondisi operasional secara menyeluruh.
         </p>
       </div>
 
@@ -20,7 +20,7 @@
         <div class="mp-card" data-aos="fade-up" data-aos-delay="200">
           <div class="mp-icon">👁️</div>
           <h3 class="mp-title">Sulit Melihat Kondisi Menyeluruh</h3>
-          <p class="mp-desc">Tim membutuhkan waktu yang lama untuk mengumpulkan informasi dari berbagSistem sumber.</p>
+          <p class="mp-desc">Tim membutuhkan waktu yang lama untuk mengumpulkan informasi dari berbagai sumber.</p>
         </div>
 
         <!-- Prob 3 -->

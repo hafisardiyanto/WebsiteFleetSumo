@@ -34,13 +34,13 @@
          <div class="tma-card" data-aos="fade-up" data-aos-delay="300">
             <div class="tma-icon">📈</div>
             <h3>05 — Penggunaan</h3>
-            <p>Informasi penggunaan ban dalam berbagSistem aktivitas operasional.</p>
+            <p>Informasi penggunaan ban dalam berbagai aktivitas operasional.</p>
          </div>
 
          <div class="tma-card" data-aos="fade-up" data-aos-delay="350">
             <div class="tma-icon">🔍</div>
             <h3>06 — Kondisi Ban</h3>
-            <p>Informasi serta laporan kondisi ban sesuSistem data yang tercatat di sistem.</p>
+            <p>Informasi serta laporan kondisi ban sesuai data yang tercatat di sistem.</p>
          </div>
 
          <div class="tma-card" data-aos="fade-up" data-aos-delay="400">

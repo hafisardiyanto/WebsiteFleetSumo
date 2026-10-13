@@ -37,14 +37,36 @@
             </ul>
          </div>
 
-         <div class="footer-links">
-            <h4>Perusahaan</h4>
-            <ul>
-               <li><a href="/tentang-kami">Tentang Kami</a></li>
-               <li><a href="/kontak/demo">Minta Demo</a></li>
-               <li class="mt-4"><a href="/kontak/demo" class="cta-link text-blue">Minta Demo &rarr;</a></li>
-            </ul>
-         </div>
+          <div class="footer-links">
+             <h4>Industri</h4>
+             <ul>
+                <li><a href="/industri/logistik-transportasi">Logistik & Transportasi</a></li>
+                <li><a href="/industri/pertambangan">Pertambangan</a></li>
+                <li><a href="/industri/perkebunan">Perkebunan</a></li>
+                <li><a href="/industri/konstruksi">Konstruksi</a></li>
+                <li><a href="/industri/manufaktur">Manufaktur</a></li>
+                <li><a href="/industri/bisnis-armada-lainnya">Bisnis Armada Lainnya</a></li>
+             </ul>
+          </div>
+
+          <div class="footer-links">
+             <h4>Resources</h4>
+             <ul>
+                <li><a href="/resources/blog-artikel">Blog & Artikel</a></li>
+                <li><a href="/resources/studi-kasus">Studi Kasus</a></li>
+                <li><a href="/resources/pembaruan-produk">Pembaruan Produk</a></li>
+                <li><a href="/resources/faq">FAQ</a></li>
+             </ul>
+          </div>
+
+          <div class="footer-links">
+             <h4>Perusahaan</h4>
+             <ul>
+                <li><a href="/tentang-kami">Tentang Kami</a></li>
+                <li><a href="/kontak/demo">Kontak / Minta Demo</a></li>
+                <li class="mt-4"><a href="/kontak/demo" class="cta-link text-blue">Minta Demo &rarr;</a></li>
+             </ul>
+          </div>
       </div>
 
       <!-- Bottom Credits -->
@@ -60,4 +82,4 @@
   </footer>
 </template>
 
-<style src="~/assets/css/sections/homepage/footer.css" scoped></style>
+<style src="~/assets/css/components/footer.css" scoped></style>

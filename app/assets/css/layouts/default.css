@@ -1,0 +1,95 @@
+/* ==========================================================
+   layouts/default.css
+   
+   ALUR: Dimuat via <style src="..."> scoped di default.vue.
+   
+   Layout wrapper membentuk "tulang punggung" halaman:
+   
+   <div class="layout-wrapper">        ← flex column, min-height 100vh
+     <main>                            ← flex-grow: 1 (mengisi ruang)
+       <slot />                        ← konten halaman diisi di sini
+     </main>
+     <footer class="global-footer">   ← footer default (sudah tidak dipakai)
+   </div>
+   
+   CATATAN: Komponen FooterSection.vue di-import manual
+   di setiap halaman. Class .global-footer dipertahankan
+   sebagai fallback di default.vue.
+   ========================================================== */
+
+/* ── Layout Wrapper ─────────────────────────────────────── */
+/*
+  min-height: 100vh memastikan footer selalu di bawah
+  meskipun konten halaman sangat pendek (short page).
+  flex-direction: column menumpuk header-main-footer secara vertikal.
+*/
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ── Legacy Global Header ───────────────────────────────── */
+/*
+  .global-header tidak digunakan karena Navbar.vue diimport
+  secara manual di setiap halaman. Dipertahankan untuk
+  backward compatibility jika ada halaman yang memerlukannya.
+*/
+.global-header {
+    border-bottom: 1px solid #e2e8f0;
+    background: #ffffff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.global-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--container-width, 1200px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ── Logo (Legacy) ──────────────────────────────────────── */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* ── Nav Link (Legacy) ──────────────────────────────────── */
+nav a {
+    margin-left: 30px;
+    font-weight: 500;
+    color: var(--text-dark);
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+/* ── Main Content Area ──────────────────────────────────── */
+/*
+  flex-grow: 1 agar <main> mengisi semua ruang vertikal
+  yang tersedia — footer terdorong ke bawah (sticky footer pattern)
+*/
+main {
+    flex-grow: 1;
+}
+
+/* ── Global Footer (Legacy) ─────────────────────────────── */
+/*
+  Dipakai di default.vue template. Tidak dipakai di halaman
+  yang sudah punya FooterSection.vue import manual.
+*/
+.global-footer {
+    background: var(--bg-dark);
+    color: #94a3b8;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+}

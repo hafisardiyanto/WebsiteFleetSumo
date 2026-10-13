@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Monitoring & Reporting | FleetSumo',
+  title: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo',
   meta: [
-    { name: 'description', content: 'Ubah data operasional armada yang kompleks menjadi laporan dan dasbor analitik yang mudah dipahami bagi manajemen.' },
-    { property: 'og:title', content: 'Fleet Monitoring & Reporting | FleetSumo' },
-    { property: 'og:description', content: 'Ubah data operasional armada yang kompleks menjadi laporan dan dasbor analitik yang mudah dipahami bagi manajemen.' },
+    { name: 'description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
+    { property: 'og:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo' },
+    { property: 'og:description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/monitoring-reporting' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-monitoring.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Solusi Monitoring & Pelaporan Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo' },
+    { name: 'twitter:description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-monitoring.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/solusi/monitoring-reporting' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solusi",
+            "item": "https://fleetsumo.id/solusi/monitoring-reporting"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Monitoring & Reporting",
+            "item": "https://fleetsumo.id/solusi/monitoring-reporting"
+          }
+        ]
+      })
+    }
   ]
 })
 

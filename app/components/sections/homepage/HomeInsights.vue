@@ -4,7 +4,7 @@
       <div class="ins-header" data-aos="fade-up">
         <span class="ins-label">INSIGHT & ARTIKEL</span>
         <h2 class="ins-title">Insight Seputar Fleet Management dan Operasional Armada</h2>
-        <p class="ins-subtitle">Temukan berbagSistem insight, panduan, dan informasi seputar pengelolaan armada, maintenance kendaraan, BBM, ban, biaya operasional, dan digitalisasi fleet management.</p>
+        <p class="ins-subtitle">Temukan berbagai insight, panduan, dan informasi seputar pengelolaan armada, maintenance kendaraan, BBM, ban, biaya operasional, dan digitalisasi fleet management.</p>
       </div>
 
       <div class="ins-grid">

@@ -3,7 +3,7 @@
     <div class="tyre-monitoring-container">
       <div class="tmo-header" data-aos="fade-up">
         <h2 class="tmo-title">Pantau Informasi Ban Armada dengan Lebih Mudah</h2>
-        <p class="tmo-subtitle">Data ban yang tercatat dalam sistem membantu perusahaan melihat informasi penggunaan, posisi, kondisi, dan riwayat ban sebagSistem bagian dari monitoring operasional armada.</p>
+        <p class="tmo-subtitle">Data ban yang tercatat dalam sistem membantu perusahaan melihat informasi penggunaan, posisi, kondisi, dan riwayat ban sebagai bagian dari monitoring operasional armada.</p>
       </div>
 
       <div class="tmo-layout">

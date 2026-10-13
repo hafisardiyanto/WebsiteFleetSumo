@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fuel Management System | FleetSumo',
+  title: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Pelacakan dan analisis konsumsi bahan bakar (BBM) armada Anda untuk meningkatkan efisiensi dan transparansi operasional.' },
-    { property: 'og:title', content: 'Fuel Management System | FleetSumo' },
-    { property: 'og:description', content: 'Pelacakan dan analisis konsumsi bahan bakar (BBM) armada Anda untuk meningkatkan efisiensi dan transparansi operasional.' },
+    { name: 'description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
+    { property: 'og:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo' },
+    { property: 'og:description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/fuel-management' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fuel.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Solusi Efisiensi Konsumsi BBM Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fuel.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/solusi/fuel-management' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solusi",
+            "item": "https://fleetsumo.id/solusi/fuel-management"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fuel Management",
+            "item": "https://fleetsumo.id/solusi/fuel-management"
+          }
+        ]
+      })
+    }
   ]
 })
 

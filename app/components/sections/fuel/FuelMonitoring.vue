@@ -3,7 +3,7 @@
     <div class="fuel-mon-container">
       <div class="fumo-header" data-aos="fade-up">
         <h2 class="fumo-title">Pantau Penggunaan BBM Armada dengan Lebih Mudah</h2>
-        <p class="fumo-subtitle">Data aktivitas BBM yang tercatat dalam sistem dapat membantu perusahaan melihat informasi penggunaan dan biaya BBM sebagSistem bagian dari monitoring operasional armada.</p>
+        <p class="fumo-subtitle">Data aktivitas BBM yang tercatat dalam sistem dapat membantu perusahaan melihat informasi penggunaan dan biaya BBM sebagai bagian dari monitoring operasional armada.</p>
       </div>
 
        <div class="fumo-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">

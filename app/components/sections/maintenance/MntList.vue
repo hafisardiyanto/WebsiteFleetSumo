@@ -4,7 +4,7 @@
       <div class="mnl-header" data-aos="fade-up">
         <span class="mnl-label">MAINTENANCE LIST</span>
         <h2 class="mnl-title">Pantau Seluruh Aktivitas Maintenance dari Satu Daftar</h2>
-        <p class="mnl-subtitle">Daftar maintenance memberikan gambaran terpusat mengenSistem aktivitas perawatan kendaraan sehingga pengguna dapat melihat dan mengelola data maintenance dengan lebih mudah.</p>
+        <p class="mnl-subtitle">Daftar maintenance memberikan gambaran terpusat mengenai aktivitas perawatan kendaraan sehingga pengguna dapat melihat dan mengelola data maintenance dengan lebih mudah.</p>
       </div>
 
       <!-- Screenshot layout -->
@@ -18,7 +18,7 @@
       <div class="mnl-highlights" data-aos="fade-up" data-aos-delay="200">
          <div class="mnl-point">
              <h4>Status Maintenance</h4>
-             <p>Melihat informasi status pekerjaan sesuSistem data yang tersedia.</p>
+             <p>Melihat informasi status pekerjaan sesuai data yang tersedia.</p>
          </div>
          <div class="mnl-point">
              <h4>Informasi Kendaraan</h4>

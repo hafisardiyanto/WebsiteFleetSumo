@@ -28,7 +28,7 @@
          <div class="cbs-card" data-aos="fade-up" data-aos-delay="400">
             <div class="cbs-icon">📊</div>
             <h3>Mendukung Evaluasi</h3>
-            <p>Informasi biaya dapat digunakan sebagSistem salah satu dasar evaluasi operasional armada.</p>
+            <p>Informasi biaya dapat digunakan sebagai salah satu dasar evaluasi operasional armada.</p>
          </div>
       </div>
     </div>

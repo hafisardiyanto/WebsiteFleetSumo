@@ -2,9 +2,9 @@
   <section class="report-industries-wrapper">
     <div class="report-industries-container">
       <div class="ri-header" data-aos="fade-up">
-        <span class="ri-label">UNTUK BERBAGSistem INDUSTRI</span>
-        <h2 class="ri-title">Dashboard dan Laporan untuk BerbagSistem Kebutuhan Armada</h2>
-        <p class="ri-subtitle">Setiap perusahaan memiliki karakteristik operasional yang berbeda. FleetSumo membantu menyajikan informasi armada sesuSistem dengan data dan aktivitas yang dikelola perusahaan.</p>
+        <span class="ri-label">UNTUK BERBAGAI INDUSTRI</span>
+        <h2 class="ri-title">Dashboard dan Laporan untuk Berbagai Kebutuhan Armada</h2>
+        <p class="ri-subtitle">Setiap perusahaan memiliki karakteristik operasional yang berbeda. FleetSumo membantu menyajikan informasi armada sesuai dengan data dan aktivitas yang dikelola perusahaan.</p>
       </div>
 
       <div class="ri-grid">
@@ -36,7 +36,7 @@
          <div class="ri-item" data-aos="fade-up" data-aos-delay="350">
              <div class="ri-img-wrap"><img src="/assets/umum/backgrounds/industry-shared-1.jpg" alt="Usaha Armada Lainnya" class="ri-img" /></div>
              <h3>Usaha Armada Lainnya</h3>
-             <p>Dapat digunakan untuk berbagSistem kebutuhan pengelolaan armada.</p>
+             <p>Dapat digunakan untuk berbagai kebutuhan pengelolaan armada.</p>
          </div>
       </div>
     </div>

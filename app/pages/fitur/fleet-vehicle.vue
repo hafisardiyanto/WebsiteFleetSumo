@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Vehicle Fleet Management | FleetSumo',
+  title: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Manajemen basis data kendaraan, dokumen, dan spesifikasi seluruh armada Anda secara terpusat.' },
-    { property: 'og:title', content: 'Vehicle Fleet Management | FleetSumo' },
-    { property: 'og:description', content: 'Manajemen basis data kendaraan, dokumen, dan spesifikasi seluruh armada Anda secara terpusat.' },
+    { name: 'description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
+    { property: 'og:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo' },
+    { property: 'og:description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/fleet-vehicle' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fleet-vehicle.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Database Kendaraan & Dokumen' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fleet-vehicle.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/fleet-vehicle' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/fleet-vehicle"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fleet & Vehicle",
+            "item": "https://fleetsumo.id/fitur/fleet-vehicle"
+          }
+        ]
+      })
+    }
   ]
 })
 

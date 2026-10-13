@@ -7,7 +7,7 @@
 
     <div class="dm-industries-container relative-content">
       <div class="dmind-header" data-aos="fade-up">
-        <h2 class="dmind-title">Mendukung Kebutuhan Pengelolaan Pengemudi di BerbagSistem Industri</h2>
+        <h2 class="dmind-title">Mendukung Kebutuhan Pengelolaan Pengemudi di Berbagai Industri</h2>
       </div>
 
       <div class="dmind-grid" data-aos="fade-up" data-aos-delay="100">

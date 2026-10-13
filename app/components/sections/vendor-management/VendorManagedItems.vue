@@ -21,7 +21,7 @@
          <div class="vma-card" data-aos="fade-up" data-aos-delay="200">
             <div class="vma-icon">🤝</div>
             <h3>03 — Layanan Vendor</h3>
-            <p>Informasi mengenSistem layanan atau kebutuhan yang ditangani vendor.</p>
+            <p>Informasi mengenai layanan atau kebutuhan yang ditangani vendor.</p>
          </div>
 
          <div class="vma-card" data-aos="fade-up" data-aos-delay="250">
@@ -33,7 +33,7 @@
          <div class="vma-card" data-aos="fade-up" data-aos-delay="300">
             <div class="vma-icon">⚡</div>
             <h3>05 — Aktivitas Vendor</h3>
-            <p>Aktivitas yang berkaitan dengan vendor sesuSistem proses yang tersedia.</p>
+            <p>Aktivitas yang berkaitan dengan vendor sesuai proses yang tersedia.</p>
          </div>
 
          <div class="vma-card" data-aos="fade-up" data-aos-delay="350">

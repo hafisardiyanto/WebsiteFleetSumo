@@ -66,7 +66,7 @@
             <div class="tf-icon">📊</div>
             <div class="tf-content">
                <h3>08 — Tyre Monitoring</h3>
-               <p>Pantau informasi ban sebagSistem bagian dari pengelolaan armada.</p>
+               <p>Pantau informasi ban sebagai bagian dari pengelolaan armada.</p>
             </div>
          </div>
       </div>

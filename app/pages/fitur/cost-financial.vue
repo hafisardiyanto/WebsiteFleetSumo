@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Cost Management | FleetSumo',
+  title: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo',
   meta: [
-    { name: 'description', content: 'Pencatatan administrasi pengeluaran, perbandingan anggaran, dan estimasi biaya operasional.' },
-    { property: 'og:title', content: 'Fleet Cost Management | FleetSumo' },
-    { property: 'og:description', content: 'Pencatatan administrasi pengeluaran, perbandingan anggaran, dan estimasi biaya operasional.' },
+    { name: 'description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
+    { property: 'og:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo' },
+    { property: 'og:description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/cost-financial' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-cost.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Administrasi Biaya Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo' },
+    { name: 'twitter:description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-cost.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/cost-financial' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/cost-financial"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cost Financial",
+            "item": "https://fleetsumo.id/fitur/cost-financial"
+          }
+        ]
+      })
+    }
   ]
 })
 

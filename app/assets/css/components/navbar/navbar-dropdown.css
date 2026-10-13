@@ -1,0 +1,97 @@
+/* ==========================================================
+   components/navbar/navbar-dropdown.css
+   
+   ALUR: Mengatur animasi dan tampilan dropdown menu.
+   
+   Cara kerja:
+   1. .dropdown-menu awalnya opacity:0 & visibility:hidden
+      → Tidak tampil, tapi tetap di DOM (tidak collapse layout)
+   2. Saat .nav-item.has-dropdown:hover terpicu, CSS
+      mengubah opacity→1 dan visibility→visible + translasi Y
+   3. Efek "slide down" dari translateY(15px) → translateY(0)
+      menggunakan cubic-bezier untuk easing yang natural
+   4. .arrow ikut berputar 180° sebagai feedback visual
+   
+   CATATAN: Tidak menggunakan JavaScript untuk toggle ini —
+   murni CSS hover state cascade.
+   ========================================================== */
+
+/* ── Dropdown Container ─────────────────────────────────── */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* Mulai tepat di bawah .nav-item */
+    left: 50%;
+    transform: translateX(-50%) translateY(15px);
+    /* Default: turun 15px & tersembunyi */
+    background-color: #ffffff;
+    min-width: 240px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(15, 23, 42, 0.1);
+    border: 1px solid #f1f5f9;
+    padding: 12px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Easing seperti Google Material */
+    display: flex;
+    flex-direction: column;
+    z-index: var(--z-dropdown, 999);
+}
+
+/* ── Caret / Arrow Pointer ──────────────────────────────── */
+/*
+  Segitiga kecil di atas dropdown sebagai "panah" penunjuk.
+  Dibuat dengan pseudo-element ::before + border trick.
+*/
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    /* Kotak diputar 45° jadi diamond */
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-left: 1px solid #f1f5f9;
+    border-top: 1px solid #f1f5f9;
+}
+
+/* ── Hover State: Tampilkan Dropdown ────────────────────── */
+.nav-item.has-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    /* Naik ke posisi normalnya */
+}
+
+/* ── Hover State: Putar Arrow ───────────────────────────── */
+.nav-item.has-dropdown:hover .arrow {
+    transform: rotate(180deg);
+}
+
+/* ── Dropdown Links ─────────────────────────────────────── */
+.dropdown-menu a {
+    color: #475569;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 24px;
+    transition: all var(--transition-fast, 0.2s ease);
+    display: block;
+}
+
+/* ── Dropdown Link Hover ────────────────────────────────── */
+/*
+  Subtle indent (padding-left: 28px) sebagai visual feedback
+  bahwa item sedang dihover
+*/
+.dropdown-menu a:hover {
+    background-color: #fff7ed;
+    /* Lemon/orange tint */
+    color: #f97316;
+    /* Brand orange */
+    padding-left: 28px;
+    /* Slight indent */
+}

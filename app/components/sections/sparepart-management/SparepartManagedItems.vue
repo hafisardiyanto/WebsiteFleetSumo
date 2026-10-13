@@ -15,7 +15,7 @@
          <div class="sma-card" data-aos="fade-up" data-aos-delay="150">
             <div class="sma-icon">📂</div>
             <h3>02 — Kategori Sparepart</h3>
-            <p>Pengelompokan sparepart sesuSistem struktur inventory yang digunakan.</p>
+            <p>Pengelompokan sparepart sesuai struktur inventory yang digunakan.</p>
          </div>
 
          <div class="sma-card" data-aos="fade-up" data-aos-delay="200">
@@ -27,7 +27,7 @@
          <div class="sma-card" data-aos="fade-up" data-aos-delay="250">
             <div class="sma-icon">🛒</div>
             <h3>04 — Transaksi Sparepart</h3>
-            <p>Pencatatan aktivitas barang masuk dan keluar sesuSistem proses yang tersedia.</p>
+            <p>Pencatatan aktivitas barang masuk dan keluar sesuai proses yang tersedia.</p>
          </div>
 
          <div class="sma-card" data-aos="fade-up" data-aos-delay="300">

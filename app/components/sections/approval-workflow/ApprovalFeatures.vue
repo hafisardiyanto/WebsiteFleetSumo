@@ -42,7 +42,7 @@
             <div class="apf-icon">🔄</div>
             <div class="apf-content">
                <h3>05 — Workflow</h3>
-               <p>Atur alur proses sesuSistem kebutuhan yang tersedia.</p>
+               <p>Atur alur proses sesuai kebutuhan yang tersedia.</p>
             </div>
          </div>
 
@@ -50,7 +50,7 @@
             <div class="apf-icon">🛡️</div>
             <div class="apf-content">
                <h3>06 — Role & Authorization</h3>
-               <p>Kelola kewenangan pengguna sesuSistem konfigurasi sistem.</p>
+               <p>Kelola kewenangan pengguna sesuai konfigurasi sistem.</p>
             </div>
          </div>
 
@@ -66,7 +66,7 @@
             <div class="apf-icon">📊</div>
             <div class="apf-content">
                <h3>08 — Process Monitoring</h3>
-               <p>Pantau pengajuan yang masih berjalan maupun yang telah selesSistem.</p>
+               <p>Pantau pengajuan yang masih berjalan maupun yang telah selesai.</p>
             </div>
          </div>
       </div>

@@ -32,7 +32,7 @@
                <div class="adf-arrow">↓</div>
                <div class="adf-box">TINDAK LANJUT</div>
                <div class="adf-arrow">↓</div>
-               <div class="adf-box">REALISASI / SELESSistem</div>
+               <div class="adf-box">REALISASI / SELESAI</div>
             </div>
             <div class="adf-col">
                <div class="adf-box danger">DITOLAK</div>

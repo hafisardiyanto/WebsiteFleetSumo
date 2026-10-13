@@ -26,7 +26,7 @@
          </div>
          <div class="ful-point">
              <h4>Tanggal / Waktu</h4>
-             <p>Telusuri log waktu sesuSistem pencatatan pengisian aktual.</p>
+             <p>Telusuri log waktu sesuai pencatatan pengisian aktual.</p>
          </div>
       </div>
 

@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Driver Management | FleetSumo',
+  title: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Pusat data pengemudi, riwayat SIM, dan penugasan armada yang aman dan terkendali.' },
-    { property: 'og:title', content: 'Driver Management | FleetSumo' },
-    { property: 'og:description', content: 'Pusat data pengemudi, riwayat SIM, dan penugasan armada yang aman dan terkendali.' },
+    { name: 'description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
+    { property: 'og:title', content: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo' },
+    { property: 'og:description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/driver-management' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-driver.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Manajemen Driver & Penugasan Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-driver.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/driver-management' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/driver-management"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Driver Management",
+            "item": "https://fleetsumo.id/fitur/driver-management"
+          }
+        ]
+      })
+    }
   ]
 })
 

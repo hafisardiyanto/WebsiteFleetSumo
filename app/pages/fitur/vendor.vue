@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Vendor Management | FleetSumo',
+  title: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Basis data dan pengukuran kinerja vendor eksternal untuk pengadaan barang operasional dan layanan perbaikan.' },
-    { property: 'og:title', content: 'Vendor Management | FleetSumo' },
-    { property: 'og:description', content: 'Basis data dan pengukuran kinerja vendor eksternal untuk pengadaan barang operasional dan layanan perbaikan.' },
+    { name: 'description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
+    { property: 'og:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo' },
+    { property: 'og:description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/vendor' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-vendor.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Manajemen Vendor Bengkel & Rekanan' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-vendor.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/vendor' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/vendor"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vendor",
+            "item": "https://fleetsumo.id/fitur/vendor"
+          }
+        ]
+      })
+    }
   ]
 })
 

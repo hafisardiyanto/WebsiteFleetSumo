@@ -12,7 +12,7 @@
           Kelola Penggunaan BBM Armada <span class="highlight">dalam Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mencatat dan mengelola aktivitas BBM kendaraan, mulSistem dari pengisian, volume, biaya, hingga riwayat penggunaan dalam satu platform yang terstruktur.
+          FleetSumo membantu perusahaan mencatat dan mengelola aktivitas BBM kendaraan, mulai dari pengisian, volume, biaya, hingga riwayat penggunaan dalam satu platform yang terstruktur.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

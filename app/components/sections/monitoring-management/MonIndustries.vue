@@ -2,7 +2,7 @@
   <section class="mon-industries-section">
     <div class="mon-industries-container">
       <div class="mon-industries-header" data-aos="fade-up">
-        <h2 class="mon-industries-title">Monitoring Armada untuk BerbagSistem Kebutuhan Operasional</h2>
+        <h2 class="mon-industries-title">Monitoring Armada untuk Berbagai Kebutuhan Operasional</h2>
       </div>
 
       <div class="mon-industries-grid">
@@ -67,7 +67,7 @@
             <span class="mon-industry-icon">🚛</span>
             <div class="mon-industry-text">
                <span class="mon-industry-name">Usaha Armada Lainnya</span>
-               <span class="mon-industry-desc">Skalabilitas parameter monitor ke berbagSistem komersial.</span>
+               <span class="mon-industry-desc">Skalabilitas parameter monitor ke berbagai komersial.</span>
             </div>
           </div>
         </a>

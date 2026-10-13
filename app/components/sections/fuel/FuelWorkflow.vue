@@ -31,7 +31,7 @@
           <div class="fuw-item">
             <div class="fuw-num">04</div>
             <h3>VOLUME & BIAYA</h3>
-            <p>Informasi volume dan biaya tercatat sebagSistem bagian dari transaksi.</p>
+            <p>Informasi volume dan biaya tercatat sebagai bagian dari transaksi.</p>
          </div>
          <div class="fuw-arrow">↓</div>
          

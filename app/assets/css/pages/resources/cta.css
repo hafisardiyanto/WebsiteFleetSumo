@@ -1,0 +1,37 @@
+/* CTA Banner for Resources */
+.res-cta-banner {
+    background: linear-gradient(135deg, #0b0f19 0%, #1e293b 100%);
+    border-radius: 20px;
+    padding: 60px 40px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px auto 90px;
+    max-width: 1100px;
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+    border: 1px solid #334155;
+}
+
+.res-cta-banner .cta-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.res-cta-banner .cta-desc {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.res-cta-banner .btn-primary {
+    background-color: #ea580c;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.res-cta-banner .btn-primary:hover {
+    background-color: #c2410c;
+}

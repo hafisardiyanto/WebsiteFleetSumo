@@ -3,7 +3,7 @@
     <div class="approval-detail-container">
       <div class="apd-header" data-aos="fade-up">
         <h2 class="apd-title">Lihat Detail Pengajuan dan Proses Persetujuan</h2>
-        <p class="apd-subtitle">Halaman detail memberikan informasi lebih lengkap mengenSistem pengajuan, status, dan proses persetujuan yang berkaitan dengan aktivitas tersebut.</p>
+        <p class="apd-subtitle">Halaman detail memberikan informasi lebih lengkap mengenai pengajuan, status, dan proses persetujuan yang berkaitan dengan aktivitas tersebut.</p>
       </div>
 
       <div class="apd-layout">
@@ -19,11 +19,11 @@
              </div>
              <div class="apd-point">
                  <h4>Status & Approval</h4>
-                 <p>Analisis sejauh mana titik posisi progres pengajuan berada dalam skema tahapan berjenjang beserta daftar penilSistem pihak yang terlibat.</p>
+                 <p>Analisis sejauh mana titik posisi progres pengajuan berada dalam skema tahapan berjenjang beserta daftar penilaian pihak yang terlibat.</p>
              </div>
              <div class="apd-point">
                  <h4>Catatan & Riwayat</h4>
-                 <p>Pantau seluruh rekam historis komentar antara penilSistem dan pemohon sejak titik awal usulan hingga pencapaian keputusan akhirnya.</p>
+                 <p>Pantau seluruh rekam historis komentar antara penilaian dan pemohon sejak titik awal usulan hingga pencapaian keputusan akhirnya.</p>
              </div>
          </div>
 

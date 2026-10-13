@@ -2,9 +2,9 @@
   <section class="tyre-industries-wrapper">
     <div class="tyre-industries-container">
       <div class="tid-header" data-aos="fade-up">
-        <span class="tid-label">UNTUK BERBAGSistem INDUSTRI</span>
-        <h2 class="tid-title">Pengelolaan Ban untuk BerbagSistem Jenis Armada</h2>
-        <p class="tid-subtitle">Kebutuhan pengelolaan ban dapat berbeda pada setiap industri. FleetSumo membantu perusahaan mengelola data dan aktivitas ban sebagSistem bagian dari operasional armada.</p>
+        <span class="tid-label">UNTUK BERBAGAI INDUSTRI</span>
+        <h2 class="tid-title">Pengelolaan Ban untuk Berbagai Jenis Armada</h2>
+        <p class="tid-subtitle">Kebutuhan pengelolaan ban dapat berbeda pada setiap industri. FleetSumo membantu perusahaan mengelola data dan aktivitas ban sebagai bagian dari operasional armada.</p>
       </div>
 
       <div class="tid-grid">

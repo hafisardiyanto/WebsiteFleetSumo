@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Fleet Dashboard & Analytics | FleetSumo',
+  title: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Dasbor interaktif menyajikan visibilitas total metrik performa armada berbasis data seketika.' },
-    { property: 'og:title', content: 'Fleet Dashboard & Analytics | FleetSumo' },
-    { property: 'og:description', content: 'Dasbor interaktif menyajikan visibilitas total metrik performa armada berbasis data seketika.' },
+    { name: 'description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
+    { property: 'og:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo' },
+    { property: 'og:description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/dashboard-reports' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-dashboard.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Dashboard Analitik Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-dashboard.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/dashboard-reports' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/dashboard-reports"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dashboard Reports",
+            "item": "https://fleetsumo.id/fitur/dashboard-reports"
+          }
+        ]
+      })
+    }
   ]
 })
 

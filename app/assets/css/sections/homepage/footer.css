@@ -13,8 +13,8 @@
 
 .footer-top {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 32px;
     padding-bottom: 40px;
     border-bottom: 1px solid #e2e8f0;
 }

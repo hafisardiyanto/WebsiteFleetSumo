@@ -4,14 +4,14 @@
       <div class="rpm-header" data-aos="fade-up">
         <span class="rpm-label">TANTANGAN MONITORING</span>
         <h2 class="rpm-title">Data Armada Saja Tidak Cukup Tanpa Informasi yang Mudah Dipahami</h2>
-        <p class="rpm-subtitle">Data dari berbagSistem aktivitas armada perlu disajikan dalam bentuk yang mudah dipantau agar perusahaan dapat memahami kondisi operasional dan melakukan evaluasi berdasarkan informasi yang tersedia.</p>
+        <p class="rpm-subtitle">Data dari berbagai aktivitas armada perlu disajikan dalam bentuk yang mudah dipantau agar perusahaan dapat memahami kondisi operasional dan melakukan evaluasi berdasarkan informasi yang tersedia.</p>
       </div>
 
       <div class="rpm-grid">
          <div class="rpm-card" data-aos="fade-up" data-aos-delay="100">
             <div class="rpm-icon">📂</div>
-            <h3>01 — Data Tersebar di BerbagSistem Aktivitas</h3>
-            <p>Informasi kendaraan, maintenance, BBM, ban, sparepart, dan biaya berasal dari berbagSistem aktivitas operasional.</p>
+            <h3>01 — Data Tersebar di Berbagai Aktivitas</h3>
+            <p>Informasi kendaraan, maintenance, BBM, ban, sparepart, dan biaya berasal dari berbagai aktivitas operasional.</p>
          </div>
 
          <div class="rpm-card" data-aos="fade-up" data-aos-delay="200">
@@ -41,7 +41,7 @@
          <div class="rpm-card full" data-aos="fade-up" data-aos-delay="600">
             <div class="rpm-icon">📊</div>
             <h3>06 — Evaluasi Membutuhkan Data</h3>
-            <p>Evaluasi operasional membutuhkan informasi yang dapat digunakan sebagSistem dasar untuk melihat kondisi armada dan biaya.</p>
+            <p>Evaluasi operasional membutuhkan informasi yang dapat digunakan sebagai dasar untuk melihat kondisi armada dan biaya.</p>
          </div>
       </div>
     </div>

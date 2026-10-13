@@ -6,7 +6,7 @@
         <div class="mndd-details" data-aos="fade-right">
             <span class="mndd-label">MAINTENANCE DETAIL</span>
             <h2 class="mndd-title">Lihat Detail Maintenance dalam Satu Tampilan</h2>
-            <p class="mndd-subtitle">Halaman detail membantu pengguna melihat informasi maintenance secara lebih lengkap, mulSistem dari kendaraan hingga informasi pekerjaan yang tercatat.</p>
+            <p class="mndd-subtitle">Halaman detail membantu pengguna melihat informasi maintenance secara lebih lengkap, mulai dari kendaraan hingga informasi pekerjaan yang tercatat.</p>
             
             <div class="mndd-points">
                 <div class="mndd-point">

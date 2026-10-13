@@ -2,7 +2,7 @@
   <section class="report-manage-wrapper">
     <div class="report-manage-container">
       <div class="rma-header" data-aos="fade-up">
-        <h2 class="rma-title">Pantau BerbagSistem Informasi Armada dari Satu Sistem</h2>
+        <h2 class="rma-title">Pantau Berbagai Informasi Armada dari Satu Sistem</h2>
       </div>
 
       <div class="rma-grid">

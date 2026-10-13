@@ -24,7 +24,7 @@
          <div class="mnw-item">
             <div class="mnw-num">03</div>
             <h3>APPROVAL</h3>
-            <p>Pengajuan diproses sesuSistem mekanisme persetujuan.</p>
+            <p>Pengajuan diproses sesuai mekanisme persetujuan.</p>
          </div>
          <div class="mnw-arrow">↓</div>
          
@@ -45,7 +45,7 @@
          <div class="mnw-item end">
             <div class="mnw-num final">06</div>
             <h3>RIWAYAT</h3>
-            <p>Informasi tersimpan sebagSistem bagian dari riwayat kendaraan.</p>
+            <p>Informasi tersimpan sebagai bagian dari riwayat kendaraan.</p>
          </div>
       </div>
     </div>

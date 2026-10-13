@@ -1,17 +1,53 @@
 <script setup>
 useHead({
-  title: 'Inventory Sparepart | FleetSumo',
+  title: 'Fitur Manajemen Stok & Inventori Sparepart Armada | FleetSumo',
   meta: [
-    { name: 'description', content: 'Kendali stok gudang, suku cadang, dan riwayat pemakaian onderdil kendaraan.' },
-    { property: 'og:title', content: 'Inventory Sparepart | FleetSumo' },
-    { property: 'og:description', content: 'Kendali stok gudang, suku cadang, dan riwayat pemakaian onderdil kendaraan.' },
+    { name: 'description', content: 'Kelola stok gudang onderdil, katalog suku cadang kendaraan, log barang masuk-keluar, serta riwayat pemakaian sparepart armada secara tertib.' },
+    { property: 'og:title', content: 'Fitur Manajemen Stok & Inventori Sparepart Armada | FleetSumo' },
+    { property: 'og:description', content: 'Kelola stok gudang onderdil, katalog suku cadang kendaraan, log barang masuk-keluar, serta riwayat pemakaian sparepart armada secara tertib.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/sparepart' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-sparepart.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: 'FleetSumo - Fitur Inventori & Stok Sparepart Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Fitur Manajemen Stok & Inventori Sparepart Armada | FleetSumo' },
+    { name: 'twitter:description', content: 'Kelola stok gudang onderdil, katalog suku cadang kendaraan, log barang masuk-keluar, serta riwayat pemakaian sparepart armada secara tertib.' },
+    { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-sparepart.png' },
     { name: 'robots', content: 'index, follow' }
   ],
   link: [
     { rel: 'canonical', href: 'https://fleetsumo.id/fitur/sparepart' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://fleetsumo.id"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fitur",
+            "item": "https://fleetsumo.id/fitur/sparepart"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sparepart",
+            "item": "https://fleetsumo.id/fitur/sparepart"
+          }
+        ]
+      })
+    }
   ]
 })
 
