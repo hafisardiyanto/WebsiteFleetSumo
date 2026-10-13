@@ -1,6 +1,13 @@
 <template>
   <div class="lenis-container">
     <Navbar />
+  <h2>FleetSumo - Integrated Fleet Management</h2>
+  <h3>Explore our solutions</h3>
+  <nav>
+    <NuxtLink to="/tentang-kami">Tentang Kami</NuxtLink> |
+    <NuxtLink to="/fitur">Fitur</NuxtLink> |
+    <NuxtLink to="/kontak">Kontak</NuxtLink>
+  </nav>
 
     <main>
       <HomeHero />
@@ -28,6 +35,7 @@ import Navbar from '~/components/sections/Navbar.vue'
 import FooterSection from '~/components/sections/FooterSection.vue'
 import Lenis from 'lenis'
 
+import { useSeo } from '~/composables/useSeo'
 // Import New 13 Steps
 import HomeHero from '~/components/sections/homepage/HomeHero.vue'
 import HomeTrust from '~/components/sections/homepage/HomeTrust.vue'
@@ -71,10 +79,16 @@ onUnmounted(() => {
   if (lenis) lenis.destroy()
 })
 
-useHead({
+useSeo({
   title: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia',
-  meta: [
-    { name: 'description', content: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.' },
+  description: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.',
+  keywords: 'Cek Kendaraan, manajemen armada, fleet management',
+  image: 'https://fleetsumo.id/assets/og/og-home.png',
+  url: 'https://fleetsumo.id'
+})
+
+
+
     { property: 'og:title', content: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia' },
     { property: 'og:description', content: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.' },
     { property: 'og:url', content: 'https://fleetsumo.id' },

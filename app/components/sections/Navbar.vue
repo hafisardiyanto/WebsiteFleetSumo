@@ -53,7 +53,6 @@
         <div class="nav-item has-dropdown">
           <a href="/resources/blog-artikel" class="nav-link">Resources <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
-            <a href="/resources/blog-artikel">Blog & Artikel</a>
             <a href="/resources/studi-kasus">Studi Kasus</a>
             <a href="/resources/pembaruan-produk">Pembaruan Produk</a>
             <a href="/resources/faq">FAQ</a>

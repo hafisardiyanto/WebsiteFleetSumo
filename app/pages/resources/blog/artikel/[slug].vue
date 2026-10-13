@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRoute, useRouter } from '#app';
 import { useHead } from '#app';
+import { useSeo } from '~/composables/useSeo';
 import { articles } from '~/data/articles';
 import NavbarSection from '~/components/sections/Navbar.vue';
 
