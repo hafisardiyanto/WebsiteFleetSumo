@@ -2,7 +2,7 @@
   <header class="navbar-wrapper">
     <div class="navbar-container">
       <a href="/" class="navbar-logo">
-        <span style="color: #0f172a; margin-right: 2px;">Fleet</span><span style="color: #f97316;">Sumo</span>
+        <span style="color: #0f172a; margin-right: 2px;">Cek </span><span style="color: #f97316;">Kendaraan</span>
       </a>
       
       <nav class="navbar-links">

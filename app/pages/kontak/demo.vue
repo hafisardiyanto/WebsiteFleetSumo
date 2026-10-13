@@ -190,7 +190,7 @@ const handleSubmit = () => {
   </main>
 </template>
 
-<style scoped>
+<style src="~/assets/css/pages/kontak/demo.css" scoped></style>
 .page-wrapper {
   overflow: hidden;
   background-color: #ffffff;

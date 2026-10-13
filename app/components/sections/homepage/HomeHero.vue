@@ -3,12 +3,12 @@
     <div class="home-hero-container">
       
       <div class="home-hero-content">
-         <span class="hero-label" data-aos="fade-up"> FLEETSUMO</span>
+         <span class="hero-label" data-aos="fade-up"> Cek Kendaraan</span>
         <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
            Kelola Armada Lebih Terstruktur dalam <span class="highlight">Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-            FleetSumo membantu perusahaan mengelola informasi kendaraan, dokumen, dan data operasional armada secara lebih terstruktur agar lebih mudah dipantau dan ditelusuri oleh tim operasional.
+           FleetSumo membantu perusahaan mengelola informasi kendaraan, dokumen, dan data operasional armada secara lebih terstruktur agar lebih mudah dipantau dan ditelusuri oleh tim operasional.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
