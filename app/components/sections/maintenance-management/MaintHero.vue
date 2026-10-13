@@ -9,7 +9,7 @@
           Maintenance Management untuk <span class="highlight">Pengelolaan Perawatan Armada yang Lebih Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo dirancang untuk memastikan setiap kebutuhan perawatan mesin dari temuan harian hingga persetujuan biaya terkelola seluruhnya dalam satu sistem alur kerja terpusat.
+          Cek Kendaraan dirancang untuk memastikan setiap kebutuhan perawatan mesin dari temuan harian hingga persetujuan biaya terkelola seluruhnya dalam satu sistem alur kerja terpusat.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

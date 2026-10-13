@@ -4,7 +4,7 @@
       <div class="tyre-integration-header" data-aos="fade-up">
         <h2 class="tyre-integration-title">Tyre Management Tidak Berdiri Sendiri</h2>
         <p class="tyre-integration-subtitle">
-          Pengelolaan ban merupakan bagian dari ekosistem FleetSumo dan dapat dikaitkan dengan aktivitas armada lainnya.
+          Pengelolaan ban merupakan bagian dari ekosistem Cek Kendaraan dan dapat dikaitkan dengan aktivitas armada lainnya.
         </p>
       </div>
 

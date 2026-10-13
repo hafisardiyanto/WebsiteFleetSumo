@@ -9,7 +9,7 @@
           Ubah Data Operasional Armada Menjadi Informasi yang Mudah <span class="highlight">Dipantau</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan memantau informasi armada melalui dashboard dan laporan yang menyajikan data operasional secara lebih terstruktur untuk mendukung monitoring dan evaluasi.
+          Cek Kendaraan membantu perusahaan memantau informasi armada melalui dashboard dan laporan yang menyajikan data operasional secara lebih terstruktur untuk mendukung monitoring dan evaluasi.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -21,7 +21,7 @@
       <div class="report-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-image-container">
           <div class="hero-glow"></div>
-          <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="FleetSumo Dashboard & Reports" class="hero-img">
+          <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Cek Kendaraan Dashboard & Reports" class="hero-img">
         </div>
       </div>
 

@@ -3,7 +3,7 @@
     <div class="maint-industries-container">
       <div class="mind-header" data-aos="fade-up">
         <h2 class="mind-title">Maintenance Management untuk Berbagai Operasional Armada</h2>
-        <p class="mind-subtitle">FleetSumo dapat membantu perusahaan dengan kebutuhan perawatan kendaraan yang memiliki aktivitas armada secara rutin dan terstruktur.</p>
+        <p class="mind-subtitle">Cek Kendaraan dapat membantu perusahaan dengan kebutuhan perawatan kendaraan yang memiliki aktivitas armada secara rutin dan terstruktur.</p>
       </div>
 
       <div class="mind-grid" data-aos="fade-up" data-aos-delay="100">

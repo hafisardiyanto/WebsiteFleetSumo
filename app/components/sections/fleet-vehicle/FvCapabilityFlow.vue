@@ -3,7 +3,7 @@
     <div class="fv-capability-container" style="max-width:1200px; margin:0 auto; text-align:center;">
       <div class="fvc-header" data-aos="fade-up">
         <h2 style="font-size:2.2rem; font-weight:700; color:#0f172a; margin-bottom:1rem;">Struktur Pengelolaan Master Data Armada</h2>
-        <p style="color:#475569; font-size:1.1rem; max-width:700px; margin:0 auto 3rem;">Sistem FleetSumo didesain mengikuti hirarki informasi yang natural bagi administrator armada.</p>
+        <p style="color:#475569; font-size:1.1rem; max-width:700px; margin:0 auto 3rem;">Sistem Cek Kendaraan didesain mengikuti hirarki informasi yang natural bagi administrator armada.</p>
       </div>
 
       <div class="fvc-workflow" data-aos="fade-up" data-aos-delay="100" style="display:flex; flex-direction:column; gap:1.5rem; max-width:800px; margin:0 auto;">

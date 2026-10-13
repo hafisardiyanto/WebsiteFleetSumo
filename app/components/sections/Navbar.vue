@@ -62,7 +62,7 @@
         <div class="nav-item has-dropdown">
           <a href="/tentang-kami" class="nav-link">Tentang Kami <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
-            <a href="/tentang-kami">Tentang FleetSumo</a>
+            <a href="/tentang-kami">Tentang Cek Kendaraan</a>
             <a href="/tentang-kami#visi">Visi & Misi Kami</a>
             <a href="/kontak/demo">Kontak</a>
           </div>

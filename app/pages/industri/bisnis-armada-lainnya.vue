@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Bisnis Armada Lainnya | FleetSumo',
+  title: 'Solusi Manajemen Bisnis Armada Lainnya | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Kelola data operasional kendaraan berbagai sektor usaha dengan Cek Kendaraan dari FleetSumo. Catat histori pemeliharaan unit, supir, dan biaya secara terpusat.' },
-    { property: 'og:title', content: 'Solusi Manajemen Bisnis Armada Lainnya | FleetSumo' },
+    { name: 'description', content: 'Kelola data operasional kendaraan berbagai sektor usaha dengan Cek Kendaraan dari Cek Kendaraan. Catat histori pemeliharaan unit, supir, dan biaya secara terpusat.' },
+    { property: 'og:title', content: 'Solusi Manajemen Bisnis Armada Lainnya | Cek Kendaraan' },
     { property: 'og:description', content: 'Sistem manajemen data kendaraan fleksibel untuk rental mobil, shuttle bus, jasa katering, dan operasional bisnis dengan armada kendaraan niaga.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/bisnis-armada-lainnya' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Bisnis Armada Lainnya - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Bisnis Armada Lainnya - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Bisnis Armada Lainnya | FleetSumo' },
-    { name: 'twitter:description', content: 'Kelola data operasional kendaraan berbagai sektor usaha dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Bisnis Armada Lainnya | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Kelola data operasional kendaraan berbagai sektor usaha dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Kendaraan untuk Berbagai <span class="highlight">Bisnis Berarmada</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo menghadirkan sistem web fleksibel untuk perusahaan rental, shuttle penumpang, katering, jasa pengiriman lokal, dan UMKM. Catat riwayat servis, pergantian pengemudi, serta pengeluaran bahan bakar tanpa alur implementasi yang rumit.
+            Cek Kendaraan dari Cek Kendaraan menghadirkan sistem web fleksibel untuk perusahaan rental, shuttle penumpang, katering, jasa pengiriman lokal, dan UMKM. Catat riwayat servis, pergantian pengemudi, serta pengeluaran bahan bakar tanpa alur implementasi yang rumit.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Fleksibel</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Bisnis Armada Lainnya.jpg" alt="Armada Aneka Bisnis FleetSumo" />
+          <img src="/assets/Industri/Bisnis Armada Lainnya.jpg" alt="Armada Aneka Bisnis Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -227,7 +227,7 @@ useHead({
 
           <div class="faq-card">
             <h3 class="faq-q">Bagaimana jika kami ingin mencoba sistem ini terlebih dahulu?</h3>
-            <p class="faq-a">Anda dapat menjadwalkan sesi konsultasi dan demo gratis bersama tim FleetSumo untuk melihat kesesuaian alur dengan bisnis Anda.</p>
+            <p class="faq-a">Anda dapat menjadwalkan sesi konsultasi dan demo gratis bersama tim Cek Kendaraan untuk melihat kesesuaian alur dengan bisnis Anda.</p>
           </div>
         </div>
       </div>
@@ -238,7 +238,7 @@ useHead({
       <div class="content-container">
         <h2 class="cta-title">Mulai Rapikan Pencatatan Kendaraan Bisnis Anda</h2>
         <p class="cta-desc">
-          Tinggalkan spreadsheet yang tercecer dan beralih ke pencatatan armada terstruktur bersama FleetSumo Cek Kendaraan.
+          Tinggalkan spreadsheet yang tercecer dan beralih ke pencatatan armada terstruktur bersama Cek Kendaraan Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Konsultasi Demo</a>
       </div>

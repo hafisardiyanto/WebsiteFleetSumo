@@ -8,7 +8,7 @@
       <div class="hcta-content" data-aos="zoom-in">
         <span class="cta-label">SIAP MENGELOLA ARMADA DENGAN LEBIH TERSTRUKTUR?</span>
         <h2 class="hcta-title">Mulai Kelola Operasional Armada dalam Satu Platform</h2>
-        <p class="hcta-desc">Diskusikan kebutuhan operasional armada perusahaan Anda bersama tim FleetSumo dan temukan bagaimana FleetSumo dapat mendukung proses pengelolaan armada Anda.</p>
+        <p class="hcta-desc">Diskusikan kebutuhan operasional armada perusahaan Anda bersama tim Cek Kendaraan dan temukan bagaimana Cek Kendaraan dapat mendukung proses pengelolaan armada Anda.</p>
         
         <div class="hcta-actions">
            <button class="btn-primary">Minta Demo</button>

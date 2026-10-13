@@ -9,7 +9,7 @@
           Kendalikan Biaya Operasional Armada dengan Lebih <span class="highlight">Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola pengajuan, persetujuan, realisasi, dan informasi biaya yang berkaitan dengan operasional armada dalam satu sistem.
+          Cek Kendaraan membantu perusahaan mengelola pengajuan, persetujuan, realisasi, dan informasi biaya yang berkaitan dengan operasional armada dalam satu sistem.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

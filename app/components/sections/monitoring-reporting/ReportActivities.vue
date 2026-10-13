@@ -3,7 +3,7 @@
     <div class="report-act-container">
       <div class="rac-header" data-aos="fade-up">
         <h2 class="rac-title">Pantau Data dari Berbagai Aktivitas Armada</h2>
-        <p class="rac-subtitle">Monitoring FleetSumo tidak hanya berfokus pada kendaraan, tetapi juga informasi dari berbagai aktivitas yang berkaitan dengan operasional armada.</p>
+        <p class="rac-subtitle">Monitoring Cek Kendaraan tidak hanya berfokus pada kendaraan, tetapi juga informasi dari berbagai aktivitas yang berkaitan dengan operasional armada.</p>
       </div>
 
       <div class="rac-grid">

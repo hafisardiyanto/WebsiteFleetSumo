@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo',
+  title: 'Manajemen Biaya Armada & Analisis Finansial TCO | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
-    { property: 'og:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo' },
+    { property: 'og:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | Cek Kendaraan' },
     { property: 'og:description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/cost-management' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-cost.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Solusi Manajemen Biaya Armada & Analisis TCO' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Manajemen Biaya Armada & Analisis TCO' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | FleetSumo' },
+    { name: 'twitter:title', content: 'Manajemen Biaya Armada & Analisis Finansial TCO | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Kendalikan total biaya kepemilikan armada Anda. Dapatkan visibilitas mendalam atas pengeluaran per kendaraan untuk keputusan operasional terukur.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-cost.png' },
     { name: 'robots', content: 'index, follow' }

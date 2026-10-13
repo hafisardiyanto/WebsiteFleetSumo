@@ -28,7 +28,7 @@ const screenshots = [
     <div class="mnt-showcase-container">
       <div class="mns-header" data-aos="fade-up">
         <span class="mns-label">PRODUCT SHOWCASE</span>
-        <h2 class="mns-title">Lihat Fitur Maintenance dalam FleetSumo</h2>
+        <h2 class="mns-title">Lihat Fitur Maintenance dalam Cek Kendaraan</h2>
       </div>
 
       <div class="mns-tabs" data-aos="fade-up" data-aos-delay="100">

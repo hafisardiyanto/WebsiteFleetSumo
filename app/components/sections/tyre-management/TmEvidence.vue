@@ -28,7 +28,7 @@
         </div>
 
         <div class="tme-visual" style="border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 15px 35px rgba(0,0,0,0.05); background:#f1f5f9; display:flex; flex-direction:column; gap:1rem; padding:1.5rem;">
-           <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="FleetSumo Tyre Asset Details" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
+           <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Cek Kendaraan Tyre Asset Details" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
         </div>
         
       </div>

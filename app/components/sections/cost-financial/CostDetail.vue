@@ -29,7 +29,7 @@
 
          <div class="csd-right" data-aos="fade-left" data-aos-delay="100">
              <div class="csd-mockup">
-                 <img src="/assets/umum/backgrounds/hero-cost.jpg" alt="Detail Biaya FleetSumo" class="csd-img" />
+                 <img src="/assets/umum/backgrounds/hero-cost.jpg" alt="Detail Biaya Cek Kendaraan" class="csd-img" />
                  
                  <div class="csd-callout c1">
                    <span class="callout-dot"></span>

@@ -29,7 +29,7 @@
 
          <div class="apd-right" data-aos="fade-left" data-aos-delay="100">
              <div class="apd-mockup">
-                 <img src="/assets/fitur/approval-workflow/hero.jpg" alt="Detail Approval FleetSumo" class="apd-img" />
+                 <img src="/assets/fitur/approval-workflow/hero.jpg" alt="Detail Approval Cek Kendaraan" class="apd-img" />
                  
                  <div class="apd-callout c1">
                    <span class="callout-dot"></span>

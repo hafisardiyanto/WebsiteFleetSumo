@@ -3,7 +3,7 @@
     <div class="fuel-manage-container">
       <div class="fm-header" data-aos="fade-up">
         <h2 class="fm-title">Kelola Informasi BBM dari Setiap Pengisian</h2>
-        <p class="fm-subtitle">FleetSumo membantu mengorganisir informasi yang berkaitan dengan penggunaan BBM kendaraan sehingga aktivitas pengisian lebih mudah dipantau.</p>
+        <p class="fm-subtitle">Cek Kendaraan membantu mengorganisir informasi yang berkaitan dengan penggunaan BBM kendaraan sehingga aktivitas pengisian lebih mudah dipantau.</p>
       </div>
 
       <div class="fm-grid">

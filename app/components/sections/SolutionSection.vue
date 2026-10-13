@@ -5,7 +5,7 @@
         <div class="solution-tagline">EKSEKUSI TERPERCAYA</div>
         <h2 class="solution-title">Satu Sistem untuk Berbagai Kebutuhan Armada</h2>
         <p class="solution-subtitle">
-          FleetSumo dirancang untuk memberikan fondasi sistemik yang solid bagi pengelolaan operasional armada perusahaan Anda.
+          Cek Kendaraan dirancang untuk memberikan fondasi sistemik yang solid bagi pengelolaan operasional armada perusahaan Anda.
         </p>
       </div>
 

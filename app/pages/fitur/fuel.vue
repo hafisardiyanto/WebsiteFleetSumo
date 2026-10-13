@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | FleetSumo',
+  title: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Catat riwayat pembelian bahan bakar, struk pengisian, odometer, dan perhitungan efisiensi rasio BBM setiap armada secara akurat dan mudah.' },
-    { property: 'og:title', content: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | Cek Kendaraan' },
     { property: 'og:description', content: 'Catat riwayat pembelian bahan bakar, struk pengisian, odometer, dan perhitungan efisiensi rasio BBM setiap armada secara akurat dan mudah.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/fuel' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fuel.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Pencatatan Transaksi BBM Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Pencatatan Transaksi BBM Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Pencatatan & Log Transaksi BBM Kendaraan | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Catat riwayat pembelian bahan bakar, struk pengisian, odometer, dan perhitungan efisiensi rasio BBM setiap armada secara akurat dan mudah.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fuel.png' },
     { name: 'robots', content: 'index, follow' }

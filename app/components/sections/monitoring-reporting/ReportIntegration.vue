@@ -3,7 +3,7 @@
     <div class="report-inte-container">
       <div class="rin-header" data-aos="fade-up">
         <h2 class="rin-title">Satu Sumber Informasi untuk Operasional Armada</h2>
-        <p class="rin-subtitle">Monitoring & Reporting menjadi bagian yang menghubungkan informasi dari berbagai modul FleetSumo menjadi informasi yang dapat dipantau melalui dashboard dan laporan.</p>
+        <p class="rin-subtitle">Monitoring & Reporting menjadi bagian yang menghubungkan informasi dari berbagai modul Cek Kendaraan menjadi informasi yang dapat dipantau melalui dashboard dan laporan.</p>
       </div>
 
       <div class="rin-layout" data-aos="fade-up" data-aos-delay="200">

@@ -4,7 +4,7 @@
       <div class="cost-cycle-header" data-aos="fade-up">
         <h2 class="cost-cycle-title">Dari Pengajuan hingga Realisasi Biaya</h2>
         <p class="cost-cycle-subtitle">
-          Alur yang menunjukkan bagaimana sistem FleetSumo bekerja menata kebutuhan operasional.
+          Alur yang menunjukkan bagaimana sistem Cek Kendaraan bekerja menata kebutuhan operasional.
         </p>
       </div>
 

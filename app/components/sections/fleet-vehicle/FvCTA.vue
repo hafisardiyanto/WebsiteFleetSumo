@@ -7,7 +7,7 @@
       <div class="fvcta-content" data-aos="zoom-in">
         <span class="fvcta-label">SIAP MENGELOLA DATA ARMADA DENGAN LEBIH TERSTRUKTUR?</span>
         <h2 class="fvcta-title">Mulai Kelola Data Kendaraan dalam Satu Platform</h2>
-        <p class="fvcta-desc">Diskusikan kebutuhan pengelolaan kendaraan dan armada perusahaan Anda bersama tim FleetSumo.</p>
+        <p class="fvcta-desc">Diskusikan kebutuhan pengelolaan kendaraan dan armada perusahaan Anda bersama tim Cek Kendaraan.</p>
         
         <div class="fvcta-actions">
            <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

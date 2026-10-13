@@ -2,7 +2,7 @@
   <section class="approval-preview-wrapper">
     <div class="approval-preview-container">
       <div class="apr-header" data-aos="fade-up">
-        <h2 class="apr-title">Lihat Approval & Workflow dalam FleetSumo</h2>
+        <h2 class="apr-title">Lihat Approval & Workflow dalam Cek Kendaraan</h2>
       </div>
 
       <div class="apr-gallery">

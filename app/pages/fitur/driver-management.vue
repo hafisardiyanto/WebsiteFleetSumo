@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo',
+  title: 'Fitur Manajemen Driver & Penugasan Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
-    { property: 'og:title', content: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Manajemen Driver & Penugasan Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/driver-management' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-driver.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Manajemen Driver & Penugasan Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Manajemen Driver & Penugasan Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Manajemen Driver & Penugasan Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Manajemen Driver & Penugasan Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Pusat data pengemudi, riwayat lisensi SIM, monitoring penugasan kendaraan, dan catatan operasional supir armada dalam satu platform teratur.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-driver.png' },
     { name: 'robots', content: 'index, follow' }

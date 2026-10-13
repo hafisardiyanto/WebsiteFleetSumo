@@ -7,7 +7,7 @@
          <div class="vca-content">
             <span class="vca-label">SIAP MENGELOLA VENDOR DENGAN LEBIH TERSTRUKTUR?</span>
             <h2 class="vca-title">Kelola Vendor dan Kebutuhan Armada dalam Satu Platform</h2>
-            <p class="vca-subtitle">Diskusikan kebutuhan pengelolaan vendor dan operasional armada perusahaan Anda bersama tim FleetSumo.</p>
+            <p class="vca-subtitle">Diskusikan kebutuhan pengelolaan vendor dan operasional armada perusahaan Anda bersama tim Cek Kendaraan.</p>
             
             <div class="vca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

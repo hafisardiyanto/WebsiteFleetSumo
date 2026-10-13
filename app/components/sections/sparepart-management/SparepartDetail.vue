@@ -29,7 +29,7 @@
 
          <div class="spd-right" data-aos="fade-left" data-aos-delay="100">
              <div class="spd-mockup">
-                 <img src="/assets/fitur/sparepart/hero.jpg" alt="Detail Sparepart FleetSumo" class="spd-img" />
+                 <img src="/assets/fitur/sparepart/hero.jpg" alt="Detail Sparepart Cek Kendaraan" class="spd-img" />
                  
                  <!-- Callouts based on typical Details -->
                  <div class="spd-callout c1">

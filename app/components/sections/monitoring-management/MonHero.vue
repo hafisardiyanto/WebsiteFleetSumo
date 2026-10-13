@@ -10,7 +10,7 @@
           Pantau Operasional Armada dalam <span class="highlight">Satu Tampilan</span>
         </h1>
         <p class="mon-hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengubah data operasional armada menjadi informasi yang lebih mudah dipantau dan dilaporkan, mulai dari kendaraan, maintenance, BBM, ban, hingga biaya operasional.
+          Cek Kendaraan membantu perusahaan mengubah data operasional armada menjadi informasi yang lebih mudah dipantau dan dilaporkan, mulai dari kendaraan, maintenance, BBM, ban, hingga biaya operasional.
         </p>
         
         <div class="mon-hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -21,7 +21,7 @@
       <div class="mon-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="image-container">
           <div class="image-glow"></div>
-          <img src="/assets/umum/backgrounds/hero-monitoring.jpg" alt="Pusat Data FleetSumo" class="mon-hero-img">
+          <img src="/assets/umum/backgrounds/hero-monitoring.jpg" alt="Pusat Data Cek Kendaraan" class="mon-hero-img">
         </div>
       </div>
     </div>

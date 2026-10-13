@@ -4,7 +4,7 @@
       <div class="ri-header" data-aos="fade-up">
         <span class="ri-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="ri-title">Dashboard dan Laporan untuk Berbagai Kebutuhan Armada</h2>
-        <p class="ri-subtitle">Setiap perusahaan memiliki karakteristik operasional yang berbeda. FleetSumo membantu menyajikan informasi armada sesuai dengan data dan aktivitas yang dikelola perusahaan.</p>
+        <p class="ri-subtitle">Setiap perusahaan memiliki karakteristik operasional yang berbeda. Cek Kendaraan membantu menyajikan informasi armada sesuai dengan data dan aktivitas yang dikelola perusahaan.</p>
       </div>
 
       <div class="ri-grid">

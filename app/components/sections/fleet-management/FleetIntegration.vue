@@ -3,7 +3,7 @@
     <div class="fleet-inte-container">
       <div class="fi-header" data-aos="fade-up">
         <h2 class="fi-title">Terhubung dengan Berbagai Aktivitas Operasional Armada</h2>
-        <p class="fi-subtitle">Data kendaraan menjadi bagian penting dalam berbagai aktivitas FleetSumo. Informasi yang dikelola dapat terhubung dengan modul lain sesuai kebutuhan operasional perusahaan.</p>
+        <p class="fi-subtitle">Data kendaraan menjadi bagian penting dalam berbagai aktivitas Cek Kendaraan. Informasi yang dikelola dapat terhubung dengan modul lain sesuai kebutuhan operasional perusahaan.</p>
       </div>
 
       <div class="fi-layout" data-aos="fade-up" data-aos-delay="200" style="display:flex; flex-direction:column; align-items:center;">

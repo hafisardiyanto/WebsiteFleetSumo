@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Armada Manufaktur | FleetSumo',
+  title: 'Solusi Manajemen Armada Manufaktur | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Kelola data armada distribusi manufaktur dengan Cek Kendaraan dari FleetSumo. Catat histori pemeliharaan truk pabrik, dokumen KIR, dan log pengeluaran BBM.' },
-    { property: 'og:title', content: 'Solusi Manajemen Armada Manufaktur | FleetSumo' },
+    { name: 'description', content: 'Kelola data armada distribusi manufaktur dengan Cek Kendaraan dari Cek Kendaraan. Catat histori pemeliharaan truk pabrik, dokumen KIR, dan log pengeluaran BBM.' },
+    { property: 'og:title', content: 'Solusi Manajemen Armada Manufaktur | Cek Kendaraan' },
     { property: 'og:description', content: 'Sistem pencatatan armada logistik pabrik dan rantai pasok manufaktur. Optimalkan kesiapan unit angkut barang dan kelengkapan dokumen berkala.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/manufaktur' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Armada Manufaktur - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Armada Manufaktur - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Armada Manufaktur | FleetSumo' },
-    { name: 'twitter:description', content: 'Kelola data armada distribusi manufaktur dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Armada Manufaktur | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Kelola data armada distribusi manufaktur dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Armada Pabrik & Distribusi <span class="highlight">yang Terkendali</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo membantu industri manufaktur mengelola pencatatan armada logistik pabrik, truk distribusi barang jadi, dan kendaraan operasional. Pantau riwayat servis bengkel, kepatuhan dokumen KIR, dan rekapitulasi biaya perjalanan secara terstruktur.
+            Cek Kendaraan dari Cek Kendaraan membantu industri manufaktur mengelola pencatatan armada logistik pabrik, truk distribusi barang jadi, dan kendaraan operasional. Pantau riwayat servis bengkel, kepatuhan dokumen KIR, dan rekapitulasi biaya perjalanan secara terstruktur.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Pabrik</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Manufaktur.jpg" alt="Armada Distribusi Manufaktur FleetSumo" />
+          <img src="/assets/Industri/Manufaktur.jpg" alt="Armada Distribusi Manufaktur Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -238,7 +238,7 @@ useHead({
       <div class="content-container">
         <h2 class="cta-title">Siap Menertibkan Armada Distribusi Pabrik Anda?</h2>
         <p class="cta-desc">
-          Konsultasikan kebutuhan pencatatan kendaraan dan kontrol pemeliharaan armada manufaktur bersama tim FleetSumo.
+          Konsultasikan kebutuhan pencatatan kendaraan dan kontrol pemeliharaan armada manufaktur bersama tim Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Konsultasi Demo</a>
       </div>

@@ -6,7 +6,7 @@
     <div class="maint-cta-container">
       <div class="mcta-content" data-aos="zoom-in">
         <span class="mcta-label">MAINTENANCE MANAGEMENT</span>
-        <h2 class="mcta-title">Kenali bagaimana FleetSumo dapat mendukung pengelolaan perawatan armada Anda.</h2>
+        <h2 class="mcta-title">Kenali bagaimana Cek Kendaraan dapat mendukung pengelolaan perawatan armada Anda.</h2>
         
         <div class="mcta-actions">
            <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

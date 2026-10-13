@@ -10,7 +10,7 @@
          
          <div class="csl-left" data-aos="fade-right" data-aos-delay="100">
              <div class="csl-mockup">
-                 <img src="/assets/umum/backgrounds/hero-cost.jpg" alt="Daftar Biaya FleetSumo" class="csl-img" />
+                 <img src="/assets/umum/backgrounds/hero-cost.jpg" alt="Daftar Biaya Cek Kendaraan" class="csl-img" />
                  
                  <div class="csl-callout c1">
                    <span class="callout-dot"></span>

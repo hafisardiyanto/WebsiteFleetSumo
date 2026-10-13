@@ -2,22 +2,22 @@
   <section class="report-preview-wrapper">
     <div class="report-preview-container">
       <div class="rpv-header" data-aos="fade-up">
-        <h2 class="rpv-title">Lihat Dashboard dan Laporan FleetSumo</h2>
+        <h2 class="rpv-title">Lihat Dashboard dan Laporan Cek Kendaraan</h2>
       </div>
 
       <div class="rpv-gallery">
          <div class="rpv-card" data-aos="fade-up" data-aos-delay="100">
              <div class="rpv-img-wrapper">
-                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Dashboard Utama FleetSumo" class="rpv-img" />
+                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Dashboard Utama Cek Kendaraan" class="rpv-img" />
              </div>
              <div class="rpv-info">
-                 <h3>01 — Dashboard FleetSumo</h3>
+                 <h3>01 — Dashboard Cek Kendaraan</h3>
              </div>
          </div>
 
          <div class="rpv-card" data-aos="fade-up" data-aos-delay="150">
              <div class="rpv-img-wrapper">
-                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Laporan Kendaraan FleetSumo" class="rpv-img" />
+                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Laporan Kendaraan Cek Kendaraan" class="rpv-img" />
              </div>
              <div class="rpv-info">
                  <h3>02 — Laporan Kendaraan</h3>

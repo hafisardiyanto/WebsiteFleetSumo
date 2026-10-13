@@ -4,13 +4,13 @@
       <div class="dme-header" data-aos="fade-up" style="text-align:center; margin-bottom:3rem;">
         <span class="dme-label" style="color:#2563eb; font-weight:600; text-transform:uppercase; font-size:0.9rem; letter-spacing:1px; display:inline-block; margin-bottom:0.8rem;">PRODUCT CAPABILITY</span>
         <h2 class="dme-title" style="font-size:2.5rem; font-weight:700; color:#0f172a; margin-bottom:1rem;">Tampilan Informasi Pengemudi</h2>
-        <p class="dme-subtitle" style="color:#475569; font-size:1.1rem; max-width:800px; margin:0 auto;">FleetSumo memberikan antarmuka yang terstruktur untuk mengumpulkan dan memvisualisasikan seluruh data pengemudi di lapangan.</p>
+        <p class="dme-subtitle" style="color:#475569; font-size:1.1rem; max-width:800px; margin:0 auto;">Cek Kendaraan memberikan antarmuka yang terstruktur untuk mengumpulkan dan memvisualisasikan seluruh data pengemudi di lapangan.</p>
       </div>
 
       <!-- Screenshot with Callouts (Detail View) -->
       <div class="dme-callout-grid" data-aos="fade-up" data-aos-delay="100" style="display:grid; grid-template-columns:1fr 350px; gap:3rem; align-items:center;">
         <div class="dme-visual" style="border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 15px 35px rgba(0,0,0,0.05); background:#f1f5f9;">
-           <img src="/assets/fitur/driver-management/driver-detail.png" alt="Detail Driver Management FleetSumo" style="width:100%; display:block; height:auto; object-fit:cover;" />
+           <img src="/assets/fitur/driver-management/driver-detail.png" alt="Detail Driver Management Cek Kendaraan" style="width:100%; display:block; height:auto; object-fit:cover;" />
         </div>
         
         <div class="dme-callout-list" style="display:flex; flex-direction:column; gap:1.5rem;">

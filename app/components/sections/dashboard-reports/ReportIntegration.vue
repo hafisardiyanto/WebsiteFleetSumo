@@ -3,7 +3,7 @@
     <div class="report-integration-container">
       <div class="rpi-header" data-aos="fade-up">
         <h2 class="rpi-title">Dashboard Terhubung dengan Aktivitas Armada</h2>
-        <p class="rpi-subtitle">Informasi pada dashboard dan laporan berasal dari aktivitas yang dikelola melalui berbagai modul FleetSumo.</p>
+        <p class="rpi-subtitle">Informasi pada dashboard dan laporan berasal dari aktivitas yang dikelola melalui berbagai modul Cek Kendaraan.</p>
       </div>
 
       <div class="rpi-layout">

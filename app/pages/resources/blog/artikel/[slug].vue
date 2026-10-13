@@ -35,13 +35,13 @@ if (!article) {
           '@type': 'Article',
           'headline': article.title,
           'image': article.coverImage,
-          'author': { '@type': 'Organization', 'name': article.author ?? 'FleetSumo' },
+          'author': { '@type': 'Organization', 'name': article.author ?? 'Cek Kendaraan' },
           'datePublished': article.publishedAt,
           'dateModified': article.updatedAt,
           'description': article.metaDescription,
           'publisher': {
             '@type': 'Organization',
-            'name': 'FleetSumo',
+            'name': 'Cek Kendaraan',
             'logo': { '@type': 'ImageObject', 'url': 'https://fleetsumo.id/assets/og/og-home.png' }
           },
           'breadcrumb': {

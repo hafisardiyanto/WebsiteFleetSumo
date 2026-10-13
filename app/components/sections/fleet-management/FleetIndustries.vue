@@ -3,7 +3,7 @@
     <div class="fleet-industries-container">
       <div class="find-header" data-aos="fade-up">
         <h2 class="find-title">Fleet Management untuk Berbagai Jenis Bisnis</h2>
-        <p class="find-subtitle">FleetSumo dapat digunakan untuk mendukung kebutuhan perusahaan yang mengoperasikan kendaraan sebagai bagian dari aktivitas bisnisnya.</p>
+        <p class="find-subtitle">Cek Kendaraan dapat digunakan untuk mendukung kebutuhan perusahaan yang mengoperasikan kendaraan sebagai bagian dari aktivitas bisnisnya.</p>
       </div>
 
       <div class="find-grid" data-aos="fade-up" data-aos-delay="100">

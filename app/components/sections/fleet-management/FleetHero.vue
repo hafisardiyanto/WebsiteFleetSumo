@@ -9,7 +9,7 @@
           Fleet Management untuk <span class="highlight">Pengelolaan Armada yang Lebih Terukur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo dirancang sebagai sistem sentral pengelolaan kendaraan armada perusahaan. Membantu mengkonsolidasikan seluruh pemantauan operasional kendaraan ke dalam satu alur manajemen yang akurat.
+          Cek Kendaraan dirancang sebagai sistem sentral pengelolaan kendaraan armada perusahaan. Membantu mengkonsolidasikan seluruh pemantauan operasional kendaraan ke dalam satu alur manajemen yang akurat.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

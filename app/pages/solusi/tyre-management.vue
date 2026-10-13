@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | FleetSumo',
+  title: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Kendalikan anggaran ban operasional. Pantau siklus pakai, riwayat mutasi posisi, jarak tempuh, dan keausan ban armada secara terstruktur.' },
-    { property: 'og:title', content: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | FleetSumo' },
+    { property: 'og:title', content: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | Cek Kendaraan' },
     { property: 'og:description', content: 'Kendalikan anggaran ban operasional. Pantau siklus pakai, riwayat mutasi posisi, jarak tempuh, dan keausan ban armada secara terstruktur.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/tyre-management' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-tyre.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Solusi Manajemen Ban Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Manajemen Ban Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | FleetSumo' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Ban Armada & Pengendalian Biaya | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Kendalikan anggaran ban operasional. Pantau siklus pakai, riwayat mutasi posisi, jarak tempuh, dan keausan ban armada secara terstruktur.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-tyre.png' },
     { name: 'robots', content: 'index, follow' }

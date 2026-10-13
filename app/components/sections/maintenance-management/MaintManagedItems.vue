@@ -3,7 +3,7 @@
     <div class="maint-manage-container">
       <div class="mm-header" data-aos="fade-up">
         <h2 class="mm-title">Kelola Setiap Tahapan Maintenance Kendaraan</h2>
-        <p class="mm-subtitle">FleetSumo membantu tim operasional mengelola informasi dan proses maintenance dari awal hingga selesai.</p>
+        <p class="mm-subtitle">Cek Kendaraan membantu tim operasional mengelola informasi dan proses maintenance dari awal hingga selesai.</p>
       </div>
 
       <div class="mm-grid">

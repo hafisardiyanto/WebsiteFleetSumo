@@ -4,7 +4,7 @@
       <div class="maint-other-header" data-aos="fade-up">
         <h2 class="maint-other-title">Maintenance Terhubung dengan Pengelolaan Armada</h2>
         <p class="maint-other-subtitle">
-          Aktivitas maintenance dapat berkaitan dengan berbagai aspek armada lainnya. FleetSumo membantu menghubungkan informasi tersebut sehingga aktivitas perawatan dapat dikelola sebagai bagian dari keseluruhan operasional armada.
+          Aktivitas maintenance dapat berkaitan dengan berbagai aspek armada lainnya. Cek Kendaraan membantu menghubungkan informasi tersebut sehingga aktivitas perawatan dapat dikelola sebagai bagian dari keseluruhan operasional armada.
         </p>
       </div>
 

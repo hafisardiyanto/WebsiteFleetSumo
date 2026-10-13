@@ -12,7 +12,7 @@
             <h3 style="color:#0f172a; margin-bottom:8px; text-align:center;">Daftar Kepemilikan (Inventory) Ban</h3>
             <p style="color:#64748b; margin-bottom:20px; text-align:center;">Monitor secara terpadu ban mana yang masih menjadi stok, yang sedang beroperasi di jalan, maupun yang sudah dilepas gantung/afkir.</p>
             <div class="mpv-mockup" data-aos="fade-up" data-aos-delay="100" style="max-width:960px; margin:0 auto; width:100%;">
-                <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Daftar Aset Ban FleetSumo" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
+                <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Daftar Aset Ban Cek Kendaraan" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
             </div>
          </div>
 
@@ -20,7 +20,7 @@
             <h3 style="color:#0f172a; margin-bottom:8px; text-align:center;">Detail Registrasi Identitas dan Data Fisik</h3>
             <p style="color:#64748b; margin-bottom:20px; text-align:center;">Lacak kronologis pemasangan secara seri per seri beserta kedalaman tread (taplak alur) terakhir yang dilaporkan montir.</p>
             <div class="mpv-mockup" data-aos="fade-up" data-aos-delay="200" style="max-width:960px; margin:0 auto; width:100%;">
-                <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Detail Info Ban FleetSumo" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
+                <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Detail Info Ban Cek Kendaraan" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
             </div>
          </div>
 

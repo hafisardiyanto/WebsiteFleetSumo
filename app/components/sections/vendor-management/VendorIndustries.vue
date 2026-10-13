@@ -4,7 +4,7 @@
       <div class="vid-header" data-aos="fade-up">
         <span class="vid-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="vid-title">Pengelolaan Vendor untuk Berbagai Kebutuhan Armada</h2>
-        <p class="vid-subtitle">Kebutuhan vendor berbeda pada setiap perusahaan dan industri. FleetSumo membantu mengelola informasi vendor sebagai bagian dari operasional armada yang lebih terstruktur.</p>
+        <p class="vid-subtitle">Kebutuhan vendor berbeda pada setiap perusahaan dan industri. Cek Kendaraan membantu mengelola informasi vendor sebagai bagian dari operasional armada yang lebih terstruktur.</p>
       </div>
 
       <div class="vid-grid">

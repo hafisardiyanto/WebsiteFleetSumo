@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo',
+  title: 'Fitur Dashboard Analitik & Rekapitulasi Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
-    { property: 'og:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/dashboard-reports' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-dashboard.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Dashboard Analitik Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Dashboard Analitik Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Dashboard Analitik & Rekapitulasi Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Visualisasikan ringkasan metrik armada, grafik tren biaya, status perawatan unit, dan ekspor laporan berkala dalam format yang informatif.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-dashboard.png' },
     { name: 'robots', content: 'index, follow' }

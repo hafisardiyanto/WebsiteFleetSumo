@@ -9,12 +9,12 @@
           Ubah Data Operasional Armada Menjadi <span class="highlight">Informasi yang Mudah Dipantau</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan memantau data kendaraan, maintenance, BBM, ban, biaya, dan aktivitas armada melalui dashboard dan laporan yang terstruktur.
+          Cek Kendaraan membantu perusahaan memantau data kendaraan, maintenance, BBM, ban, biaya, dan aktivitas armada melalui dashboard dan laporan yang terstruktur.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
           <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Lihat Dashboard FleetSumo</button>
+          <button class="btn-secondary">Lihat Dashboard Cek Kendaraan</button>
         </div>
       </div>
 

@@ -17,7 +17,7 @@
             <div class="ins-body">
                <span class="ins-category">Fleet Management</span>
                <h4>Apa Itu Fleet Management? Panduan Lengkap untuk Perusahaan</h4>
-               <span class="fake-link">Pelajari Insight FleetSumo &rarr;</span>
+               <span class="fake-link">Pelajari Insight Cek Kendaraan &rarr;</span>
             </div>
          </a>
 
@@ -28,7 +28,7 @@
             <div class="ins-body">
                <span class="ins-category">Maintenance</span>
                <h4>Mengapa Maintenance Kendaraan Penting dalam Operasional Armada?</h4>
-               <span class="fake-link">Pelajari Insight FleetSumo &rarr;</span>
+               <span class="fake-link">Pelajari Insight Cek Kendaraan &rarr;</span>
             </div>
          </a>
 
@@ -39,7 +39,7 @@
             <div class="ins-body">
                <span class="ins-category">Fuel</span>
                <h4>Cara Memantau Penggunaan BBM Kendaraan Operasional</h4>
-               <span class="fake-link">Pelajari Insight FleetSumo &rarr;</span>
+               <span class="fake-link">Pelajari Insight Cek Kendaraan &rarr;</span>
             </div>
          </a>
 

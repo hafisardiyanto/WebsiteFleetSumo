@@ -12,7 +12,7 @@
           Kelola Penggunaan BBM Armada <span class="highlight">dalam Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mencatat dan mengelola aktivitas BBM kendaraan, mulai dari pengisian, volume, biaya, hingga riwayat penggunaan dalam satu platform yang terstruktur.
+          Cek Kendaraan membantu perusahaan mencatat dan mengelola aktivitas BBM kendaraan, mulai dari pengisian, volume, biaya, hingga riwayat penggunaan dalam satu platform yang terstruktur.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -22,7 +22,7 @@
 
       <div class="fuel-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-mockup">
-          <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Tampilan Utama BBM FleetSumo" class="hero-img">
+          <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Tampilan Utama BBM Cek Kendaraan" class="hero-img">
         </div>
       </div>
     </div>

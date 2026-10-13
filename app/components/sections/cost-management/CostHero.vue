@@ -9,7 +9,7 @@
           Kumpulkan dan Analisis Data Biaya Armada secara <span class="highlight">Lebih Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mencatat, mengelompokkan, dan membandingkan riwayat pengeluaran dari berbagai aktivitas operasional di setiap kendaraan.
+          Cek Kendaraan membantu perusahaan mencatat, mengelompokkan, dan membandingkan riwayat pengeluaran dari berbagai aktivitas operasional di setiap kendaraan.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

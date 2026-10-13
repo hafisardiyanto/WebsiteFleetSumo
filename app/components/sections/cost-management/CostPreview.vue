@@ -4,13 +4,13 @@
       <div class="cpv-header" data-aos="fade-up">
         <span class="cpv-label">COST MONITORING</span>
         <h2 class="cpv-title">Lihat Biaya Kendaraan dalam Satu Tampilan</h2>
-        <p class="cpv-subtitle">FleetSumo membantu perusahaan melihat informasi biaya kendaraan secara lebih terstruktur melalui laporan yang menggabungkan data kendaraan dan biaya operasional.</p>
+        <p class="cpv-subtitle">Cek Kendaraan membantu perusahaan melihat informasi biaya kendaraan secara lebih terstruktur melalui laporan yang menggabungkan data kendaraan dan biaya operasional.</p>
       </div>
 
       <!-- MAIN UI PREVIEW -->
       <div class="cpv-layout center-preview" data-aos="zoom-in" data-aos-delay="100">
          <div class="cpv-mockup">
-             <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Laporan Kendaraan Cost" class="cpv-img" />
+             <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Cek Kendaraan Laporan Kendaraan Cost" class="cpv-img" />
              <div class="cpv-dot d1"></div>
              <div class="cpv-dot d2"></div>
              <div class="cpv-dot d3"></div>

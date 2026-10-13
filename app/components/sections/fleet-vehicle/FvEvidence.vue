@@ -10,7 +10,7 @@
       <div class="fve-callout-grid" data-aos="fade-up" data-aos-delay="100" style="display:grid; grid-template-columns:1fr 350px; gap:3rem; align-items:center;">
         <div class="fve-visual" style="border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 15px 35px rgba(0,0,0,0.05); background:#f1f5f9;">
            <!-- Evidence Using Real App Screenshot -->
-           <img src="/assets/fitur/fleet-vehicle/vehicle-detail.png" alt="Detail Master Data Kendaraan FleetSumo" style="width:100%; display:block; height:auto; object-fit:cover;" />
+           <img src="/assets/fitur/fleet-vehicle/vehicle-detail.png" alt="Detail Master Data Kendaraan Cek Kendaraan" style="width:100%; display:block; height:auto; object-fit:cover;" />
         </div>
         
         <div class="fve-callout-list" style="display:flex; flex-direction:column; gap:1.5rem;">

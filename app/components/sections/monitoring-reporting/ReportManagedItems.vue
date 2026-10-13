@@ -3,7 +3,7 @@
     <div class="report-manage-container">
       <div class="rm-header" data-aos="fade-up">
         <h2 class="rm-title">Pantau Berbagai Informasi Operasional dalam Satu Platform</h2>
-        <p class="rm-subtitle">FleetSumo menghubungkan berbagai data operasional armada sehingga informasi dapat dipantau berdasarkan kebutuhan perusahaan.</p>
+        <p class="rm-subtitle">Cek Kendaraan menghubungkan berbagai data operasional armada sehingga informasi dapat dipantau berdasarkan kebutuhan perusahaan.</p>
       </div>
 
       <div class="rm-grid">

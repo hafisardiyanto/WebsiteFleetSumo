@@ -30,7 +30,7 @@
 
         <div class="mndd-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="mndd-mockup">
-                <img src="/assets/fitur/maintenance/maintenance-detail.png" alt="Detail Maintenance FleetSumo" class="mndd-img" />
+                <img src="/assets/fitur/maintenance/maintenance-detail.png" alt="Detail Maintenance Cek Kendaraan" class="mndd-img" />
             </div>
         </div>
       </div>

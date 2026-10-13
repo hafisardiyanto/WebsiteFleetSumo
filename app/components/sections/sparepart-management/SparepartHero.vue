@@ -9,7 +9,7 @@
           Kelola Sparepart Armada Secara Terstruktur dalam <span class="highlight">Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola data sparepart, stok, penggunaan, transaksi, dan riwayat sparepart yang berkaitan dengan kebutuhan operasional armada.
+          Cek Kendaraan membantu perusahaan mengelola data sparepart, stok, penggunaan, transaksi, dan riwayat sparepart yang berkaitan dengan kebutuhan operasional armada.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

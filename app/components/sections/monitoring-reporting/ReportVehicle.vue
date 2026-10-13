@@ -9,7 +9,7 @@
         <div class="rv-details" data-aos="fade-right">
             <span class="rv-label">VEHICLE REPORTING</span>
             <h2 class="rv-title">Analisis Biaya Kendaraan Berdasarkan Data yang Tersedia</h2>
-            <p class="rv-subtitle">FleetSumo menyediakan laporan kendaraan yang membantu perusahaan melihat informasi jumlah kendaraan dan biaya berdasarkan periode serta kendaraan.</p>
+            <p class="rv-subtitle">Cek Kendaraan menyediakan laporan kendaraan yang membantu perusahaan melihat informasi jumlah kendaraan dan biaya berdasarkan periode serta kendaraan.</p>
             
             <div class="rv-points">
                 <div class="rv-point">
@@ -34,7 +34,7 @@
         <!-- Right Visual (LaporanKendaraan.png real proof) -->
         <div class="rv-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="rv-mockup">
-                <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Laporan Kendaraan Real" class="rv-img" />
+                <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Cek Kendaraan Laporan Kendaraan Real" class="rv-img" />
             </div>
         </div>
 

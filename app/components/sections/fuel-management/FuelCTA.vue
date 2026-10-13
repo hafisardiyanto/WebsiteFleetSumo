@@ -6,7 +6,7 @@
     <div class="fuel-cta-container">
       <div class="fcta-content" data-aos="zoom-in">
         <span class="fcta-label">FUEL MANAGEMENT</span>
-        <h2 class="fcta-title">Kenali bagaimana FleetSumo dapat mendukung pengelolaan bahan bakar armada Anda.</h2>
+        <h2 class="fcta-title">Kenali bagaimana Cek Kendaraan dapat mendukung pengelolaan bahan bakar armada Anda.</h2>
         
         <div class="fcta-actions">
            <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

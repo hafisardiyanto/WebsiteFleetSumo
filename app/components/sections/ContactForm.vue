@@ -4,7 +4,7 @@
       <div class="cta-content">
         <h2 class="cta-title">Siap Mengelola Armada dengan Lebih Terstruktur?</h2>
         <p class="cta-desc">
-          Kenali bagaimana FleetSumo dapat membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, dan biaya dalam satu platform.
+          Kenali bagaimana Cek Kendaraan dapat membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, dan biaya dalam satu platform.
         </p>
         <div class="cta-actions">
           <button class="btn-primary">Minta Demo</button>

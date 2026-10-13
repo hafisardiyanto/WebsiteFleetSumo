@@ -7,7 +7,7 @@
       <div class="rcta-content" data-aos="zoom-in">
         <span class="rcta-label">SIAP MEMANTAU OPERASIONAL ARMADA DENGAN LEBIH BAIK?</span>
         <h2 class="rcta-title">Ubah Data Armada Menjadi Informasi yang Lebih Mudah Dipantau</h2>
-        <p class="rcta-desc">Diskusikan kebutuhan monitoring dan reporting armada perusahaan Anda bersama tim FleetSumo dan lihat bagaimana data operasional dapat dikelola dalam satu platform.</p>
+        <p class="rcta-desc">Diskusikan kebutuhan monitoring dan reporting armada perusahaan Anda bersama tim Cek Kendaraan dan lihat bagaimana data operasional dapat dikelola dalam satu platform.</p>
         
         <div class="rcta-actions">
            <button class="btn-primary">Minta Demo</button>

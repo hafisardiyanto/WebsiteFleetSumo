@@ -14,7 +14,7 @@
         <!-- Header -->
         <div class="ui-head">
           <div class="ui-dots"><span></span><span></span><span></span></div>
-          <div class="ui-title">FleetSumo - Central Dashboard Overview</div>
+          <div class="ui-title">Cek Kendaraan - Central Dashboard Overview</div>
         </div>
 
         <!-- Body -->

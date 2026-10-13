@@ -7,7 +7,7 @@
          <div class="aca-content">
             <span class="aca-label">SIAP MENATA PROSES OPERASIONAL DENGAN LEBIH TERSTRUKTUR?</span>
             <h2 class="aca-title">Kelola Pengajuan dan Approval dalam Satu Platform</h2>
-            <p class="aca-subtitle">Diskusikan kebutuhan workflow dan proses persetujuan operasional perusahaan Anda bersama tim FleetSumo.</p>
+            <p class="aca-subtitle">Diskusikan kebutuhan workflow dan proses persetujuan operasional perusahaan Anda bersama tim Cek Kendaraan.</p>
             
             <div class="aca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

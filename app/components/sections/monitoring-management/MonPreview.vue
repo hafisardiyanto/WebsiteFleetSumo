@@ -10,7 +10,7 @@
       <div class="mpv-grid" data-aos="fade-up" data-aos-delay="200" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap:2rem;">
          <div class="mpv-card" style="background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 10px 25px rgba(0,0,0,0.05);">
             <div class="mpv-img-wrap" style="height:250px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-               <img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="Vehicle Dashboard Overview FleetSumo" style="width:100%; height:100%; object-fit:cover;" />
+               <img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="Vehicle Dashboard Overview Cek Kendaraan" style="width:100%; height:100%; object-fit:cover;" />
             </div>
             <div class="mpv-info" style="padding:1.5rem; text-align:left;">
                <h4 style="font-size:1.25rem; font-weight:600; color:#1e293b; margin-bottom:0.5rem;">Vehicle Dashboard</h4>
@@ -20,7 +20,7 @@
 
          <div class="mpv-card" style="background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 10px 25px rgba(0,0,0,0.05);">
             <div class="mpv-img-wrap" style="height:250px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-               <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Fuel Status Dashboard FleetSumo" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
+               <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Fuel Status Dashboard Cek Kendaraan" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
             </div>
             <div class="mpv-info" style="padding:1.5rem; text-align:left;">
                <h4 style="font-size:1.25rem; font-weight:600; color:#1e293b; margin-bottom:0.5rem;">Fuel Dashboard</h4>
@@ -30,7 +30,7 @@
 
          <div class="mpv-card" style="background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 10px 25px rgba(0,0,0,0.05);">
             <div class="mpv-img-wrap" style="height:250px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-               <img src="/assets/fitur/maintenance/maintenance-detail.png" alt="Detail Rekapan Servis Bengkel FleetSumo" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
+               <img src="/assets/fitur/maintenance/maintenance-detail.png" alt="Detail Rekapan Servis Bengkel Cek Kendaraan" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
             </div>
             <div class="mpv-info" style="padding:1.5rem; text-align:left;">
                <h4 style="font-size:1.25rem; font-weight:600; color:#1e293b; margin-bottom:0.5rem;">Detail Maintenance</h4>
@@ -40,7 +40,7 @@
 
          <div class="mpv-card" style="background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 10px 25px rgba(0,0,0,0.05);">
             <div class="mpv-img-wrap" style="height:250px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-               <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Laporan Finansial Tutup Buku FleetSumo" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
+               <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Laporan Finansial Tutup Buku Cek Kendaraan" style="width:100%; height:100%; object-fit:cover; object-position:top;" />
             </div>
             <div class="mpv-info" style="padding:1.5rem; text-align:left;">
                <h4 style="font-size:1.25rem; font-weight:600; color:#1e293b; margin-bottom:0.5rem;">Vehicle Report Summary</h4>

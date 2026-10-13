@@ -4,12 +4,12 @@
       <div class="fleet-what-header" data-aos="fade-up">
         <h2 class="fleet-what-title">Satu Tempat untuk Mengelola Informasi Armada</h2>
         <p class="fleet-what-subtitle">
-          FleetSumo menyediakan satu pusat pengelolaan informasi kendaraan dan aktivitas armada sehingga tim dapat mengakses data yang dibutuhkan dengan lebih mudah.
+          Cek Kendaraan menyediakan satu pusat pengelolaan informasi kendaraan dan aktivitas armada sehingga tim dapat mengakses data yang dibutuhkan dengan lebih mudah.
         </p>
       </div>
 
       <div class="fleet-what-visual" data-aos="fade-up" data-aos-delay="100">
-        <img src="/assets/umum/backgrounds/solution-construction.jpg" alt="Pusat Pengelolaan FleetSumo" class="fleet-what-img">
+        <img src="/assets/umum/backgrounds/solution-construction.jpg" alt="Pusat Pengelolaan Cek Kendaraan" class="fleet-what-img">
       </div>
 
       <div class="fleet-what-grid">

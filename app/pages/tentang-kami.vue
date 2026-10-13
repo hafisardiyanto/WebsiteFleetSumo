@@ -1,19 +1,19 @@
 <script setup>
 useHead({
-  title: 'Tentang FleetSumo | Software Manajemen Armada Indonesia',
+  title: 'Tentang Cek Kendaraan | Software Manajemen Armada Indonesia',
   meta: [
-    { name: 'description', content: 'Mengenal FleetSumo, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
-    { property: 'og:title', content: 'Tentang FleetSumo | Software Manajemen Armada Indonesia' },
-    { property: 'og:description', content: 'Mengenal FleetSumo, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
+    { name: 'description', content: 'Mengenal Cek Kendaraan, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
+    { property: 'og:title', content: 'Tentang Cek Kendaraan | Software Manajemen Armada Indonesia' },
+    { property: 'og:description', content: 'Mengenal Cek Kendaraan, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
     { property: 'og:url', content: 'https://fleetsumo.id/tentang-kami' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-tentang-kami.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Tentang FleetSumo - Platform Manajemen Armada Indonesia' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Manajemen Ban Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Tentang FleetSumo | Software Manajemen Armada Indonesia' },
-    { name: 'twitter:description', content: 'Mengenal FleetSumo, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
+    { name: 'twitter:title', content: 'Tentang Cek Kendaraan | Software Manajemen Armada Indonesia' },
+    { name: 'twitter:description', content: 'Mengenal Cek Kendaraan, platform software manajemen armada dari Indonesia yang membantu perusahaan mengoptimalkan tata kelola dan efisiensi operasional kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-tentang-kami.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -71,7 +71,7 @@ import FooterSection from '~/components/sections/FooterSection.vue';
         <span class="hero-badge">TENTANG FLEETSUMO</span>
         <h1 class="hero-title">Membangun Ekosistem Manajemen Armada Terstruktur untuk Operasional Bisnis</h1>
         <p class="hero-desc">
-          FleetSumo hadir sebagai solusi software manajemen armada terintegrasi yang dirancang untuk menjawab tantangan operasional kendaraan operasional di Indonesia. Kami membantu tim operasional dan manajemen menghubungkan pencatatan kendaraan, jadwal pemeliharaan bengkel, pengawasan BBM, siklus pemakaian ban, hingga kontrol anggaran operasional dalam satu platform sentral yang transparan.
+          Cek Kendaraan hadir sebagai solusi software manajemen armada terintegrasi yang dirancang untuk menjawab tantangan operasional kendaraan operasional di Indonesia. Kami membantu tim operasional dan manajemen menghubungkan pencatatan kendaraan, jadwal pemeliharaan bengkel, pengawasan BBM, siklus pemakaian ban, hingga kontitle: 'Monitoring Operasional Armada \u0026 Sistem Pelaporan | Cek Kendaraan',ral yang transparan.
         </p>
       </section>
 
@@ -106,7 +106,7 @@ import FooterSection from '~/components/sections/FooterSection.vue';
       <!-- Values Section -->
       <section class="values-section">
         <div class="section-header">
-          <h2 class="section-title">Pendekatan Nilai Solusi FleetSumo</h2>
+          <h2 class="section-title">Pendekatan Nilai Solusi Cek Kendaraan</h2>
           <p class="section-subtitle">Prinsip fundamental kami dalam merancang platform manajemen armada yang andal dan aplikatif.</p>
         </div>
 
@@ -141,7 +141,7 @@ import FooterSection from '~/components/sections/FooterSection.vue';
       <section class="about-cta-section">
         <div class="cta-inner">
           <h2 class="cta-title">Siap Mengoptimalkan Pengelolaan Armada Anda?</h2>
-          <p class="cta-desc">Pelajari bagaimana FleetSumo dapat disesuaikan dengan alur kerja armada perusahaan Anda bersama tim kami.</p>
+          <p class="cta-desc">Pelajari bagaimana Cek Kendaraan dapat disesuaikan dengan alur kerja armada perusahaan Anda bersama tim kami.</p>
           <div class="cta-actions">
             <NuxtLink to="/kontak/demo" class="btn-primary">Jadwalkan Sesi Demo &rarr;</NuxtLink>
             <NuxtLink to="/solusi/fleet-management" class="btn-secondary">Pelajari Solusi Armada</NuxtLink>

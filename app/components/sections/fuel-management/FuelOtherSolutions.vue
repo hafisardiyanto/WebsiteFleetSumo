@@ -4,7 +4,7 @@
       <div class="fuel-other-header" data-aos="fade-up">
         <h2 class="fuel-other-title">Terintegrasi Dengan Keseluruhan Ekosistem Navigasi</h2>
         <p class="fuel-other-subtitle">
-          Fuel Management terhubung dengan dimensi manajemen finansial, pencatatan bengkel armada, hingga pendataan suku cadang pada platform FleetSumo.
+          Fuel Management terhubung dengan dimensi manajemen finansial, pencatatan bengkel armada, hingga pendataan suku cadang pada platform Cek Kendaraan.
         </p>
       </div>
 

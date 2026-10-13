@@ -3,7 +3,7 @@
     <div class="tyre-manage-container">
       <div class="tma-header" data-aos="fade-up">
         <h2 class="tma-title">Kelola Informasi Ban Secara Terpusat</h2>
-        <p class="tma-subtitle">FleetSumo membantu mengorganisir informasi yang berkaitan dengan ban kendaraan sehingga seluruh aktivitas dapat dipantau dari satu sistem terstruktur.</p>
+        <p class="tma-subtitle">Cek Kendaraan membantu mengorganisir informasi yang berkaitan dengan ban kendaraan sehingga seluruh aktivitas dapat dipantau dari satu sistem terstruktur.</p>
       </div>
 
       <div class="tma-grid">

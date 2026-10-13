@@ -3,7 +3,7 @@
     <div class="home-solutions-container">
       <div class="sol-header" data-aos="fade-up">
         <h2 class="sol-title">Solusi Terintegrasi untuk Setiap Kebutuhan Armada</h2>
-        <p class="sol-subtitle">Kelola berbagai aspek operasional armada melalui solusi yang saling terhubung dalam satu platform FleetSumo.</p>
+        <p class="sol-subtitle">Kelola berbagai aspek operasional armada melalui solusi yang saling terhubung dalam satu platform Cek Kendaraan.</p>
       </div>
 
       <div class="sol-grid">

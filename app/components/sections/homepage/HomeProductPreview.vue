@@ -2,7 +2,7 @@
   <section class="home-product-wrapper">
     <div class="home-product-container">
       <div class="product-header" data-aos="fade-up">
-        <h2 class="product-title">Lihat FleetSumo dalam Aksi</h2>
+        <h2 class="product-title">Lihat Cek Kendaraan dalam Aksi</h2>
         <p class="product-subtitle">Satu platform untuk memantau kendaraan, maintenance, BBM, ban, biaya, dan aktivitas operasional armada.</p>
       </div>
 

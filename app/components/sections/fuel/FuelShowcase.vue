@@ -24,7 +24,7 @@ const screenshots = [
     <div class="fuel-showcase-container">
       <div class="fus-header" data-aos="fade-up">
         <span class="fus-label">PRODUCT SHOWCASE</span>
-        <h2 class="fus-title">Lihat Fitur Fuel Management dalam FleetSumo</h2>
+        <h2 class="fus-title">Lihat Fitur Fuel Management dalam Cek Kendaraan</h2>
       </div>
 
       <div class="fus-tabs" data-aos="fade-up" data-aos-delay="100">

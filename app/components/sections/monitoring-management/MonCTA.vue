@@ -8,7 +8,7 @@
       <div class="mon-cta-content">
         <h2 class="mon-cta-title">Ubah Data Armada Menjadi Informasi yang Lebih Bermakna</h2>
         <p class="mon-cta-desc">
-          Pantau kendaraan, biaya, maintenance, BBM, ban, dan aktivitas armada melalu sistem FleetSumo yang terintegrasi secara valid.
+          Pantau kendaraan, biaya, maintenance, BBM, ban, dan aktivitas armada melalu sistem Cek Kendaraan yang terintegrasi secara valid.
         </p>
         <div class="mon-cta-actions">
           <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

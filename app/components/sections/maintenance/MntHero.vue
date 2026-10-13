@@ -12,7 +12,7 @@
           Kelola Proses Maintenance Kendaraan <span class="highlight">Secara Terstruktur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola proses maintenance kendaraan mulai dari identifikasi kebutuhan, pengajuan, approval, pelaksanaan, hingga pencatatan riwayat maintenance dalam satu sistem.
+          Cek Kendaraan membantu perusahaan mengelola proses maintenance kendaraan mulai dari identifikasi kebutuhan, pengajuan, approval, pelaksanaan, hingga pencatatan riwayat maintenance dalam satu sistem.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -22,7 +22,7 @@
 
       <div class="mnt-hero-visual" data-aos="zoom-in" data-aos-delay="400">
         <div class="hero-mockup">
-          <img src="/assets/fitur/maintenance/maintenance-form.png" alt="Screenshot Maintenance FleetSumo" class="hero-img">
+          <img src="/assets/fitur/maintenance/maintenance-form.png" alt="Screenshot Maintenance Cek Kendaraan" class="hero-img">
         </div>
       </div>
     </div>

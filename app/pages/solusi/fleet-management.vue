@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo',
+  title: 'Sistem Manajemen Armada Terpusat untuk Bisnis | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
-    { property: 'og:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo' },
+    { property: 'og:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | Cek Kendaraan' },
     { property: 'og:description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/fleet-management' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Solusi Fleet Management Terpusat' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Fleet Management Terpusat' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | FleetSumo' },
+    { name: 'twitter:title', content: 'Sistem Manajemen Armada Terpusat untuk Bisnis | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Solusi fleet management komprehensif untuk memantau status kendaraan, penugasan supir, dan visibilitas siklus operasional armada secara terpadu.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }

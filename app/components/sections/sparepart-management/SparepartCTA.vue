@@ -7,7 +7,7 @@
          <div class="sca-content">
             <span class="sca-label">SIAP MENGELOLA SPAREPART DENGAN LEBIH TERSTRUKTUR?</span>
             <h2 class="sca-title">Kelola Sparepart Armada dalam Satu Platform</h2>
-            <p class="sca-subtitle">Diskusikan kebutuhan pengelolaan sparepart dan operasional armada perusahaan Anda bersama tim FleetSumo.</p>
+            <p class="sca-subtitle">Diskusikan kebutuhan pengelolaan sparepart dan operasional armada perusahaan Anda bersama tim Cek Kendaraan.</p>
             
             <div class="sca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

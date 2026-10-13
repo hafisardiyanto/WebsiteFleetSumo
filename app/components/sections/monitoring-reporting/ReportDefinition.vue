@@ -4,7 +4,7 @@
        <div class="rdf-header" data-aos="fade-up">
         <span class="rdf-label">MONITORING & REPORTING</span>
         <h2 class="rdf-title">Satu Tampilan untuk Memantau Berbagai Aktivitas Armada</h2>
-        <p class="rdf-subtitle">Monitoring & Reporting FleetSumo menggabungkan informasi dari berbagai aktivitas armada sehingga perusahaan dapat melihat data operasional melalui dashboard dan laporan.</p>
+        <p class="rdf-subtitle">Monitoring & Reporting Cek Kendaraan menggabungkan informasi dari berbagai aktivitas armada sehingga perusahaan dapat melihat data operasional melalui dashboard dan laporan.</p>
       </div>
 
       <div class="rdf-diagram" data-aos="fade-up" data-aos-delay="200">

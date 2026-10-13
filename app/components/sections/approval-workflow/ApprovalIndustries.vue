@@ -4,7 +4,7 @@
       <div class="aid-header" data-aos="fade-up">
         <span class="aid-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="aid-title">Workflow Operasional untuk Berbagai Industri</h2>
-        <p class="aid-subtitle">Setiap perusahaan memiliki proses persetujuan yang berbeda. FleetSumo membantu mendukung pengelolaan workflow operasional sesuai kebutuhan perusahaan.</p>
+        <p class="aid-subtitle">Setiap perusahaan memiliki proses persetujuan yang berbeda. Cek Kendaraan membantu mendukung pengelolaan workflow operasional sesuai kebutuhan perusahaan.</p>
       </div>
 
       <div class="aid-grid">

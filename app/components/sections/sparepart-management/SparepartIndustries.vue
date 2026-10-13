@@ -4,7 +4,7 @@
       <div class="sid-header" data-aos="fade-up">
         <span class="sid-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="sid-title">Pengelolaan Sparepart untuk Berbagai Kebutuhan Armada</h2>
-        <p class="sid-subtitle">Setiap perusahaan memiliki kebutuhan inventory yang berbeda. FleetSumo membantu mengelola sparepart sebagai bagian dari operasional armada secara lebih terstruktur.</p>
+        <p class="sid-subtitle">Setiap perusahaan memiliki kebutuhan inventory yang berbeda. Cek Kendaraan membantu mengelola sparepart sebagai bagian dari operasional armada secara lebih terstruktur.</p>
       </div>
 
       <div class="sid-grid">

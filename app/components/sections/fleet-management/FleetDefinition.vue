@@ -3,7 +3,7 @@
     <div class="fleet-def-container">
       <div class="fd-header" data-aos="fade-up">
         <h2 class="fd-title">Satu Pusat Informasi untuk Seluruh Armada</h2>
-        <p class="fd-subtitle">Fleet Management merupakan proses pengelolaan kendaraan dan informasi yang berkaitan dengan operasional armada. FleetSumo membantu perusahaan mengelola informasi tersebut dalam satu platform, mulai dari data kendaraan hingga riwayat aktivitasnya.</p>
+        <p class="fd-subtitle">Fleet Management merupakan proses pengelolaan kendaraan dan informasi yang berkaitan dengan operasional armada. Cek Kendaraan membantu perusahaan mengelola informasi tersebut dalam satu platform, mulai dari data kendaraan hingga riwayat aktivitasnya.</p>
         <div class="fd-highlight">Kendaraan menjadi pusat informasi yang menghubungkan berbagai aktivitas armada.</div>
       </div>
 

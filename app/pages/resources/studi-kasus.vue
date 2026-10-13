@@ -5,7 +5,7 @@ import FooterSection from '~/components/sections/FooterSection.vue';
 useHead({
   title: 'Studi Kasus Implementasi Armada | Cek Kendaraan',
   meta: [
-    { property: 'og:description', content: 'Informasi implementasi dan studi kasus pemanfaatan sistem manajemen armada Cek Kendaraan FleetSumo di berbagai sektor operasional bisnis.' },
+    { property: 'og:description', content: 'Informasi implementasi dan studi kasus pemanfaatan sistem manajemen armada Cek Kendaraan Cek Kendaraan di berbagai sektor operasional bisnis.' },
     { property: 'og:title', content: 'Studi Kasus Implementasi Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Pelajari bagaimana perusahaan mengadopsi pencatatan armada terpusat, pengawasan bengkel, dan kontrol biaya operasional secara bertahap.' },
     { property: 'og:type', content: 'website' },
@@ -15,8 +15,8 @@ useHead({
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:alt', content: 'Studi Kasus Implementasi Armada - Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Studi Kasus Implementasi Armada | FleetSumo' },
-    { name: 'twitter:description', content: 'Informasi implementasi dan studi kasus pemanfaatan sistem manajemen armada Cek Kendaraan FleetSumo.' },
+    { name: 'twitter:title', content: 'Studi Kasus Implementasi Armada | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Informasi implementasi dan studi kasus pemanfaatan sistem manajemen armada Cek Kendaraan Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-home.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -84,7 +84,7 @@ useHead({
         <div class="empty-icon">📂</div>
         <h2 class="empty-title">Dokumentasi Studi Kasus Sedang Dalam Proses Kurasi</h2>
         <p class="empty-desc">
-          Sebagai komitmen kami terhadap transparansi, FleetSumo hanya menerbitkan studi kasus yang telah terverifikasi secara resmi bersama mitra perusahaan. Publikasi studi kasus terperinci akan dirilis secara berkala.
+          Sebagai komitmen kami terhadap transparansi, Cek Kendaraan hanya menerbitkan studi kasus yang telah terverifikasi secara resmi bersama mitra perusahaan. Publikasi studi kasus terperinci akan dirilis secara berkala.
         </p>
         <a href="/kontak/demo" class="btn-primary">Diskusikan Kebutuhan Implementasi Anda</a>
       </div>
@@ -126,7 +126,7 @@ useHead({
       <div class="res-cta-banner">
         <h2 class="cta-title">Ingin Menjadi Bagian dari Cerita Sukses Berikutnya?</h2>
         <p class="cta-desc">
-          Konsultasikan tantangan pengelolaan kendaraan perusahaan Anda dan pelajari solusi alur kerja yang relevan bersama tim FleetSumo.
+          Konsultasikan tantangan pengelolaan kendaraan perusahaan Anda dan pelajari solusi alur kerja yang relevan bersama tim Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Diskusi Implementasi</a>
       </div>

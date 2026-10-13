@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo',
+  title: 'Fitur Database Kendaraan & Arsip Dokumen Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
-    { property: 'og:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/fleet-vehicle' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fleet-vehicle.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Database Kendaraan & Dokumen' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Database Kendaraan & Dokumen' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Database Kendaraan & Arsip Dokumen Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Kelola data teknis unit, riwayat kepemilikan, serta pencatatan masa berlaku dokumen STNK dan KIR kendaraan armada dalam satu database terpusat.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-fleet-vehicle.png' },
     { name: 'robots', content: 'index, follow' }

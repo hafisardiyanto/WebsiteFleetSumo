@@ -8,7 +8,7 @@
     <div class="fuel-cta-container relative-content" data-aos="fade-up">
        <span class="fuc-label">SIAP MENGELOLA BBM ARMADA DENGAN LEBIH TERSTRUKTUR?</span>
        <h2 class="fuc-title">Kelola Aktivitas BBM dalam Satu Platform</h2>
-       <p class="fuc-subtitle">Diskusikan kebutuhan pengelolaan BBM dan operasional armada perusahaan Anda bersama tim FleetSumo.</p>
+       <p class="fuc-subtitle">Diskusikan kebutuhan pengelolaan BBM dan operasional armada perusahaan Anda bersama tim Cek Kendaraan.</p>
        
        <div class="fuc-actions">
            <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

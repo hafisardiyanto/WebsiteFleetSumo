@@ -1,19 +1,19 @@
 <script setup>
 useHead({
-  title: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo',
+  title: 'Fitur Work Order & Pencatatan Servis Armada | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
-    { property: 'og:title', content: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo' },
-    { property: 'og:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
+    { name: 'description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance Cek Kendaraan.' },
+    { property: 'og:title', content: 'Fitur Work Order & Pencatatan Servis Armada | Cek Kendaraan' },
+    { property: 'og:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance Cek Kendaraan.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/maintenance' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-maintenance.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Work Order & Servis Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Work Order & Servis Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Work Order & Pencatatan Servis Armada | FleetSumo' },
-    { name: 'twitter:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance FleetSumo.' },
+    { name: 'twitter:title', content: 'Fitur Work Order & Pencatatan Servis Armada | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Catat aktivitas bengkel, instruksi kerja perbaikan, riwayat suku cadang, dan jadwal servis berkala kendaraan dengan modul maintenance Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-maintenance.png' },
     { name: 'robots', content: 'index, follow' }
   ],

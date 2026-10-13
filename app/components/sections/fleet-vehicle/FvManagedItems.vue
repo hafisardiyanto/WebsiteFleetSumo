@@ -3,7 +3,7 @@
     <div class="fv-manage-container">
       <div class="fvm-header" data-aos="fade-up">
         <h2 class="fvm-title">Kelola Informasi Kendaraan Secara Terpusat</h2>
-        <p class="fvm-subtitle">FleetSumo menyediakan tempat untuk mengelola berbagai informasi yang berkaitan dengan kendaraan.</p>
+        <p class="fvm-subtitle">Cek Kendaraan menyediakan tempat untuk mengelola berbagai informasi yang berkaitan dengan kendaraan.</p>
       </div>
 
       <div class="fvm-grid">

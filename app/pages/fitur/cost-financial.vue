@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo',
+  title: 'Fitur Administrasi Biaya & Anggaran Operasional | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
-    { property: 'og:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | Cek Kendaraan' },
     { property: 'og:description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/cost-financial' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-cost.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Administrasi Biaya Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Administrasi Biaya Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Administrasi Biaya & Anggaran Operasional | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Catat administrasi biaya perjalanan, tol, parkir, dan retribusi, serta pantau realisasi pengeluaran terhadap anggaran operasional armada.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-cost.png' },
     { name: 'robots', content: 'index, follow' }

@@ -7,7 +7,7 @@
          <div class="rca-content">
             <span class="rca-label">SIAP MENDAPATKAN VISIBILITAS ARMADA YANG LEBIH BAIK?</span>
             <h2 class="rca-title">Pantau Operasional Armada dalam Satu Platform</h2>
-            <p class="rca-subtitle">Diskusikan kebutuhan monitoring dan reporting perusahaan Anda bersama tim FleetSumo dan lihat bagaimana FleetSumo dapat membantu menyajikan informasi armada secara lebih terstruktur.</p>
+            <p class="rca-subtitle">Diskusikan kebutuhan monitoring dan reporting perusahaan Anda bersama tim Cek Kendaraan dan lihat bagaimana Cek Kendaraan dapat membantu menyajikan informasi armada secara lebih terstruktur.</p>
             
             <div class="rca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

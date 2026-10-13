@@ -4,7 +4,7 @@
       <div class="mon-report-vehicle-header" data-aos="fade-up">
         <h2 class="mon-report-vehicle-title">Pahami Biaya Kendaraan dengan Data Terstruktur</h2>
         <p class="mon-report-vehicle-subtitle">
-          FleetSumo menyajikan informasi biaya kendaraan dalam satu laporan rapi sehingga perusahaan lebih mudah memonitor tren, mencari biaya operasional termahal, dan menyaring daftar kendaraan aktif.
+          Cek Kendaraan menyajikan informasi biaya kendaraan dalam satu laporan rapi sehingga perusahaan lebih mudah memonitor tren, mencari biaya operasional termahal, dan menyaring daftar kendaraan aktif.
         </p>
       </div>
 

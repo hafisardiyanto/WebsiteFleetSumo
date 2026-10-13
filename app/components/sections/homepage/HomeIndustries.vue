@@ -4,7 +4,7 @@
       <div class="hi-header" data-aos="fade-up">
         <span class="hi-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="hi-title">Mendukung Berbagai Kebutuhan Operasional Armada</h2>
-        <p class="hi-subtitle">Setiap industri memiliki karakteristik dan kebutuhan operasional yang berbeda. FleetSumo membantu perusahaan mengelola armada dengan pendekatan yang dapat disesuaikan dengan proses bisnis masing-masing.</p>
+        <p class="hi-subtitle">Setiap industri memiliki karakteristik dan kebutuhan operasional yang berbeda. Cek Kendaraan membantu perusahaan mengelola armada dengan pendekatan yang dapat disesuaikan dengan proses bisnis masing-masing.</p>
       </div>
 
       <div class="hi-grid">

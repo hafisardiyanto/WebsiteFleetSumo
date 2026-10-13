@@ -7,7 +7,7 @@
          <div class="cca-content">
             <span class="cca-label">SIAP MENGENDALIKAN BIAYA ARMADA DENGAN LEBIH TERSTRUKTUR?</span>
             <h2 class="cca-title">Kelola Biaya Armada dalam Satu Platform</h2>
-            <p class="cca-subtitle">Diskusikan kebutuhan pengelolaan biaya operasional armada perusahaan Anda bersama tim FleetSumo.</p>
+            <p class="cca-subtitle">Diskusikan kebutuhan pengelolaan biaya operasional armada perusahaan Anda bersama tim Cek Kendaraan.</p>
             
             <div class="cca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

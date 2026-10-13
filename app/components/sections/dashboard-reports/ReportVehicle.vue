@@ -33,7 +33,7 @@
 
          <div class="rvhc-right" data-aos="fade-left" data-aos-delay="200">
              <div class="rvhc-mockup">
-                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Laporan Kendaraan FleetSumo" class="rvhc-img" />
+                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Laporan Kendaraan Cek Kendaraan" class="rvhc-img" />
              </div>
          </div>
 

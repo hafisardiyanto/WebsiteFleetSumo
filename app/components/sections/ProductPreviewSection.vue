@@ -4,7 +4,7 @@
       <div class="preview-header" data-aos="fade-up">
         <h2 class="preview-title">Lihat Kondisi Armada dalam Satu Dashboard</h2>
         <p class="preview-subtitle">
-          FleetSumo membantu mengubah data operasional menjadi informasi yang lebih mudah dipantau, sehingga tim dapat melihat kondisi armada, aktivitas maintenance, penggunaan sumber daya, dan biaya dalam satu tampilan.
+          Cek Kendaraan membantu mengubah data operasional menjadi informasi yang lebih mudah dipantau, sehingga tim dapat melihat kondisi armada, aktivitas maintenance, penggunaan sumber daya, dan biaya dalam satu tampilan.
         </p>
       </div>
 
@@ -42,9 +42,9 @@
           <div class="browser-dots">
             <span></span><span></span><span></span>
           </div>
-          <div class="browser-title">FleetSumo Platform v2.0</div>
+          <div class="browser-title">Cek Kendaraan Platform v2.0</div>
         </div>
-        <img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="FleetSumo Dashboard Preview" class="dashboard-img">
+        <img src="/assets/fitur/fleet-vehicle/vehicle-dashboard.jpg" alt="Cek Kendaraan Dashboard Preview" class="dashboard-img">
         
         <!-- Subtle Glow Effects -->
         <div class="glow-effect glow-orange"></div>

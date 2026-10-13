@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Armada Perkebunan | FleetSumo',
+  title: 'Solusi Manajemen Armada Perkebunan | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Kelola data armada dan kendaraan perkebunan dengan Cek Kendaraan dari FleetSumo. Catat riwayat servis unit langsir, penggantian ban traksi, dan solar estate.' },
-    { property: 'og:title', content: 'Solusi Manajemen Armada Perkebunan | FleetSumo' },
+    { name: 'description', content: 'Kelola data armada dan kendaraan perkebunan dengan Cek Kendaraan dari Cek Kendaraan. Catat riwayat servis unit langsir, penggantian ban traksi, dan solar estate.' },
+    { property: 'og:title', content: 'Solusi Manajemen Armada Perkebunan | Cek Kendaraan' },
     { property: 'og:description', content: 'Sistem manajemen data armada perkebunan kelapa sawit dan komoditas. Tertibkan pencatatan traktor, truk angkut TBS, dan perbaikan bengkel kebun.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/perkebunan' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Armada Perkebunan - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Armada Perkebunan - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Armada Perkebunan | FleetSumo' },
-    { name: 'twitter:description', content: 'Kelola data armada dan kendaraan perkebunan dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Armada Perkebunan | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Kelola data armada dan kendaraan perkebunan dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Armada & Unit Perkebunan <span class="highlight">yang Rapi & Terpusat</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo membantu manajemen perkebunan mengelola pencatatan truk angkut panen, traktor kebun, dan kendaraan operasional afdeling. Pantau riwayat bengkel kebun, penggantian ban traksi, dan catatan solar operasional secara teratur.
+            Cek Kendaraan dari Cek Kendaraan membantu manajemen perkebunan mengelola pencatatan truk angkut panen, traktor kebun, dan kendaraan operasional afdeling. Pantau riwayat bengkel kebun, penggantian ban traksi, dan catatan solar operasional secara teratur.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Estate Kebun</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Perkebunan.jpg" alt="Armada Operasional Perkebunan FleetSumo" />
+          <img src="/assets/Industri/Perkebunan.jpg" alt="Armada Operasional Perkebunan Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -238,7 +238,7 @@ useHead({
       <div class="content-container">
         <h2 class="cta-title">Tata Kelola Armada Kebun Lebih Terkontrol</h2>
         <p class="cta-desc">
-          Konsultasikan kebutuhan pencatatan kendaraan dan suku cadang perkebunan Anda bersama tim FleetSumo.
+          Konsultasikan kebutuhan pencatatan kendaraan dan suku cadang perkebunan Anda bersama tim Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Konsultasi Demo</a>
       </div>

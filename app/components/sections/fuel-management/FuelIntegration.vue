@@ -3,7 +3,7 @@
     <div class="fuel-inte-container">
       <div class="fi-header" data-aos="fade-up">
         <h2 class="fi-title">Fuel Management Terhubung dengan Data Armada</h2>
-        <p class="fi-subtitle">Informasi BBM berkaitan erat dengan kendaraan dan aktivitas operasional lainnya. FleetSumo membantu menghubungkan informasi tersebut dalam satu ekosistem.</p>
+        <p class="fi-subtitle">Informasi BBM berkaitan erat dengan kendaraan dan aktivitas operasional lainnya. Cek Kendaraan membantu menghubungkan informasi tersebut dalam satu ekosistem.</p>
       </div>
 
       <div class="mi-layout" data-aos="fade-up" data-aos-delay="200" style="display:flex; flex-direction:column; align-items:center;">

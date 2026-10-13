@@ -6,11 +6,11 @@
       <div class="rd-header" data-aos="fade-up">
         <span class="rd-label">FLEET DASHBOARD</span>
         <h2 class="rd-title">Lihat Kondisi Operasional Armada dari Satu Dashboard</h2>
-        <p class="rd-subtitle">Dashboard FleetSumo membantu menyajikan informasi operasional dalam satu tampilan sehingga pengguna dapat melihat data yang relevan dengan lebih mudah.</p>
+        <p class="rd-subtitle">Dashboard Cek Kendaraan membantu menyajikan informasi operasional dalam satu tampilan sehingga pengguna dapat melihat data yang relevan dengan lebih mudah.</p>
       </div>
 
       <div class="rd-hero-mockup" data-aos="zoom-in" data-aos-delay="100">
-         <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Dashboard Layout Placeholder" class="rd-img" />
+         <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Cek Kendaraan Dashboard Layout Placeholder" class="rd-img" />
          <!-- Simulated UI Frame -->
          <div class="rd-dot d1"></div>
          <div class="rd-dot d2"></div>

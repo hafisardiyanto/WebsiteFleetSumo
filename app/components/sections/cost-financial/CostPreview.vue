@@ -2,7 +2,7 @@
   <section class="cost-preview-wrapper">
     <div class="cost-preview-container">
       <div class="cpr-header" data-aos="fade-up">
-        <h2 class="cpr-title">Lihat Cost & Financial dalam FleetSumo</h2>
+        <h2 class="cpr-title">Lihat Cost & Financial dalam Cek Kendaraan</h2>
       </div>
 
       <div class="cpr-gallery">

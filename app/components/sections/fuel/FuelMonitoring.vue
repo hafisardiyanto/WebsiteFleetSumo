@@ -8,7 +8,7 @@
 
        <div class="fumo-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">
          <div class="fumo-mockup">
-             <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Tampilan Utama Monitoring BBM FleetSumo" class="fumo-img" />
+             <img src="/assets/fitur/fuel/fuel-dashboard.png" alt="Tampilan Utama Monitoring BBM Cek Kendaraan" class="fumo-img" />
          </div>
       </div>
 

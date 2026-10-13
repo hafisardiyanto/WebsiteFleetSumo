@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo',
+  title: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
-    { property: 'og:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/vendor' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-vendor.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Manajemen Vendor Bengkel & Rekanan' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Manajemen Vendor Bengkel & Rekanan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Manajemen Vendor Bengkel & Rekanan Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Kelola basis data vendor perbaikan, histori penyedia suku cadang, kontak bengkel rekanan, dan evaluasi riwayat kerja sama armada bisnis.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-vendor.png' },
     { name: 'robots', content: 'index, follow' }

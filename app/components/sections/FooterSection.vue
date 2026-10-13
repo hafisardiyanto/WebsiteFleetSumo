@@ -5,7 +5,7 @@
       <!-- Top Grid: Brand | Solusi | Fitur | Company -->
       <div class="footer-top">
          <div class="footer-brand">
-            <h3 class="f-logo">FleetSumo</h3>
+            <h3 class="f-logo">Cek Kendaraan</h3>
             <p class="f-desc">Platform manajemen armada untuk membantu perusahaan mengelola kendaraan dan operasional armada secara lebih terstruktur, terintegrasi, dan berbasis data.</p>
          </div>
 
@@ -72,7 +72,7 @@
       <!-- Bottom Credits -->
       <div class="footer-bottom">
          <div class="fb-left">
-            &copy; 2026 FleetSumo. All rights reserved.
+            &copy; 2026 Cek Kendaraan. All rights reserved.
          </div>
          <div class="fb-right">
          </div>

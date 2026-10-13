@@ -9,7 +9,7 @@
       <div class="uc-table-grid" data-aos="fade-up" data-aos-delay="100" style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; text-align:left;">
         <!-- Sebelum -->
         <div class="uc-card before-card" style="background:#fff; border-radius:12px; padding:2rem; border-top:4px solid #ef4444; box-shadow:0 10px 15px rgba(0,0,0,0.02);">
-           <h3 style="font-size:1.3rem; color:#ef4444; margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;"><span style="font-size:1.5rem;">⚠️</span> Sebelum FleetSumo</h3>
+           <h3 style="font-size:1.3rem; color:#ef4444; margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;"><span style="font-size:1.5rem;">⚠️</span> Sebelum Cek Kendaraan</h3>
            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:1rem;">
              <li style="display:flex; gap:0.8rem; align-items:flex-start;"><span style="color:#ef4444;">❌</span> Data lisensi SIM, KTP, dan sertifikasi driver tercecer dalam format dokumen kertas.</li>
              <li style="display:flex; gap:0.8rem; align-items:flex-start;"><span style="color:#ef4444;">❌</span> Kesulitan mengingat batas tenggat jatuh tempo pembaruan SIM harian.</li>
@@ -19,7 +19,7 @@
         
         <!-- Sesudah -->
         <div class="uc-card after-card" style="background:#fff; border-radius:12px; padding:2rem; border-top:4px solid #10b981; box-shadow:0 10px 15px rgba(0,0,0,0.05);">
-           <h3 style="font-size:1.3rem; color:#10b981; margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;"><span style="font-size:1.5rem;">✅</span> Dengan FleetSumo</h3>
+           <h3 style="font-size:1.3rem; color:#10b981; margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;"><span style="font-size:1.5rem;">✅</span> Dengan Cek Kendaraan</h3>
            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:1rem;">
              <li style="display:flex; gap:0.8rem; align-items:flex-start;"><span style="color:#10b981;">✔️</span> Database seluruh biodata pengemudi beserta riwayat tugas berada pada satu sistem cloud.</li>
              <li style="display:flex; gap:0.8rem; align-items:flex-start;"><span style="color:#10b981;">✔️</span> Parameter masa berlaku lisensi tercatat rapi sehingga staf operasional bisa memonitor.</li>

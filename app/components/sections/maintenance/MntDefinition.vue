@@ -3,7 +3,7 @@
     <div class="mnt-def-container">
        <div class="mnd-header" data-aos="fade-up">
         <h2 class="mnd-title">Satu Sistem untuk Mengelola Proses Maintenance Kendaraan</h2>
-        <p class="mnd-subtitle">FleetSumo membantu menghubungkan proses maintenance kendaraan dari kebutuhan awal hingga riwayat perawatan dalam satu alur yang lebih terstruktur.</p>
+        <p class="mnd-subtitle">Cek Kendaraan membantu menghubungkan proses maintenance kendaraan dari kebutuhan awal hingga riwayat perawatan dalam satu alur yang lebih terstruktur.</p>
       </div>
 
       <div class="mnd-diagram" data-aos="fade-up" data-aos-delay="200">

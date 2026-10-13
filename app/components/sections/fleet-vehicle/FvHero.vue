@@ -13,7 +13,7 @@
           Kelola Data dan Informasi Kendaraan <span class="highlight">dalam Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola informasi kendaraan secara terpusat, mulai dari data kendaraan, dokumen, status, pengemudi, hingga riwayat kendaraan.
+          Cek Kendaraan membantu perusahaan mengelola informasi kendaraan secara terpusat, mulai dari data kendaraan, dokumen, status, pengemudi, hingga riwayat kendaraan.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

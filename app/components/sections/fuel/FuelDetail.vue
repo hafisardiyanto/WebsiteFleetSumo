@@ -30,7 +30,7 @@
 
         <div class="fudd-visual" data-aos="fade-left" data-aos-delay="200">
             <div class="fudd-mockup">
-                <img src="/assets/fitur/fuel/fuel-detail.png" alt="Detail Register BBM FleetSumo" class="fudd-img" />
+                <img src="/assets/fitur/fuel/fuel-detail.png" alt="Detail Register BBM Cek Kendaraan" class="fudd-img" />
             </div>
         </div>
       </div>

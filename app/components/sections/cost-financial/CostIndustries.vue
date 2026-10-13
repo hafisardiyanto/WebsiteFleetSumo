@@ -4,7 +4,7 @@
       <div class="csi-header" data-aos="fade-up">
         <span class="csi-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="csi-title">Pengendalian Biaya untuk Berbagai Operasional Armada</h2>
-        <p class="csi-subtitle">Setiap industri memiliki karakteristik biaya operasional yang berbeda. FleetSumo membantu perusahaan mengelola dan memantau biaya yang berkaitan dengan armada secara lebih terstruktur.</p>
+        <p class="csi-subtitle">Setiap industri memiliki karakteristik biaya operasional yang berbeda. Cek Kendaraan membantu perusahaan mengelola dan memantau biaya yang berkaitan dengan armada secara lebih terstruktur.</p>
       </div>
 
       <div class="csi-grid">

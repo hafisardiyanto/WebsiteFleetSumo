@@ -9,7 +9,7 @@
       <div class="rind-header" data-aos="fade-up">
         <span class="rind-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="rind-title">Monitoring Armada untuk Berbagai Kebutuhan Operasional</h2>
-        <p class="rind-subtitle">Setiap industri membutuhkan informasi operasional yang berbeda. FleetSumo membantu perusahaan memantau data armada sesuai kebutuhan operasionalnya.</p>
+        <p class="rind-subtitle">Setiap industri membutuhkan informasi operasional yang berbeda. Cek Kendaraan membantu perusahaan memantau data armada sesuai kebutuhan operasionalnya.</p>
       </div>
 
       <div class="rind-grid" data-aos="fade-up" data-aos-delay="100">

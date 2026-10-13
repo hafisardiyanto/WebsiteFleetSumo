@@ -3,7 +3,7 @@
     <div class="cost-monitoring-container">
       <div class="csm-header" data-aos="fade-up">
         <h2 class="csm-title">Pantau Biaya Armada dalam Satu Tampilan</h2>
-        <p class="csm-subtitle">Informasi biaya yang tercatat dalam FleetSumo membantu perusahaan melihat total biaya, perkembangan biaya, dan biaya kendaraan sebagai bagian dari monitoring operasional armada.</p>
+        <p class="csm-subtitle">Informasi biaya yang tercatat dalam Cek Kendaraan membantu perusahaan melihat total biaya, perkembangan biaya, dan biaya kendaraan sebagai bagian dari monitoring operasional armada.</p>
       </div>
 
       <div class="csm-layout">

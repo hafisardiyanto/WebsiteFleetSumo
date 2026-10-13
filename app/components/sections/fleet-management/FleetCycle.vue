@@ -3,7 +3,7 @@
     <div class="fleet-cycle-container">
       <div class="fc-header" data-aos="fade-up">
         <h2 class="fc-title">Kelola Armada dari Data hingga Riwayat Operasional</h2>
-        <p class="fc-subtitle">Setiap kendaraan memiliki siklus informasi yang terus berkembang. FleetSumo membantu menghubungkan informasi kendaraan dengan aktivitas yang terjadi selama masa operasionalnya.</p>
+        <p class="fc-subtitle">Setiap kendaraan memiliki siklus informasi yang terus berkembang. Cek Kendaraan membantu menghubungkan informasi kendaraan dengan aktivitas yang terjadi selama masa operasionalnya.</p>
       </div>
 
       <div class="fc-timeline" data-aos="fade-up" data-aos-delay="200">

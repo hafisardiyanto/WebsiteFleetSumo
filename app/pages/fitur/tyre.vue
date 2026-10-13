@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | FleetSumo',
+  title: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Modul pencatatan teknis nomor seri ban, log rotasi as roda, pengukuran kedalaman tapak ban, hingga status afkir ban kendaraan operasional.' },
-    { property: 'og:title', content: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | Cek Kendaraan' },
     { property: 'og:description', content: 'Modul pencatatan teknis nomor seri ban, log rotasi as roda, pengukuran kedalaman tapak ban, hingga status afkir ban kendaraan operasional.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/tyre' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-tyre.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Pelacakan & Rotasi Ban Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Pelacakan & Rotasi Ban Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Pelacakan Posisi & Rotasi Ban Kendaraan | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Modul pencatatan teknis nomor seri ban, log rotasi as roda, pengukuran kedalaman tapak ban, hingga status afkir ban kendaraan operasional.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-tyre.png' },
     { name: 'robots', content: 'index, follow' }

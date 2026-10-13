@@ -32,7 +32,7 @@ const prevSlide = () => {
     <div class="fv-showcase-container">
       <div class="fvs-header" data-aos="fade-up">
         <span class="fvs-label">FLEET & VEHICLE IN ACTION</span>
-        <h2 class="fvs-title">Lihat Pengelolaan Kendaraan di FleetSumo</h2>
+        <h2 class="fvs-title">Lihat Pengelolaan Kendaraan di Cek Kendaraan</h2>
         <p class="fvs-subtitle">Kelola dan telusuri informasi kendaraan melalui tampilan yang dirancang untuk mendukung operasional armada.</p>
       </div>
 

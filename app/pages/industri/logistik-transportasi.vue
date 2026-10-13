@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Armada Logistik & Transportasi | FleetSumo',
+  title: 'Solusi Manajemen Armada Logistik & Transportasi | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Optimalkan pengelolaan data armada logistik dan transportasi dengan Cek Kendaraan dari FleetSumo. Catat riwayat kendaraan, supir, servis bengkel, dan kontrol BBM.' },
-    { property: 'og:title', content: 'Solusi Manajemen Armada Logistik & Transportasi | FleetSumo' },
+    { name: 'description', content: 'Optimalkan pengelolaan data armada logistik dan transportasi dengan Cek Kendaraan dari Cek Kendaraan. Catat riwayat kendaraan, supir, servis bengkel, dan kontrol BBM.' },
+    { property: 'og:title', content: 'Solusi Manajemen Armada Logistik & Transportasi | Cek Kendaraan' },
     { property: 'og:description', content: 'Tingkatkan keteraturan operasional ekspedisi dan distribusi dengan pencatatan data kendaraan terpusat, riwayat mekanik, dan administrasi armada.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/logistik-transportasi' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Armada Logistik dan Transportasi - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Armada Logistik dan Transportasi - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Armada Logistik & Transportasi | FleetSumo' },
-    { name: 'twitter:description', content: 'Optimalkan pengelolaan data armada logistik dan transportasi dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Armada Logistik & Transportasi | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Optimalkan pengelolaan data armada logistik dan transportasi dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Armada Logistik & Transportasi <span class="highlight">yang Lebih Terstruktur</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo membantu perusahaan ekspedisi, kurir, dan angkutan barang mengelola data teknis kendaraan, riwayat supir, pencatatan servis bengkel, dan kontrol operasional dalam satu platform web terpusat.
+            Cek Kendaraan dari Cek Kendaraan membantu perusahaan ekspedisi, kurir, dan angkutan barang mengelola data teknis kendaraan, riwayat supir, pencatatan servis bengkel, dan kontrol operasional dalam satu platform web terpusat.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Gratis</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Logistik & Transportasi.jpg" alt="Armada Logistik dan Transportasi FleetSumo" />
+          <img src="/assets/Industri/Logistik & Transportasi.jpg" alt="Armada Logistik dan Transportasi Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -238,7 +238,7 @@ useHead({
       <div class="content-container">
         <h2 class="cta-title">Siap Menertibkan Administrasi Armada Logistik Anda?</h2>
         <p class="cta-desc">
-          Konsultasikan kebutuhan pencatatan kendaraan dan alur operasional armada ekspedisi Anda bersama tim FleetSumo.
+          Konsultasikan kebutuhan pencatatan kendaraan dan alur operasional armada ekspedisi Anda bersama tim Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Konsultasi Demo</a>
       </div>

@@ -3,7 +3,7 @@
     <div class="report-def-container">
       <div class="rdf-header" data-aos="fade-up">
         <h2 class="rdf-title">Satu Tampilan untuk Memantau Informasi Operasional Armada</h2>
-        <p class="rdf-subtitle">Dashboard & Reports merupakan bagian FleetSumo yang membantu menyajikan data operasional armada dalam bentuk dashboard dan laporan sehingga informasi dari berbagai aktivitas dapat dipantau dan digunakan untuk evaluasi.</p>
+        <p class="rdf-subtitle">Dashboard & Reports merupakan bagian Cek Kendaraan yang membantu menyajikan data operasional armada dalam bentuk dashboard dan laporan sehingga informasi dari berbagai aktivitas dapat dipantau dan digunakan untuk evaluasi.</p>
       </div>
 
       <div class="rdf-diagram" data-aos="fade-up" data-aos-delay="200">

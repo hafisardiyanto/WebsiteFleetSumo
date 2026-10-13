@@ -10,7 +10,7 @@
          
          <div class="tyl-left" data-aos="fade-right" data-aos-delay="100">
              <div class="tyl-mockup">
-                 <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Daftar Ban FleetSumo" class="tyl-img" />
+                 <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Daftar Ban Cek Kendaraan" class="tyl-img" />
                  
                  <!-- Callouts based on typical List -->
                  <div class="tyl-callout c1">

@@ -7,7 +7,7 @@
       <div class="ccta-content" data-aos="zoom-in">
         <span class="ccta-label">COST MANAGEMENT</span>
         <h2 class="ccta-title">Kumpulkan dan Kelola Tren Biaya Armada Terpusat</h2>
-        <p class="ccta-desc">Diskusikan kebutuhan tata kelola beban operasional bersama tim implementasi FleetSumo hari ini.</p>
+        <p class="ccta-desc">Diskusikan kebutuhan tata kelola beban operasional bersama tim implementasi Cek Kendaraan hari ini.</p>
         
         <div class="ccta-actions">
            <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

@@ -118,7 +118,7 @@ const filteredArticles = computed(() => {
       <div class="res-cta-banner">
         <h2 class="cta-title">Ingin Menerapkan Tata Kelola Armada Berbasis Web?</h2>
         <p class="cta-desc">
-          Pelajari bagaimana sistem web Cek Kendaraan dari FleetSumo membantu tim Anda menertibkan pencatatan operasional harian.
+          Pelajari bagaimana sistem web Cek Kendaraan dari Cek Kendaraan membantu tim Anda menertibkan pencatatan operasional harian.
         </p>
         <a href="/kontak/demo" class="btn-primary">Konsultasikan Kebutuhan Demo</a>
       </div>

@@ -10,7 +10,7 @@
       <!-- Screenshot layout -->
       <div class="dml-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">
          <div class="dml-mockup">
-             <img src="/assets/fitur/driver-management/driver-list.png" alt="Daftar Pengemudi FleetSumo" class="dml-img" />
+             <img src="/assets/fitur/driver-management/driver-list.png" alt="Daftar Pengemudi Cek Kendaraan" class="dml-img" />
          </div>
       </div>
 

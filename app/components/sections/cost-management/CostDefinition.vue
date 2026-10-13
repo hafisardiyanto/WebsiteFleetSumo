@@ -3,7 +3,7 @@
     <div class="cost-def-container">
       <div class="csf-header" data-aos="fade-up">
         <h2 class="csf-title">Pencatatan dan Kategorisasi Biaya</h2>
-        <p class="csf-subtitle">FleetSumo membantu Anda mengelompokkan berbagai sumber pengeluaran armada dalam satu pembukuan yang tertib dan mudah dibaca.</p>
+        <p class="csf-subtitle">Cek Kendaraan membantu Anda mengelompokkan berbagai sumber pengeluaran armada dalam satu pembukuan yang tertib dan mudah dibaca.</p>
         <div class="csf-highlight">Semua nota pembayaran tidak lagi tercecer, melainkan diklasifikasikan ke dalam kategori masing-masing.</div>
       </div>
 

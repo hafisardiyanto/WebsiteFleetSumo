@@ -3,7 +3,7 @@
     <div class="fuel-industries-container">
       <div class="find-header" data-aos="fade-up">
         <h2 class="find-title">Fuel Management untuk Berbagai Operasional Armada</h2>
-        <p class="find-subtitle">FleetSumo dapat membantu perusahaan mengelola aktivitas BBM pada berbagai jenis armada dan kebutuhan operasional.</p>
+        <p class="find-subtitle">Cek Kendaraan dapat membantu perusahaan mengelola aktivitas BBM pada berbagai jenis armada dan kebutuhan operasional.</p>
       </div>
 
       <div class="find-grid" data-aos="fade-up" data-aos-delay="100">

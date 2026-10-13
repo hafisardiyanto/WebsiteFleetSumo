@@ -1,7 +1,7 @@
 <template>
   <div class="lenis-container">
     <Navbar />
-    <h2>FleetSumo - Integrated Fleet Management</h2>
+    <h2>Cek Kendaraan - Integrated Fleet Management</h2>
     <h3>Explore our solutions</h3>
     <nav>
       <NuxtLink to="/tentang-kami">Tentang Kami</NuxtLink> |
@@ -81,7 +81,7 @@ onUnmounted(() => {
 
 useSeo({
   title: 'Cek Kendaraan | Software Manajemen Armada Terintegrasi Indonesia',
-  description: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari FleetSumo.',
+  description: 'Optimalkan operasional kendaraan, dokumen, dan data armada dengan Cek Kendaraan, platform manajemen armada terintegrasi dari Cek Kendaraan.',
   keywords: 'Cek Kendaraan, manajemen armada, fleet management',
   image: 'https://fleetsumo.id/assets/og/og-home.png',
   url: 'https://fleetsumo.id'

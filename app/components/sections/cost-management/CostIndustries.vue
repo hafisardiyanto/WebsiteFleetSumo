@@ -9,7 +9,7 @@
       <div class="csind-header" data-aos="fade-up">
         <span class="csind-label">UNTUK BERBAGAI INDUSTRI</span>
         <h2 class="csind-title">Kelola Biaya Armada Sesuai Kebutuhan Operasional</h2>
-        <p class="csind-subtitle">Setiap perusahaan memiliki karakteristik biaya operasional yang berbeda. FleetSumo membantu menyediakan informasi biaya yang terhubung dengan aktivitas armada perusahaan.</p>
+        <p class="csind-subtitle">Setiap perusahaan memiliki karakteristik biaya operasional yang berbeda. Cek Kendaraan membantu menyediakan informasi biaya yang terhubung dengan aktivitas armada perusahaan.</p>
       </div>
 
       <div class="csind-grid" data-aos="fade-up" data-aos-delay="100">

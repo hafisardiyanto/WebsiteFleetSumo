@@ -29,7 +29,7 @@
 
          <div class="tyd-right" data-aos="fade-left" data-aos-delay="100">
              <div class="tyd-mockup">
-                 <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Detail Ban FleetSumo" class="tyd-img" />
+                 <img src="/assets/solusi/tyre-management/tyre-detail-hero.jpg" alt="Detail Ban Cek Kendaraan" class="tyd-img" />
                  
                  <!-- Callouts based on typical Details -->
                  <div class="tyd-callout c1">

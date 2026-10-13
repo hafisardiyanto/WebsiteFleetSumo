@@ -12,12 +12,12 @@
           Kelola Seluruh Operasional Armada dalam <span class="highlight">Satu Platform</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, pengemudi, vendor, dan biaya secara terintegrasi dalam satu sistem.
+          Cek Kendaraan membantu perusahaan mengelola kendaraan, maintenance, BBM, ban, sparepart, pengemudi, vendor, dan biaya secara terintegrasi dalam satu sistem.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
           <button class="btn-primary">Minta Demo</button>
-          <button class="btn-secondary">Pelajari FleetSumo</button>
+          <button class="btn-secondary">Pelajari Cek Kendaraan</button>
         </div>
         
         <p class="hero-smalltext" data-aos="fade-up" data-aos-delay="400">
@@ -29,7 +29,7 @@
         <div class="image-container">
           <!-- Glassmorphism border effect behind image -->
           <div class="image-glow"></div>
-          <img src="/assets/umum/backgrounds/hero-home.jpg" alt="FleetSumo Dashboard and Fleet" class="hero-img">
+          <img src="/assets/umum/backgrounds/hero-home.jpg" alt="Cek Kendaraan Dashboard and Fleet" class="hero-img">
         </div>
       </div>
     </div>

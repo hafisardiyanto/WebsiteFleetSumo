@@ -4,7 +4,7 @@
       <div class="about-dark-card" data-aos="fade-right">
         <div class="about-tagline">TENTANG FLEETSUMO</div>
         <h2>Membangun Pengelolaan Armada yang Lebih Terintegrasi</h2>
-        <p>FleetSumo hadir untuk membantu perusahaan mengelola operasional armada dengan data yang terintegrasi, proses yang lebih terstruktur, dan informasi yang dapat digunakan untuk mendukung kebutuhan operasional maupun manajemen.</p>
+        <p>Cek Kendaraan hadir untuk membantu perusahaan mengelola operasional armada dengan data yang terintegrasi, proses yang lebih terstruktur, dan informasi yang dapat digunakan untuk mendukung kebutuhan operasional maupun manajemen.</p>
         
         <div class="vision-box">
           <div class="vision-icon">🌟</div>
@@ -16,7 +16,7 @@
       </div>
       
       <div class="about-visual" data-aos="fade-left">
-        <img src="/assets/tentang-kami/company/about-us.jpg" alt="Visi FleetSumo" class="about-img">
+        <img src="/assets/tentang-kami/company/about-us.jpg" alt="Visi Cek Kendaraan" class="about-img">
         <div class="about-badge">
           <div class="badge-icon">🚀</div>
           <div class="badge-text">

@@ -5,18 +5,18 @@ import FooterSection from '~/components/sections/FooterSection.vue';
 useHead({
   title: 'Pembaruan Produk Cek Kendaraan | Catatan Rilis',
   meta: [
-    { name: 'description', content: 'Catatan rilis dan dokumentasi pembaruan fitur sistem manajemen armada Cek Kendaraan dari FleetSumo.' },
+    { name: 'description', content: 'Catatan rilis dan dokumentasi pembaruan fitur sistem manajemen armada Cek Kendaraan dari Cek Kendaraan.' },
     { property: 'og:title', content: 'Pembaruan Produk Cek Kendaraan | Catatan Rilis' },
-    { property: 'og:description', content: 'Ikuti perkembangan fitur dan peningkatan kapabilitas platform pengelolaan armada web Cek Kendaraan FleetSumo.' },
+    { property: 'og:description', content: 'Ikuti perkembangan fitur dan peningkatan kapabilitas platform pengelolaan armada web Cek Kendaraan Cek Kendaraan.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/resources/pembaruan-produk' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-home.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Pembaruan Produk Cek Kendaraan - FleetSumo' },
+    { property: 'og:image:alt', content: 'Pembaruan Produk Cek Kendaraan - Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Pembaruan Produk Cek Kendaraan | Catatan Rilis' },
-    { name: 'twitter:description', content: 'Catatan rilis dan dokumentasi pembaruan fitur sistem manajemen armada Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:description', content: 'Catatan rilis dan dokumentasi pembaruan fitur sistem manajemen armada Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-home.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,12 +68,12 @@ useHead({
             Pembaruan Produk <span class="highlight">Cek Kendaraan</span>
           </h1>
           <p class="res-subtitle">
-            Dokumentasi berkala mengenai peningkatan alur kerja, stabilitas sistem, dan penambahan fitur pada platform web Cek Kendaraan dari FleetSumo.
+            Dokumentasi berkala mengenai peningkatan alur kerja, stabilitas sistem, dan penambahan fitur pada platform web Cek Kendaraan dari Cek Kendaraan.
           </p>
         </div>
 
         <div class="res-hero-visual">
-          <img src="/assets/tentang-kami/Pembaruan Produk.jpg" alt="Pembaruan Produk Cek Kendaraan FleetSumo" />
+          <img src="/assets/tentang-kami/Pembaruan Produk.jpg" alt="Pembaruan Produk Cek Kendaraan Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -114,7 +114,7 @@ useHead({
       <div class="res-cta-banner">
         <h2 class="cta-title">Ingin Melihat Demonstrasi Langsung Fitur Terkini?</h2>
         <p class="cta-desc">
-          Tim FleetSumo siap memandu Anda meninjau modul Cek Kendaraan sesuai kebutuhan spesifik perusahaan Anda.
+          Tim Cek Kendaraan siap memandu Anda meninjau modul Cek Kendaraan sesuai kebutuhan spesifik perusahaan Anda.
         </p>
         <a href="/kontak/demo" class="btn-primary">Minta Demo Langsung</a>
       </div>

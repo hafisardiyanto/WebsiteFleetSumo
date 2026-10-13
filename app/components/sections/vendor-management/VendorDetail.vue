@@ -29,7 +29,7 @@
 
          <div class="vnd-right" data-aos="fade-left" data-aos-delay="100">
              <div class="vnd-mockup">
-                 <img src="/assets/fitur/vendor/hero.jpg" alt="Detail Vendor FleetSumo" class="vnd-img" />
+                 <img src="/assets/fitur/vendor/hero.jpg" alt="Detail Vendor Cek Kendaraan" class="vnd-img" />
                  
                  <div class="vnd-callout c1">
                    <span class="callout-dot"></span>

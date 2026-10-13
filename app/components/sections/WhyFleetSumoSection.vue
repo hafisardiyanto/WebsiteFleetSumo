@@ -4,7 +4,7 @@
       <div class="why-header" data-aos="fade-up">
         <h2 class="why-title">Mengelola Armada Bukan Hanya Tentang Kendaraan</h2>
         <p class="why-subtitle">
-          Operasional armada terdiri dari banyak aktivitas yang saling berkaitan. FleetSumo membantu menghubungkan aktivitas tersebut agar perusahaan memiliki gambaran yang lebih menyeluruh.
+          Operasional armada terdiri dari banyak aktivitas yang saling berkaitan. Cek Kendaraan membantu menghubungkan aktivitas tersebut agar perusahaan memiliki gambaran yang lebih menyeluruh.
         </p>
       </div>
 

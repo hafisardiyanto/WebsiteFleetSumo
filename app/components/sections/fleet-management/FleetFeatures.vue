@@ -3,7 +3,7 @@
     <div class="fleet-features-container">
       <div class="ff-header" data-aos="fade-up">
         <h2 class="ff-title">Fitur untuk Mengelola Armada Secara Terstruktur</h2>
-        <p class="ff-subtitle">FleetSumo menyediakan fitur yang membantu tim operasional mengelola informasi kendaraan dan aktivitas armada dari satu platform.</p>
+        <p class="ff-subtitle">Cek Kendaraan menyediakan fitur yang membantu tim operasional mengelola informasi kendaraan dan aktivitas armada dari satu platform.</p>
       </div>
 
       <div class="ff-grid">

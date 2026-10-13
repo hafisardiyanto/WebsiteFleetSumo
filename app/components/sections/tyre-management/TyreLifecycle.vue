@@ -4,7 +4,7 @@
       <div class="tyc-header" data-aos="fade-up">
         <span class="tyc-label">TYRE LIFECYCLE</span>
         <h2 class="tyc-title">Pantau Siklus Ban dari Awal hingga Riwayat</h2>
-        <p class="tyc-subtitle">Pengelolaan ban tidak berhenti pada pencatatan data. FleetSumo membantu perusahaan mengikuti perjalanan ban selama digunakan pada kendaraan.</p>
+        <p class="tyc-subtitle">Pengelolaan ban tidak berhenti pada pencatatan data. Cek Kendaraan membantu perusahaan mengikuti perjalanan ban selama digunakan pada kendaraan.</p>
       </div>
 
       <div class="tyc-timeline" data-aos="fade-up" data-aos-delay="200">

@@ -4,7 +4,7 @@
       <div class="maint-what-header" data-aos="fade-up">
         <h2 class="maint-what-title">Satu Alur untuk Mengelola Maintenance Kendaraan</h2>
         <p class="maint-what-subtitle">
-          Maintenance Management FleetSumo membantu menghubungkan proses perawatan kendaraan dari pemeriksaan kondisi hingga penyelesaian pekerjaan. Setiap aktivitas dapat dicatat sehingga perusahaan memiliki informasi maintenance yang lebih terstruktur dan mudah ditelusuri.
+          Maintenance Management Cek Kendaraan membantu menghubungkan proses perawatan kendaraan dari pemeriksaan kondisi hingga penyelesaian pekerjaan. Setiap aktivitas dapat dicatat sehingga perusahaan memiliki informasi maintenance yang lebih terstruktur dan mudah ditelusuri.
         </p>
       </div>
 

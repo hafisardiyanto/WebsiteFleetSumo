@@ -4,7 +4,7 @@
       <div class="tyre-what-header" data-aos="fade-up">
         <h2 class="tyre-what-title">Pengelolaan Ban dalam Satu Siklus yang Terstruktur</h2>
         <p class="tyre-what-subtitle">
-          Tyre Management FleetSumo membantu perusahaan mengelola informasi dan aktivitas ban sebagai bagian dari operasional armada.
+          Tyre Management Cek Kendaraan membantu perusahaan mengelola informasi dan aktivitas ban sebagai bagian dari operasional armada.
         </p>
       </div>
 

@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Armada Konstruksi | FleetSumo',
+  title: 'Solusi Manajemen Armada Konstruksi | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Kelola armada proyek konstruksi dan infrastruktur dengan Cek Kendaraan dari FleetSumo. Catat histori unit truk, penugasan proyek, dan biaya perawatan.' },
-    { property: 'og:title', content: 'Solusi Manajemen Armada Konstruksi | FleetSumo' },
+    { name: 'description', content: 'Kelola armada proyek konstruksi dan infrastruktur dengan Cek Kendaraan dari Cek Kendaraan. Catat histori unit truk, penugasan proyek, dan biaya perawatan.' },
+    { property: 'og:title', content: 'Solusi Manajemen Armada Konstruksi | Cek Kendaraan' },
     { property: 'og:description', content: 'Tingkatkan keteraturan data armada proyek infrastruktur. Pantau riwayat servis mixer beton, dump truck, dan alokasi unit antar-lokasi proyek.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/konstruksi' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Armada Konstruksi - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Armada Konstruksi - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Armada Konstruksi | FleetSumo' },
-    { name: 'twitter:description', content: 'Kelola armada proyek konstruksi dan infrastruktur dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Armada Konstruksi | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Kelola armada proyek konstruksi dan infrastruktur dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Armada Proyek Konstruksi <span class="highlight">yang Lebih Disiplin</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo memfasilitasi pencatatan terpusat untuk dump truck material, truk mixer beton, dan kendaraan operasional proyek. Dokumentasikan riwayat perbaikan bengkel, perpindahan unit antar-proyek, dan alokasi biaya secara transparan.
+            Cek Kendaraan dari Cek Kendaraan memfasilitasi pencatatan terpusat untuk dump truck material, truk mixer beton, dan kendaraan operasional proyek. Dokumentasikan riwayat perbaikan bengkel, perpindahan unit antar-proyek, dan alokasi biaya secara transparan.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Tim Proyek</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Konstruksi.jpg" alt="Armada Proyek Konstruksi FleetSumo" />
+          <img src="/assets/Industri/Konstruksi.jpg" alt="Armada Proyek Konstruksi Cek Kendaraan" />
         </div>
       </div>
     </section>
@@ -238,7 +238,7 @@ useHead({
       <div class="content-container">
         <h2 class="cta-title">Tingkatkan Transparansi Armada Proyek Anda</h2>
         <p class="cta-desc">
-          Konsultasikan kemudahan pencatatan armada konstruksi dan administrasi bengkel proyek bersama tim FleetSumo.
+          Konsultasikan kemudahan pencatatan armada konstruksi dan administrasi bengkel proyek bersama tim Cek Kendaraan.
         </p>
         <a href="/kontak/demo" class="btn-primary">Jadwalkan Konsultasi Demo</a>
       </div>

@@ -3,20 +3,20 @@ import NavbarSection from '~/components/sections/Navbar.vue';
 import FooterSection from '~/components/sections/FooterSection.vue';
 
 useHead({
-  title: 'Solusi Manajemen Armada Pertambangan | FleetSumo',
+  title: 'Solusi Manajemen Armada Pertambangan | Cek Kendaraan',
   meta: [
-    { name: 'description', content: 'Kelola data unit pendukung dan armada tambang dengan Cek Kendaraan dari FleetSumo. Catat histori pemeliharaan alat, pergantian suku cadang, dan konsumsi solar.' },
-    { property: 'og:title', content: 'Solusi Manajemen Armada Pertambangan | FleetSumo' },
+    { name: 'description', content: 'Kelola data unit pendukung dan armada tambang dengan Cek Kendaraan dari Cek Kendaraan. Catat histori pemeliharaan alat, pergantian suku cadang, dan konsumsi solar.' },
+    { property: 'og:title', content: 'Solusi Manajemen Armada Pertambangan | Cek Kendaraan' },
     { property: 'og:description', content: 'Tingkatkan keteraturan pencatatan armada operasional site tambang dengan manajemen log servis, pergantian sparepart, dan administrasi unit terpusat.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://fleetsumo.id/industri/pertambangan' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Manajemen Armada Pertambangan - FleetSumo Cek Kendaraan' },
+    { property: 'og:image:alt', content: 'Manajemen Armada Pertambangan - Cek Kendaraan Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Manajemen Armada Pertambangan | FleetSumo' },
-    { name: 'twitter:description', content: 'Kelola data unit pendukung dan armada tambang dengan Cek Kendaraan dari FleetSumo.' },
+    { name: 'twitter:title', content: 'Solusi Manajemen Armada Pertambangan | Cek Kendaraan' },
+    { name: 'twitter:description', content: 'Kelola data unit pendukung dan armada tambang dengan Cek Kendaraan dari Cek Kendaraan.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fleet.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -68,7 +68,7 @@ useHead({
             Pengelolaan Data Armada & Unit Tambang <span class="highlight">yang Tertib & Akurat</span>
           </h1>
           <p class="ind-subtitle">
-            Cek Kendaraan dari FleetSumo memfasilitasi pencatatan terpusat untuk armada pendukung tambang, light vehicle, dan truk pengangkut. Dokumentasikan riwayat perbaikan berkala, penggantian komponen aus, dan log bahan bakar solar di area kerja.
+            Cek Kendaraan dari Cek Kendaraan memfasilitasi pencatatan terpusat untuk armada pendukung tambang, light vehicle, dan truk pengangkut. Dokumentasikan riwayat perbaikan berkala, penggantian komponen aus, dan log bahan bakar solar di area kerja.
           </p>
           <div class="ind-actions">
             <a href="/kontak/demo" class="btn-primary">Minta Demo Site Tambang</a>
@@ -77,7 +77,7 @@ useHead({
         </div>
 
         <div class="ind-hero-visual">
-          <img src="/assets/Industri/Pertambangan.jpg" alt="Armada Operasional Pertambangan FleetSumo" />
+          <img src="/assets/Industri/Pertambangan.jpg" alt="Armada Operasional Pertambangan Cek Kendaraan" />
         </div>
       </div>
     </section>

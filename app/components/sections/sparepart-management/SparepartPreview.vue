@@ -2,7 +2,7 @@
   <section class="sparepart-preview-wrapper">
     <div class="sparepart-preview-container">
       <div class="spr-header" data-aos="fade-up">
-        <h2 class="spr-title">Lihat Sparepart Management dalam FleetSumo</h2>
+        <h2 class="spr-title">Lihat Sparepart Management dalam Cek Kendaraan</h2>
       </div>
 
       <div class="spr-gallery">

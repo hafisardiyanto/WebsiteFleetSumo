@@ -8,7 +8,7 @@
 
     <footer class="global-footer">
       <div class="container">
-        <p>&copy; 2026 FleetSumo. All rights reserved.</p>
+        <p>&copy; 2026 Cek Kendaraan. All rights reserved.</p>
       </div>
     </footer>
   </div>

@@ -4,7 +4,7 @@
       <div class="hb-header" data-aos="fade-up">
         <span class="hb-label">MANFAAT FLEETSUMO</span>
         <h2 class="hb-title">Operasional Armada Lebih Terstruktur, Informasi Lebih Mudah Dikendalikan</h2>
-        <p class="hb-subtitle">FleetSumo membantu perusahaan mengelola data dan aktivitas armada secara terstruktur, sehingga informasi operasional lebih mudah dipantau, ditelusuri, dan digunakan sebagai dasar evaluasi.</p>
+        <p class="hb-subtitle">Cek Kendaraan membantu perusahaan mengelola data dan aktivitas armada secara terstruktur, sehingga informasi operasional lebih mudah dipantau, ditelusuri, dan digunakan sebagai dasar evaluasi.</p>
       </div>
 
       <div class="hb-grid">

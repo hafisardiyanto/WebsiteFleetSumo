@@ -10,7 +10,7 @@
          
          <div class="rps-visual" data-aos="fade-up" data-aos-delay="100">
              <div class="rps-mockup">
-                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Dashboard FleetSumo" class="rps-img" />
+                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Dashboard Cek Kendaraan" class="rps-img" />
              </div>
          </div>
 

@@ -14,7 +14,7 @@
 
         <div class="faq-item" style="border:1px solid #e2e8f0; border-radius:8px; padding:1.5rem; background:#f8fafc;">
           <h3 style="font-size:1.15rem; font-weight:600; color:#1e293b; margin-bottom:0.8rem;">Bagaimana mencatat biaya maintenance perbaikan?</h3>
-          <p style="color:#475569; line-height:1.6; margin:0;">Biaya akan ditagihkan secara langsung sebagai beban spesifik kepada nomor pelat aktif sewaktu mekanik membukukan *Work Order* pada sistem sentral FleetSumo.</p>
+          <p style="color:#475569; line-height:1.6; margin:0;">Biaya akan ditagihkan secara langsung sebagai beban spesifik kepada nomor pelat aktif sewaktu mekanik membukukan *Work Order* pada sistem sentral Cek Kendaraan.</p>
         </div>
 
         <div class="faq-item" style="border:1px solid #e2e8f0; border-radius:8px; padding:1.5rem; background:#f8fafc;">

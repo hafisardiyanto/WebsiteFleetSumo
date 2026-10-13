@@ -10,7 +10,7 @@
          
          <div class="apl-left" data-aos="fade-right" data-aos-delay="100">
              <div class="apl-mockup">
-                 <img src="/assets/fitur/approval-workflow/hero.jpg" alt="Daftar Approval FleetSumo" class="apl-img" />
+                 <img src="/assets/fitur/approval-workflow/hero.jpg" alt="Daftar Approval Cek Kendaraan" class="apl-img" />
                  
                  <!-- Callouts based on typical List -->
                  <div class="apl-callout c1">

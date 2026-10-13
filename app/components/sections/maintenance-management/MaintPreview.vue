@@ -12,7 +12,7 @@
             <h3 style="color:#0f172a; margin-bottom:8px; text-align:center;">Validasi Persetujuan Biaya Perbaikan (Approval)</h3>
             <p style="color:#64748b; margin-bottom:20px; text-align:center;">Manajemen dapat memeriksa langsung komponen yang rusak dan total estimasi sebelum mensetujui pencairan perbaikan.</p>
             <div class="mpv-mockup" data-aos="fade-up" data-aos-delay="100" style="max-width:960px; margin:0 auto; width:100%;">
-                <img src="/assets/fitur/maintenance/maintenance-approval.png" alt="Validasi Approval Maintenance FleetSumo" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
+                <img src="/assets/fitur/maintenance/maintenance-approval.png" alt="Validasi Approval Maintenance Cek Kendaraan" class="mpv-img" style="width:100%; border-radius:12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.1);" />
             </div>
          </div>
 

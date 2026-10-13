@@ -2,9 +2,9 @@
   <section class="industries-section">
     <div class="industries-container">
       <div class="industries-header" data-aos="fade-up">
-        <h2 class="industries-title">FleetSumo untuk Berbagai Industri</h2>
+        <h2 class="industries-title">Cek Kendaraan untuk Berbagai Industri</h2>
         <p class="industries-subtitle">
-          Setiap industri memiliki karakteristik operasional yang berbeda. FleetSumo membantu perusahaan mengelola armada sesuai kebutuhan operasionalnya.
+          Setiap industri memiliki karakteristik operasional yang berbeda. Cek Kendaraan membantu perusahaan mengelola armada sesuai kebutuhan operasionalnya.
         </p>
       </div>
 

@@ -4,7 +4,7 @@
       <div class="mme-header" data-aos="fade-up" style="text-align:center; margin-bottom:3rem;">
         <span class="mme-label" style="color:#10b981; font-weight:600; text-transform:uppercase; font-size:0.9rem; letter-spacing:1px; display:inline-block; margin-bottom:0.8rem;">PRODUCT CAPABILITY</span>
         <h2 class="mme-title" style="font-size:2.4rem; font-weight:700; color:#0f172a; margin-bottom:1rem;">Tampilan Rekap Persetujuan Bengkel</h2>
-        <p class="mme-subtitle" style="color:#475569; font-size:1.1rem; max-width:800px; margin:0 auto;">FleetSumo menertibkan tagihan dan riwayat suku cadang menjadi data logistik yang rapi.</p>
+        <p class="mme-subtitle" style="color:#475569; font-size:1.1rem; max-width:800px; margin:0 auto;">Cek Kendaraan menertibkan tagihan dan riwayat suku cadang menjadi data logistik yang rapi.</p>
       </div>
 
       <div class="mme-callout-grid" data-aos="fade-up" data-aos-delay="100" style="display:grid; grid-template-columns:350px 1fr; gap:3rem; align-items:center;">
@@ -28,8 +28,8 @@
         </div>
 
         <div class="mme-visual" style="border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; box-shadow:0 15px 35px rgba(0,0,0,0.05); background:#f1f5f9; display:flex; flex-direction:column; gap:1rem; padding:1.5rem;">
-           <img src="/assets/fitur/maintenance/maintenance-approval.png" alt="Approval Bengkel Management FleetSumo" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
-           <img src="/assets/fitur/maintenance/maintenance-history.png" alt="Riwayat Servis Armada FleetSumo" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
+           <img src="/assets/fitur/maintenance/maintenance-approval.png" alt="Approval Bengkel Management Cek Kendaraan" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
+           <img src="/assets/fitur/maintenance/maintenance-history.png" alt="Riwayat Servis Armada Cek Kendaraan" style="width:100%; display:block; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05);" />
         </div>
         
       </div>

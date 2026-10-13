@@ -62,7 +62,7 @@
         <div class="tyre-step">
           <div class="tyre-step-icon">🗂️</div>
           <h4 class="tyre-step-title">Riwayat</h4>
-          <p class="tyre-step-desc">Tersimpan dalam database FleetSumo.</p>
+          <p class="tyre-step-desc">Tersimpan dalam database Cek Kendaraan.</p>
         </div>
 
       </div>

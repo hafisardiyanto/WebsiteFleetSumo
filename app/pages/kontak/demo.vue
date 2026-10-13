@@ -2,20 +2,20 @@
 import { ref } from 'vue';
 
 useHead({
-  title: 'Jadwalkan Demo FleetSumo | Konsultasi Solusi Armada',
+  title: 'Jadwalkan Demo Cek Kendaraan | Konsultasi Solusi Armada',
   meta: [
-    { name: 'description', content: 'Jadwalkan sesi demonstrasi aplikasi FleetSumo dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
-    { property: 'og:title', content: 'Jadwalkan Demo FleetSumo | Konsultasi Solusi Armada' },
-    { property: 'og:description', content: 'Jadwalkan sesi demonstrasi aplikasi FleetSumo dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
+    { name: 'description', content: 'Jadwalkan sesi demonstrasi aplikasi Cek Kendaraan dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
+    { property: 'og:title', content: 'Jadwalkan Demo Cek Kendaraan | Konsultasi Solusi Armada' },
+    { property: 'og:description', content: 'Jadwalkan sesi demonstrasi aplikasi Cek Kendaraan dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
     { property: 'og:url', content: 'https://fleetsumo.id/kontak/demo' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-kontak-demo.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Jadwalkan Sesi Demonstrasi Platform FleetSumo' },
+    { property: 'og:image:alt', content: 'Jadwalkan Sesi Demonstrasi Platform Cek Kendaraan' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Jadwalkan Demo FleetSumo | Konsultasi Solusi Armada' },
-    { name: 'twitter:description', content: 'Jadwalkan sesi demonstrasi aplikasi FleetSumo dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
+    { name: 'twitter:title', content: 'Jadwalkan Demo Cek Kendaraan | Konsultasi Solusi Armada' },
+    { name: 'twitter:description', content: 'Jadwalkan sesi demonstrasi aplikasi Cek Kendaraan dengan tim kami. Pelajari bagaimana sistem manajemen armada kami dapat disesuaikan dengan kebutuhan bisnis Anda.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-kontak-demo.png' },
     { name: 'robots', content: 'index, follow' }
   ],
@@ -76,7 +76,7 @@ const handleSubmit = () => {
         <span class="hero-badge">KONSULTASI & DEMO</span>
         <h1 class="hero-title">Konsultasikan Kebutuhan Pengelolaan Armada Bisnis Anda</h1>
         <p class="hero-desc">
-          Diskusikan tantangan operasional armada kendaraan Anda bersama tim FleetSumo. Dapatkan sesi demonstrasi langsung untuk melihat bagaimana alur kerja pencatatan, pemeliharaan, BBM, dan pengendalian biaya dapat diintegrasikan sesuai model bisnis Anda.
+          Diskusikan tantangan operasional armada kendaraan Anda bersama tim Cek Kendaraan. Dapatkan sesi demonstrasi langsung untuk melihat bagaimana alur kerja pencatatan, pemeliharaan, BBM, dan pengendalian biaya dapat diintegrasikan sesuai model bisnis Anda.
         </p>
       </section>
 
@@ -85,13 +85,13 @@ const handleSubmit = () => {
         <!-- Left Column: Value & Info -->
         <div class="demo-info-col">
           <h2 class="col-title">Apa yang Anda Dapatkan dalam Sesi Demo?</h2>
-          <p class="col-subtitle">Kami memandu Anda memahami solusi FleetSumo secara transparan dan aplikatif.</p>
+          <p class="col-subtitle">Kami memandu Anda memahami solusi Cek Kendaraan secara transparan dan aplikatif.</p>
 
           <div class="info-cards">
             <div class="info-card">
               <div class="info-icon">🖥️</div>
               <div>
-                <h3 class="info-heading">Tur Langsung Platform FleetSumo</h3>
+                <h3 class="info-heading">Tur Langsung Platform Cek Kendaraan</h3>
                 <p class="info-text">Melihat alur nyata modul operasional dari pencatatan kendaraan, penugasan driver, log BBM, manajemen ban, hingga riwayat servis.</p>
               </div>
             </div>
@@ -142,7 +142,7 @@ const handleSubmit = () => {
             <div v-if="isSubmitted" class="success-message">
               <div class="success-icon">✅</div>
               <h3>Permintaan Demo Berhasil Dikirim</h3>
-              <p>Terima kasih atas ketertarikan Anda. Tim FleetSumo akan segera menghubungi Anda melalui email untuk mengonfirmasi jadwal sesi demo.</p>
+              <p>Terima kasih atas ketertarikan Anda. Tim Cek Kendaraan akan segera menghubungi Anda melalui email untuk mengonfirmasi jadwal sesi demo.</p>
             </div>
 
             <form v-else @submit.prevent="handleSubmit" class="demo-form">

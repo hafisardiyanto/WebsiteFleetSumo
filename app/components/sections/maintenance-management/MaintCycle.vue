@@ -3,7 +3,7 @@
     <div class="maint-cycle-container">
       <div class="mc-header" data-aos="fade-up">
         <h2 class="mc-title">Dari Temuan hingga Maintenance Selesai</h2>
-        <p class="mc-subtitle">FleetSumo membantu menghubungkan setiap tahapan maintenance sehingga proses dapat dipantau secara lebih terstruktur.</p>
+        <p class="mc-subtitle">Cek Kendaraan membantu menghubungkan setiap tahapan maintenance sehingga proses dapat dipantau secara lebih terstruktur.</p>
       </div>
 
       <div class="mc-timeline" data-aos="fade-up" data-aos-delay="200">

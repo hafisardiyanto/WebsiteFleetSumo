@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo',
+  title: 'Monitoring Operasional Armada & Sistem Pelaporan | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
-    { property: 'og:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo' },
+    { property: 'og:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | Cek Kendaraan' },
     { property: 'og:description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/monitoring-reporting' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-monitoring.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Solusi Monitoring & Pelaporan Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Monitoring & Pelaporan Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | FleetSumo' },
+    { name: 'twitter:title', content: 'Monitoring Operasional Armada & Sistem Pelaporan | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Ubah data operasional armada menjadi laporan eksekutif yang terstruktur untuk evaluasi efisiensi, utilitas unit, dan performa bisnis secara terpadu.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-monitoring.png' },
     { name: 'robots', content: 'index, follow' }

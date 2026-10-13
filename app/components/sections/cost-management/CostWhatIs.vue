@@ -4,7 +4,7 @@
       <div class="cost-whatis-header" data-aos="fade-up">
         <h2 class="cost-whatis-title">Satu Sistem untuk Mengelola Biaya Operasional Armada</h2>
         <p class="cost-whatis-subtitle">
-          Cost Management FleetSumo membantu perusahaan mengelola informasi biaya yang berkaitan dengan aktivitas armada secara lebih terstruktur.
+          Cost Management Cek Kendaraan membantu perusahaan mengelola informasi biaya yang berkaitan dengan aktivitas armada secara lebih terstruktur.
         </p>
       </div>
 

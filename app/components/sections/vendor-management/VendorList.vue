@@ -10,7 +10,7 @@
          
          <div class="vnl-left" data-aos="fade-right" data-aos-delay="100">
              <div class="vnl-mockup">
-                 <img src="/assets/fitur/vendor/hero.jpg" alt="Daftar Vendor FleetSumo" class="vnl-img" />
+                 <img src="/assets/fitur/vendor/hero.jpg" alt="Daftar Vendor Cek Kendaraan" class="vnl-img" />
                  
                  <!-- Callouts based on typical List -->
                  <div class="vnl-callout c1">

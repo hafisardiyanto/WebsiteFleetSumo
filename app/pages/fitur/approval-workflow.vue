@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Fitur Alur Approval & Persetujuan Biaya Armada | FleetSumo',
+  title: 'Fitur Alur Approval & Persetujuan Biaya Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Digitalisasi alur persetujuan pengajuan perbaikan unit, estimasi biaya bengkel, dan approval berjenjang operasional armada tanpa hambatan birokrasi.' },
-    { property: 'og:title', content: 'Fitur Alur Approval & Persetujuan Biaya Armada | FleetSumo' },
+    { property: 'og:title', content: 'Fitur Alur Approval & Persetujuan Biaya Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Digitalisasi alur persetujuan pengajuan perbaikan unit, estimasi biaya bengkel, dan approval berjenjang operasional armada tanpa hambatan birokrasi.' },
     { property: 'og:url', content: 'https://fleetsumo.id/fitur/approval-workflow' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-fitur-approval.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Fitur Alur Approval & Persetujuan Biaya' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Fitur Alur Approval & Persetujuan Biaya' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Fitur Alur Approval & Persetujuan Biaya Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Fitur Alur Approval & Persetujuan Biaya Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Digitalisasi alur persetujuan pengajuan perbaikan unit, estimasi biaya bengkel, dan approval berjenjang operasional armada tanpa hambatan birokrasi.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-fitur-approval.png' },
     { name: 'robots', content: 'index, follow' }

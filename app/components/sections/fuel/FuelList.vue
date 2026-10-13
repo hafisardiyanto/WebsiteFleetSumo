@@ -10,7 +10,7 @@
       <!-- Screenshot layout -->
       <div class="ful-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">
          <div class="ful-mockup">
-             <img src="/assets/fitur/fuel/fuel-list.png" alt="Daftar Transaksi BBM FleetSumo" class="ful-img" />
+             <img src="/assets/fitur/fuel/fuel-list.png" alt="Daftar Transaksi BBM Cek Kendaraan" class="ful-img" />
          </div>
       </div>
 

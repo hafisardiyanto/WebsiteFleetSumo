@@ -10,7 +10,7 @@
          
          <div class="spl-left" data-aos="fade-right" data-aos-delay="100">
              <div class="spl-mockup">
-                 <img src="/assets/fitur/sparepart/hero.jpg" alt="Daftar Sparepart FleetSumo" class="spl-img" />
+                 <img src="/assets/fitur/sparepart/hero.jpg" alt="Daftar Sparepart Cek Kendaraan" class="spl-img" />
                  
                  <!-- Callouts based on typical List -->
                  <div class="spl-callout c1">

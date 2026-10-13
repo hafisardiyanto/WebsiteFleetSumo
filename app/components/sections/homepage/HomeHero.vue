@@ -8,7 +8,7 @@
            Kelola Armada Lebih Terstruktur dalam <span class="highlight">Satu Sistem</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-           FleetSumo membantu perusahaan mengelola informasi kendaraan, dokumen, dan data operasional armada secara lebih terstruktur agar lebih mudah dipantau dan ditelusuri oleh tim operasional.
+           Cek Kendaraan membantu perusahaan mengelola informasi kendaraan, dokumen, dan data operasional armada secara lebih terstruktur agar lebih mudah dipantau dan ditelusuri oleh tim operasional.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">

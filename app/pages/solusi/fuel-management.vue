@@ -1,18 +1,18 @@
 <script setup>
 useHead({
-  title: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo',
+  title: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | Cek Kendaraan',
   meta: [
     { name: 'description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
-    { property: 'og:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo' },
+    { property: 'og:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | Cek Kendaraan' },
     { property: 'og:description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
     { property: 'og:url', content: 'https://fleetsumo.id/solusi/fuel-management' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fuel.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'FleetSumo - Solusi Efisiensi Konsumsi BBM Armada' },
+    { property: 'og:image:alt', content: 'Cek Kendaraan - Solusi Efisiensi Konsumsi BBM Armada' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | FleetSumo' },
+    { name: 'twitter:title', content: 'Solusi Efisiensi & Kontrol Konsumsi BBM Armada | Cek Kendaraan' },
     { name: 'twitter:description', content: 'Tingkatkan transparansi bahan bakar operasional armada Anda. Pantau rasio konsumsi liter per kilometer dan minimalisir risiko inefisiensi BBM.' },
     { name: 'twitter:image', content: 'https://fleetsumo.id/assets/og/og-solusi-fuel.png' },
     { name: 'robots', content: 'index, follow' }

@@ -3,7 +3,7 @@
     <div class="fleet-monitoring-container">
       <div class="fmr-header" data-aos="fade-up">
         <h2 class="fmr-title">Pantau Kondisi Armada dengan Informasi yang Terstruktur</h2>
-        <p class="fmr-subtitle">Data kendaraan yang dikelola dalam FleetSumo dapat digunakan untuk membantu proses monitoring dan evaluasi kondisi armada.</p>
+        <p class="fmr-subtitle">Data kendaraan yang dikelola dalam Cek Kendaraan dapat digunakan untuk membantu proses monitoring dan evaluasi kondisi armada.</p>
       </div>
 
       <div class="fmr-layout">
@@ -29,7 +29,7 @@
 
          <div class="fmr-visual" data-aos="fade-left" data-aos-delay="200">
              <div class="fmr-mockup">
-                 <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="FleetSumo Dashboard" class="fmr-img" />
+                 <img src="/assets/fitur/dashboard-reports/vehicle-report.png" alt="Cek Kendaraan Dashboard" class="fmr-img" />
              </div>
          </div>
 

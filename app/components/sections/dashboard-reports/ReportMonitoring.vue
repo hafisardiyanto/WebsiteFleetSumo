@@ -3,7 +3,7 @@
     <div class="report-monitoring-container">
       <div class="rm-header" data-aos="fade-up">
         <h2 class="rm-title">Pantau Informasi Armada dengan Lebih Mudah</h2>
-        <p class="rm-subtitle">FleetSumo membantu pengguna mendapatkan gambaran informasi operasional melalui dashboard dan laporan yang berasal dari data aktivitas armada.</p>
+        <p class="rm-subtitle">Cek Kendaraan membantu pengguna mendapatkan gambaran informasi operasional melalui dashboard dan laporan yang berasal dari data aktivitas armada.</p>
       </div>
 
       <div class="rm-layout">
@@ -37,7 +37,7 @@
 
          <div class="rm-visual" data-aos="fade-left" data-aos-delay="200">
              <div class="rm-mockup">
-                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Monitoring Dashboard FleetSumo" class="rm-img" />
+                 <img src="/assets/fitur/dashboard-reports/hero-2.jpg" alt="Monitoring Dashboard Cek Kendaraan" class="rm-img" />
              </div>
          </div>
 

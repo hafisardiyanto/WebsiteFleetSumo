@@ -7,7 +7,7 @@
          
          <div class="tca-content">
             <span class="tca-label">TYRE MANAGEMENT</span>
-            <h2 class="tca-title">Kenali bagaimana FleetSumo dapat mendukung pengelolaan ban armada Anda.</h2>
+            <h2 class="tca-title">Kenali bagaimana Cek Kendaraan dapat mendukung pengelolaan ban armada Anda.</h2>
             
             <div class="tca-actions">
                <button class="btn-primary" onclick="window.location.href='/kontak/demo'">Jadwalkan Demo</button>

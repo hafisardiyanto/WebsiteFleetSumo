@@ -4,7 +4,7 @@
       <div class="mon-whatis-header" data-aos="fade-up">
         <h2 class="mon-whatis-title">Ubah Data Operasional Menjadi Informasi yang Lebih Mudah Dipahami</h2>
         <p class="mon-whatis-subtitle">
-          Monitoring & Reporting FleetSumo membantu perusahaan melihat data operasional armada dalam bentuk dashboard, informasi terpusat, dan laporan secara sederhana.
+          Monitoring & Reporting Cek Kendaraan membantu perusahaan melihat data operasional armada dalam bentuk dashboard, informasi terpusat, dan laporan secara sederhana.
         </p>
       </div>
 

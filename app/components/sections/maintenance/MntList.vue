@@ -10,7 +10,7 @@
       <!-- Screenshot layout -->
       <div class="mnl-mockup-wrap" data-aos="zoom-in" data-aos-delay="100">
          <div class="mnl-mockup">
-             <img src="/assets/fitur/maintenance/maintenance-form.png" alt="Daftar Maintenance FleetSumo" class="mnl-img" />
+             <img src="/assets/fitur/maintenance/maintenance-form.png" alt="Daftar Maintenance Cek Kendaraan" class="mnl-img" />
          </div>
       </div>
 

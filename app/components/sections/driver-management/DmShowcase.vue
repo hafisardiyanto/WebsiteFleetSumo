@@ -35,7 +35,7 @@ const prevSlide = () => {
   <section class="dm-showcase-wrapper">
     <div class="dm-showcase-container">
       <div class="dms-header" data-aos="fade-up">
-        <h2 class="dms-title">Lihat Driver Management dalam FleetSumo</h2>
+        <h2 class="dms-title">Lihat Driver Management dalam Cek Kendaraan</h2>
       </div>
 
       <div class="dms-carousel" data-aos="fade-up" data-aos-delay="200">

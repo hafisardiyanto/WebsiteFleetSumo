@@ -2,7 +2,7 @@
   <section class="vendor-preview-wrapper">
     <div class="vendor-preview-container">
       <div class="vpr-header" data-aos="fade-up">
-        <h2 class="vpr-title">Lihat Vendor Management dalam FleetSumo</h2>
+        <h2 class="vpr-title">Lihat Vendor Management dalam Cek Kendaraan</h2>
       </div>
 
       <div class="vpr-gallery">

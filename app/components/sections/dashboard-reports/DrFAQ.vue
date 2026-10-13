@@ -8,8 +8,8 @@
       <div class="faq-list" style="display:flex; flex-direction:column; gap:1.5rem;" data-aos="fade-up" data-aos-delay="100">
         
         <div class="faq-item" style="border:1px solid #e2e8f0; border-radius:8px; padding:1.5rem; background:#f8fafc;">
-          <h3 style="font-size:1.15rem; font-weight:600; color:#1e293b; margin-bottom:0.8rem;">Apakah dasbor FleetSumo menyediakan pemantauan live secara "real-time"?</h3>
-          <p style="color:#475569; line-height:1.6; margin:0;">Dashboard FleetSumo berfokus pada penyajian ringkasan aktivitas armada secara terstruktur berdasar arsip data lapangan yang diinput ke dalam sistem. Laporan disajikan secara akurat sesuai periode historis tercatat alih-alih mengekspektasikan telemetri seketika tanpa implementasi pelacak satelit penuh.</p>
+          <h3 style="font-size:1.15rem; font-weight:600; color:#1e293b; margin-bottom:0.8rem;">Apakah dasbor Cek Kendaraan menyediakan pemantauan live secara "real-time"?</h3>
+          <p style="color:#475569; line-height:1.6; margin:0;">Dashboard Cek Kendaraan berfokus pada penyajian ringkasan aktivitas armada secara terstruktur berdasar arsip data lapangan yang diinput ke dalam sistem. Laporan disajikan secara akurat sesuai periode historis tercatat alih-alih mengekspektasikan telemetri seketika tanpa implementasi pelacak satelit penuh.</p>
         </div>
 
         <div class="faq-item" style="border:1px solid #e2e8f0; border-radius:8px; padding:1.5rem; background:#f8fafc;">

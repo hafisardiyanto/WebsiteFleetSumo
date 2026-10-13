@@ -9,7 +9,7 @@
           Kelola Pengajuan dan Persetujuan Operasional dalam <span class="highlight">Satu Alur</span>
         </h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-          FleetSumo membantu perusahaan mengelola proses pengajuan, persetujuan, dan tindak lanjut aktivitas operasional melalui workflow yang lebih terstruktur.
+          Cek Kendaraan membantu perusahaan mengelola proses pengajuan, persetujuan, dan tindak lanjut aktivitas operasional melalui workflow yang lebih terstruktur.
         </p>
         
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
