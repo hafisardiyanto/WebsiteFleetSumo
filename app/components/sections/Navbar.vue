@@ -11,7 +11,7 @@
         </div>
         
         <div class="nav-item has-dropdown">
-          <a href="/kontak/demo" class="nav-link">Solusi <span class="arrow">▾</span></a>
+          <a href="#" class="nav-link">Solusi <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
             <a href="/solusi/fleet-management">Fleet Management</a>
             <a href="/solusi/maintenance-management">Maintenance Management</a>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="nav-item has-dropdown">
-          <a href="/kontak/demo" class="nav-link">Fitur <span class="arrow">▾</span></a>
+          <a href="#" class="nav-link">Fitur <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
             <a href="/fitur/fleet-vehicle">Fleet & Vehicle</a>
             <a href="/fitur/driver-management">Driver Management</a>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="nav-item has-dropdown">
-          <a href="/resources/blog-artikel" class="nav-link">Resources <span class="arrow">▾</span></a>
+          <a href="#" class="nav-link">Resources <span class="arrow">▾</span></a>
           <div class="dropdown-menu">
             <a href="/resources/studi-kasus">Studi Kasus</a>
             <a href="/resources/pembaruan-produk">Pembaruan Produk</a>

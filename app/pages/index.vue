@@ -2,7 +2,7 @@
   <div class="lenis-container">
     <Navbar />
     <h2>Cek Kendaraan - Integrated Fleet Management</h2>
-    <h3>Explore our solutions</h3>
+    <h2>Jelajahi solusi kami</h2>
     <nav>
       <NuxtLink to="/tentang-kami">Tentang Kami</NuxtLink> |
       <NuxtLink to="/fitur">Fitur</NuxtLink> |

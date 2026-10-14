@@ -8,6 +8,7 @@ import '~/assets/css/pages/resources/blog-artikel.css';
 useHead({
   title: 'Blog & Artikel Cek Kendaraan | Panduan Armada',
   meta: [
+    { name: 'robots', content: 'noindex, follow' },
     { name: 'description', content: 'Panduan praktis untuk membantu perusahaan mengelola kendaraan, dokumen, perawatan, BBM, dan biaya operasional dengan lebih terstruktur.' },
     { property: 'og:title', content: 'Blog & Artikel Cek Kendaraan | Panduan Armada' },
     { property: 'og:description', content: 'Panduan praktis untuk membantu perusahaan mengelola kendaraan, dokumen, perawatan, BBM, dan biaya operasional dengan lebih terstruktur.' },

@@ -68,7 +68,7 @@ import FooterSection from '~/components/sections/FooterSection.vue';
     <div class="about-container">
       <!-- Hero Section -->
       <section class="about-hero">
-        <span class="hero-badge">TENTANG FLEETSUMO</span>
+        <span class="hero-badge">TENTANG CEK KENDARAAN</span>
         <h1 class="hero-title">Membangun Ekosistem Manajemen Armada Terstruktur untuk Operasional Bisnis</h1>
         <p class="hero-desc">
           Cek Kendaraan hadir sebagai solusi software manajemen armada terintegrasi yang dirancang untuk menjawab tantangan operasional kendaraan operasional di Indonesia. Kami membantu tim operasional dan manajemen menghubungkan pencatatan kendaraan, jadwal pemeliharaan bengkel, pengawasan BBM, siklus pemakaian ban, hingga kontitle: 'Monitoring Operasional Armada \u0026 Sistem Pelaporan | Cek Kendaraan',ral yang transparan.
