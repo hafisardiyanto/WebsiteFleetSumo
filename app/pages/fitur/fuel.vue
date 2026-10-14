@@ -93,6 +93,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <FuelHero />
+      <h2 class="section-title" data-aos="fade-up">Fitur Pencatatan BBM Armada</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Fitur ini memungkinkan pencatatan transaksi BBM secara akurat, memudahkan analisis biaya, dan meningkatkan efisiensi operasional armada.</p>
       <FuelCapabilityFlow />
       <FuelEvidence />
       <FuelIntegration />

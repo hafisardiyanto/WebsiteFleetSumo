@@ -90,6 +90,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <TyreHero />
+      <h2 class="section-title" data-aos="fade-up">Solusi Manajemen Ban Armada</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Dengan modul manajemen ban terintegrasi, Anda dapat memantau siklus pakai, mengontrol biaya, dan memastikan keamanan armada secara optimal.</p>
       <TyreProblems />
       <TyreSolOverview />
       <TyreHistory />

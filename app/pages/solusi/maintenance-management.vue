@@ -99,6 +99,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <MaintHero />
+      <h2 class="section-title" data-aos="fade-up">Solusi Perawatan Armada Terintegrasi</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Dengan modul perawatan terpusat, Anda dapat menjadwalkan servis, melacak riwayat perbaikan, dan mengoptimalkan biaya operasional armada secara efisien.</p>
       <MaintProblems />
       <MaintDefinition />
       <MaintHistory />

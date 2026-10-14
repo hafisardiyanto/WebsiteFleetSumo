@@ -93,6 +93,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <TyreHero />
+      <h2 class="section-title" data-aos="fade-up">Fitur Pelacakan & Manajemen Ban Armada</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Fitur ini memungkinkan pelacakan posisi, rotasi, dan kondisi ban secara real‑time, membantu mengoptimalkan siklus pakai dan mengurangi biaya operasional.</p>
       <TmCapabilityFlow />
       <TmEvidence />
       <TmIntegration />

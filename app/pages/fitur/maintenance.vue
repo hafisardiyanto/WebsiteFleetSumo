@@ -93,6 +93,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <MntHero />
+      <h2 class="section-title" data-aos="fade-up">Fitur Work Order & Perawatan Armada</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Fitur ini memudahkan pencatatan work order, jadwal servis, dan pelacakan suku cadang, meningkatkan efisiensi operasional armada.</p>
       <MmCapabilityFlow />
       <MmEvidence />
       <MmIntegration />

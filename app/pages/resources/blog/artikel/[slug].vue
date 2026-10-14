@@ -14,7 +14,7 @@ const article = articles.find(a => a.slug === slug);
 
 if (!article) {
   // Redirect to 404 page
-  router.replace('/___not-found'); // Nuxt default 404 route
+  router.replace('/___not-found');
 } else {
   // Set SEO metadata using composable
   useSeo({

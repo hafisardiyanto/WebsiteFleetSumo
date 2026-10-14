@@ -39,8 +39,8 @@ export function useSeo({
     link: [{ rel: 'canonical', href: url }],
     script: [
       {
-        // Using any to satisfy TypeScript type constraints for JSON-LD script
-        type: 'application/ld+json' as any,
+        // Cast to satisfy TypeScript's limited MIME type union
+        type: 'application/ld+json' as unknown as 'application/json',
         innerHTML: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'WebPage',

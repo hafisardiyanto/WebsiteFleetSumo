@@ -99,6 +99,8 @@ onMounted(() => {
     
     <div class="content-wrapper">
       <FuelHero />
+      <h2 class="section-title" data-aos="fade-up">Solusi Pengelolaan BBM Armada</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Dengan fitur pencatatan transaksi BBM yang terintegrasi, Anda dapat memantau konsumsi bahan bakar secara real‑time, mengoptimalkan biaya operasional, dan meningkatkan efisiensi armada.</p>
       <FuelProblems />
       <FuelDefinition />
       <FuelHistory />
