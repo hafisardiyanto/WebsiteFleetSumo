@@ -56,7 +56,7 @@ const filteredFaqs = computed(() => {
   return faqs.filter(f => f.category === activeCategory.value);
 });
 
-function toggle(id: string) {
+function toggle(id) {
   if (openIds.value.has(id)) {
     openIds.value.delete(id);
   } else {
@@ -66,7 +66,9 @@ function toggle(id: string) {
 </script>
 
 <template>
-  <div class="resource-wrapper">
+
+    <h1 class="hero-title" data-aos="fade-up">Cek Kendaraan – Solusi Manajemen Armada Terintegrasi</h1>
+<div class="resource-wrapper">
     <NavbarSection />
 
     <!-- Header Section -->
@@ -126,6 +128,25 @@ function toggle(id: string) {
 
     <FooterSection />
   </div>
+
+    <section class="faq" data-aos="fade-up">
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>What is Cek Kendaraan?</strong> Cek Kendaraan is a comprehensive fleet management solution for your vehicles.</li>
+        <li><strong>How does \resources\faq.vue help my business?</strong> It provides tailored features to improve operational efficiency.</li>
+        <li><strong>Is there a demo available?</strong> Yes, you can schedule a demo via the CTA button on the page.</li>
+      </ul>
+    </section>
+
+    <section class="benefits" data-aos="fade-up">
+      <h2>Manfaat Utama</h2>
+      <ul>
+        <li>Pengelolaan armada terpusat dan real‑time</li>
+        <li>Dokumentasi kendaraan terintegrasi</li>
+        <li>Visibilitas data operasional yang akurat</li>
+        <li>Penghematan biaya melalui optimasi penggunaan kendaraan</li>
+      </ul>
+    </section>
 </template>
 
 <style scoped src="~/assets/css/pages/resources/common.css"></style>

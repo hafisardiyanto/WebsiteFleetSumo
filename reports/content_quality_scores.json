@@ -1,0 +1,122 @@
+[
+  {
+    "route": "\\fitur\\approval-workflow.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\cost-financial.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\dashboard-reports.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\driver-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\fleet-vehicle.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\fuel.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\maintenance.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\sparepart.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\tyre.vue",
+    "score": 9
+  },
+  {
+    "route": "\\fitur\\vendor.vue",
+    "score": 9
+  },
+  {
+    "route": "\\index.vue",
+    "score": 10
+  },
+  {
+    "route": "\\industri\\bisnis-armada-lainnya.vue",
+    "score": 9
+  },
+  {
+    "route": "\\industri\\konstruksi.vue",
+    "score": 9
+  },
+  {
+    "route": "\\industri\\logistik-transportasi.vue",
+    "score": 9
+  },
+  {
+    "route": "\\industri\\manufaktur.vue",
+    "score": 9
+  },
+  {
+    "route": "\\industri\\perkebunan.vue",
+    "score": 9
+  },
+  {
+    "route": "\\industri\\pertambangan.vue",
+    "score": 9
+  },
+  {
+    "route": "\\kontak\\demo.vue",
+    "score": 9
+  },
+  {
+    "route": "\\resources\\blog\\artikel\\[slug].vue",
+    "score": 10
+  },
+  {
+    "route": "\\resources\\blog-artikel.vue",
+    "score": 9
+  },
+  {
+    "route": "\\resources\\faq.vue",
+    "score": 9
+  },
+  {
+    "route": "\\resources\\pembaruan-produk.vue",
+    "score": 9
+  },
+  {
+    "route": "\\resources\\studi-kasus.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\cost-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\fleet-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\fuel-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\maintenance-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\monitoring-reporting.vue",
+    "score": 9
+  },
+  {
+    "route": "\\solusi\\tyre-management.vue",
+    "score": 9
+  },
+  {
+    "route": "\\tentang-kami.vue",
+    "score": 9
+  }
+]

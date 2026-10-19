@@ -3,7 +3,13 @@ import { useRoute, useRouter } from '#app';
 import { useHead } from '#app';
 import { useSeo } from '~/composables/useSeo';
 import { articles } from '~/data/articles';
-import NavbarSection from '~/components/sections/Navbar.vue';
+// title: "Cek Kendaraan – Fleet Management"
+// description: "This article explains how Cek Kendaraan improves fleet management with comprehensive features and benefits for Indonesian businesses."
+// keywords: "Cek Kendaraan, fleet management, armada, solusi"
+
+
+
+
 
 
 const route = useRoute();
@@ -18,9 +24,9 @@ if (!article) {
 } else {
   // Set SEO metadata using composable
   useSeo({
-    title: article.metaTitle,
-    description: article.metaDescription,
-    keywords: article.title,
+    title: `${article.title} – Cek Kendaraan`,
+    description: article.metaDescription && article.metaDescription.length >= 80 ? article.metaDescription : `Discover how ${article.title} relates to fleet management with Cek Kendaraan, the integrated solution that streamlines vehicle operations, documentation, and data visibility for Indonesian businesses.`,
+    keywords: `${article.title}, Cek Kendaraan, manajemen armada, fleet management`,
     image: article.coverImage,
     url: `https://fleetsumo.id/resources/blog/artikel/${article.slug}`
   });
@@ -61,7 +67,9 @@ if (!article) {
 </script>
 
 <template>
-  <NavbarSection />
+
+    <h1 class="hero-title" data-aos="fade-up">Cek Kendaraan – Solusi Manajemen Armada Terintegrasi</h1>
+<NavbarSection />
   <div v-if="article" class="article-detail-wrapper">
     <!-- Breadcrumb -->
    
@@ -84,6 +92,15 @@ if (!article) {
       <p>Hubungi tim kami untuk demo khusus.</p>
       <NuxtLink to="/kontak/demo" class="btn-primary">Minta Demo</NuxtLink>
     </section>
+<!-- Insights Section -->
+<section class="insights" data-aos="fade-up">
+  <h2>Key Insights</h2>
+  <ul>
+    <li>How Cek Kendaraan streamlines fleet documentation and monitoring.</li>
+    <li>Benefits of real‑time vehicle data for operational efficiency.</li>
+    <li>Steps to implement the discussed solution in your organization.</li>
+  </ul>
+</section>
 
     <section class="related-articles">
       <h3>Artikel Terkait</h3>
@@ -96,6 +113,25 @@ if (!article) {
 
     <FooterSection />
   </div>
+
+    <section class="faq" data-aos="fade-up">
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>What is Cek Kendaraan?</strong> Cek Kendaraan is a comprehensive fleet management solution for your vehicles.</li>
+        <li><strong>How does \resources\blog\artikel\[slug].vue help my business?</strong> It provides tailored features to improve operational efficiency.</li>
+        <li><strong>Is there a demo available?</strong> Yes, you can schedule a demo via the CTA button on the page.</li>
+      </ul>
+    </section>
+
+    <section class="benefits" data-aos="fade-up">
+      <h2>Manfaat Utama</h2>
+      <ul>
+        <li>Pengelolaan armada terpusat dan real‑time</li>
+        <li>Dokumentasi kendaraan terintegrasi</li>
+        <li>Visibilitas data operasional yang akurat</li>
+        <li>Penghematan biaya melalui optimasi penggunaan kendaraan</li>
+      </ul>
+    </section>
 </template>
 
 <style scoped src="~/assets/css/pages/resources/common.css"></style>
